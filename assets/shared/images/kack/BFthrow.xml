@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="BFthrow.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BF idle dance revage0000" x="0" y="0" width="495" height="440" frameX="0" frameY="-10" frameWidth="495" frameHeight="450"/>
+	<SubTexture name="BF idle dance revage0001" x="535" y="0" width="450" height="450" frameX="-23" frameY="0" frameWidth="495" frameHeight="450"/>
+	<SubTexture name="BF idle dance revage0002" x="1025" y="0" width="421" height="418" frameX="-74" frameY="-32" frameWidth="495" frameHeight="450"/>
+	<SubTexture name="BF idle dance revage0003" x="1486" y="0" width="393" height="431" frameX="-82" frameY="-19" frameWidth="495" frameHeight="450"/>
+	<SubTexture name="bf got mic0000" x="0" y="490" width="719" height="395" frameX="0" frameY="-9" frameWidth="719" frameHeight="404"/>
+	<SubTexture name="bf got mic0001" x="759" y="490" width="447" height="402" frameX="-223" frameY="-2" frameWidth="719" frameHeight="404"/>
+	<SubTexture name="bf got mic0002" x="759" y="490" width="447" height="402" frameX="-223" frameY="-2" frameWidth="719" frameHeight="404"/>
+	<SubTexture name="bf got mic0003" x="1246" y="490" width="445" height="404" frameX="-219" frameY="0" frameWidth="719" frameHeight="404"/>
+	<SubTexture name="bf got mic0004" x="1246" y="490" width="445" height="404" frameX="-219" frameY="0" frameWidth="719" frameHeight="404"/>
+	<SubTexture name="bf got mic0005" x="0" y="934" width="444" height="404" frameX="-219" frameY="0" frameWidth="719" frameHeight="404"/>
+	<SubTexture name="bf got mic0006" x="0" y="934" width="444" height="404" frameX="-219" frameY="0" frameWidth="719" frameHeight="404"/>
+	<SubTexture name="bf got mic0007" x="0" y="934" width="444" height="404" frameX="-219" frameY="0" frameWidth="719" frameHeight="404"/>
+	<SubTexture name="bf got mic0008" x="0" y="934" width="444" height="404" frameX="-219" frameY="0" frameWidth="719" frameHeight="404"/>
+	<SubTexture name="bf got mic0009" x="0" y="934" width="444" height="404" frameX="-219" frameY="0" frameWidth="719" frameHeight="404"/>
+	<SubTexture name="bf got mic0010" x="0" y="934" width="444" height="404" frameX="-219" frameY="0" frameWidth="719" frameHeight="404"/>
+	<SubTexture name="bf got mic0011" x="0" y="934" width="444" height="404" frameX="-219" frameY="0" frameWidth="719" frameHeight="404"/>
+	<SubTexture name="bf got mic0012" x="0" y="934" width="444" height="404" frameX="-219" frameY="0" frameWidth="719" frameHeight="404"/>
+	<SubTexture name="bf got mic0013" x="0" y="934" width="444" height="404" frameX="-219" frameY="0" frameWidth="719" frameHeight="404"/>
+	<SubTexture name="bf got mic0014" x="0" y="934" width="444" height="404" frameX="-219" frameY="0" frameWidth="719" frameHeight="404"/>
+	<SubTexture name="bf got mic0015" x="0" y="934" width="444" height="404" frameX="-219" frameY="0" frameWidth="719" frameHeight="404"/>
+	<SubTexture name="bf got mic0016" x="0" y="934" width="444" height="404" frameX="-219" frameY="0" frameWidth="719" frameHeight="404"/>
+	<SubTexture name="bf got mic0017" x="0" y="934" width="444" height="404" frameX="-219" frameY="0" frameWidth="719" frameHeight="404"/>
+	<SubTexture name="bf got mic0018" x="0" y="934" width="444" height="404" frameX="-219" frameY="0" frameWidth="719" frameHeight="404"/>
+	<SubTexture name="bf got mic0019" x="0" y="934" width="444" height="404" frameX="-219" frameY="0" frameWidth="719" frameHeight="404"/>
+	<SubTexture name="bf got mic0020" x="0" y="934" width="444" height="404" frameX="-219" frameY="0" frameWidth="719" frameHeight="404"/>
+	<SubTexture name="bf got mic0021" x="0" y="934" width="444" height="404" frameX="-219" frameY="0" frameWidth="719" frameHeight="404"/>
+	<SubTexture name="bf got mic0022" x="0" y="934" width="444" height="404" frameX="-219" frameY="0" frameWidth="719" frameHeight="404"/>
+	<SubTexture name="bf got mic0023" x="0" y="934" width="444" height="404" frameX="-219" frameY="0" frameWidth="719" frameHeight="404"/>
+	<SubTexture name="bf got mic0024" x="0" y="934" width="444" height="404" frameX="-219" frameY="0" frameWidth="719" frameHeight="404"/>
+	<SubTexture name="bf got mic0025" x="0" y="934" width="444" height="404" frameX="-219" frameY="0" frameWidth="719" frameHeight="404"/>
+	<SubTexture name="bf got mic0026" x="0" y="934" width="444" height="404" frameX="-219" frameY="0" frameWidth="719" frameHeight="404"/>
+	<SubTexture name="bf got mic0027" x="0" y="934" width="444" height="404" frameX="-219" frameY="0" frameWidth="719" frameHeight="404"/>
+	<SubTexture name="bf got mic0028" x="0" y="934" width="444" height="404" frameX="-219" frameY="0" frameWidth="719" frameHeight="404"/>
+	<SubTexture name="bf got mic0029" x="0" y="934" width="444" height="404" frameX="-219" frameY="0" frameWidth="719" frameHeight="404"/>
+	<SubTexture name="bf got mic att 0000" x="484" y="934" width="465" height="404"/>
+	<SubTexture name="bf got mic att 0001" x="989" y="934" width="421" height="404" frameX="-35" frameY="0" frameWidth="465" frameHeight="404"/>
+	<SubTexture name="bf got mic att 0002" x="1450" y="934" width="419" height="404" frameX="-39" frameY="0" frameWidth="465" frameHeight="404"/>
+	<SubTexture name="bf got mic att 0003" x="1450" y="934" width="419" height="404" frameX="-39" frameY="0" frameWidth="465" frameHeight="404"/>
+	<SubTexture name="bf got mic att 0004" x="1450" y="934" width="419" height="404" frameX="-39" frameY="0" frameWidth="465" frameHeight="404"/>
+	<SubTexture name="bf got mic att 0005" x="1450" y="934" width="419" height="404" frameX="-39" frameY="0" frameWidth="465" frameHeight="404"/>
+	<SubTexture name="bf got mic att 0006" x="1450" y="934" width="419" height="404" frameX="-39" frameY="0" frameWidth="465" frameHeight="404"/>
+	<SubTexture name="bf got mic att 0007" x="1450" y="934" width="419" height="404" frameX="-39" frameY="0" frameWidth="465" frameHeight="404"/>
+	<SubTexture name="bf got mic att 0008" x="1450" y="934" width="419" height="404" frameX="-39" frameY="0" frameWidth="465" frameHeight="404"/>
+	<SubTexture name="bf got mic att 0009" x="1450" y="934" width="419" height="404" frameX="-39" frameY="0" frameWidth="465" frameHeight="404"/>
+	<SubTexture name="bf got mic att 0010" x="1450" y="934" width="419" height="404" frameX="-39" frameY="0" frameWidth="465" frameHeight="404"/>
+	<SubTexture name="bf got mic att 0011" x="1450" y="934" width="419" height="404" frameX="-39" frameY="0" frameWidth="465" frameHeight="404"/>
+	<SubTexture name="bf got mic att 0012" x="1450" y="934" width="419" height="404" frameX="-39" frameY="0" frameWidth="465" frameHeight="404"/>
+	<SubTexture name="bf got mic att 0013" x="1450" y="934" width="419" height="404" frameX="-39" frameY="0" frameWidth="465" frameHeight="404"/>
+	<SubTexture name="bf got mic att 0014" x="1450" y="934" width="419" height="404" frameX="-39" frameY="0" frameWidth="465" frameHeight="404"/>
+	<SubTexture name="bf got mic att 0015" x="1450" y="934" width="419" height="404" frameX="-39" frameY="0" frameWidth="465" frameHeight="404"/>
+	<SubTexture name="bf got mic att 0016" x="1450" y="934" width="419" height="404" frameX="-39" frameY="0" frameWidth="465" frameHeight="404"/>
+	<SubTexture name="bf got mic att 0017" x="1450" y="934" width="419" height="404" frameX="-39" frameY="0" frameWidth="465" frameHeight="404"/>
+	<SubTexture name="bf got mic att 0018" x="1450" y="934" width="419" height="404" frameX="-39" frameY="0" frameWidth="465" frameHeight="404"/>
+	<SubTexture name="bf got mic att 0019" x="1450" y="934" width="419" height="404" frameX="-39" frameY="0" frameWidth="465" frameHeight="404"/>
+	<SubTexture name="bf got mic att 0020" x="1450" y="934" width="419" height="404" frameX="-39" frameY="0" frameWidth="465" frameHeight="404"/>
+	<SubTexture name="bf got mic att 0021" x="1450" y="934" width="419" height="404" frameX="-39" frameY="0" frameWidth="465" frameHeight="404"/>
+	<SubTexture name="bf got mic att 0022" x="1450" y="934" width="419" height="404" frameX="-39" frameY="0" frameWidth="465" frameHeight="404"/>
+	<SubTexture name="bf got mic att 0023" x="1450" y="934" width="419" height="404" frameX="-39" frameY="0" frameWidth="465" frameHeight="404"/>
+	<SubTexture name="bf got mic att 0024" x="1450" y="934" width="419" height="404" frameX="-39" frameY="0" frameWidth="465" frameHeight="404"/>
+	<SubTexture name="bf got mic att 0025" x="1450" y="934" width="419" height="404" frameX="-39" frameY="0" frameWidth="465" frameHeight="404"/>
+	<SubTexture name="bf got mic att 0026" x="1450" y="934" width="419" height="404" frameX="-39" frameY="0" frameWidth="465" frameHeight="404"/>
+	<SubTexture name="bf got mic att 0027" x="1450" y="934" width="419" height="404" frameX="-39" frameY="0" frameWidth="465" frameHeight="404"/>
+	<SubTexture name="bf got mic att 0028" x="1450" y="934" width="419" height="404" frameX="-39" frameY="0" frameWidth="465" frameHeight="404"/>
+	<SubTexture name="bf got mic copy0000" x="0" y="1378" width="762" height="381" frameX="0" frameY="-10" frameWidth="762" frameHeight="391"/>
+	<SubTexture name="bf got mic copy0001" x="802" y="1378" width="379" height="387" frameX="-326" frameY="-4" frameWidth="762" frameHeight="391"/>
+	<SubTexture name="bf got mic copy0002" x="802" y="1378" width="379" height="387" frameX="-326" frameY="-4" frameWidth="762" frameHeight="391"/>
+	<SubTexture name="bf got mic copy0003" x="1221" y="1378" width="378" height="391" frameX="-326" frameY="0" frameWidth="762" frameHeight="391"/>
+	<SubTexture name="bf got mic copy0004" x="1221" y="1378" width="378" height="391" frameX="-326" frameY="0" frameWidth="762" frameHeight="391"/>
+	<SubTexture name="bf got mic copy0005" x="1221" y="1378" width="378" height="391" frameX="-326" frameY="0" frameWidth="762" frameHeight="391"/>
+	<SubTexture name="bf got mic copy0006" x="1221" y="1378" width="378" height="391" frameX="-326" frameY="0" frameWidth="762" frameHeight="391"/>
+	<SubTexture name="bf got mic copy0007" x="1221" y="1378" width="378" height="391" frameX="-326" frameY="0" frameWidth="762" frameHeight="391"/>
+	<SubTexture name="bf got mic copy0008" x="1221" y="1378" width="378" height="391" frameX="-326" frameY="0" frameWidth="762" frameHeight="391"/>
+	<SubTexture name="bf got mic copy0009" x="1221" y="1378" width="378" height="391" frameX="-326" frameY="0" frameWidth="762" frameHeight="391"/>
+	<SubTexture name="bf got mic copy0010" x="1221" y="1378" width="378" height="391" frameX="-326" frameY="0" frameWidth="762" frameHeight="391"/>
+	<SubTexture name="bf got mic copy0011" x="1221" y="1378" width="378" height="391" frameX="-326" frameY="0" frameWidth="762" frameHeight="391"/>
+	<SubTexture name="bf got mic copy0012" x="1221" y="1378" width="378" height="391" frameX="-326" frameY="0" frameWidth="762" frameHeight="391"/>
+	<SubTexture name="bf got mic copy0013" x="1221" y="1378" width="378" height="391" frameX="-326" frameY="0" frameWidth="762" frameHeight="391"/>
+	<SubTexture name="bf got mic copy0014" x="1221" y="1378" width="378" height="391" frameX="-326" frameY="0" frameWidth="762" frameHeight="391"/>
+	<SubTexture name="bf got mic copy0015" x="1221" y="1378" width="378" height="391" frameX="-326" frameY="0" frameWidth="762" frameHeight="391"/>
+	<SubTexture name="bf got mic copy0016" x="1221" y="1378" width="378" height="391" frameX="-326" frameY="0" frameWidth="762" frameHeight="391"/>
+	<SubTexture name="bf got mic copy0017" x="1221" y="1378" width="378" height="391" frameX="-326" frameY="0" frameWidth="762" frameHeight="391"/>
+	<SubTexture name="bf got mic copy0018" x="1221" y="1378" width="378" height="391" frameX="-326" frameY="0" frameWidth="762" frameHeight="391"/>
+	<SubTexture name="bf got mic copy0019" x="1221" y="1378" width="378" height="391" frameX="-326" frameY="0" frameWidth="762" frameHeight="391"/>
+	<SubTexture name="bf got mic copy0020" x="1221" y="1378" width="378" height="391" frameX="-326" frameY="0" frameWidth="762" frameHeight="391"/>
+	<SubTexture name="bf got mic copy0021" x="1221" y="1378" width="378" height="391" frameX="-326" frameY="0" frameWidth="762" frameHeight="391"/>
+	<SubTexture name="bf got mic copy0022" x="1221" y="1378" width="378" height="391" frameX="-326" frameY="0" frameWidth="762" frameHeight="391"/>
+	<SubTexture name="bf got mic copy0023" x="1221" y="1378" width="378" height="391" frameX="-326" frameY="0" frameWidth="762" frameHeight="391"/>
+	<SubTexture name="bf got mic copy0024" x="1221" y="1378" width="378" height="391" frameX="-326" frameY="0" frameWidth="762" frameHeight="391"/>
+	<SubTexture name="bf got mic copy0025" x="1221" y="1378" width="378" height="391" frameX="-326" frameY="0" frameWidth="762" frameHeight="391"/>
+	<SubTexture name="bf got mic copy0026" x="1221" y="1378" width="378" height="391" frameX="-326" frameY="0" frameWidth="762" frameHeight="391"/>
+	<SubTexture name="bf got mic copy0027" x="1221" y="1378" width="378" height="391" frameX="-326" frameY="0" frameWidth="762" frameHeight="391"/>
+	<SubTexture name="bf got mic copy0028" x="1221" y="1378" width="378" height="391" frameX="-326" frameY="0" frameWidth="762" frameHeight="391"/>
+	<SubTexture name="bf got mic copy0029" x="1221" y="1378" width="378" height="391" frameX="-326" frameY="0" frameWidth="762" frameHeight="391"/>
+	<SubTexture name="bf got mic pre att0000" x="0" y="1809" width="444" height="404" frameX="0" frameY="0" frameWidth="494" frameHeight="404"/>
+	<SubTexture name="bf got mic pre att0001" x="484" y="1809" width="484" height="387" frameX="-10" frameY="-17" frameWidth="494" frameHeight="404"/>
+	<SubTexture name="bf got mic pre att0002" x="1008" y="1809" width="480" height="390" frameX="-7" frameY="-14" frameWidth="494" frameHeight="404"/>
+	<SubTexture name="bf got mic pre att0003" x="1008" y="1809" width="480" height="390" frameX="-7" frameY="-14" frameWidth="494" frameHeight="404"/>
+	<SubTexture name="bf got mic pre att0004" x="1008" y="1809" width="480" height="390" frameX="-7" frameY="-14" frameWidth="494" frameHeight="404"/>
+	<SubTexture name="bf got mic pre att0005" x="1008" y="1809" width="480" height="390" frameX="-7" frameY="-14" frameWidth="494" frameHeight="404"/>
+	<SubTexture name="bf got mic pre att0006" x="1008" y="1809" width="480" height="390" frameX="-7" frameY="-14" frameWidth="494" frameHeight="404"/>
+	<SubTexture name="bf got mic pre att0007" x="1008" y="1809" width="480" height="390" frameX="-7" frameY="-14" frameWidth="494" frameHeight="404"/>
+	<SubTexture name="bf got mic pre att0008" x="1008" y="1809" width="480" height="390" frameX="-7" frameY="-14" frameWidth="494" frameHeight="404"/>
+	<SubTexture name="bf got mic pre att0009" x="1008" y="1809" width="480" height="390" frameX="-7" frameY="-14" frameWidth="494" frameHeight="404"/>
+	<SubTexture name="bf got mic pre att0010" x="1008" y="1809" width="480" height="390" frameX="-7" frameY="-14" frameWidth="494" frameHeight="404"/>
+	<SubTexture name="bf got mic pre att0011" x="1008" y="1809" width="480" height="390" frameX="-7" frameY="-14" frameWidth="494" frameHeight="404"/>
+	<SubTexture name="bf got mic pre att0012" x="1008" y="1809" width="480" height="390" frameX="-7" frameY="-14" frameWidth="494" frameHeight="404"/>
+	<SubTexture name="bf got mic pre att0013" x="1008" y="1809" width="480" height="390" frameX="-7" frameY="-14" frameWidth="494" frameHeight="404"/>
+	<SubTexture name="bf got mic pre att0014" x="1008" y="1809" width="480" height="390" frameX="-7" frameY="-14" frameWidth="494" frameHeight="404"/>
+	<SubTexture name="bf got mic pre att0015" x="1008" y="1809" width="480" height="390" frameX="-7" frameY="-14" frameWidth="494" frameHeight="404"/>
+	<SubTexture name="bf got mic pre att0016" x="1008" y="1809" width="480" height="390" frameX="-7" frameY="-14" frameWidth="494" frameHeight="404"/>
+	<SubTexture name="bf got mic pre att0017" x="1008" y="1809" width="480" height="390" frameX="-7" frameY="-14" frameWidth="494" frameHeight="404"/>
+	<SubTexture name="bf got mic pre att0018" x="1008" y="1809" width="480" height="390" frameX="-7" frameY="-14" frameWidth="494" frameHeight="404"/>
+	<SubTexture name="bf got mic pre att0019" x="1008" y="1809" width="480" height="390" frameX="-7" frameY="-14" frameWidth="494" frameHeight="404"/>
+	<SubTexture name="bf got mic pre att0020" x="1008" y="1809" width="480" height="390" frameX="-7" frameY="-14" frameWidth="494" frameHeight="404"/>
+	<SubTexture name="bf got mic pre att0021" x="1008" y="1809" width="480" height="390" frameX="-7" frameY="-14" frameWidth="494" frameHeight="404"/>
+	<SubTexture name="bf got mic pre att0022" x="1008" y="1809" width="480" height="390" frameX="-7" frameY="-14" frameWidth="494" frameHeight="404"/>
+	<SubTexture name="bf got mic pre att0023" x="1008" y="1809" width="480" height="390" frameX="-7" frameY="-14" frameWidth="494" frameHeight="404"/>
+	<SubTexture name="bf got mic pre att0024" x="1008" y="1809" width="480" height="390" frameX="-7" frameY="-14" frameWidth="494" frameHeight="404"/>
+	<SubTexture name="bf got mic pre att0025" x="1008" y="1809" width="480" height="390" frameX="-7" frameY="-14" frameWidth="494" frameHeight="404"/>
+	<SubTexture name="bf got mic pre att0026" x="1008" y="1809" width="480" height="390" frameX="-7" frameY="-14" frameWidth="494" frameHeight="404"/>
+	<SubTexture name="bf got mic pre att0027" x="1008" y="1809" width="480" height="390" frameX="-7" frameY="-14" frameWidth="494" frameHeight="404"/>
+	<SubTexture name="bf got mic pre att0028" x="1008" y="1809" width="480" height="390" frameX="-7" frameY="-14" frameWidth="494" frameHeight="404"/>
+	<SubTexture name="bf got mic pre attack0000" x="1528" y="1809" width="435" height="403" frameX="0" frameY="-13" frameWidth="479" frameHeight="416"/>
+	<SubTexture name="bf got mic pre attack0001" x="0" y="2253" width="469" height="416" frameX="-10" frameY="0" frameWidth="479" frameHeight="416"/>
+	<SubTexture name="bf got mic pre attack0002" x="509" y="2253" width="465" height="411" frameX="-3" frameY="-5" frameWidth="479" frameHeight="416"/>
+	<SubTexture name="bf got mic pre attack0003" x="509" y="2253" width="465" height="411" frameX="-3" frameY="-5" frameWidth="479" frameHeight="416"/>
+	<SubTexture name="bf got mic pre attack0004" x="509" y="2253" width="465" height="411" frameX="-3" frameY="-5" frameWidth="479" frameHeight="416"/>
+	<SubTexture name="bf got mic pre attack0005" x="509" y="2253" width="465" height="411" frameX="-3" frameY="-5" frameWidth="479" frameHeight="416"/>
+	<SubTexture name="bf got mic pre attack0006" x="509" y="2253" width="465" height="411" frameX="-3" frameY="-5" frameWidth="479" frameHeight="416"/>
+	<SubTexture name="bf got mic pre attack0007" x="509" y="2253" width="465" height="411" frameX="-3" frameY="-5" frameWidth="479" frameHeight="416"/>
+	<SubTexture name="bf got mic pre attack0008" x="509" y="2253" width="465" height="411" frameX="-3" frameY="-5" frameWidth="479" frameHeight="416"/>
+	<SubTexture name="bf got mic pre attack0009" x="509" y="2253" width="465" height="411" frameX="-3" frameY="-5" frameWidth="479" frameHeight="416"/>
+	<SubTexture name="bf got mic pre attack0010" x="509" y="2253" width="465" height="411" frameX="-3" frameY="-5" frameWidth="479" frameHeight="416"/>
+	<SubTexture name="bf got mic pre attack0011" x="509" y="2253" width="465" height="411" frameX="-3" frameY="-5" frameWidth="479" frameHeight="416"/>
+	<SubTexture name="bf got mic pre attack0012" x="509" y="2253" width="465" height="411" frameX="-3" frameY="-5" frameWidth="479" frameHeight="416"/>
+	<SubTexture name="bf got mic pre attack0013" x="509" y="2253" width="465" height="411" frameX="-3" frameY="-5" frameWidth="479" frameHeight="416"/>
+	<SubTexture name="bf got mic pre attack0014" x="509" y="2253" width="465" height="411" frameX="-3" frameY="-5" frameWidth="479" frameHeight="416"/>
+	<SubTexture name="bf got mic pre attack0015" x="509" y="2253" width="465" height="411" frameX="-3" frameY="-5" frameWidth="479" frameHeight="416"/>
+	<SubTexture name="bf got mic pre attack0016" x="509" y="2253" width="465" height="411" frameX="-3" frameY="-5" frameWidth="479" frameHeight="416"/>
+	<SubTexture name="bf got mic pre attack0017" x="509" y="2253" width="465" height="411" frameX="-3" frameY="-5" frameWidth="479" frameHeight="416"/>
+	<SubTexture name="bf got mic pre attack0018" x="509" y="2253" width="465" height="411" frameX="-3" frameY="-5" frameWidth="479" frameHeight="416"/>
+	<SubTexture name="bf got mic pre attack0019" x="509" y="2253" width="465" height="411" frameX="-3" frameY="-5" frameWidth="479" frameHeight="416"/>
+	<SubTexture name="bf got mic pre attack0020" x="509" y="2253" width="465" height="411" frameX="-3" frameY="-5" frameWidth="479" frameHeight="416"/>
+	<SubTexture name="bf got mic pre attack0021" x="509" y="2253" width="465" height="411" frameX="-3" frameY="-5" frameWidth="479" frameHeight="416"/>
+	<SubTexture name="bf got mic pre attack0022" x="509" y="2253" width="465" height="411" frameX="-3" frameY="-5" frameWidth="479" frameHeight="416"/>
+	<SubTexture name="bf got mic pre attack0023" x="509" y="2253" width="465" height="411" frameX="-3" frameY="-5" frameWidth="479" frameHeight="416"/>
+	<SubTexture name="bf got mic pre attack0024" x="509" y="2253" width="465" height="411" frameX="-3" frameY="-5" frameWidth="479" frameHeight="416"/>
+	<SubTexture name="bf got mic pre attack0025" x="509" y="2253" width="465" height="411" frameX="-3" frameY="-5" frameWidth="479" frameHeight="416"/>
+	<SubTexture name="bf got mic pre attack0026" x="509" y="2253" width="465" height="411" frameX="-3" frameY="-5" frameWidth="479" frameHeight="416"/>
+	<SubTexture name="bf got mic pre attack0027" x="509" y="2253" width="465" height="411" frameX="-3" frameY="-5" frameWidth="479" frameHeight="416"/>
+	<SubTexture name="bf got mic pre attack0028" x="509" y="2253" width="465" height="411" frameX="-3" frameY="-5" frameWidth="479" frameHeight="416"/>
+	<SubTexture name="bf got mic pre attack0029" x="509" y="2253" width="465" height="411" frameX="-3" frameY="-5" frameWidth="479" frameHeight="416"/>
+</TextureAtlas>

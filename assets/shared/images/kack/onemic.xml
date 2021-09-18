@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="onemic.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="one mic0000" x="2" y="2" width="919" height="182" frameX="0" frameY="-269" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0001" x="2" y="187" width="124" height="152" frameX="-781" frameY="-171" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0002" x="129" y="187" width="141" height="138" frameX="-855" frameY="-81" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0003" x="273" y="187" width="169" height="87" frameX="-897" frameY="-62" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0004" x="445" y="187" width="135" height="144" frameX="-959" frameY="-10" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0005" x="583" y="187" width="87" height="169" frameX="-1037" frameY="0" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0006" x="673" y="187" width="164" height="100" frameX="-1058" frameY="-80" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0007" x="840" y="187" width="150" height="129" frameX="-1088" frameY="-157" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0008" x="2" y="359" width="114" height="158" frameX="-1129" frameY="-274" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0009" x="119" y="359" width="87" height="168" frameX="-1181" frameY="-490" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0010" x="209" y="359" width="87" height="170" frameX="-1191" frameY="-618" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0011" x="209" y="359" width="87" height="170" frameX="-1227" frameY="-890" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0012" x="209" y="359" width="87" height="170" frameX="-1227" frameY="-890" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0013" x="209" y="359" width="87" height="170" frameX="-1227" frameY="-890" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0014" x="209" y="359" width="87" height="170" frameX="-1227" frameY="-890" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0015" x="209" y="359" width="87" height="170" frameX="-1227" frameY="-890" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0016" x="209" y="359" width="87" height="170" frameX="-1227" frameY="-890" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0017" x="209" y="359" width="87" height="170" frameX="-1227" frameY="-890" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0018" x="209" y="359" width="87" height="170" frameX="-1227" frameY="-890" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0019" x="209" y="359" width="87" height="170" frameX="-1227" frameY="-890" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0020" x="209" y="359" width="87" height="170" frameX="-1227" frameY="-890" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0021" x="209" y="359" width="87" height="170" frameX="-1227" frameY="-890" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0022" x="209" y="359" width="87" height="170" frameX="-1227" frameY="-890" frameWidth="1314" frameHeight="1060"/>
+</TextureAtlas>

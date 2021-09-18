@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="JzSongtwo.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Jack_idile_mic0000" x="0" y="0" width="233" height="545" frameX="0" frameY="-5" frameWidth="233" frameHeight="550"/>
+	<SubTexture name="Jack_idile_mic0001" x="0" y="0" width="233" height="545" frameX="0" frameY="-5" frameWidth="233" frameHeight="550"/>
+	<SubTexture name="Jack_idile_mic0002" x="273" y="0" width="230" height="549" frameX="0" frameY="-1" frameWidth="233" frameHeight="550"/>
+	<SubTexture name="Jack_idile_mic0003" x="273" y="0" width="230" height="549" frameX="0" frameY="-1" frameWidth="233" frameHeight="550"/>
+	<SubTexture name="Jack_idile_mic0004" x="543" y="0" width="228" height="549" frameX="0" frameY="0" frameWidth="233" frameHeight="550"/>
+	<SubTexture name="Jack_idile_mic0005" x="543" y="0" width="228" height="549" frameX="0" frameY="0" frameWidth="233" frameHeight="550"/>
+	<SubTexture name="Jack_idile_mic0006" x="543" y="0" width="228" height="549" frameX="0" frameY="0" frameWidth="233" frameHeight="550"/>
+	<SubTexture name="Jack_idile_mic0007" x="543" y="0" width="228" height="549" frameX="0" frameY="0" frameWidth="233" frameHeight="550"/>
+	<SubTexture name="Jack_idile_mic0008" x="543" y="0" width="228" height="549" frameX="0" frameY="0" frameWidth="233" frameHeight="550"/>
+	<SubTexture name="Jack_idile_mic0009" x="543" y="0" width="228" height="549" frameX="0" frameY="0" frameWidth="233" frameHeight="550"/>
+	<SubTexture name="Jack_idile_mic0010" x="543" y="0" width="228" height="549" frameX="0" frameY="0" frameWidth="233" frameHeight="550"/>
+	<SubTexture name="Jack_idile_mic0011" x="543" y="0" width="228" height="549" frameX="0" frameY="0" frameWidth="233" frameHeight="550"/>
+	<SubTexture name="Jack_idile_mic0012" x="543" y="0" width="228" height="549" frameX="0" frameY="0" frameWidth="233" frameHeight="550"/>
+	<SubTexture name="Jack_idile_mic0013" x="543" y="0" width="228" height="549" frameX="0" frameY="0" frameWidth="233" frameHeight="550"/>
+	<SubTexture name="Jack_idile_mic0014" x="543" y="0" width="228" height="549" frameX="0" frameY="0" frameWidth="233" frameHeight="550"/>
+	<SubTexture name="Jack_throwmic ora0000" x="811" y="0" width="417" height="544"/>
+	<SubTexture name="Jack_throwmic ora0001" x="1268" y="0" width="396" height="531" frameX="-1" frameY="-13" frameWidth="417" frameHeight="544"/>
+	<SubTexture name="Jack_throwmic ora0002" x="0" y="589" width="403" height="500" frameX="0" frameY="-44" frameWidth="417" frameHeight="544"/>
+	<SubTexture name="Jack_throwmic10000" x="443" y="589" width="529" height="447" frameX="0" frameY="-78" frameWidth="529" frameHeight="525"/>
+	<SubTexture name="Jack_throwmic10001" x="1012" y="589" width="319" height="525" frameX="-2" frameY="0" frameWidth="529" frameHeight="525"/>
+	<SubTexture name="Jack_throwmic10002" x="1012" y="589" width="319" height="525" frameX="-2" frameY="0" frameWidth="529" frameHeight="525"/>
+	<SubTexture name="Jack_throwmic10003" x="1371" y="589" width="312" height="521" frameX="0" frameY="-4" frameWidth="529" frameHeight="525"/>
+	<SubTexture name="Jack_throwmic10004" x="1371" y="589" width="312" height="521" frameX="0" frameY="-4" frameWidth="529" frameHeight="525"/>
+	<SubTexture name="Jack_throwmic10005" x="1371" y="589" width="312" height="521" frameX="0" frameY="-4" frameWidth="529" frameHeight="525"/>
+	<SubTexture name="Jack_throwmic10006" x="1371" y="589" width="312" height="521" frameX="0" frameY="-4" frameWidth="529" frameHeight="525"/>
+	<SubTexture name="Jack_throwmic10007" x="1371" y="589" width="312" height="521" frameX="0" frameY="-4" frameWidth="529" frameHeight="525"/>
+	<SubTexture name="Jack_throwmic10008" x="1371" y="589" width="312" height="521" frameX="0" frameY="-4" frameWidth="529" frameHeight="525"/>
+	<SubTexture name="Jack_throwmic10009" x="1371" y="589" width="312" height="521" frameX="0" frameY="-4" frameWidth="529" frameHeight="525"/>
+	<SubTexture name="Jack_throwmic10010" x="1371" y="589" width="312" height="521" frameX="0" frameY="-4" frameWidth="529" frameHeight="525"/>
+	<SubTexture name="Jack_throwmic10011" x="1371" y="589" width="312" height="521" frameX="0" frameY="-4" frameWidth="529" frameHeight="525"/>
+	<SubTexture name="Jack_throwmic10012" x="1371" y="589" width="312" height="521" frameX="0" frameY="-4" frameWidth="529" frameHeight="525"/>
+	<SubTexture name="Jack_throwmic10013" x="1371" y="589" width="312" height="521" frameX="0" frameY="-4" frameWidth="529" frameHeight="525"/>
+	<SubTexture name="Jack_throwmic10014" x="1371" y="589" width="312" height="521" frameX="0" frameY="-4" frameWidth="529" frameHeight="525"/>
+</TextureAtlas>

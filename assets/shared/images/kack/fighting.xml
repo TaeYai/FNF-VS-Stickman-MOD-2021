@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="fighting.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="GF Dancing Beat but mad0000" x="0" y="0" width="807" height="648" frameX="-69" frameY="0" frameWidth="876" frameHeight="648"/>
+	<SubTexture name="GF Dancing Beat but mad0001" x="0" y="0" width="807" height="648" frameX="-69" frameY="0" frameWidth="876" frameHeight="648"/>
+	<SubTexture name="GF Dancing Beat but mad0002" x="847" y="0" width="865" height="648" frameX="-11" frameY="0" frameWidth="876" frameHeight="648"/>
+	<SubTexture name="GF Dancing Beat but mad0003" x="847" y="0" width="865" height="648" frameX="-11" frameY="0" frameWidth="876" frameHeight="648"/>
+	<SubTexture name="GF Dancing Beat but mad0004" x="0" y="688" width="876" height="648"/>
+	<SubTexture name="GF Dancing Beat but mad0005" x="0" y="688" width="876" height="648"/>
+	<SubTexture name="GF Dancing Beat but mad0006" x="916" y="688" width="876" height="648"/>
+	<SubTexture name="GF Dancing Beat but mad0007" x="916" y="688" width="876" height="648"/>
+	<SubTexture name="GF Dancing Beat but mad0008" x="916" y="688" width="876" height="648"/>
+	<SubTexture name="GF Dancing Beat but mad0009" x="916" y="688" width="876" height="648"/>
+	<SubTexture name="GF Dancing Beat but mad0010" x="916" y="688" width="876" height="648"/>
+	<SubTexture name="GF Dancing Beat but mad0011" x="916" y="688" width="876" height="648"/>
+	<SubTexture name="GF Dancing Beat but mad0012" x="916" y="688" width="876" height="648"/>
+	<SubTexture name="GF Dancing Beat but mad0013" x="916" y="688" width="876" height="648"/>
+	<SubTexture name="GF Dancing Beat but mad0014" x="916" y="688" width="876" height="648"/>
+	<SubTexture name="GF Dancing Beat but mad0015" x="916" y="688" width="876" height="648"/>
+	<SubTexture name="GF Dancing Beat but mad0016" x="916" y="688" width="876" height="648"/>
+	<SubTexture name="GF Dancing Beat but mad0017" x="916" y="688" width="876" height="648"/>
+	<SubTexture name="GF Dancing Beat but mad 20000" x="0" y="1376" width="880" height="617" frameX="0" frameY="-31" frameWidth="880" frameHeight="648"/>
+	<SubTexture name="GF Dancing Beat but mad 20001" x="920" y="1376" width="870" height="615" frameX="-10" frameY="-33" frameWidth="880" frameHeight="648"/>
+	<SubTexture name="GF Dancing Beat but mad 20002" x="0" y="2033" width="865" height="615" frameX="-13" frameY="-33" frameWidth="880" frameHeight="648"/>
+	<SubTexture name="GF Dancing Beat but mad 20003" x="905" y="2033" width="865" height="645" frameX="-13" frameY="-3" frameWidth="880" frameHeight="648"/>
+	<SubTexture name="GF Dancing Beat but mad 20004" x="0" y="2718" width="865" height="648" frameX="-13" frameY="0" frameWidth="880" frameHeight="648"/>
+	<SubTexture name="GF Dancing Beat but mad 20005" x="0" y="2718" width="865" height="648" frameX="-13" frameY="0" frameWidth="880" frameHeight="648"/>
+	<SubTexture name="GF Dancing Beat but mad 20006" x="0" y="2718" width="865" height="648" frameX="-13" frameY="0" frameWidth="880" frameHeight="648"/>
+	<SubTexture name="GF Dancing Beat but mad 20007" x="0" y="2718" width="865" height="648" frameX="-13" frameY="0" frameWidth="880" frameHeight="648"/>
+	<SubTexture name="GF Dancing Beat but mad 20008" x="0" y="2718" width="865" height="648" frameX="-13" frameY="0" frameWidth="880" frameHeight="648"/>
+	<SubTexture name="GF Dancing Beat but mad 20009" x="0" y="2718" width="865" height="648" frameX="-13" frameY="0" frameWidth="880" frameHeight="648"/>
+	<SubTexture name="GF Dancing Beat but mad 20010" x="0" y="2718" width="865" height="648" frameX="-13" frameY="0" frameWidth="880" frameHeight="648"/>
+	<SubTexture name="GF Dancing Beat but mad 20011" x="0" y="2718" width="865" height="648" frameX="-13" frameY="0" frameWidth="880" frameHeight="648"/>
+	<SubTexture name="GF Dancing Beat but mad 20012" x="0" y="2718" width="865" height="648" frameX="-13" frameY="0" frameWidth="880" frameHeight="648"/>
+	<SubTexture name="GF Dancing Beat but mad 20013" x="0" y="2718" width="865" height="648" frameX="-13" frameY="0" frameWidth="880" frameHeight="648"/>
+	<SubTexture name="GF Dancing Beat but mad 20014" x="0" y="2718" width="865" height="648" frameX="-13" frameY="0" frameWidth="880" frameHeight="648"/>
+	<SubTexture name="GF Dancing Beat but mad 20015" x="0" y="2718" width="865" height="648" frameX="-13" frameY="0" frameWidth="880" frameHeight="648"/>
+	<SubTexture name="GF Dancing Beat but mad 20016" x="0" y="2718" width="865" height="648" frameX="-13" frameY="0" frameWidth="880" frameHeight="648"/>
+	<SubTexture name="GF Dancing Beat but mad 20017" x="0" y="2718" width="865" height="648" frameX="-13" frameY="0" frameWidth="880" frameHeight="648"/>
+	<SubTexture name="Stickman vs GF0000" x="905" y="2718" width="856" height="629" frameX="-33" frameY="0" frameWidth="891" frameHeight="630"/>
+	<SubTexture name="Stickman vs GF0001" x="0" y="3406" width="891" height="609" frameX="0" frameY="-21" frameWidth="891" frameHeight="630"/>
+</TextureAtlas>

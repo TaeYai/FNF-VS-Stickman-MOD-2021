@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="jackgetit.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Jack_get mic0000" x="2" y="2" width="675" height="537" frameX="0" frameY="-12" frameWidth="675" frameHeight="549"/>
+	<SubTexture name="Jack_get mic0001" x="680" y="2" width="264" height="545" frameX="-8" frameY="-4" frameWidth="675" frameHeight="549"/>
+	<SubTexture name="Jack_get mic0002" x="680" y="2" width="264" height="545" frameX="-8" frameY="-4" frameWidth="675" frameHeight="549"/>
+	<SubTexture name="Jack_get mic0003" x="2" y="550" width="260" height="549" frameX="-16" frameY="0" frameWidth="675" frameHeight="549"/>
+	<SubTexture name="Jack_get mic0004" x="2" y="550" width="260" height="549" frameX="-16" frameY="0" frameWidth="675" frameHeight="549"/>
+	<SubTexture name="Jack_get mic0005" x="2" y="550" width="260" height="549" frameX="-16" frameY="0" frameWidth="675" frameHeight="549"/>
+	<SubTexture name="Jack_get mic0006" x="2" y="550" width="260" height="549" frameX="-16" frameY="0" frameWidth="675" frameHeight="549"/>
+	<SubTexture name="Jack_get mic0007" x="2" y="550" width="260" height="549" frameX="-16" frameY="0" frameWidth="675" frameHeight="549"/>
+	<SubTexture name="Jack_get mic0008" x="2" y="550" width="260" height="549" frameX="-16" frameY="0" frameWidth="675" frameHeight="549"/>
+	<SubTexture name="Jack_get mic0009" x="2" y="550" width="260" height="549" frameX="-16" frameY="0" frameWidth="675" frameHeight="549"/>
+	<SubTexture name="Jack_get mic0010" x="2" y="550" width="260" height="549" frameX="-16" frameY="0" frameWidth="675" frameHeight="549"/>
+	<SubTexture name="Jack_get mic0011" x="2" y="550" width="260" height="549" frameX="-16" frameY="0" frameWidth="675" frameHeight="549"/>
+	<SubTexture name="Jack_get mic0012" x="2" y="550" width="260" height="549" frameX="-16" frameY="0" frameWidth="675" frameHeight="549"/>
+	<SubTexture name="Jack_get mic0013" x="2" y="550" width="260" height="549" frameX="-16" frameY="0" frameWidth="675" frameHeight="549"/>
+</TextureAtlas>

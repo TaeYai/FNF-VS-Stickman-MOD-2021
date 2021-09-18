@@ -1,0 +1,12 @@
+bf
+bfora
+bfguard
+bfhit
+bfwhat
+bfno
+bfgot
+bfthrow
+bfattack
+bfgot2
+bfatk
+bfatk2

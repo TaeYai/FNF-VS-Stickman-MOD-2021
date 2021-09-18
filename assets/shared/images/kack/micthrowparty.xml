@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="micthrowparty.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Ora mic0000" x="0" y="0" width="1363" height="87" frameX="-223" frameY="-817" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0001" x="1403" y="0" width="136" height="384" frameX="-1503" frameY="-584" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0002" x="1579" y="0" width="1514" height="464" frameX="-223" frameY="-483" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0003" x="3133" y="0" width="622" height="606" frameX="-1237" frameY="-382" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0004" x="3795" y="0" width="1748" height="498" frameX="-221" frameY="-443" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0005" x="5583" y="0" width="2102" height="505" frameX="-87" frameY="-462" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0006" x="0" y="646" width="2080" height="663" frameX="-224" frameY="-346" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0007" x="2120" y="646" width="2152" height="879" frameX="-73" frameY="-310" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0008" x="4312" y="646" width="1932" height="755" frameX="-222" frameY="-327" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0009" x="0" y="1565" width="1998" height="749" frameX="-57" frameY="-424" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0010" x="2038" y="1565" width="1815" height="1022" frameX="-222" frameY="-169" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0011" x="3893" y="1565" width="2060" height="1052" frameX="-47" frameY="-82" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0012" x="5993" y="1565" width="1942" height="1177" frameX="-223" frameY="-12" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0013" x="0" y="2782" width="1899" height="1191" frameX="-34" frameY="0" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0014" x="1939" y="2782" width="1747" height="1180" frameX="-225" frameY="0" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0015" x="3726" y="2782" width="2002" height="920" frameX="-20" frameY="-23" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0016" x="5768" y="2782" width="1845" height="906" frameX="-222" frameY="-101" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0017" x="0" y="4013" width="2115" height="839" frameX="-6" frameY="-269" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0018" x="2155" y="4013" width="2177" height="819" frameX="0" frameY="-382" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0019" x="4372" y="4013" width="1552" height="702" frameX="-747" frameY="-394" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0020" x="5964" y="4013" width="1371" height="787" frameX="-226" frameY="-402" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0021" x="7375" y="4013" width="562" height="683" frameX="-1117" frameY="-431" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0022" x="0" y="4892" width="665" height="434" frameX="-1072" frameY="-483" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0023" x="705" y="4892" width="558" height="424" frameX="-1301" frameY="-559" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0024" x="1303" y="4892" width="728" height="663" frameX="-1216" frameY="-483" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0025" x="2071" y="4892" width="787" height="614" frameX="-1210" frameY="-353" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0026" x="2898" y="4892" width="1029" height="702" frameX="-1160" frameY="-305" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0027" x="3967" y="4892" width="1189" height="799" frameX="-1115" frameY="-309" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0028" x="5196" y="4892" width="1154" height="861" frameX="-1071" frameY="-340" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0029" x="6390" y="4892" width="1242" height="499" frameX="-1052" frameY="-440" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0030" x="0" y="5793" width="1073" height="449" frameX="-982" frameY="-599" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0031" x="1113" y="5793" width="1081" height="365" frameX="-887" frameY="-826" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0032" x="2234" y="5793" width="169" height="85" frameX="-792" frameY="-1016" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0033" x="2234" y="5793" width="169" height="85" frameX="-821" frameY="-1448" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0034" x="2234" y="5793" width="169" height="85" frameX="-821" frameY="-1448" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0035" x="2234" y="5793" width="169" height="85" frameX="-821" frameY="-1448" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0036" x="2234" y="5793" width="169" height="85" frameX="-821" frameY="-1448" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0037" x="2234" y="5793" width="169" height="85" frameX="-821" frameY="-1448" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0038" x="2234" y="5793" width="169" height="85" frameX="-821" frameY="-1448" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0039" x="2234" y="5793" width="169" height="85" frameX="-821" frameY="-1448" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0040" x="2234" y="5793" width="169" height="85" frameX="-821" frameY="-1448" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0041" x="2234" y="5793" width="169" height="85" frameX="-821" frameY="-1448" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0042" x="2234" y="5793" width="169" height="85" frameX="-821" frameY="-1448" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0043" x="2234" y="5793" width="169" height="85" frameX="-821" frameY="-1448" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0044" x="2234" y="5793" width="169" height="85" frameX="-821" frameY="-1448" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0045" x="2234" y="5793" width="169" height="85" frameX="-821" frameY="-1448" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0046" x="2234" y="5793" width="169" height="85" frameX="-821" frameY="-1448" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0047" x="2234" y="5793" width="169" height="85" frameX="-821" frameY="-1448" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0048" x="2234" y="5793" width="169" height="85" frameX="-821" frameY="-1448" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0049" x="2234" y="5793" width="169" height="85" frameX="-821" frameY="-1448" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0050" x="2234" y="5793" width="169" height="85" frameX="-821" frameY="-1448" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0051" x="2234" y="5793" width="169" height="85" frameX="-821" frameY="-1448" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0052" x="2234" y="5793" width="169" height="85" frameX="-821" frameY="-1448" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0053" x="2234" y="5793" width="169" height="85" frameX="-821" frameY="-1448" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="Ora mic0054" x="2234" y="5793" width="169" height="85" frameX="-821" frameY="-1448" frameWidth="2304" frameHeight="1533"/>
+	<SubTexture name="one mic0000" x="2443" y="5793" width="919" height="182" frameX="0" frameY="-269" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0001" x="3402" y="5793" width="124" height="152" frameX="-781" frameY="-171" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0002" x="3566" y="5793" width="141" height="138" frameX="-855" frameY="-81" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0003" x="3747" y="5793" width="169" height="87" frameX="-897" frameY="-62" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0004" x="3956" y="5793" width="135" height="144" frameX="-959" frameY="-10" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0005" x="4131" y="5793" width="87" height="169" frameX="-1037" frameY="0" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0006" x="4258" y="5793" width="164" height="100" frameX="-1058" frameY="-80" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0007" x="4462" y="5793" width="150" height="129" frameX="-1088" frameY="-157" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0008" x="4652" y="5793" width="114" height="158" frameX="-1129" frameY="-274" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0009" x="4806" y="5793" width="87" height="168" frameX="-1181" frameY="-490" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0010" x="4933" y="5793" width="87" height="170" frameX="-1191" frameY="-618" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0011" x="4933" y="5793" width="87" height="170" frameX="-1227" frameY="-890" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0012" x="4933" y="5793" width="87" height="170" frameX="-1227" frameY="-890" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0013" x="4933" y="5793" width="87" height="170" frameX="-1227" frameY="-890" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0014" x="4933" y="5793" width="87" height="170" frameX="-1227" frameY="-890" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0015" x="4933" y="5793" width="87" height="170" frameX="-1227" frameY="-890" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0016" x="4933" y="5793" width="87" height="170" frameX="-1227" frameY="-890" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0017" x="4933" y="5793" width="87" height="170" frameX="-1227" frameY="-890" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0018" x="4933" y="5793" width="87" height="170" frameX="-1227" frameY="-890" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0019" x="4933" y="5793" width="87" height="170" frameX="-1227" frameY="-890" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0020" x="4933" y="5793" width="87" height="170" frameX="-1227" frameY="-890" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0021" x="4933" y="5793" width="87" height="170" frameX="-1227" frameY="-890" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="one mic0022" x="4933" y="5793" width="87" height="170" frameX="-1227" frameY="-890" frameWidth="1314" frameHeight="1060"/>
+	<SubTexture name="ora mic but BF0000" x="5060" y="5793" width="1117" height="349" frameX="-1041" frameY="-567" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="ora mic but BF0001" x="6217" y="5793" width="212" height="334" frameX="-1012" frameY="-513" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="ora mic but BF0002" x="6469" y="5793" width="1136" height="621" frameX="-1023" frameY="-341" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="ora mic but BF0003" x="7645" y="5793" width="286" height="737" frameX="-946" frameY="-295" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="ora mic but BF0004" x="0" y="6570" width="1436" height="652" frameX="-726" frameY="-291" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="ora mic but BF0005" x="1476" y="6570" width="726" height="394" frameX="-611" frameY="-467" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="ora mic but BF0006" x="2242" y="6570" width="1603" height="344" frameX="-556" frameY="-536" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="ora mic but BF0007" x="3885" y="6570" width="988" height="411" frameX="-431" frameY="-682" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="ora mic but BF0008" x="4913" y="6570" width="1990" height="759" frameX="-172" frameY="-513" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="ora mic but BF0009" x="6943" y="6570" width="806" height="621" frameX="-875" frameY="-439" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="ora mic but BF0010" x="0" y="7369" width="1406" height="749" frameX="-753" frameY="-414" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="ora mic but BF0011" x="0" y="6792" width="958" height="840" frameX="-673" frameY="-391" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="ora mic but BF0012" x="1446" y="7369" width="1640" height="606" frameX="-522" frameY="-395" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="ora mic but BF0013" x="3126" y="7369" width="1684" height="502" frameX="-385" frameY="-456" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="ora mic but BF0014" x="4850" y="7369" width="1921" height="639" frameX="-238" frameY="-475" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="ora mic but BF0019" x="6811" y="7369" width="969" height="776" frameX="-490" frameY="-428" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="ora mic but BF0049" x="0" y="7672" width="938" height="441" frameX="-686" frameY="-477" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="ora mic but BF0059" x="7820" y="7369" width="169" height="86" frameX="-1735" frameY="-1016" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="ora mic but BF0060" x="7820" y="7369" width="169" height="86" frameX="-1706" frameY="-1448" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="ora mic but BF0061" x="7820" y="7369" width="169" height="86" frameX="-1706" frameY="-1448" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="ora mic but BF0062" x="7820" y="7369" width="169" height="86" frameX="-1706" frameY="-1448" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="ora mic but BF0063" x="7820" y="7369" width="169" height="86" frameX="-1706" frameY="-1448" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="ora mic but BF0064" x="7820" y="7369" width="169" height="86" frameX="-1706" frameY="-1448" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="ora mic but BF0065" x="7820" y="7369" width="169" height="86" frameX="-1706" frameY="-1448" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="ora mic but BF0066" x="7820" y="7369" width="169" height="86" frameX="-1706" frameY="-1448" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="ora mic but BF0067" x="7820" y="7369" width="169" height="86" frameX="-1706" frameY="-1448" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="ora mic but BF0068" x="7820" y="7369" width="169" height="86" frameX="-1706" frameY="-1448" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="ora mic but BF0069" x="7820" y="7369" width="169" height="86" frameX="-1706" frameY="-1448" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="ora mic but BF0070" x="7820" y="7369" width="169" height="86" frameX="-1706" frameY="-1448" frameWidth="2696" frameHeight="1546"/>
+</TextureAtlas>
