@@ -4042,7 +4042,7 @@ class PlayState extends MusicBeatState
 				//gf = new Character(400, 130, 'gf-tableuh');
 				//gf.y += 500;
 				//gf.x -= 300;
-				//add(gf);
+				//add(gf); ..asg
 
 				gf.playAnim('fear',false);
 
