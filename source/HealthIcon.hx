@@ -14,13 +14,15 @@ class HealthIcon extends FlxSprite
 		super();
 		switch(char)
 		{
-			case 'jackcop' | 'jackcop-record' | 'jack-piano' | 'jackmic' | 'jackora' | 'jackget' | 'jackreal':
+			case 'jackcop' | 'jackcop-record' | 'jack-piano' | 'jackmic' | 'jackora' | 'jackget' | 'jackreal' | 'jackwonder' | 'jacktaunt':
 				loadGraphic(Paths.image('jackicon'), true, 150, 150);
 				animation.add('jackcop', [0, 1], 0, false, isPlayer);
 				animation.add('jackcop-record', [0, 1], 0, false, isPlayer);
 				animation.add('jack-piano', [0, 1], 0, false, isPlayer);
 				animation.add('jackora', [0, 1], 0, false, isPlayer);
 				animation.add('jackmic', [0, 1], 0, false, isPlayer);
+				animation.add('jackwonder', [0, 1], 0, false, isPlayer);
+				animation.add('jacktaunt', [0, 1], 0, false, isPlayer);	
 			case 'bf' | 'bfora' | 'bfguard' | 'bfhit' | 'bfwhat' | 'bfno' | 'bfgot' | 'bfthrow' | 'bfattack' | 'bfgot2' | 'bfatk' | 'bfatk2':
 				loadGraphic(Paths.image('iconGrid'), true, 150, 150);
 				animation.add('bf', [0, 1], 0, false, isPlayer);

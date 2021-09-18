@@ -146,6 +146,18 @@ class Character extends FlxSprite
 
 				playAnim('danceRight');
 
+
+			case 'gf-tableuh':
+				tex = Paths.getSparrowAtlas('kack/GF_table');
+				frames = tex;
+				animation.addByIndices('danceLeft', 'GF Dancing Beat table uhhh', [30, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "", 24, false);
+				animation.addByIndices('danceRight', 'GF Dancing Beat table uhhh', [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], "", 24,false);
+				animation.addByPrefix('fear', 'GF Dancing Beat table fear');
+				addOffset('danceLeft');
+				addOffset('danceRight');
+				playAnim('danceRight');
+
+
 			case 'gf-pixel':
 				tex = Paths.getSparrowAtlas('characters/gfPixel');
 				frames = tex;
@@ -386,10 +398,10 @@ class Character extends FlxSprite
 
 
 				addOffset('idle', -5);
-				addOffset("singUP", -29, 27);
-				addOffset("singRIGHT", -38, -7);
-				addOffset("singLEFT", 12, -6);
-				addOffset("singDOWN", -10, -50);
+				addOffset("singUP", -18, 19);
+				addOffset("singRIGHT", -15, 19);
+				addOffset("singLEFT", 33, 18);
+				addOffset("singDOWN", -2, -39);
 
 				playAnim('idle');
 
@@ -410,7 +422,7 @@ class Character extends FlxSprite
 	
 					flipX = true;
 
-			case 'bfora':
+			case 'bforaed':
 					var tex = Paths.getSparrowAtlas('kack/BFsong2');
 					frames = tex;
 	
@@ -424,6 +436,20 @@ class Character extends FlxSprite
 					playAnim('idle'); 
 	
 					flipX = true;
+			case 'bfrevage':
+						var tex = Paths.getSparrowAtlas('kack/BFthrow');
+						frames = tex;
+		
+						trace(tex.frames.length);
+		
+						animation.addByPrefix('idle', 'BF idle dance revage', 24, false);
+		
+		
+						addOffset('idle', -5);
+		
+						playAnim('idle'); 
+		
+						flipX = true;
 			case 'bfwhat':
 					var tex = Paths.getSparrowAtlas('kack/BFsong2');
 					frames = tex;
@@ -499,31 +525,26 @@ class Character extends FlxSprite
 			case 'bfgot2':
 					var tex = Paths.getSparrowAtlas('kack/BFthrow');
 					frames = tex;
-		
 					trace(tex.frames.length);
-		
-					animation.addByPrefix('idle', 'bf got mic copy0', 24, false);
-		
+					animation.addByPrefix('idle', 'bf got mic copy', 24, false);
 		
 					addOffset('idle', -5);
 		
 					playAnim('idle'); 
 		
 					flipX = true;
-			case 'bfatk':
+
+			case 'bfpreatk':
 					var tex = Paths.getSparrowAtlas('kack/BFthrow');
 					frames = tex;
-		
 					trace(tex.frames.length);
-		
 					animation.addByPrefix('idle', 'bf got mic pre att', 24, false);
-		
+
 		
 					addOffset('idle', -5);
-		
 					playAnim('idle'); 
-		
 					flipX = true;
+
 			case 'bfatk2':
 					var tex = Paths.getSparrowAtlas('kack/BFthrow');
 					frames = tex;
@@ -735,7 +756,6 @@ class Character extends FlxSprite
 					animation.addByPrefix('idle2', 'Jack_idile_2', 24);
 					animation.addByPrefix('idle3', 'Jack_idile_3', 24);
 					animation.addByPrefix('singUP', 'Jack_Up', 24);
-					animation.addByPrefix('go', 'Jack_BringBoom0', 24);
 					animation.addByPrefix('singRIGHT', 'Jack_Right', 24);
 					animation.addByPrefix('singDOWN', 'Jack_Down', 24);
 					animation.addByPrefix('singLEFT', 'Jack_Left', 24);
@@ -743,13 +763,23 @@ class Character extends FlxSprite
 					addOffset('idle', -769, -102);
 					addOffset('idle2', -770, -110);
 					addOffset('idle3', -750, -120);
-					addOffset('go', 583, -70);
 					addOffset("singUP", -749, -38);
 					addOffset("singRIGHT", -791, -84);
 					addOffset("singLEFT", -773, -102);
 					addOffset("singDOWN", -790, -151);
 	
 					playAnim('idle3');
+
+				case 'jackwonder':
+					tex = Paths.getSparrowAtlas('kack/jackboom');
+					frames = tex;
+					animation.addByPrefix('idle', 'Jack_idile_3', 24);
+					animation.addByPrefix('go', 'Jack_BringBoom0', 24);
+					addOffset('idle', -750, -120);
+					addOffset('go', 583, -70);
+					playAnim('idle');
+
+
 				case 'jackcop-record':
 					tex = Paths.getSparrowAtlas('kack/jackboom');
 					frames = tex;
@@ -790,11 +820,25 @@ class Character extends FlxSprite
 					tex = Paths.getSparrowAtlas('kack/JzSongtwo');
 					frames = tex;
 					animation.addByPrefix('idle', 'Jack_idile_mic', 24);
-					animation.addByPrefix('thrown', 'Jack_throwmic', 24);
+					animation.addByPrefix('thrown', 'Jack_throwmic1', 24);
+					animation.addByPrefix('jackspaam', 'Jack_throwmic ora', 24);
 
 					addOffset('idle');
-	
 					playAnim('idle');
+
+				case 'jackprethrow':
+					tex = Paths.getSparrowAtlas('kack/Jackthrow');
+					frames = tex;
+					animation.addByPrefix('jackpreattack', 'Jack_pre attack', 24);
+					animation.addByPrefix('jackpreattack2', 'Jack_pre attack strong', 24);
+					animation.addByPrefix('jackspaam', 'Jack_throwmic ora', 24);
+	
+					addOffset('jackpreattack');
+					addOffset('jackpreattack2');
+					playAnim('jackpreattack');
+
+
+
 				case 'jackget':
 					tex = Paths.getSparrowAtlas('kack/jackgetit');
 					frames = tex;
@@ -803,7 +847,23 @@ class Character extends FlxSprite
 
 					addOffset('idle');
 	
-					playAnim('idle');
+					playAnim('got');
+
+
+
+				case 'jackgetmic':
+					var tex = Paths.getSparrowAtlas('kack/jackgetit');
+					frames = tex;
+					trace(tex.frames.length);
+					animation.addByPrefix('jackget', 'Jack_get mic', 24, false);
+			
+					addOffset('jackget', -5);
+			
+					playAnim('jackget'); 
+			
+					
+
+
 				case 'jackora':
 					tex = Paths.getSparrowAtlas('kack/JzSongtwo');
 					frames = tex;
@@ -821,6 +881,7 @@ class Character extends FlxSprite
 					animation.addByPrefix('ora', 'Jack_got Oraed', 24);
 
 					addOffset('idle');
+					addOffset('noob', 27, 0);
 	
 					playAnim('idle');
 				case 'jackhurt':
@@ -842,8 +903,8 @@ class Character extends FlxSprite
 				case 'fighting':
 					tex = Paths.getSparrowAtlas('kack/fighting');
 					frames = tex;
-					animation.addByPrefix('jackpress', 'GF Dancing Beat but mad0', 24);
-					animation.addByIndices('idlej', 'GF Dancing Beat but mad0', [17], "", 24, false);
+					animation.addByPrefix('jackpress', 'GF Dancing Beat but mad', 24);
+					animation.addByIndices('idlej', 'GF Dancing Beat but mad', [17], "", 24, false);
 					animation.addByIndices('idlegf', 'GF Dancing Beat but mad 2', [17], "", 24, false);
 					animation.addByPrefix('gfpress', 'GF Dancing Beat but mad 2', 24);
 					animation.addByPrefix('fight', 'Stickman vs GF', 24);
