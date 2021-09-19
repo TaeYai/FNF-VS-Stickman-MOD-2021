@@ -14,7 +14,7 @@ class HealthIcon extends FlxSprite
 		super();
 		switch(char)
 		{
-			case 'jackcop' | 'jackcop-record' | 'jack-piano' | 'jackmic' | 'jackora' | 'jackget' | 'jackreal' | 'jackwonder' | 'jacktaunt':
+			case 'jackcop' | 'jackcop-record' | 'jack-piano' | 'jackmic' | 'jackora' | 'jackget' | 'jackreal' | 'jackwonder' | 'jacktaunt' | 'jack3-1' | 'jack3-2' | 'jack3-3':
 				loadGraphic(Paths.image('jackicon'), true, 150, 150);
 				animation.add('jackcop', [0, 1], 0, false, isPlayer);
 				animation.add('jackcop-record', [0, 1], 0, false, isPlayer);
@@ -23,6 +23,9 @@ class HealthIcon extends FlxSprite
 				animation.add('jackmic', [0, 1], 0, false, isPlayer);
 				animation.add('jackwonder', [0, 1], 0, false, isPlayer);
 				animation.add('jacktaunt', [0, 1], 0, false, isPlayer);	
+				animation.add('jack3-1', [0, 1], 0, false, isPlayer);		
+				animation.add('jack3-2', [0, 1], 0, false, isPlayer);					
+				animation.add('jack3-3', [0, 1], 0, false, isPlayer);					
 			case 'bf' | 'bfora' | 'bfguard' | 'bfhit' | 'bfwhat' | 'bfno' | 'bfgot' | 'bfthrow' | 'bfattack' | 'bfgot2' | 'bfatk' | 'bfatk2':
 				loadGraphic(Paths.image('iconGrid'), true, 150, 150);
 				animation.add('bf', [0, 1], 0, false, isPlayer);

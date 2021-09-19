@@ -2,202 +2,202 @@
 <TextureAtlas imagePath="Jacksing3.png">
 	<!-- Created with Adobe Animate version 19.2.1.408 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="Jack_Micsong3 Down0000" x="0" y="0" width="174" height="478" frameX="0" frameY="-16" frameWidth="174" frameHeight="494"/>
-	<SubTexture name="Jack_Micsong3 Down0001" x="214" y="0" width="174" height="487" frameX="0" frameY="-6" frameWidth="174" frameHeight="494"/>
-	<SubTexture name="Jack_Micsong3 Down0002" x="428" y="0" width="174" height="492" frameX="0" frameY="-1" frameWidth="174" frameHeight="494"/>
-	<SubTexture name="Jack_Micsong3 Down0003" x="642" y="0" width="174" height="493" frameX="0" frameY="0" frameWidth="174" frameHeight="494"/>
-	<SubTexture name="Jack_Micsong3 Down0004" x="642" y="0" width="174" height="493" frameX="0" frameY="0" frameWidth="174" frameHeight="494"/>
-	<SubTexture name="Jack_Micsong3 Down0005" x="642" y="0" width="174" height="493" frameX="0" frameY="0" frameWidth="174" frameHeight="494"/>
-	<SubTexture name="Jack_Micsong3 Down0006" x="642" y="0" width="174" height="493" frameX="0" frameY="0" frameWidth="174" frameHeight="494"/>
-	<SubTexture name="Jack_Micsong3 Down0007" x="642" y="0" width="174" height="493" frameX="0" frameY="0" frameWidth="174" frameHeight="494"/>
-	<SubTexture name="Jack_Micsong3 Down0008" x="642" y="0" width="174" height="493" frameX="0" frameY="0" frameWidth="174" frameHeight="494"/>
-	<SubTexture name="Jack_Micsong3 Down0009" x="642" y="0" width="174" height="493" frameX="0" frameY="0" frameWidth="174" frameHeight="494"/>
-	<SubTexture name="Jack_Micsong3 Down0010" x="642" y="0" width="174" height="493" frameX="0" frameY="0" frameWidth="174" frameHeight="494"/>
-	<SubTexture name="Jack_Micsong3 Down0011" x="642" y="0" width="174" height="493" frameX="0" frameY="0" frameWidth="174" frameHeight="494"/>
-	<SubTexture name="Jack_Micsong3 Down0012" x="642" y="0" width="174" height="493" frameX="0" frameY="0" frameWidth="174" frameHeight="494"/>
-	<SubTexture name="Jack_Micsong3 Down0013" x="642" y="0" width="174" height="493" frameX="0" frameY="0" frameWidth="174" frameHeight="494"/>
-	<SubTexture name="Jack_Micsong3 Down0014" x="642" y="0" width="174" height="493" frameX="0" frameY="0" frameWidth="174" frameHeight="494"/>
-	<SubTexture name="Jack_Micsong3 Down20000" x="856" y="0" width="247" height="470" frameX="0" frameY="-15" frameWidth="247" frameHeight="485"/>
-	<SubTexture name="Jack_Micsong3 Down20001" x="1143" y="0" width="235" height="475" frameX="-4" frameY="-9" frameWidth="247" frameHeight="485"/>
-	<SubTexture name="Jack_Micsong3 Down20002" x="1418" y="0" width="227" height="480" frameX="-5" frameY="-3" frameWidth="247" frameHeight="485"/>
-	<SubTexture name="Jack_Micsong3 Down20003" x="1685" y="0" width="226" height="483" frameX="-6" frameY="0" frameWidth="247" frameHeight="485"/>
-	<SubTexture name="Jack_Micsong3 Down20004" x="1685" y="0" width="226" height="483" frameX="-6" frameY="0" frameWidth="247" frameHeight="485"/>
-	<SubTexture name="Jack_Micsong3 Down20005" x="1685" y="0" width="226" height="483" frameX="-6" frameY="0" frameWidth="247" frameHeight="485"/>
-	<SubTexture name="Jack_Micsong3 Down20006" x="1685" y="0" width="226" height="483" frameX="-6" frameY="0" frameWidth="247" frameHeight="485"/>
-	<SubTexture name="Jack_Micsong3 Down20007" x="1685" y="0" width="226" height="483" frameX="-6" frameY="0" frameWidth="247" frameHeight="485"/>
-	<SubTexture name="Jack_Micsong3 Down20008" x="1685" y="0" width="226" height="483" frameX="-6" frameY="0" frameWidth="247" frameHeight="485"/>
-	<SubTexture name="Jack_Micsong3 Down20009" x="1685" y="0" width="226" height="483" frameX="-6" frameY="0" frameWidth="247" frameHeight="485"/>
-	<SubTexture name="Jack_Micsong3 Down20010" x="1685" y="0" width="226" height="483" frameX="-6" frameY="0" frameWidth="247" frameHeight="485"/>
-	<SubTexture name="Jack_Micsong3 Down20011" x="1685" y="0" width="226" height="483" frameX="-6" frameY="0" frameWidth="247" frameHeight="485"/>
-	<SubTexture name="Jack_Micsong3 Down20012" x="1685" y="0" width="226" height="483" frameX="-6" frameY="0" frameWidth="247" frameHeight="485"/>
-	<SubTexture name="Jack_Micsong3 Down20013" x="1685" y="0" width="226" height="483" frameX="-6" frameY="0" frameWidth="247" frameHeight="485"/>
-	<SubTexture name="Jack_Micsong3 Down20014" x="1685" y="0" width="226" height="483" frameX="-6" frameY="0" frameWidth="247" frameHeight="485"/>
-	<SubTexture name="Jack_Micsong3 Left0000" x="0" y="533" width="165" height="541" frameX="0" frameY="0" frameWidth="180" frameHeight="541"/>
-	<SubTexture name="Jack_Micsong3 Left0001" x="205" y="533" width="159" height="541" frameX="-7" frameY="0" frameWidth="180" frameHeight="541"/>
-	<SubTexture name="Jack_Micsong3 Left0002" x="205" y="533" width="159" height="541" frameX="-7" frameY="0" frameWidth="180" frameHeight="541"/>
-	<SubTexture name="Jack_Micsong3 Left0003" x="404" y="533" width="159" height="541" frameX="-17" frameY="0" frameWidth="180" frameHeight="541"/>
-	<SubTexture name="Jack_Micsong3 Left0004" x="404" y="533" width="159" height="541" frameX="-17" frameY="0" frameWidth="180" frameHeight="541"/>
-	<SubTexture name="Jack_Micsong3 Left0005" x="603" y="533" width="158" height="541" frameX="-22" frameY="0" frameWidth="180" frameHeight="541"/>
-	<SubTexture name="Jack_Micsong3 Left0006" x="603" y="533" width="158" height="541" frameX="-22" frameY="0" frameWidth="180" frameHeight="541"/>
-	<SubTexture name="Jack_Micsong3 Left0007" x="603" y="533" width="158" height="541" frameX="-22" frameY="0" frameWidth="180" frameHeight="541"/>
-	<SubTexture name="Jack_Micsong3 Left0008" x="603" y="533" width="158" height="541" frameX="-22" frameY="0" frameWidth="180" frameHeight="541"/>
-	<SubTexture name="Jack_Micsong3 Left0009" x="603" y="533" width="158" height="541" frameX="-22" frameY="0" frameWidth="180" frameHeight="541"/>
-	<SubTexture name="Jack_Micsong3 Left0010" x="603" y="533" width="158" height="541" frameX="-22" frameY="0" frameWidth="180" frameHeight="541"/>
-	<SubTexture name="Jack_Micsong3 Left0011" x="603" y="533" width="158" height="541" frameX="-22" frameY="0" frameWidth="180" frameHeight="541"/>
-	<SubTexture name="Jack_Micsong3 Left0012" x="603" y="533" width="158" height="541" frameX="-22" frameY="0" frameWidth="180" frameHeight="541"/>
-	<SubTexture name="Jack_Micsong3 Left0013" x="603" y="533" width="158" height="541" frameX="-22" frameY="0" frameWidth="180" frameHeight="541"/>
-	<SubTexture name="Jack_Micsong3 Left0014" x="603" y="533" width="158" height="541" frameX="-22" frameY="0" frameWidth="180" frameHeight="541"/>
-	<SubTexture name="Jack_Micsong3 Left0015" x="603" y="533" width="158" height="541" frameX="-22" frameY="0" frameWidth="180" frameHeight="541"/>
-	<SubTexture name="Jack_Micsong3 Left0016" x="603" y="533" width="158" height="541" frameX="-22" frameY="0" frameWidth="180" frameHeight="541"/>
-	<SubTexture name="Jack_Micsong3 Left20000" x="801" y="533" width="175" height="537" frameX="0" frameY="-1" frameWidth="189" frameHeight="538"/>
-	<SubTexture name="Jack_Micsong3 Left20001" x="801" y="533" width="175" height="537" frameX="0" frameY="-1" frameWidth="189" frameHeight="538"/>
-	<SubTexture name="Jack_Micsong3 Left20002" x="1016" y="533" width="170" height="538" frameX="-14" frameY="0" frameWidth="189" frameHeight="538"/>
-	<SubTexture name="Jack_Micsong3 Left20003" x="1226" y="533" width="166" height="538" frameX="-22" frameY="0" frameWidth="189" frameHeight="538"/>
-	<SubTexture name="Jack_Micsong3 Left20004" x="1432" y="533" width="163" height="538" frameX="-26" frameY="0" frameWidth="189" frameHeight="538"/>
-	<SubTexture name="Jack_Micsong3 Left20005" x="1432" y="533" width="163" height="538" frameX="-26" frameY="0" frameWidth="189" frameHeight="538"/>
-	<SubTexture name="Jack_Micsong3 Left20006" x="1432" y="533" width="163" height="538" frameX="-26" frameY="0" frameWidth="189" frameHeight="538"/>
-	<SubTexture name="Jack_Micsong3 Left20007" x="1432" y="533" width="163" height="538" frameX="-26" frameY="0" frameWidth="189" frameHeight="538"/>
-	<SubTexture name="Jack_Micsong3 Left20008" x="1432" y="533" width="163" height="538" frameX="-26" frameY="0" frameWidth="189" frameHeight="538"/>
-	<SubTexture name="Jack_Micsong3 Left20009" x="1432" y="533" width="163" height="538" frameX="-26" frameY="0" frameWidth="189" frameHeight="538"/>
-	<SubTexture name="Jack_Micsong3 Left20010" x="1432" y="533" width="163" height="538" frameX="-26" frameY="0" frameWidth="189" frameHeight="538"/>
-	<SubTexture name="Jack_Micsong3 Left20011" x="1432" y="533" width="163" height="538" frameX="-26" frameY="0" frameWidth="189" frameHeight="538"/>
-	<SubTexture name="Jack_Micsong3 Left20012" x="1432" y="533" width="163" height="538" frameX="-26" frameY="0" frameWidth="189" frameHeight="538"/>
-	<SubTexture name="Jack_Micsong3 Left20013" x="1432" y="533" width="163" height="538" frameX="-26" frameY="0" frameWidth="189" frameHeight="538"/>
-	<SubTexture name="Jack_Micsong3 Left20014" x="1432" y="533" width="163" height="538" frameX="-26" frameY="0" frameWidth="189" frameHeight="538"/>
-	<SubTexture name="Jack_Micsong3 Left30000" x="1635" y="533" width="185" height="553" frameX="0" frameY="0" frameWidth="217" frameHeight="553"/>
-	<SubTexture name="Jack_Micsong3 Left30001" x="1635" y="533" width="185" height="553" frameX="0" frameY="0" frameWidth="217" frameHeight="553"/>
-	<SubTexture name="Jack_Micsong3 Left30002" x="0" y="1126" width="195" height="551" frameX="-8" frameY="-2" frameWidth="217" frameHeight="553"/>
-	<SubTexture name="Jack_Micsong3 Left30003" x="235" y="1126" width="198" height="551" frameX="-14" frameY="-2" frameWidth="217" frameHeight="553"/>
-	<SubTexture name="Jack_Micsong3 Left30004" x="473" y="1126" width="202" height="551" frameX="-15" frameY="-2" frameWidth="217" frameHeight="553"/>
-	<SubTexture name="Jack_Micsong3 Left30005" x="473" y="1126" width="202" height="551" frameX="-15" frameY="-2" frameWidth="217" frameHeight="553"/>
-	<SubTexture name="Jack_Micsong3 Left30006" x="473" y="1126" width="202" height="551" frameX="-15" frameY="-2" frameWidth="217" frameHeight="553"/>
-	<SubTexture name="Jack_Micsong3 Left30007" x="473" y="1126" width="202" height="551" frameX="-15" frameY="-2" frameWidth="217" frameHeight="553"/>
-	<SubTexture name="Jack_Micsong3 Left30008" x="473" y="1126" width="202" height="551" frameX="-15" frameY="-2" frameWidth="217" frameHeight="553"/>
-	<SubTexture name="Jack_Micsong3 Left30009" x="473" y="1126" width="202" height="551" frameX="-15" frameY="-2" frameWidth="217" frameHeight="553"/>
-	<SubTexture name="Jack_Micsong3 Left30010" x="473" y="1126" width="202" height="551" frameX="-15" frameY="-2" frameWidth="217" frameHeight="553"/>
-	<SubTexture name="Jack_Micsong3 Left30011" x="473" y="1126" width="202" height="551" frameX="-15" frameY="-2" frameWidth="217" frameHeight="553"/>
-	<SubTexture name="Jack_Micsong3 Left30012" x="473" y="1126" width="202" height="551" frameX="-15" frameY="-2" frameWidth="217" frameHeight="553"/>
-	<SubTexture name="Jack_Micsong3 Left30013" x="473" y="1126" width="202" height="551" frameX="-15" frameY="-2" frameWidth="217" frameHeight="553"/>
-	<SubTexture name="Jack_Micsong3 Left30014" x="473" y="1126" width="202" height="551" frameX="-15" frameY="-2" frameWidth="217" frameHeight="553"/>
-	<SubTexture name="Jack_Micsong3 Right0000" x="715" y="1126" width="212" height="528" frameX="-2" frameY="0" frameWidth="214" frameHeight="528"/>
-	<SubTexture name="Jack_Micsong3 Right0001" x="967" y="1126" width="198" height="528" frameX="-1" frameY="0" frameWidth="214" frameHeight="528"/>
-	<SubTexture name="Jack_Micsong3 Right0002" x="1205" y="1126" width="181" height="527" frameX="0" frameY="-1" frameWidth="214" frameHeight="528"/>
-	<SubTexture name="Jack_Micsong3 Right0003" x="1426" y="1126" width="174" height="527" frameX="0" frameY="-1" frameWidth="214" frameHeight="528"/>
-	<SubTexture name="Jack_Micsong3 Right0004" x="1426" y="1126" width="174" height="527" frameX="0" frameY="-1" frameWidth="214" frameHeight="528"/>
-	<SubTexture name="Jack_Micsong3 Right0005" x="1426" y="1126" width="174" height="527" frameX="0" frameY="-1" frameWidth="214" frameHeight="528"/>
-	<SubTexture name="Jack_Micsong3 Right0006" x="1426" y="1126" width="174" height="527" frameX="0" frameY="-1" frameWidth="214" frameHeight="528"/>
-	<SubTexture name="Jack_Micsong3 Right0007" x="1426" y="1126" width="174" height="527" frameX="0" frameY="-1" frameWidth="214" frameHeight="528"/>
-	<SubTexture name="Jack_Micsong3 Right0008" x="1426" y="1126" width="174" height="527" frameX="0" frameY="-1" frameWidth="214" frameHeight="528"/>
-	<SubTexture name="Jack_Micsong3 Right0009" x="1426" y="1126" width="174" height="527" frameX="0" frameY="-1" frameWidth="214" frameHeight="528"/>
-	<SubTexture name="Jack_Micsong3 Right0010" x="1426" y="1126" width="174" height="527" frameX="0" frameY="-1" frameWidth="214" frameHeight="528"/>
-	<SubTexture name="Jack_Micsong3 Right0011" x="1426" y="1126" width="174" height="527" frameX="0" frameY="-1" frameWidth="214" frameHeight="528"/>
-	<SubTexture name="Jack_Micsong3 Right0012" x="1426" y="1126" width="174" height="527" frameX="0" frameY="-1" frameWidth="214" frameHeight="528"/>
-	<SubTexture name="Jack_Micsong3 Right0013" x="1426" y="1126" width="174" height="527" frameX="0" frameY="-1" frameWidth="214" frameHeight="528"/>
-	<SubTexture name="Jack_Micsong3 Right0014" x="1426" y="1126" width="174" height="527" frameX="0" frameY="-1" frameWidth="214" frameHeight="528"/>
-	<SubTexture name="Jack_Micsong3 Right20000" x="1640" y="1126" width="218" height="551" frameX="-2" frameY="-3" frameWidth="220" frameHeight="554"/>
-	<SubTexture name="Jack_Micsong3 Right20001" x="1640" y="1126" width="218" height="551" frameX="-2" frameY="-3" frameWidth="220" frameHeight="554"/>
-	<SubTexture name="Jack_Micsong3 Right20002" x="0" y="1717" width="209" height="551" frameX="-1" frameY="-3" frameWidth="220" frameHeight="554"/>
-	<SubTexture name="Jack_Micsong3 Right20003" x="249" y="1717" width="205" height="553" frameX="-1" frameY="-1" frameWidth="220" frameHeight="554"/>
-	<SubTexture name="Jack_Micsong3 Right20004" x="494" y="1717" width="202" height="554" frameX="0" frameY="0" frameWidth="220" frameHeight="554"/>
-	<SubTexture name="Jack_Micsong3 Right20005" x="494" y="1717" width="202" height="554" frameX="0" frameY="0" frameWidth="220" frameHeight="554"/>
-	<SubTexture name="Jack_Micsong3 Right20006" x="494" y="1717" width="202" height="554" frameX="0" frameY="0" frameWidth="220" frameHeight="554"/>
-	<SubTexture name="Jack_Micsong3 Right20007" x="494" y="1717" width="202" height="554" frameX="0" frameY="0" frameWidth="220" frameHeight="554"/>
-	<SubTexture name="Jack_Micsong3 Right20008" x="494" y="1717" width="202" height="554" frameX="0" frameY="0" frameWidth="220" frameHeight="554"/>
-	<SubTexture name="Jack_Micsong3 Right20009" x="494" y="1717" width="202" height="554" frameX="0" frameY="0" frameWidth="220" frameHeight="554"/>
-	<SubTexture name="Jack_Micsong3 Right20010" x="494" y="1717" width="202" height="554" frameX="0" frameY="0" frameWidth="220" frameHeight="554"/>
-	<SubTexture name="Jack_Micsong3 Right20011" x="494" y="1717" width="202" height="554" frameX="0" frameY="0" frameWidth="220" frameHeight="554"/>
-	<SubTexture name="Jack_Micsong3 Right20012" x="494" y="1717" width="202" height="554" frameX="0" frameY="0" frameWidth="220" frameHeight="554"/>
-	<SubTexture name="Jack_Micsong3 Right20013" x="494" y="1717" width="202" height="554" frameX="0" frameY="0" frameWidth="220" frameHeight="554"/>
-	<SubTexture name="Jack_Micsong3 Right20014" x="494" y="1717" width="202" height="554" frameX="0" frameY="0" frameWidth="220" frameHeight="554"/>
-	<SubTexture name="Jack_Micsong3 Up0000" x="736" y="1717" width="165" height="567" frameX="0" frameY="0" frameWidth="170" frameHeight="568"/>
-	<SubTexture name="Jack_Micsong3 Up0001" x="941" y="1717" width="165" height="564" frameX="0" frameY="-3" frameWidth="170" frameHeight="568"/>
-	<SubTexture name="Jack_Micsong3 Up0002" x="1146" y="1717" width="170" height="560" frameX="0" frameY="-7" frameWidth="170" frameHeight="568"/>
-	<SubTexture name="Jack_Micsong3 Up0003" x="1356" y="1717" width="170" height="558" frameX="0" frameY="-10" frameWidth="170" frameHeight="568"/>
-	<SubTexture name="Jack_Micsong3 Up0004" x="1356" y="1717" width="170" height="558" frameX="0" frameY="-10" frameWidth="170" frameHeight="568"/>
-	<SubTexture name="Jack_Micsong3 Up0005" x="1356" y="1717" width="170" height="558" frameX="0" frameY="-10" frameWidth="170" frameHeight="568"/>
-	<SubTexture name="Jack_Micsong3 Up0006" x="1356" y="1717" width="170" height="558" frameX="0" frameY="-10" frameWidth="170" frameHeight="568"/>
-	<SubTexture name="Jack_Micsong3 Up0007" x="1356" y="1717" width="170" height="558" frameX="0" frameY="-10" frameWidth="170" frameHeight="568"/>
-	<SubTexture name="Jack_Micsong3 Up0008" x="1356" y="1717" width="170" height="558" frameX="0" frameY="-10" frameWidth="170" frameHeight="568"/>
-	<SubTexture name="Jack_Micsong3 Up0009" x="1356" y="1717" width="170" height="558" frameX="0" frameY="-10" frameWidth="170" frameHeight="568"/>
-	<SubTexture name="Jack_Micsong3 Up0010" x="1356" y="1717" width="170" height="558" frameX="0" frameY="-10" frameWidth="170" frameHeight="568"/>
-	<SubTexture name="Jack_Micsong3 Up0011" x="1356" y="1717" width="170" height="558" frameX="0" frameY="-10" frameWidth="170" frameHeight="568"/>
-	<SubTexture name="Jack_Micsong3 Up0012" x="1356" y="1717" width="170" height="558" frameX="0" frameY="-10" frameWidth="170" frameHeight="568"/>
-	<SubTexture name="Jack_Micsong3 Up0013" x="1356" y="1717" width="170" height="558" frameX="0" frameY="-10" frameWidth="170" frameHeight="568"/>
-	<SubTexture name="Jack_Micsong3 Up0014" x="1356" y="1717" width="170" height="558" frameX="0" frameY="-10" frameWidth="170" frameHeight="568"/>
-	<SubTexture name="Jack_Micsong3 Up2 0000" x="1566" y="1717" width="177" height="545" frameX="-10" frameY="-9" frameWidth="197" frameHeight="555"/>
-	<SubTexture name="Jack_Micsong3 Up2 0001" x="1566" y="1717" width="177" height="545" frameX="-10" frameY="-9" frameWidth="197" frameHeight="555"/>
-	<SubTexture name="Jack_Micsong3 Up2 0002" x="1783" y="1717" width="186" height="554" frameX="-7" frameY="0" frameWidth="197" frameHeight="555"/>
-	<SubTexture name="Jack_Micsong3 Up2 0003" x="0" y="2324" width="197" height="553" frameX="0" frameY="-1" frameWidth="197" frameHeight="555"/>
-	<SubTexture name="Jack_Micsong3 Up2 0004" x="237" y="2324" width="197" height="551" frameX="0" frameY="-4" frameWidth="197" frameHeight="555"/>
-	<SubTexture name="Jack_Micsong3 Up2 0005" x="237" y="2324" width="197" height="551" frameX="0" frameY="-4" frameWidth="197" frameHeight="555"/>
-	<SubTexture name="Jack_Micsong3 Up2 0006" x="237" y="2324" width="197" height="551" frameX="0" frameY="-4" frameWidth="197" frameHeight="555"/>
-	<SubTexture name="Jack_Micsong3 Up2 0007" x="237" y="2324" width="197" height="551" frameX="0" frameY="-4" frameWidth="197" frameHeight="555"/>
-	<SubTexture name="Jack_Micsong3 Up2 0008" x="237" y="2324" width="197" height="551" frameX="0" frameY="-4" frameWidth="197" frameHeight="555"/>
-	<SubTexture name="Jack_Micsong3 Up2 0009" x="237" y="2324" width="197" height="551" frameX="0" frameY="-4" frameWidth="197" frameHeight="555"/>
-	<SubTexture name="Jack_Micsong3 Up2 0010" x="237" y="2324" width="197" height="551" frameX="0" frameY="-4" frameWidth="197" frameHeight="555"/>
-	<SubTexture name="Jack_Micsong3 Up2 0011" x="237" y="2324" width="197" height="551" frameX="0" frameY="-4" frameWidth="197" frameHeight="555"/>
-	<SubTexture name="Jack_Micsong3 Up2 0012" x="237" y="2324" width="197" height="551" frameX="0" frameY="-4" frameWidth="197" frameHeight="555"/>
-	<SubTexture name="Jack_Micsong3 Up2 0013" x="237" y="2324" width="197" height="551" frameX="0" frameY="-4" frameWidth="197" frameHeight="555"/>
-	<SubTexture name="Jack_Micsong3 Up2 0014" x="237" y="2324" width="197" height="551" frameX="0" frameY="-4" frameWidth="197" frameHeight="555"/>
-	<SubTexture name="Jack_Micsong3 Up2 0015" x="237" y="2324" width="197" height="551" frameX="0" frameY="-4" frameWidth="197" frameHeight="555"/>
-	<SubTexture name="Jack_Micsong3 down3  0000" x="474" y="2324" width="278" height="484" frameX="-7" frameY="-15" frameWidth="290" frameHeight="499"/>
-	<SubTexture name="Jack_Micsong3 down3  0001" x="474" y="2324" width="278" height="484" frameX="-7" frameY="-15" frameWidth="290" frameHeight="499"/>
-	<SubTexture name="Jack_Micsong3 down3  0002" x="792" y="2324" width="284" height="494" frameX="-6" frameY="-5" frameWidth="290" frameHeight="499"/>
-	<SubTexture name="Jack_Micsong3 down3  0003" x="1116" y="2324" width="285" height="496" frameX="-4" frameY="-2" frameWidth="290" frameHeight="499"/>
-	<SubTexture name="Jack_Micsong3 down3  0004" x="1441" y="2324" width="289" height="498" frameX="0" frameY="0" frameWidth="290" frameHeight="499"/>
-	<SubTexture name="Jack_Micsong3 down3  0005" x="1441" y="2324" width="289" height="498" frameX="0" frameY="0" frameWidth="290" frameHeight="499"/>
-	<SubTexture name="Jack_Micsong3 down3  0006" x="1441" y="2324" width="289" height="498" frameX="0" frameY="0" frameWidth="290" frameHeight="499"/>
-	<SubTexture name="Jack_Micsong3 down3  0007" x="1441" y="2324" width="289" height="498" frameX="0" frameY="0" frameWidth="290" frameHeight="499"/>
-	<SubTexture name="Jack_Micsong3 down3  0008" x="1441" y="2324" width="289" height="498" frameX="0" frameY="0" frameWidth="290" frameHeight="499"/>
-	<SubTexture name="Jack_Micsong3 down3  0009" x="1441" y="2324" width="289" height="498" frameX="0" frameY="0" frameWidth="290" frameHeight="499"/>
-	<SubTexture name="Jack_Micsong3 down3  0010" x="1441" y="2324" width="289" height="498" frameX="0" frameY="0" frameWidth="290" frameHeight="499"/>
-	<SubTexture name="Jack_Micsong3 down3  0011" x="1441" y="2324" width="289" height="498" frameX="0" frameY="0" frameWidth="290" frameHeight="499"/>
-	<SubTexture name="Jack_Micsong3 down3  0012" x="1441" y="2324" width="289" height="498" frameX="0" frameY="0" frameWidth="290" frameHeight="499"/>
-	<SubTexture name="Jack_Micsong3 down3  0013" x="1441" y="2324" width="289" height="498" frameX="0" frameY="0" frameWidth="290" frameHeight="499"/>
-	<SubTexture name="Jack_Micsong3 down3  0014" x="1441" y="2324" width="289" height="498" frameX="0" frameY="0" frameWidth="290" frameHeight="499"/>
-	<SubTexture name="Jack_Micsong3 right30000" x="1770" y="2324" width="260" height="546" frameX="-20" frameY="-3" frameWidth="280" frameHeight="549"/>
-	<SubTexture name="Jack_Micsong3 right30001" x="1770" y="2324" width="260" height="546" frameX="-20" frameY="-3" frameWidth="280" frameHeight="549"/>
-	<SubTexture name="Jack_Micsong3 right30002" x="0" y="2917" width="245" height="549" frameX="-12" frameY="0" frameWidth="280" frameHeight="549"/>
-	<SubTexture name="Jack_Micsong3 right30003" x="285" y="2917" width="244" height="549" frameX="-6" frameY="0" frameWidth="280" frameHeight="549"/>
-	<SubTexture name="Jack_Micsong3 right30004" x="569" y="2917" width="245" height="549" frameX="0" frameY="0" frameWidth="280" frameHeight="549"/>
-	<SubTexture name="Jack_Micsong3 right30005" x="569" y="2917" width="245" height="549" frameX="0" frameY="0" frameWidth="280" frameHeight="549"/>
-	<SubTexture name="Jack_Micsong3 right30006" x="569" y="2917" width="245" height="549" frameX="0" frameY="0" frameWidth="280" frameHeight="549"/>
-	<SubTexture name="Jack_Micsong3 right30007" x="569" y="2917" width="245" height="549" frameX="0" frameY="0" frameWidth="280" frameHeight="549"/>
-	<SubTexture name="Jack_Micsong3 right30008" x="569" y="2917" width="245" height="549" frameX="0" frameY="0" frameWidth="280" frameHeight="549"/>
-	<SubTexture name="Jack_Micsong3 right30009" x="569" y="2917" width="245" height="549" frameX="0" frameY="0" frameWidth="280" frameHeight="549"/>
-	<SubTexture name="Jack_Micsong3 right30010" x="569" y="2917" width="245" height="549" frameX="0" frameY="0" frameWidth="280" frameHeight="549"/>
-	<SubTexture name="Jack_Micsong3 right30011" x="569" y="2917" width="245" height="549" frameX="0" frameY="0" frameWidth="280" frameHeight="549"/>
-	<SubTexture name="Jack_Micsong3 right30012" x="569" y="2917" width="245" height="549" frameX="0" frameY="0" frameWidth="280" frameHeight="549"/>
-	<SubTexture name="Jack_Micsong3 right30013" x="569" y="2917" width="245" height="549" frameX="0" frameY="0" frameWidth="280" frameHeight="549"/>
-	<SubTexture name="Jack_Micsong3 right30014" x="569" y="2917" width="245" height="549" frameX="0" frameY="0" frameWidth="280" frameHeight="549"/>
-	<SubTexture name="Jack_Micsong3 up3 0000" x="854" y="2917" width="240" height="574" frameX="0" frameY="0" frameWidth="240" frameHeight="576"/>
-	<SubTexture name="Jack_Micsong3 up3 0001" x="854" y="2917" width="240" height="574" frameX="0" frameY="0" frameWidth="240" frameHeight="576"/>
-	<SubTexture name="Jack_Micsong3 up3 0002" x="1134" y="2917" width="240" height="571" frameX="0" frameY="-4" frameWidth="240" frameHeight="576"/>
-	<SubTexture name="Jack_Micsong3 up3 0003" x="1414" y="2917" width="240" height="569" frameX="0" frameY="-6" frameWidth="240" frameHeight="576"/>
-	<SubTexture name="Jack_Micsong3 up3 0004" x="1694" y="2917" width="240" height="566" frameX="0" frameY="-10" frameWidth="240" frameHeight="576"/>
-	<SubTexture name="Jack_Micsong3 up3 0005" x="1694" y="2917" width="240" height="566" frameX="0" frameY="-10" frameWidth="240" frameHeight="576"/>
-	<SubTexture name="Jack_Micsong3 up3 0006" x="1694" y="2917" width="240" height="566" frameX="0" frameY="-10" frameWidth="240" frameHeight="576"/>
-	<SubTexture name="Jack_Micsong3 up3 0007" x="1694" y="2917" width="240" height="566" frameX="0" frameY="-10" frameWidth="240" frameHeight="576"/>
-	<SubTexture name="Jack_Micsong3 up3 0008" x="1694" y="2917" width="240" height="566" frameX="0" frameY="-10" frameWidth="240" frameHeight="576"/>
-	<SubTexture name="Jack_Micsong3 up3 0009" x="1694" y="2917" width="240" height="566" frameX="0" frameY="-10" frameWidth="240" frameHeight="576"/>
-	<SubTexture name="Jack_Micsong3 up3 0010" x="1694" y="2917" width="240" height="566" frameX="0" frameY="-10" frameWidth="240" frameHeight="576"/>
-	<SubTexture name="Jack_Micsong3 up3 0011" x="1694" y="2917" width="240" height="566" frameX="0" frameY="-10" frameWidth="240" frameHeight="576"/>
-	<SubTexture name="Jack_Micsong3 up3 0012" x="1694" y="2917" width="240" height="566" frameX="0" frameY="-10" frameWidth="240" frameHeight="576"/>
-	<SubTexture name="Jack_Micsong3 up3 0013" x="1694" y="2917" width="240" height="566" frameX="0" frameY="-10" frameWidth="240" frameHeight="576"/>
-	<SubTexture name="Jack_Micsong3 up3 0014" x="1694" y="2917" width="240" height="566" frameX="0" frameY="-10" frameWidth="240" frameHeight="576"/>
-	<SubTexture name="Jack_idleMicsong30000" x="0" y="3531" width="192" height="532" frameX="-2" frameY="-9" frameWidth="194" frameHeight="541"/>
-	<SubTexture name="Jack_idleMicsong30001" x="232" y="3531" width="189" height="534" frameX="-2" frameY="-7" frameWidth="194" frameHeight="541"/>
-	<SubTexture name="Jack_idleMicsong30002" x="232" y="3531" width="189" height="534" frameX="-2" frameY="-7" frameWidth="194" frameHeight="541"/>
-	<SubTexture name="Jack_idleMicsong30003" x="461" y="3531" width="185" height="540" frameX="0" frameY="-1" frameWidth="194" frameHeight="541"/>
-	<SubTexture name="Jack_idleMicsong30004" x="461" y="3531" width="185" height="540" frameX="0" frameY="-1" frameWidth="194" frameHeight="541"/>
-	<SubTexture name="Jack_idleMicsong30005" x="686" y="3531" width="184" height="540" frameX="0" frameY="0" frameWidth="194" frameHeight="541"/>
-	<SubTexture name="Jack_idleMicsong30006" x="686" y="3531" width="184" height="540" frameX="0" frameY="0" frameWidth="194" frameHeight="541"/>
-	<SubTexture name="Jack_idleMicsong30007" x="686" y="3531" width="184" height="540" frameX="0" frameY="0" frameWidth="194" frameHeight="541"/>
-	<SubTexture name="Jack_idleMicsong30008" x="686" y="3531" width="184" height="540" frameX="0" frameY="0" frameWidth="194" frameHeight="541"/>
-	<SubTexture name="Jack_idleMicsong30009" x="686" y="3531" width="184" height="540" frameX="0" frameY="0" frameWidth="194" frameHeight="541"/>
-	<SubTexture name="Jack_idleMicsong30010" x="686" y="3531" width="184" height="540" frameX="0" frameY="0" frameWidth="194" frameHeight="541"/>
-	<SubTexture name="Jack_idleMicsong30011" x="686" y="3531" width="184" height="540" frameX="0" frameY="0" frameWidth="194" frameHeight="541"/>
-	<SubTexture name="Jack_idleMicsong30012" x="686" y="3531" width="184" height="540" frameX="0" frameY="0" frameWidth="194" frameHeight="541"/>
-	<SubTexture name="Jack_idleMicsong30013" x="686" y="3531" width="184" height="540" frameX="0" frameY="0" frameWidth="194" frameHeight="541"/>
-	<SubTexture name="Jack_idleMicsong30014" x="686" y="3531" width="184" height="540" frameX="0" frameY="0" frameWidth="194" frameHeight="541"/>
+	<SubTexture name="Jack_Down not mad0000" x="0" y="0" width="247" height="470" frameX="0" frameY="-15" frameWidth="247" frameHeight="485"/>
+	<SubTexture name="Jack_Down not mad0001" x="287" y="0" width="234" height="475" frameX="-5" frameY="-9" frameWidth="247" frameHeight="485"/>
+	<SubTexture name="Jack_Down not mad0002" x="561" y="0" width="227" height="480" frameX="-5" frameY="-3" frameWidth="247" frameHeight="485"/>
+	<SubTexture name="Jack_Down not mad0003" x="828" y="0" width="225" height="483" frameX="-7" frameY="0" frameWidth="247" frameHeight="485"/>
+	<SubTexture name="Jack_Down not mad0004" x="828" y="0" width="225" height="483" frameX="-7" frameY="0" frameWidth="247" frameHeight="485"/>
+	<SubTexture name="Jack_Down not mad0005" x="828" y="0" width="225" height="483" frameX="-7" frameY="0" frameWidth="247" frameHeight="485"/>
+	<SubTexture name="Jack_Down not mad0006" x="828" y="0" width="225" height="483" frameX="-7" frameY="0" frameWidth="247" frameHeight="485"/>
+	<SubTexture name="Jack_Down not mad0007" x="828" y="0" width="225" height="483" frameX="-7" frameY="0" frameWidth="247" frameHeight="485"/>
+	<SubTexture name="Jack_Down not mad0008" x="828" y="0" width="225" height="483" frameX="-7" frameY="0" frameWidth="247" frameHeight="485"/>
+	<SubTexture name="Jack_Down not mad0009" x="828" y="0" width="225" height="483" frameX="-7" frameY="0" frameWidth="247" frameHeight="485"/>
+	<SubTexture name="Jack_Down not mad0010" x="828" y="0" width="225" height="483" frameX="-7" frameY="0" frameWidth="247" frameHeight="485"/>
+	<SubTexture name="Jack_Down not mad0011" x="828" y="0" width="225" height="483" frameX="-7" frameY="0" frameWidth="247" frameHeight="485"/>
+	<SubTexture name="Jack_Down not mad0012" x="828" y="0" width="225" height="483" frameX="-7" frameY="0" frameWidth="247" frameHeight="485"/>
+	<SubTexture name="Jack_Down not mad0013" x="828" y="0" width="225" height="483" frameX="-7" frameY="0" frameWidth="247" frameHeight="485"/>
+	<SubTexture name="Jack_Down not mad0014" x="828" y="0" width="225" height="483" frameX="-7" frameY="0" frameWidth="247" frameHeight="485"/>
+	<SubTexture name="Jack_Left not mad0000" x="1093" y="0" width="175" height="537" frameX="0" frameY="-1" frameWidth="189" frameHeight="538"/>
+	<SubTexture name="Jack_Left not mad0001" x="1093" y="0" width="175" height="537" frameX="0" frameY="-1" frameWidth="189" frameHeight="538"/>
+	<SubTexture name="Jack_Left not mad0002" x="1308" y="0" width="170" height="538" frameX="-14" frameY="0" frameWidth="189" frameHeight="538"/>
+	<SubTexture name="Jack_Left not mad0003" x="1518" y="0" width="166" height="538" frameX="-22" frameY="0" frameWidth="189" frameHeight="538"/>
+	<SubTexture name="Jack_Left not mad0004" x="1724" y="0" width="163" height="538" frameX="-26" frameY="0" frameWidth="189" frameHeight="538"/>
+	<SubTexture name="Jack_Left not mad0005" x="1724" y="0" width="163" height="538" frameX="-26" frameY="0" frameWidth="189" frameHeight="538"/>
+	<SubTexture name="Jack_Left not mad0006" x="1724" y="0" width="163" height="538" frameX="-26" frameY="0" frameWidth="189" frameHeight="538"/>
+	<SubTexture name="Jack_Left not mad0007" x="1724" y="0" width="163" height="538" frameX="-26" frameY="0" frameWidth="189" frameHeight="538"/>
+	<SubTexture name="Jack_Left not mad0008" x="1724" y="0" width="163" height="538" frameX="-26" frameY="0" frameWidth="189" frameHeight="538"/>
+	<SubTexture name="Jack_Left not mad0009" x="1724" y="0" width="163" height="538" frameX="-26" frameY="0" frameWidth="189" frameHeight="538"/>
+	<SubTexture name="Jack_Left not mad0010" x="1724" y="0" width="163" height="538" frameX="-26" frameY="0" frameWidth="189" frameHeight="538"/>
+	<SubTexture name="Jack_Left not mad0011" x="1724" y="0" width="163" height="538" frameX="-26" frameY="0" frameWidth="189" frameHeight="538"/>
+	<SubTexture name="Jack_Left not mad0012" x="1724" y="0" width="163" height="538" frameX="-26" frameY="0" frameWidth="189" frameHeight="538"/>
+	<SubTexture name="Jack_Left not mad0013" x="1724" y="0" width="163" height="538" frameX="-26" frameY="0" frameWidth="189" frameHeight="538"/>
+	<SubTexture name="Jack_Left not mad0014" x="1724" y="0" width="163" height="538" frameX="-26" frameY="0" frameWidth="189" frameHeight="538"/>
+	<SubTexture name="Jack_Micsong3 Down0000" x="1927" y="0" width="174" height="478" frameX="0" frameY="-16" frameWidth="174" frameHeight="494"/>
+	<SubTexture name="Jack_Micsong3 Down0001" x="2141" y="0" width="174" height="487" frameX="0" frameY="-6" frameWidth="174" frameHeight="494"/>
+	<SubTexture name="Jack_Micsong3 Down0002" x="2355" y="0" width="174" height="492" frameX="0" frameY="-1" frameWidth="174" frameHeight="494"/>
+	<SubTexture name="Jack_Micsong3 Down0003" x="2569" y="0" width="174" height="493" frameX="0" frameY="0" frameWidth="174" frameHeight="494"/>
+	<SubTexture name="Jack_Micsong3 Down0004" x="2569" y="0" width="174" height="493" frameX="0" frameY="0" frameWidth="174" frameHeight="494"/>
+	<SubTexture name="Jack_Micsong3 Down0005" x="2569" y="0" width="174" height="493" frameX="0" frameY="0" frameWidth="174" frameHeight="494"/>
+	<SubTexture name="Jack_Micsong3 Down0006" x="2569" y="0" width="174" height="493" frameX="0" frameY="0" frameWidth="174" frameHeight="494"/>
+	<SubTexture name="Jack_Micsong3 Down0007" x="2569" y="0" width="174" height="493" frameX="0" frameY="0" frameWidth="174" frameHeight="494"/>
+	<SubTexture name="Jack_Micsong3 Down0008" x="2569" y="0" width="174" height="493" frameX="0" frameY="0" frameWidth="174" frameHeight="494"/>
+	<SubTexture name="Jack_Micsong3 Down0009" x="2569" y="0" width="174" height="493" frameX="0" frameY="0" frameWidth="174" frameHeight="494"/>
+	<SubTexture name="Jack_Micsong3 Down0010" x="2569" y="0" width="174" height="493" frameX="0" frameY="0" frameWidth="174" frameHeight="494"/>
+	<SubTexture name="Jack_Micsong3 Down0011" x="2569" y="0" width="174" height="493" frameX="0" frameY="0" frameWidth="174" frameHeight="494"/>
+	<SubTexture name="Jack_Micsong3 Down0012" x="2569" y="0" width="174" height="493" frameX="0" frameY="0" frameWidth="174" frameHeight="494"/>
+	<SubTexture name="Jack_Micsong3 Down0013" x="2569" y="0" width="174" height="493" frameX="0" frameY="0" frameWidth="174" frameHeight="494"/>
+	<SubTexture name="Jack_Micsong3 Down0014" x="2569" y="0" width="174" height="493" frameX="0" frameY="0" frameWidth="174" frameHeight="494"/>
+	<SubTexture name="Jack_Micsong3 Left0000" x="2783" y="0" width="165" height="541" frameX="0" frameY="0" frameWidth="180" frameHeight="541"/>
+	<SubTexture name="Jack_Micsong3 Left0001" x="2988" y="0" width="159" height="541" frameX="-7" frameY="0" frameWidth="180" frameHeight="541"/>
+	<SubTexture name="Jack_Micsong3 Left0002" x="2988" y="0" width="159" height="541" frameX="-7" frameY="0" frameWidth="180" frameHeight="541"/>
+	<SubTexture name="Jack_Micsong3 Left0003" x="3187" y="0" width="159" height="541" frameX="-17" frameY="0" frameWidth="180" frameHeight="541"/>
+	<SubTexture name="Jack_Micsong3 Left0004" x="3187" y="0" width="159" height="541" frameX="-17" frameY="0" frameWidth="180" frameHeight="541"/>
+	<SubTexture name="Jack_Micsong3 Left0005" x="3386" y="0" width="158" height="541" frameX="-22" frameY="0" frameWidth="180" frameHeight="541"/>
+	<SubTexture name="Jack_Micsong3 Left0006" x="3386" y="0" width="158" height="541" frameX="-22" frameY="0" frameWidth="180" frameHeight="541"/>
+	<SubTexture name="Jack_Micsong3 Left0007" x="3386" y="0" width="158" height="541" frameX="-22" frameY="0" frameWidth="180" frameHeight="541"/>
+	<SubTexture name="Jack_Micsong3 Left0008" x="3386" y="0" width="158" height="541" frameX="-22" frameY="0" frameWidth="180" frameHeight="541"/>
+	<SubTexture name="Jack_Micsong3 Left0009" x="3386" y="0" width="158" height="541" frameX="-22" frameY="0" frameWidth="180" frameHeight="541"/>
+	<SubTexture name="Jack_Micsong3 Left0010" x="3386" y="0" width="158" height="541" frameX="-22" frameY="0" frameWidth="180" frameHeight="541"/>
+	<SubTexture name="Jack_Micsong3 Left0011" x="3386" y="0" width="158" height="541" frameX="-22" frameY="0" frameWidth="180" frameHeight="541"/>
+	<SubTexture name="Jack_Micsong3 Left0012" x="3386" y="0" width="158" height="541" frameX="-22" frameY="0" frameWidth="180" frameHeight="541"/>
+	<SubTexture name="Jack_Micsong3 Left0013" x="3386" y="0" width="158" height="541" frameX="-22" frameY="0" frameWidth="180" frameHeight="541"/>
+	<SubTexture name="Jack_Micsong3 Left0014" x="3386" y="0" width="158" height="541" frameX="-22" frameY="0" frameWidth="180" frameHeight="541"/>
+	<SubTexture name="Jack_Micsong3 Left0015" x="3386" y="0" width="158" height="541" frameX="-22" frameY="0" frameWidth="180" frameHeight="541"/>
+	<SubTexture name="Jack_Micsong3 Left0016" x="3386" y="0" width="158" height="541" frameX="-22" frameY="0" frameWidth="180" frameHeight="541"/>
+	<SubTexture name="Jack_Micsong3 Right0000" x="3584" y="0" width="212" height="528" frameX="-2" frameY="0" frameWidth="214" frameHeight="528"/>
+	<SubTexture name="Jack_Micsong3 Right0001" x="3836" y="0" width="199" height="528" frameX="-1" frameY="0" frameWidth="214" frameHeight="528"/>
+	<SubTexture name="Jack_Micsong3 Right0002" x="0" y="581" width="181" height="527" frameX="0" frameY="-1" frameWidth="214" frameHeight="528"/>
+	<SubTexture name="Jack_Micsong3 Right0003" x="221" y="581" width="174" height="527" frameX="0" frameY="-1" frameWidth="214" frameHeight="528"/>
+	<SubTexture name="Jack_Micsong3 Right0004" x="221" y="581" width="174" height="527" frameX="0" frameY="-1" frameWidth="214" frameHeight="528"/>
+	<SubTexture name="Jack_Micsong3 Right0005" x="221" y="581" width="174" height="527" frameX="0" frameY="-1" frameWidth="214" frameHeight="528"/>
+	<SubTexture name="Jack_Micsong3 Right0006" x="221" y="581" width="174" height="527" frameX="0" frameY="-1" frameWidth="214" frameHeight="528"/>
+	<SubTexture name="Jack_Micsong3 Right0007" x="221" y="581" width="174" height="527" frameX="0" frameY="-1" frameWidth="214" frameHeight="528"/>
+	<SubTexture name="Jack_Micsong3 Right0008" x="221" y="581" width="174" height="527" frameX="0" frameY="-1" frameWidth="214" frameHeight="528"/>
+	<SubTexture name="Jack_Micsong3 Right0009" x="221" y="581" width="174" height="527" frameX="0" frameY="-1" frameWidth="214" frameHeight="528"/>
+	<SubTexture name="Jack_Micsong3 Right0010" x="221" y="581" width="174" height="527" frameX="0" frameY="-1" frameWidth="214" frameHeight="528"/>
+	<SubTexture name="Jack_Micsong3 Right0011" x="221" y="581" width="174" height="527" frameX="0" frameY="-1" frameWidth="214" frameHeight="528"/>
+	<SubTexture name="Jack_Micsong3 Right0012" x="221" y="581" width="174" height="527" frameX="0" frameY="-1" frameWidth="214" frameHeight="528"/>
+	<SubTexture name="Jack_Micsong3 Right0013" x="221" y="581" width="174" height="527" frameX="0" frameY="-1" frameWidth="214" frameHeight="528"/>
+	<SubTexture name="Jack_Micsong3 Right0014" x="221" y="581" width="174" height="527" frameX="0" frameY="-1" frameWidth="214" frameHeight="528"/>
+	<SubTexture name="Jack_Micsong3 Up0000" x="435" y="581" width="165" height="567" frameX="0" frameY="0" frameWidth="170" frameHeight="568"/>
+	<SubTexture name="Jack_Micsong3 Up0001" x="640" y="581" width="165" height="564" frameX="0" frameY="-3" frameWidth="170" frameHeight="568"/>
+	<SubTexture name="Jack_Micsong3 Up0002" x="845" y="581" width="170" height="560" frameX="0" frameY="-7" frameWidth="170" frameHeight="568"/>
+	<SubTexture name="Jack_Micsong3 Up0003" x="1055" y="581" width="170" height="558" frameX="0" frameY="-10" frameWidth="170" frameHeight="568"/>
+	<SubTexture name="Jack_Micsong3 Up0004" x="1055" y="581" width="170" height="558" frameX="0" frameY="-10" frameWidth="170" frameHeight="568"/>
+	<SubTexture name="Jack_Micsong3 Up0005" x="1055" y="581" width="170" height="558" frameX="0" frameY="-10" frameWidth="170" frameHeight="568"/>
+	<SubTexture name="Jack_Micsong3 Up0006" x="1055" y="581" width="170" height="558" frameX="0" frameY="-10" frameWidth="170" frameHeight="568"/>
+	<SubTexture name="Jack_Micsong3 Up0007" x="1055" y="581" width="170" height="558" frameX="0" frameY="-10" frameWidth="170" frameHeight="568"/>
+	<SubTexture name="Jack_Micsong3 Up0008" x="1055" y="581" width="170" height="558" frameX="0" frameY="-10" frameWidth="170" frameHeight="568"/>
+	<SubTexture name="Jack_Micsong3 Up0009" x="1055" y="581" width="170" height="558" frameX="0" frameY="-10" frameWidth="170" frameHeight="568"/>
+	<SubTexture name="Jack_Micsong3 Up0010" x="1055" y="581" width="170" height="558" frameX="0" frameY="-10" frameWidth="170" frameHeight="568"/>
+	<SubTexture name="Jack_Micsong3 Up0011" x="1055" y="581" width="170" height="558" frameX="0" frameY="-10" frameWidth="170" frameHeight="568"/>
+	<SubTexture name="Jack_Micsong3 Up0012" x="1055" y="581" width="170" height="558" frameX="0" frameY="-10" frameWidth="170" frameHeight="568"/>
+	<SubTexture name="Jack_Micsong3 Up0013" x="1055" y="581" width="170" height="558" frameX="0" frameY="-10" frameWidth="170" frameHeight="568"/>
+	<SubTexture name="Jack_Micsong3 Up0014" x="1055" y="581" width="170" height="558" frameX="0" frameY="-10" frameWidth="170" frameHeight="568"/>
+	<SubTexture name="Jack_Right not mad0000" x="1265" y="581" width="218" height="551" frameX="-2" frameY="-3" frameWidth="220" frameHeight="554"/>
+	<SubTexture name="Jack_Right not mad0001" x="1265" y="581" width="218" height="551" frameX="-2" frameY="-3" frameWidth="220" frameHeight="554"/>
+	<SubTexture name="Jack_Right not mad0002" x="1523" y="581" width="209" height="551" frameX="-1" frameY="-3" frameWidth="220" frameHeight="554"/>
+	<SubTexture name="Jack_Right not mad0003" x="1772" y="581" width="205" height="553" frameX="-1" frameY="-1" frameWidth="220" frameHeight="554"/>
+	<SubTexture name="Jack_Right not mad0004" x="2017" y="581" width="202" height="554" frameX="0" frameY="0" frameWidth="220" frameHeight="554"/>
+	<SubTexture name="Jack_Right not mad0005" x="2017" y="581" width="202" height="554" frameX="0" frameY="0" frameWidth="220" frameHeight="554"/>
+	<SubTexture name="Jack_Right not mad0006" x="2017" y="581" width="202" height="554" frameX="0" frameY="0" frameWidth="220" frameHeight="554"/>
+	<SubTexture name="Jack_Right not mad0007" x="2017" y="581" width="202" height="554" frameX="0" frameY="0" frameWidth="220" frameHeight="554"/>
+	<SubTexture name="Jack_Right not mad0008" x="2017" y="581" width="202" height="554" frameX="0" frameY="0" frameWidth="220" frameHeight="554"/>
+	<SubTexture name="Jack_Right not mad0009" x="2017" y="581" width="202" height="554" frameX="0" frameY="0" frameWidth="220" frameHeight="554"/>
+	<SubTexture name="Jack_Right not mad0010" x="2017" y="581" width="202" height="554" frameX="0" frameY="0" frameWidth="220" frameHeight="554"/>
+	<SubTexture name="Jack_Right not mad0011" x="2017" y="581" width="202" height="554" frameX="0" frameY="0" frameWidth="220" frameHeight="554"/>
+	<SubTexture name="Jack_Right not mad0012" x="2017" y="581" width="202" height="554" frameX="0" frameY="0" frameWidth="220" frameHeight="554"/>
+	<SubTexture name="Jack_Right not mad0013" x="2017" y="581" width="202" height="554" frameX="0" frameY="0" frameWidth="220" frameHeight="554"/>
+	<SubTexture name="Jack_Right not mad0014" x="2017" y="581" width="202" height="554" frameX="0" frameY="0" frameWidth="220" frameHeight="554"/>
+	<SubTexture name="Jack_Up not mad0000" x="2259" y="581" width="177" height="545" frameX="-10" frameY="-9" frameWidth="197" frameHeight="555"/>
+	<SubTexture name="Jack_Up not mad0001" x="2259" y="581" width="177" height="545" frameX="-10" frameY="-9" frameWidth="197" frameHeight="555"/>
+	<SubTexture name="Jack_Up not mad0002" x="2476" y="581" width="186" height="554" frameX="-7" frameY="0" frameWidth="197" frameHeight="555"/>
+	<SubTexture name="Jack_Up not mad0003" x="2702" y="581" width="197" height="553" frameX="0" frameY="-1" frameWidth="197" frameHeight="555"/>
+	<SubTexture name="Jack_Up not mad0004" x="2939" y="581" width="197" height="551" frameX="0" frameY="-4" frameWidth="197" frameHeight="555"/>
+	<SubTexture name="Jack_Up not mad0005" x="2939" y="581" width="197" height="551" frameX="0" frameY="-4" frameWidth="197" frameHeight="555"/>
+	<SubTexture name="Jack_Up not mad0006" x="2939" y="581" width="197" height="551" frameX="0" frameY="-4" frameWidth="197" frameHeight="555"/>
+	<SubTexture name="Jack_Up not mad0007" x="2939" y="581" width="197" height="551" frameX="0" frameY="-4" frameWidth="197" frameHeight="555"/>
+	<SubTexture name="Jack_Up not mad0008" x="2939" y="581" width="197" height="551" frameX="0" frameY="-4" frameWidth="197" frameHeight="555"/>
+	<SubTexture name="Jack_Up not mad0009" x="2939" y="581" width="197" height="551" frameX="0" frameY="-4" frameWidth="197" frameHeight="555"/>
+	<SubTexture name="Jack_Up not mad0010" x="2939" y="581" width="197" height="551" frameX="0" frameY="-4" frameWidth="197" frameHeight="555"/>
+	<SubTexture name="Jack_Up not mad0011" x="2939" y="581" width="197" height="551" frameX="0" frameY="-4" frameWidth="197" frameHeight="555"/>
+	<SubTexture name="Jack_Up not mad0012" x="2939" y="581" width="197" height="551" frameX="0" frameY="-4" frameWidth="197" frameHeight="555"/>
+	<SubTexture name="Jack_Up not mad0013" x="2939" y="581" width="197" height="551" frameX="0" frameY="-4" frameWidth="197" frameHeight="555"/>
+	<SubTexture name="Jack_Up not mad0014" x="2939" y="581" width="197" height="551" frameX="0" frameY="-4" frameWidth="197" frameHeight="555"/>
+	<SubTexture name="Jack_Up not mad0015" x="2939" y="581" width="197" height="551" frameX="0" frameY="-4" frameWidth="197" frameHeight="555"/>
+	<SubTexture name="Jack_down mad0000" x="3176" y="581" width="277" height="484" frameX="-7" frameY="-15" frameWidth="289" frameHeight="499"/>
+	<SubTexture name="Jack_down mad0001" x="3176" y="581" width="277" height="484" frameX="-7" frameY="-15" frameWidth="289" frameHeight="499"/>
+	<SubTexture name="Jack_down mad0002" x="3493" y="581" width="283" height="494" frameX="-6" frameY="-5" frameWidth="289" frameHeight="499"/>
+	<SubTexture name="Jack_down mad0003" x="0" y="1188" width="284" height="496" frameX="-4" frameY="-2" frameWidth="289" frameHeight="499"/>
+	<SubTexture name="Jack_down mad0004" x="324" y="1188" width="289" height="498" frameX="0" frameY="0" frameWidth="289" frameHeight="499"/>
+	<SubTexture name="Jack_down mad0005" x="324" y="1188" width="289" height="498" frameX="0" frameY="0" frameWidth="289" frameHeight="499"/>
+	<SubTexture name="Jack_down mad0006" x="324" y="1188" width="289" height="498" frameX="0" frameY="0" frameWidth="289" frameHeight="499"/>
+	<SubTexture name="Jack_down mad0007" x="324" y="1188" width="289" height="498" frameX="0" frameY="0" frameWidth="289" frameHeight="499"/>
+	<SubTexture name="Jack_down mad0008" x="324" y="1188" width="289" height="498" frameX="0" frameY="0" frameWidth="289" frameHeight="499"/>
+	<SubTexture name="Jack_down mad0009" x="324" y="1188" width="289" height="498" frameX="0" frameY="0" frameWidth="289" frameHeight="499"/>
+	<SubTexture name="Jack_down mad0010" x="324" y="1188" width="289" height="498" frameX="0" frameY="0" frameWidth="289" frameHeight="499"/>
+	<SubTexture name="Jack_down mad0011" x="324" y="1188" width="289" height="498" frameX="0" frameY="0" frameWidth="289" frameHeight="499"/>
+	<SubTexture name="Jack_down mad0012" x="324" y="1188" width="289" height="498" frameX="0" frameY="0" frameWidth="289" frameHeight="499"/>
+	<SubTexture name="Jack_down mad0013" x="324" y="1188" width="289" height="498" frameX="0" frameY="0" frameWidth="289" frameHeight="499"/>
+	<SubTexture name="Jack_down mad0014" x="324" y="1188" width="289" height="498" frameX="0" frameY="0" frameWidth="289" frameHeight="499"/>
+	<SubTexture name="Jack_idleMicsong30000" x="653" y="1188" width="192" height="532" frameX="-2" frameY="-9" frameWidth="194" frameHeight="541"/>
+	<SubTexture name="Jack_idleMicsong30001" x="885" y="1188" width="189" height="534" frameX="-2" frameY="-7" frameWidth="194" frameHeight="541"/>
+	<SubTexture name="Jack_idleMicsong30002" x="885" y="1188" width="189" height="534" frameX="-2" frameY="-7" frameWidth="194" frameHeight="541"/>
+	<SubTexture name="Jack_idleMicsong30003" x="1114" y="1188" width="185" height="540" frameX="0" frameY="-1" frameWidth="194" frameHeight="541"/>
+	<SubTexture name="Jack_idleMicsong30004" x="1114" y="1188" width="185" height="540" frameX="0" frameY="-1" frameWidth="194" frameHeight="541"/>
+	<SubTexture name="Jack_idleMicsong30005" x="1339" y="1188" width="185" height="540" frameX="0" frameY="0" frameWidth="194" frameHeight="541"/>
+	<SubTexture name="Jack_idleMicsong30006" x="1339" y="1188" width="185" height="540" frameX="0" frameY="0" frameWidth="194" frameHeight="541"/>
+	<SubTexture name="Jack_idleMicsong30007" x="1339" y="1188" width="185" height="540" frameX="0" frameY="0" frameWidth="194" frameHeight="541"/>
+	<SubTexture name="Jack_idleMicsong30008" x="1339" y="1188" width="185" height="540" frameX="0" frameY="0" frameWidth="194" frameHeight="541"/>
+	<SubTexture name="Jack_idleMicsong30009" x="1339" y="1188" width="185" height="540" frameX="0" frameY="0" frameWidth="194" frameHeight="541"/>
+	<SubTexture name="Jack_idleMicsong30010" x="1339" y="1188" width="185" height="540" frameX="0" frameY="0" frameWidth="194" frameHeight="541"/>
+	<SubTexture name="Jack_idleMicsong30011" x="1339" y="1188" width="185" height="540" frameX="0" frameY="0" frameWidth="194" frameHeight="541"/>
+	<SubTexture name="Jack_idleMicsong30012" x="1339" y="1188" width="185" height="540" frameX="0" frameY="0" frameWidth="194" frameHeight="541"/>
+	<SubTexture name="Jack_idleMicsong30013" x="1339" y="1188" width="185" height="540" frameX="0" frameY="0" frameWidth="194" frameHeight="541"/>
+	<SubTexture name="Jack_idleMicsong30014" x="1339" y="1188" width="185" height="540" frameX="0" frameY="0" frameWidth="194" frameHeight="541"/>
+	<SubTexture name="Jack_left mad0000" x="1564" y="1188" width="184" height="553" frameX="0" frameY="0" frameWidth="217" frameHeight="553"/>
+	<SubTexture name="Jack_left mad0001" x="1564" y="1188" width="184" height="553" frameX="0" frameY="0" frameWidth="217" frameHeight="553"/>
+	<SubTexture name="Jack_left mad0002" x="1788" y="1188" width="195" height="551" frameX="-8" frameY="-2" frameWidth="217" frameHeight="553"/>
+	<SubTexture name="Jack_left mad0003" x="2023" y="1188" width="198" height="551" frameX="-14" frameY="-2" frameWidth="217" frameHeight="553"/>
+	<SubTexture name="Jack_left mad0004" x="2261" y="1188" width="202" height="551" frameX="-15" frameY="-2" frameWidth="217" frameHeight="553"/>
+	<SubTexture name="Jack_left mad0005" x="2261" y="1188" width="202" height="551" frameX="-15" frameY="-2" frameWidth="217" frameHeight="553"/>
+	<SubTexture name="Jack_left mad0006" x="2261" y="1188" width="202" height="551" frameX="-15" frameY="-2" frameWidth="217" frameHeight="553"/>
+	<SubTexture name="Jack_left mad0007" x="2261" y="1188" width="202" height="551" frameX="-15" frameY="-2" frameWidth="217" frameHeight="553"/>
+	<SubTexture name="Jack_left mad0008" x="2261" y="1188" width="202" height="551" frameX="-15" frameY="-2" frameWidth="217" frameHeight="553"/>
+	<SubTexture name="Jack_left mad0009" x="2261" y="1188" width="202" height="551" frameX="-15" frameY="-2" frameWidth="217" frameHeight="553"/>
+	<SubTexture name="Jack_left mad0010" x="2261" y="1188" width="202" height="551" frameX="-15" frameY="-2" frameWidth="217" frameHeight="553"/>
+	<SubTexture name="Jack_left mad0011" x="2261" y="1188" width="202" height="551" frameX="-15" frameY="-2" frameWidth="217" frameHeight="553"/>
+	<SubTexture name="Jack_left mad0012" x="2261" y="1188" width="202" height="551" frameX="-15" frameY="-2" frameWidth="217" frameHeight="553"/>
+	<SubTexture name="Jack_left mad0013" x="2261" y="1188" width="202" height="551" frameX="-15" frameY="-2" frameWidth="217" frameHeight="553"/>
+	<SubTexture name="Jack_left mad0014" x="2261" y="1188" width="202" height="551" frameX="-15" frameY="-2" frameWidth="217" frameHeight="553"/>
+	<SubTexture name="Jack_right mad0000" x="2503" y="1188" width="260" height="546" frameX="-20" frameY="-3" frameWidth="280" frameHeight="549"/>
+	<SubTexture name="Jack_right mad0001" x="2503" y="1188" width="260" height="546" frameX="-20" frameY="-3" frameWidth="280" frameHeight="549"/>
+	<SubTexture name="Jack_right mad0002" x="2803" y="1188" width="246" height="549" frameX="-12" frameY="0" frameWidth="280" frameHeight="549"/>
+	<SubTexture name="Jack_right mad0003" x="3089" y="1188" width="245" height="549" frameX="-6" frameY="0" frameWidth="280" frameHeight="549"/>
+	<SubTexture name="Jack_right mad0004" x="3374" y="1188" width="245" height="549" frameX="0" frameY="0" frameWidth="280" frameHeight="549"/>
+	<SubTexture name="Jack_right mad0005" x="3374" y="1188" width="245" height="549" frameX="0" frameY="0" frameWidth="280" frameHeight="549"/>
+	<SubTexture name="Jack_right mad0006" x="3374" y="1188" width="245" height="549" frameX="0" frameY="0" frameWidth="280" frameHeight="549"/>
+	<SubTexture name="Jack_right mad0007" x="3374" y="1188" width="245" height="549" frameX="0" frameY="0" frameWidth="280" frameHeight="549"/>
+	<SubTexture name="Jack_right mad0008" x="3374" y="1188" width="245" height="549" frameX="0" frameY="0" frameWidth="280" frameHeight="549"/>
+	<SubTexture name="Jack_right mad0009" x="3374" y="1188" width="245" height="549" frameX="0" frameY="0" frameWidth="280" frameHeight="549"/>
+	<SubTexture name="Jack_right mad0010" x="3374" y="1188" width="245" height="549" frameX="0" frameY="0" frameWidth="280" frameHeight="549"/>
+	<SubTexture name="Jack_right mad0011" x="3374" y="1188" width="245" height="549" frameX="0" frameY="0" frameWidth="280" frameHeight="549"/>
+	<SubTexture name="Jack_right mad0012" x="3374" y="1188" width="245" height="549" frameX="0" frameY="0" frameWidth="280" frameHeight="549"/>
+	<SubTexture name="Jack_right mad0013" x="3374" y="1188" width="245" height="549" frameX="0" frameY="0" frameWidth="280" frameHeight="549"/>
+	<SubTexture name="Jack_right mad0014" x="3374" y="1188" width="245" height="549" frameX="0" frameY="0" frameWidth="280" frameHeight="549"/>
+	<SubTexture name="Jack_up mad0000" x="3659" y="1188" width="240" height="574" frameX="0" frameY="0" frameWidth="240" frameHeight="576"/>
+	<SubTexture name="Jack_up mad0001" x="3659" y="1188" width="240" height="574" frameX="0" frameY="0" frameWidth="240" frameHeight="576"/>
+	<SubTexture name="Jack_up mad0002" x="0" y="1802" width="240" height="571" frameX="0" frameY="-4" frameWidth="240" frameHeight="576"/>
+	<SubTexture name="Jack_up mad0003" x="280" y="1802" width="240" height="569" frameX="0" frameY="-6" frameWidth="240" frameHeight="576"/>
+	<SubTexture name="Jack_up mad0004" x="560" y="1802" width="240" height="566" frameX="0" frameY="-10" frameWidth="240" frameHeight="576"/>
+	<SubTexture name="Jack_up mad0005" x="560" y="1802" width="240" height="566" frameX="0" frameY="-10" frameWidth="240" frameHeight="576"/>
+	<SubTexture name="Jack_up mad0006" x="560" y="1802" width="240" height="566" frameX="0" frameY="-10" frameWidth="240" frameHeight="576"/>
+	<SubTexture name="Jack_up mad0007" x="560" y="1802" width="240" height="566" frameX="0" frameY="-10" frameWidth="240" frameHeight="576"/>
+	<SubTexture name="Jack_up mad0008" x="560" y="1802" width="240" height="566" frameX="0" frameY="-10" frameWidth="240" frameHeight="576"/>
+	<SubTexture name="Jack_up mad0009" x="560" y="1802" width="240" height="566" frameX="0" frameY="-10" frameWidth="240" frameHeight="576"/>
+	<SubTexture name="Jack_up mad0010" x="560" y="1802" width="240" height="566" frameX="0" frameY="-10" frameWidth="240" frameHeight="576"/>
+	<SubTexture name="Jack_up mad0011" x="560" y="1802" width="240" height="566" frameX="0" frameY="-10" frameWidth="240" frameHeight="576"/>
+	<SubTexture name="Jack_up mad0012" x="560" y="1802" width="240" height="566" frameX="0" frameY="-10" frameWidth="240" frameHeight="576"/>
+	<SubTexture name="Jack_up mad0013" x="560" y="1802" width="240" height="566" frameX="0" frameY="-10" frameWidth="240" frameHeight="576"/>
+	<SubTexture name="Jack_up mad0014" x="560" y="1802" width="240" height="566" frameX="0" frameY="-10" frameWidth="240" frameHeight="576"/>
 </TextureAtlas>

@@ -830,6 +830,8 @@ class PlayState extends MusicBeatState
 				curGf = 'gf-pixel';
 			case 'gf-table':
 				curGf = 'gf-table';	
+			case 'gf-tableuh':
+				curGf = 'gf-tableuh';				
 			case 'gfspeaker':
 				curGf = 'gfspeaker';	
 			default:
@@ -944,6 +946,7 @@ class PlayState extends MusicBeatState
 
 		}
 		
+
 
 		if (!PlayStateChangeables.Optimize)
 		{
@@ -4038,20 +4041,34 @@ class PlayState extends MusicBeatState
 				add(micone);	
 				micone.animation.play('idle', true);
 
-				//remove(gf);
-				//gf = new Character(400, 130, 'gf-tableuh');
-				//gf.y += 500;
-				//gf.x -= 300;
-				//add(gf); ..asg
+			
 
-				gf.playAnim('fear',false);
+				gf.playAnim('fearstop',false);
 
 			case 155:
 				miconet = false;
-				
+				dad.playAnim('thrownstop',false);
+
+				remove(gf);
+				gf = new Character(400, 130, 'gf-tableuh');
+				gf.y += 743;
+				gf.x -= 500;
+				add(gf);	
+
+				gf.playAnim('danceRight');		
 			
+
+
 				
 			case 176:
+				remove(gf);
+				gf = new Character(400, 130, 'gfshook');
+				gf.y += 743;
+				gf.x -= 500;
+				add(gf);	
+				gf.playAnim('fear');	
+
+
 				remove(micone);
 				remove(boyfriend);
 				boyfriend = new Boyfriend(770, 450,'bforaed');
@@ -4060,7 +4077,7 @@ class PlayState extends MusicBeatState
 				add(boyfriend); 
 				boyfriend.playAnim('idle');
 				
-				gf.playAnim('fear',false);
+			
 				micbf = new FlxSprite(-450,200);
 				micbf.frames = Paths.getSparrowAtlas('kack/micthrowparty');
 				micbf.animation.addByPrefix('idle', 'Ora mic', 24, false);
@@ -4101,6 +4118,14 @@ class PlayState extends MusicBeatState
 				health -= 0.080;
 				
 			case 192:
+				remove(gf);
+				gf = new Character(400, 130, 'gf-tableuh');
+				gf.y += 743;
+				gf.x -= 500;
+				add(gf);	
+
+				gf.playAnim('danceRight');		
+			
 				
 				miconet = false;
 				remove(boyfriend);
@@ -4124,7 +4149,16 @@ class PlayState extends MusicBeatState
 				boyfriend.x += 200;
 				add(boyfriend);
 				boyfriend.playAnim('idle');
+			
 			case 302:
+				remove(gf);
+				gf = new Character(400, 130, 'gfshook');
+				gf.y += 743;
+				gf.x -= 500;
+				add(gf);	
+				gf.playAnim('fear');
+			
+
 				add(micone);	
 				micone.animation.play('idle', true);
 				miconet = true;
@@ -4145,7 +4179,18 @@ class PlayState extends MusicBeatState
 			case 310:
 				miconet = false;
 				remove(micone);
+
 			case 315:
+
+				remove(gf);
+				gf = new Character(400, 130, 'gf-tableuh');
+				gf.y += 743;
+				gf.x -= 500;
+				add(gf);	
+	
+				gf.playAnim('danceRight');	
+
+
 				remove(boyfriend);
 				boyfriend = new Boyfriend(770, 450,'bfmad');
 				boyfriend.y += 600;
@@ -4246,7 +4291,7 @@ class PlayState extends MusicBeatState
 			
 
 
-			case 420:
+			case 420:	
 				remove(boyfriend);
 				boyfriend = new Boyfriend(770, 450,'bfgot2');
 				boyfriend.y += 600;
@@ -4310,6 +4355,16 @@ class PlayState extends MusicBeatState
 			case 450:
 				dad.playAnim('idle');
 			case 452:
+			
+				remove(gf);
+				gf = new Character(400, 130, 'gfshook');
+				gf.y += 743;
+				gf.x -= 500;
+				add(gf);	
+				gf.playAnim('fear');
+
+
+
 				miconet = true;
 				remove(boyfriend);
 				boyfriend = new Boyfriend(770, 450,'bfhit');
@@ -4323,6 +4378,15 @@ class PlayState extends MusicBeatState
 				miconet = false;
 				remove(micone);
 			case 464:
+				remove(gf);
+				gf = new Character(400, 130, 'gf-tableuh');
+				gf.y += 743;
+				gf.x -= 500;
+				add(gf);	
+	
+				gf.playAnim('danceRight');	
+
+
 				defaultCamZoom = 0.9;
 				remove(dad);
 				dad = new Character(100,100,'jacktaunt');
@@ -4381,12 +4445,130 @@ class PlayState extends MusicBeatState
 				boyfriend.playAnim('idle');
 
 
+		
+
+
 			case 704:
 				remove(boyfriend);
 				boyfriend = new Boyfriend(770, 450,'bf');
 				boyfriend.y += 600;
 				boyfriend.x += 200; 
 				add(boyfriend);
+
+				remove(gf);
+				gf = new Character(400, 130, 'gf-table');
+				gf.y += 743;
+				gf.x -= 500;
+				add(gf);	
+				gf.playAnim('danceRight');	
+			}
+			case 'serious':
+			switch(curStep)
+			{
+			
+
+				case 63:
+					remove(dad);
+					dad = new Character(100,100,'jack3-2');
+					dad.x -= 600; 
+					dad.y += 800;
+					add(dad);
+					dad.playAnim('idle',false);
+
+				case 102:
+					remove(dad);
+					dad = new Character(100,100,'jack3-1');
+					dad.x -= 600; 
+					dad.y += 800;
+					add(dad);
+					dad.playAnim('idle',false);	
+					
+					case 319:
+						remove(dad);
+						dad = new Character(100,100,'jack3-2');
+						dad.x -= 600; 
+						dad.y += 800;
+						add(dad);
+						dad.playAnim('idle',false);
+			
+				case 465:
+					remove(dad);
+					dad = new Character(100,100,'jack3-3');
+					dad.x -= 600; 
+					dad.y += 800;
+					add(dad);
+					dad.playAnim('idle',false);
+
+				case 491:
+						remove(dad);
+						dad = new Character(100,100,'jack3-3');
+						dad.x -= 600; 
+						dad.y += 800;
+						add(dad);
+						dad.playAnim('idle',false);
+
+	
+				case 559:
+					remove(dad);
+					dad = new Character(100,100,'jack3-3');
+					dad.x -= 600; 
+					dad.y += 800;
+					add(dad);
+	
+					case 519:
+						remove(dad);
+						dad = new Character(100,100,'jack3-1');
+						dad.x -= 600; 
+						dad.y += 800;
+						add(dad);
+						dad.playAnim('idle',false);
+
+	
+					case 656:
+						remove(dad);
+						dad = new Character(100,100,'jack3-3');
+						dad.x -= 600; 
+						dad.y += 800;
+						add(dad);
+	
+					case 757:
+						remove(dad);
+						dad = new Character(100,100,'jack3-2');
+						dad.x -= 600; 
+						dad.y += 800;
+						add(dad);
+						
+					case 832:
+						remove(dad);
+						dad = new Character(100,100,'jack3-3');
+						dad.x -= 600; 
+						dad.y += 800;
+						add(dad);
+						
+					case 955:
+						remove(dad);
+						dad = new Character(100,100,'jack3-1');
+						dad.x -= 600; 
+						dad.y += 800;
+						add(dad);
+
+					case 1017:
+							remove(dad);
+							dad = new Character(100,100,'jack3-2');
+							dad.x -= 600; 
+							dad.y += 800;
+							add(dad);
+
+					case 1102:
+						remove(dad);
+						dad = new Character(100,100,'jackgiveup');
+						dad.x -= 1800; 
+						dad.y += 700;
+						add(dad);
+						dad.playAnim('idle',false);
+
+
+
 
 		  }
 	    }  

@@ -4,6 +4,9 @@ jackcop
 jackmic
 jackcop-record
 jack-piano
+jack3-1
+jack3-2
+jack3-3
 fighting
 bfora
 bfguard

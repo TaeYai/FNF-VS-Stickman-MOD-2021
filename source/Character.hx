@@ -84,6 +84,9 @@ class Character extends FlxSprite
 				frames = tex;
 				animation.addByIndices('danceLeft', "GF Dancing Beat uhhh", [30, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "", 24);
 				animation.addByIndices('danceRight', "GF Dancing Beat uhhh", [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], "", 24, false);
+				animation.addByIndices('uhhleft', "GF Dancing Beat uhhh", [30, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "", 24);
+				animation.addByIndices('uhhright', "GF Dancing Beat uhhh", [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], "", 24, false);				addOffset('danceLeft', 0, -9);
+
 				addOffset('danceLeft', 0, -9);
 				addOffset('danceRight', 0, -9);
 	
@@ -141,6 +144,7 @@ class Character extends FlxSprite
 				animation.addByIndices('danceLeft', 'GF Dancing Beat table', [30, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "", 24, false);
 				animation.addByIndices('danceRight', 'GF Dancing Beat table', [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], "", 24,false);
 				animation.addByPrefix('fear', 'GF Dancing Beat table fear');
+				animation.addByIndices('fearstop', 'GF Dancing Beat table fear', [6], "", 24, false);		
 				addOffset('danceLeft');
 				addOffset('danceRight');
 
@@ -152,10 +156,23 @@ class Character extends FlxSprite
 				frames = tex;
 				animation.addByIndices('danceLeft', 'GF Dancing Beat table uhhh', [30, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "", 24, false);
 				animation.addByIndices('danceRight', 'GF Dancing Beat table uhhh', [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], "", 24,false);
+				animation.addByIndices('uhhleft', "GF Dancing Beat table uhhh", [30, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "", 24);
+				animation.addByIndices('uhhright', "GF Dancing Beat table uhhh", [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], "", 24, false);				addOffset('danceLeft', 0, -9);			
 				animation.addByPrefix('fear', 'GF Dancing Beat table fear');
+				
 				addOffset('danceLeft');
 				addOffset('danceRight');
+				addOffset('fear');
+
 				playAnim('danceRight');
+			
+			case 'gfshook':
+				tex = Paths.getSparrowAtlas('kack/GF_table');
+				frames = tex;	
+				animation.addByPrefix('fear', 'GF Dancing Beat table fear');
+				
+				playAnim('fear');
+
 
 
 			case 'gf-pixel':
@@ -770,6 +787,68 @@ class Character extends FlxSprite
 	
 					playAnim('idle3');
 
+				case 'jack3-1':
+					tex = Paths.getSparrowAtlas('kack/Jacksing3');
+					frames = tex;
+					animation.addByPrefix('idle', 'Jack_idleMicsong3', 24);
+					animation.addByPrefix('singUP', 'Jack_Micsong3 Up', 24);
+					animation.addByPrefix('singRIGHT', 'Jack_Micsong3 Right', 24);
+					animation.addByPrefix('singDOWN', 'Jack_Micsong3 Down', 24);
+					animation.addByPrefix('singLEFT', 'Jack_Micsong3 Left', 24);
+						
+					addOffset('idle',2, -22);
+					addOffset("singUP", 11, 15);
+					addOffset("singRIGHT", -25, -30);
+					addOffset("singLEFT", 28, -26);
+					addOffset("singDOWN", -15, -66);
+		
+					playAnim('idle');
+
+				case 'jack3-2':
+					tex = Paths.getSparrowAtlas('kack/Jacksing3');
+					frames = tex;
+					animation.addByPrefix('idle', 'Jack_idleMicsong3', 24);
+					animation.addByPrefix('singUP', 'Jack_Up not mad', 24);
+					animation.addByPrefix('singRIGHT', 'Jack_Right not mad', 24);
+					animation.addByPrefix('singDOWN', 'Jack_Down not mad', 24);
+					animation.addByPrefix('singLEFT', 'Jack_Left not mad', 24);
+							
+					addOffset('idle',2, -22);
+					addOffset("singUP", 9, 12);
+					addOffset("singRIGHT", -14, -11);
+					addOffset("singLEFT", 33, -26);
+					addOffset("singDOWN", 36, -82);
+			
+					playAnim('idle');
+	
+
+				case 'jack3-3':
+					tex = Paths.getSparrowAtlas('kack/Jacksing3');
+					frames = tex;
+					animation.addByPrefix('idle', 'Jack_idleMicsong3', 24);
+					animation.addByPrefix('singUP', 'Jack_up mad', 24);
+					animation.addByPrefix('singRIGHT', 'Jack_right mad', 24);
+					animation.addByPrefix('singDOWN', 'Jack_down mad', 24);
+					animation.addByPrefix('singLEFT', 'Jack_left mad', 24);
+							
+					addOffset('idle',2, -22);
+					addOffset("singUP", 39, 9);
+					addOffset("singRIGHT", -5, -22);
+					addOffset("singLEFT", 28, -15);
+					addOffset("singDOWN", 47, -66);
+			
+					playAnim('idle');
+
+				case 'jackgiveup':
+					tex = Paths.getSparrowAtlas('kack/Jacksong3end');
+					frames = tex;
+					animation.addByPrefix('idle', 'Jack_Song3end', 24);
+			
+					playAnim('idle');
+
+
+
+
 				case 'jackwonder':
 					tex = Paths.getSparrowAtlas('kack/jackboom');
 					frames = tex;
@@ -821,6 +900,7 @@ class Character extends FlxSprite
 					frames = tex;
 					animation.addByPrefix('idle', 'Jack_idile_mic', 24);
 					animation.addByPrefix('thrown', 'Jack_throwmic1', 24);
+					animation.addByIndices('thrownstop', 'Jack_throwmic1', [6], "", 24, false);
 					animation.addByPrefix('jackspaam', 'Jack_throwmic ora', 24);
 
 					addOffset('idle');
@@ -1068,6 +1148,18 @@ class Character extends FlxSprite
 						else
 							playAnim('danceLeft');
 					}
+
+				case 'gf-tableuh':
+					if (!animation.curAnim.name.startsWith('uhh'))
+					{
+							danced = !danced;
+	
+							if (danced)
+								playAnim('danceRight');
+							else
+								playAnim('danceLeft');
+						}
+											
 				case 'gf-pixel':
 					if (!animation.curAnim.name.startsWith('hair'))
 					{
