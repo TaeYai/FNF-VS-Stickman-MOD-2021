@@ -19,6 +19,9 @@ class Youtube extends MusicBeatSubstate
     var click:FlxSprite;
     var videogroup:FlxTypedGroup<FlxSprite>;
     var curSelected:Int = 0;
+    var video:MP4Handler = new MP4Handler();
+    var isCutscene:Bool = false;
+    
     override function create()
         {
             FlxG.mouse.visible = true;
@@ -49,8 +52,10 @@ class Youtube extends MusicBeatSubstate
 
         if (FlxG.keys.justPressed.ESCAPE)
         {
+            if(!isCutscene)
             FlxG.mouse.visible = false;
             FlxG.switchState(new MainMenuState());
+            FlxG.mouse.enabled = true;
         }
 
         if (FlxG.mouse.overlaps(click))
@@ -58,18 +63,26 @@ class Youtube extends MusicBeatSubstate
             if (FlxG.mouse.justPressed)
             {
                 FlxG.mouse.visible = false;
-                PlayState.storyPlaylist = ['Sticking','Fight','Serious'];
-				PlayState.isStoryMode = true;
-	
+                FlxG.mouse.enabled = false;
+                PlayState.isStoryMode = true;
+                PlayState.stickthingidk = true;
+                PlayState.storyPlaylist = ['sticking', 'fight', 'serious'];
+                trace(PlayState.storyPlaylist);
 				PlayState.storyDifficulty = 2;
-	
 				PlayState.SONG = Song.loadFromJson(StringTools.replace(PlayState.storyPlaylist[0]," ", "-").toLowerCase() + '-hard', StringTools.replace(PlayState.storyPlaylist[0]," ", "-").toLowerCase());
 				PlayState.storyWeek = 7;
 				PlayState.campaignScore = 0;
+                
 				new FlxTimer().start(1, function(tmr:FlxTimer)
-				{
-					LoadingState.loadAndSwitchState(new PlayState(), true);
-				});
+                    {
+                        isCutscene = true;
+                        PlayState.isStoryMode = true;
+                        PlayState.stickthingidk = true;
+                        remove(click);
+                        trace(PlayState.isStoryMode);
+                        video.playMP4(Paths.video('intro'), new PlayState()); 
+                        
+                    });
             }
         }
         super.update(elapsed);

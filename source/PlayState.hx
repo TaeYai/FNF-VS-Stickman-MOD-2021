@@ -81,6 +81,7 @@ class PlayState extends MusicBeatState
 	public static var curStage:String = '';
 	public static var SONG:SwagSong;
 	public static var isStoryMode:Bool = false;
+	public static var stickthingidk:Bool = false;
 	public static var storyWeek:Int = 0;
 	public static var storyPlaylist:Array<String> = [];
 	public static var storyDifficulty:Int = 1;
@@ -237,6 +238,9 @@ class PlayState extends MusicBeatState
 	
 	public function addObject(object:FlxBasic) { add(object); }
 	public function removeObject(object:FlxBasic) { remove(object); }
+
+	//Video
+	var video:MP4Handler = new MP4Handler();
 
 
 	override public function create()
@@ -2751,173 +2755,186 @@ class PlayState extends MusicBeatState
 			keyShit();
 
 
-		#if debug
-		if (FlxG.keys.justPressed.ONE)
+		
+		if (FlxG.keys.justPressed.C)
 			endSong();
-		#end
+		
 	}
 
 	function endSong():Void
-	{
-		FlxG.stage.removeEventListener(KeyboardEvent.KEY_DOWN,handleInput);
-		if (useVideo)
-			{
-				GlobalVideo.get().stop();
-				FlxG.stage.window.onFocusOut.remove(focusOut);
-				FlxG.stage.window.onFocusIn.remove(focusIn);
-				PlayState.instance.remove(PlayState.instance.videoSprite);
-			}
-
-		if (isStoryMode)
-			campaignMisses = misses;
-
-		if (!loadRep)
-			rep.SaveReplay(saveNotes, saveJudge, replayAna);
-		else
 		{
-			PlayStateChangeables.botPlay = false;
-			PlayStateChangeables.scrollSpeed = 1;
-			PlayStateChangeables.useDownscroll = false;
-		}
-
-		if (FlxG.save.data.fpsCap > 290)
-			(cast (Lib.current.getChildAt(0), Main)).setFPSCap(290);
-
-		#if windows
-		if (luaModchart != null)
-		{
-			luaModchart.die();
-			luaModchart = null;
-		}
-		#end
-
-		canPause = false;
-		FlxG.sound.music.volume = 0;
-		vocals.volume = 0;
-		FlxG.sound.music.pause();
-		vocals.pause();
-		if (SONG.validScore)
-		{
-			// adjusting the highscore song name to be compatible
-			// would read original scores if we didn't change packages
-			var songHighscore = StringTools.replace(PlayState.SONG.song, " ", "-");
-			switch (songHighscore) {
-				case 'Dad-Battle': songHighscore = 'Dadbattle';
-				case 'Philly-Nice': songHighscore = 'Philly';
-			}
-
-			#if !switch
-			Highscore.saveScore(songHighscore, Math.round(songScore), storyDifficulty);
-			Highscore.saveCombo(songHighscore, Ratings.GenerateLetterRank(accuracy), storyDifficulty);
-			#end
-		}
-
-		if (offsetTesting)
-		{
-			FlxG.sound.playMusic(Paths.music('freakyMenu'));
-			offsetTesting = false;
-			LoadingState.loadAndSwitchState(new OptionsMenu());
-			FlxG.save.data.offset = offsetTest;
-		}
-		else
-		{
+			FlxG.stage.removeEventListener(KeyboardEvent.KEY_DOWN,handleInput);
+			if (useVideo)
+				{
+					GlobalVideo.get().stop();
+					FlxG.stage.window.onFocusOut.remove(focusOut);
+					FlxG.stage.window.onFocusIn.remove(focusIn);
+					PlayState.instance.remove(PlayState.instance.videoSprite);
+				}
+	
 			if (isStoryMode)
+				campaignMisses = misses;
+	
+			if (!loadRep)
+				rep.SaveReplay(saveNotes, saveJudge, replayAna);
+			else
 			{
-				campaignScore += Math.round(songScore);
-
-				storyPlaylist.remove(storyPlaylist[0]);
-
-				if (storyPlaylist.length <= 0)
-				{
-					transIn = FlxTransitionableState.defaultTransIn;
-					transOut = FlxTransitionableState.defaultTransOut;
-
-					paused = true;
-
-					FlxG.sound.music.stop();
-					vocals.stop();
-					if (FlxG.save.data.scoreScreen)
-						openSubState(new ResultsScreen());
-					else
-					{
-						FlxG.sound.playMusic(Paths.music('freakyMenu'));
-						FlxG.switchState(new MainMenuState());
-					}
-
-					#if windows
-					if (luaModchart != null)
-					{
-						luaModchart.die();
-						luaModchart = null;
-					}
-					#end
-
-					// if ()
-					StoryMenuState.weekUnlocked[Std.int(Math.min(storyWeek + 1, StoryMenuState.weekUnlocked.length - 1))] = true;
-
-					if (SONG.validScore)
-					{
-						NGio.unlockMedal(60961);
-						Highscore.saveWeekScore(storyWeek, campaignScore, storyDifficulty);
-					}
-
-					FlxG.save.data.weekUnlocked = StoryMenuState.weekUnlocked;
-					FlxG.save.flush();
+				PlayStateChangeables.botPlay = false;
+				PlayStateChangeables.scrollSpeed = 1;
+				PlayStateChangeables.useDownscroll = false;
+			}
+	
+			if (FlxG.save.data.fpsCap > 290)
+				(cast (Lib.current.getChildAt(0), Main)).setFPSCap(290);
+	
+			#if windows
+			if (luaModchart != null)
+			{
+				luaModchart.die();
+				luaModchart = null;
+			}
+			#end
+	
+			canPause = false;
+			FlxG.sound.music.volume = 0;
+			vocals.volume = 0;
+			FlxG.sound.music.pause();
+			vocals.pause();
+			if (SONG.validScore)
+			{
+				// adjusting the highscore song name to be compatible
+				// would read original scores if we didn't change packages
+				var songHighscore = StringTools.replace(PlayState.SONG.song, " ", "-");
+				switch (songHighscore) {
+					case 'Dad-Battle': songHighscore = 'Dadbattle';
+					case 'Philly-Nice': songHighscore = 'Philly';
 				}
-				else
-				{
-					
-					// adjusting the song name to be compatible
-					var songFormat = StringTools.replace(PlayState.storyPlaylist[0], " ", "-");
-					switch (songFormat) {
-						case 'Dad-Battle': songFormat = 'Dadbattle';
-						case 'Philly-Nice': songFormat = 'Philly';
-					}
-
-					var poop:String = Highscore.formatSong(songFormat, storyDifficulty);
-
-					trace('LOADING NEXT SONG');
-					trace(poop);
-
-					if (StringTools.replace(PlayState.storyPlaylist[0], " ", "-").toLowerCase() == 'eggnog')
-					{
-						var blackShit:FlxSprite = new FlxSprite(-FlxG.width * FlxG.camera.zoom,
-							-FlxG.height * FlxG.camera.zoom).makeGraphic(FlxG.width * 3, FlxG.height * 3, FlxColor.BLACK);
-						blackShit.scrollFactor.set();
-						add(blackShit);
-						camHUD.visible = false;
-
-						FlxG.sound.play(Paths.sound('Lights_Shut_off'));
-					}
-
-					FlxTransitionableState.skipNextTransIn = true;
-					FlxTransitionableState.skipNextTransOut = true;
-					prevCamFollow = camFollow;
-
-
-					PlayState.SONG = Song.loadFromJson(poop, PlayState.storyPlaylist[0]);
-					FlxG.sound.music.stop();
-
-					LoadingState.loadAndSwitchState(new PlayState());
-				}
+	
+				#if !switch
+				Highscore.saveScore(songHighscore, Math.round(songScore), storyDifficulty);
+				Highscore.saveCombo(songHighscore, Ratings.GenerateLetterRank(accuracy), storyDifficulty);
+				#end
+			}
+	
+			if (offsetTesting)
+			{
+				FlxG.sound.playMusic(Paths.music('freakyMenu'));
+				offsetTesting = false;
+				LoadingState.loadAndSwitchState(new OptionsMenu());
+				FlxG.save.data.offset = offsetTest;
 			}
 			else
 			{
-				trace('WENT BACK TO FREEPLAY??');
+				if (isStoryMode && stickthingidk)
+				{
+					campaignScore += Math.round(songScore);
+	
+					storyPlaylist.remove(storyPlaylist[0]);
+	
+					if (storyPlaylist.length <= 0)
+					{
+						transIn = FlxTransitionableState.defaultTransIn;
+						transOut = FlxTransitionableState.defaultTransOut;
 
-				paused = true;
+						inCutscene = true;
+						paused = true;
+						video.playMP4(Paths.video('cre'), new MainMenuState()); 
 
-
-				FlxG.sound.music.stop();
-				vocals.stop();
-
-				if (FlxG.save.data.scoreScreen)
-					openSubState(new ResultsScreen());
+						
+	
+						FlxG.sound.music.stop();
+						vocals.stop();
+						
+	
+						#if windows
+						if (luaModchart != null)
+						{
+							luaModchart.die();
+							luaModchart = null;
+						}
+						#end
+	
+						// if ()
+						StoryMenuState.weekUnlocked[Std.int(Math.min(storyWeek + 1, StoryMenuState.weekUnlocked.length - 1))] = true;
+	
+						if (SONG.validScore)
+						{
+							NGio.unlockMedal(60961);
+							Highscore.saveWeekScore(storyWeek, campaignScore, storyDifficulty);
+						}
+	
+						FlxG.save.data.weekUnlocked = StoryMenuState.weekUnlocked;
+						FlxG.save.flush();
+					}
+					else
+					{
+						
+						// adjusting the song name to be compatible
+						var songFormat = StringTools.replace(PlayState.storyPlaylist[0], " ", "-");
+						switch (songFormat) {
+							case 'Dad-Battle': songFormat = 'Dadbattle';
+							case 'Philly-Nice': songFormat = 'Philly';
+						}
+	
+						var poop:String = Highscore.formatSong(songFormat, storyDifficulty);
+	
+						trace('LOADING NEXT SONG');
+						trace(poop);
+	
+						if (StringTools.replace(PlayState.storyPlaylist[0], " ", "-").toLowerCase() == 'eggnog')
+						{
+							var blackShit:FlxSprite = new FlxSprite(-FlxG.width * FlxG.camera.zoom,
+								-FlxG.height * FlxG.camera.zoom).makeGraphic(FlxG.width * 3, FlxG.height * 3, FlxColor.BLACK);
+							blackShit.scrollFactor.set();
+							add(blackShit);
+							camHUD.visible = false;
+	
+							FlxG.sound.play(Paths.sound('Lights_Shut_off'));
+						}
+	
+						FlxTransitionableState.skipNextTransIn = true;
+						FlxTransitionableState.skipNextTransOut = true;
+						switch(SONG.song.toLowerCase())
+                    	{
+					    	case "sticking":
+							   inCutscene = true;
+							   paused = true;
+				         	   video.playMP4(Paths.video('song2'), new PlayState()); 
+								
+							case "fight":
+								inCutscene = true;
+								paused = true;
+								video.playMP4(Paths.video('song3'), new PlayState()); 
+                       	 	default:
+                           		LoadingState.loadAndSwitchState(new PlayState());
+                     	}
+						
+						prevCamFollow = camFollow;
+	
+	
+						PlayState.SONG = Song.loadFromJson(poop, PlayState.storyPlaylist[0]);
+						FlxG.sound.music.stop();
+	
+						//LoadingState.loadAndSwitchState(new PlayState());
+					}
+				}
 				else
-					FlxG.switchState(new FreeplayState());
+				{
+					trace('WENT BACK TO FREEPLAY??');
+	
+					paused = true;
+	
+	
+					FlxG.sound.music.stop();
+					vocals.stop();
+	
+					if (FlxG.save.data.scoreScreen)
+						openSubState(new ResultsScreen());
+					else
+						FlxG.switchState(new FreeplayState());
+				}
 			}
 		}
-	}
 
 
 	var endingSong:Bool = false;

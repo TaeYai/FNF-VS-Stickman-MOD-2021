@@ -164,6 +164,7 @@ class MainMenuState extends MusicBeatState
 	override function update(elapsed:Float)
 	{
 		charBop.animation.play('idle', true);
+		FlxG.mouse.enabled = true;
 		if (FlxG.sound.music.volume < 0.8)
 		{
 			FlxG.sound.music.volume += 0.5 * FlxG.elapsed;
