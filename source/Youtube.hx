@@ -15,7 +15,7 @@ class Youtube extends MusicBeatSubstate
 {
     
     var bg:FlxSprite;
-    var videolist:Array<String> = ['gar', 'jz', 'sonic', 'tae', 'jzth', 'po', 'soul', 'baldi'];
+   
     var click:FlxSprite;
     var videogroup:FlxTypedGroup<FlxSprite>;
     var curSelected:Int = 0;
@@ -40,54 +40,7 @@ class Youtube extends MusicBeatSubstate
             //click.screenCenter();
             click.scrollFactor.set();
             add(click);
-
-            videogroup = new FlxTypedGroup<FlxSprite>();
-		    add(videogroup);
-
-            var tex = Paths.getSparrowAtlas('vid');
-
-            for (i in 0...videolist.length)
-            {
-                var video:FlxSprite = new FlxSprite(0, 60 + (i * 160));
-                video.frames = tex;
-                video.animation.addByPrefix('idle', videolist[i], 24);
-                video.animation.play('idle');
-                video.ID = i;
-                //menuItem.screenCenter(X);
-                
-                video.scrollFactor.set(1, 1);
-                video.antialiasing = true;
-                video.updateHitbox();
-                switch (i) 
-			    {
-				    case 0:
-				    	video.x = 900;
-				    	video.y = 50;
-				    case 1:
-				    	video.x = 900;
-				    	video.y = 100;
-			    	case 2:
-			    		video.x = 900;
-			    		video.y = 200;
-			    	case 3:
-			    		video.x = 900;
-			    		video.y = 300;
-                    case 4:
-			    		video.x = 900;
-			    		video.y = 400;
-                    case 5:
-			    		video.x = 900;
-			    		video.y = 500;
-                    case 6:
-			    		video.x = 900;
-			    		video.y = 600;
-                    case 7:
-			    		video.x = 900;
-			    		video.y = 700;
-			    }
-                videogroup.add(video);
-
-        }
+        
         }
     override function update(elapsed:Float)
     {
@@ -104,7 +57,8 @@ class Youtube extends MusicBeatSubstate
         {
             if (FlxG.mouse.justPressed)
             {
-                PlayState.storyPlaylist = ['Sticking','Fight','Serious',];
+                FlxG.mouse.visible = false;
+                PlayState.storyPlaylist = ['Sticking','Fight','Serious'];
 				PlayState.isStoryMode = true;
 	
 				PlayState.storyDifficulty = 2;
@@ -118,45 +72,6 @@ class Youtube extends MusicBeatSubstate
 				});
             }
         }
-        if (FlxG.mouse.overlaps(videogroup))
-            {
-                if (FlxG.mouse.justPressed)
-                {
-                    if (videolist[curSelected] == 'sonic')
-                        {
-                            FlxG.switchState(new FreeplayState());
-                        }
-                }
-            }
         super.update(elapsed);
     }
-
-    function goToState()
-        {
-            var daChoice:String = videolist[curSelected];
-    
-            switch (daChoice)
-            {
-                case 'gar':
-                    FlxG.switchState(new StoryMenuState());
-                    trace("gar Selected");
-                case 'jz':
-                    FlxG.switchState(new FreeplayState());
-    
-                    trace("jz Selected");
-    
-                case 'sonic':
-                    FlxG.switchState(new OptionsMenu());
-                case 'tae':
-                    FlxG.switchState(new OptionsMenu());
-                case 'jzth':
-                    FlxG.switchState(new OptionsMenu());
-                 case 'po':
-                    FlxG.switchState(new OptionsMenu());
-                 case 'soul':
-                    FlxG.switchState(new OptionsMenu());
-                 case 'baldi':
-                    FlxG.switchState(new OptionsMenu());
-            }
-        }
 }
