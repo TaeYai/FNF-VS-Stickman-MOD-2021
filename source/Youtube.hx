@@ -66,11 +66,11 @@ class Youtube extends MusicBeatSubstate
                 FlxG.mouse.enabled = false;
                 PlayState.isStoryMode = true;
                 PlayState.stickthingidk = true;
-                PlayState.storyPlaylist = ['sticking', 'fight', 'serious'];
+                PlayState.storyPlaylist = ['Sticking', 'fight', "serious"];
                 trace(PlayState.storyPlaylist);
 				PlayState.storyDifficulty = 2;
 				PlayState.SONG = Song.loadFromJson(StringTools.replace(PlayState.storyPlaylist[0]," ", "-").toLowerCase() + '-hard', StringTools.replace(PlayState.storyPlaylist[0]," ", "-").toLowerCase());
-				PlayState.storyWeek = 7;
+				PlayState.storyWeek = 0;
 				PlayState.campaignScore = 0;
                 
 				new FlxTimer().start(1, function(tmr:FlxTimer)

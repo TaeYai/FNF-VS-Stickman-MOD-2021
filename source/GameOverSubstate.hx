@@ -13,16 +13,19 @@ class GameOverSubstate extends MusicBeatSubstate
 	var camFollow:FlxObject;
 
 	var stageSuffix:String = "";
-
+	var daBf:String = '';
 	public function new(x:Float, y:Float)
 	{
 		var daStage = PlayState.curStage;
-		var daBf:String = '';
-		switch (PlayState.SONG.player1)
+		
+		switch (PlayState.curStage)
 		{
-			case 'bf-pixel':
+			case 'schoolEvil' | 'school':
 				stageSuffix = '-pixel';
 				daBf = 'bf-pixel-dead';
+			case 'jackroom' | 'jackroomfight':
+				daBf = 'bf-jack-dead';
+				stageSuffix = '-pixel';
 			default:
 				daBf = 'bf';
 		}
@@ -52,6 +55,12 @@ class GameOverSubstate extends MusicBeatSubstate
 	{
 		super.update(elapsed);
 
+		if (FlxG.keys.justPressed.SIX)
+			{
+				
+				FlxG.switchState(new AnimationDebug(daBf));
+				
+			}
 		if (controls.ACCEPT)
 		{
 			endBullshit();
@@ -68,14 +77,14 @@ class GameOverSubstate extends MusicBeatSubstate
 			PlayState.loadRep = false;
 		}
 
-		if (bf.animation.curAnim.name == 'firstDeath' && bf.animation.curAnim.curFrame == 12)
+		if (bf.animation.curAnim.name == 'firstDeath')
 		{
 			FlxG.camera.follow(camFollow, LOCKON, 0.01);
 		}
 
 		if (bf.animation.curAnim.name == 'firstDeath' && bf.animation.curAnim.finished)
 		{
-			FlxG.sound.playMusic(Paths.music('gameOver' + stageSuffix));
+			FlxG.sound.playMusic(Paths.music('gameOver'));
 		}
 
 		if (FlxG.sound.music.playing)
@@ -100,7 +109,7 @@ class GameOverSubstate extends MusicBeatSubstate
 			isEnding = true;
 			bf.playAnim('deathConfirm', true);
 			FlxG.sound.music.stop();
-			FlxG.sound.play(Paths.music('gameOverEnd' + stageSuffix));
+			FlxG.sound.play(Paths.music('gameOverEnd'));
 			new FlxTimer().start(0.7, function(tmr:FlxTimer)
 			{
 				FlxG.camera.fade(FlxColor.BLACK, 2, false, function()

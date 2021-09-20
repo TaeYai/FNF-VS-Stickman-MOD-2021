@@ -679,6 +679,21 @@ class Character extends FlxSprite
 				updateHitbox();
 				antialiasing = false;
 				flipX = true;
+			case 'bf-jack-dead':
+				frames = Paths.getSparrowAtlas('kack/jackkillbf');
+				animation.addByPrefix('singUP', "BF die instance 1", 24, false);
+				animation.addByPrefix('firstDeath', "BF die instance 1", 24, false);
+				animation.addByPrefix('deathLoop', "BF die loop instance 1", 24, true);
+				animation.addByPrefix('deathConfirm', "BF die confirm instance 1", 24, false);
+				animation.play('firstDeath');
+
+				addOffset('firstDeath', -444,50);
+				addOffset('deathLoop', -787,-220);
+				addOffset('deathConfirm', 873, -150);
+				playAnim('firstDeath');
+				updateHitbox();
+				antialiasing = false;
+				flipX = true;
 
 			case 'senpai':
 				frames = Paths.getSparrowAtlas('characters/senpai');

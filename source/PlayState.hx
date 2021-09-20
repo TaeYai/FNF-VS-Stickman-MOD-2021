@@ -2898,6 +2898,7 @@ class PlayState extends MusicBeatState
                     	{
 					    	case "sticking":
 							   inCutscene = true;
+							   PlayState.isStoryMode = true;
 							   paused = true;
 				         	   video.playMP4(Paths.video('song2'), new PlayState()); 
 								
@@ -3927,9 +3928,6 @@ class PlayState extends MusicBeatState
 	  	  case 'Sticking':
 		  switch(curStep)
 		  {
-			case 20:
-				isStoryMode = false;
-				startingSong = false;
 			case 66:
 				dad.playAnim('go', false);
 			case 127:
