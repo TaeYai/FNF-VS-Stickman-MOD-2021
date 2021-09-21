@@ -723,6 +723,36 @@ class PlayState extends MusicBeatState
 					    defaultCamZoom = 0.9;
 						
 						curStage = 'jackroom';
+						var images = [];
+						var xml = [];
+			
+						trace("caching images...");
+						
+							for (i in FileSystem.readDirectory(FileSystem.absolutePath("assets/shared/images/kack")))
+								{
+									if (!i.endsWith(".png"))
+										continue;
+									images.push(i);
+						
+									if (!i.endsWith(".xml"))
+										continue;
+									xml.push(i);
+								}
+							for (i in images)
+									{
+										var replaced = i.replace(".png","");
+										FlxG.bitmap.add(Paths.image("kack/" + replaced,"shared"));
+										
+										trace("cached " + replaced);
+									}
+								
+								for (i in xml)
+									{
+										var replaced = i.replace(".xml","");
+										FlxG.bitmap.add(Paths.image("kack/" + replaced,"shared"));
+										
+										trace("cached " + replaced);
+									}
 						var bg:FlxSprite = new FlxSprite(-3000, -200).loadGraphic(Paths.image('kack/Jack BG'));
 						bg.antialiasing = true;
 						bg.scrollFactor.set(0.9, 0.9);
@@ -739,6 +769,36 @@ class PlayState extends MusicBeatState
 					    defaultCamZoom = 0.9;
 						
 						curStage = 'jackroomfight';
+						var images = [];
+						var xml = [];
+			
+						trace("caching images...");
+						
+							for (i in FileSystem.readDirectory(FileSystem.absolutePath("assets/shared/images/kack")))
+								{
+									if (!i.endsWith(".png"))
+										continue;
+									images.push(i);
+						
+									if (!i.endsWith(".xml"))
+										continue;
+									xml.push(i);
+								}
+							for (i in images)
+									{
+										var replaced = i.replace(".png","");
+										FlxG.bitmap.add(Paths.image("kack/" + replaced,"shared"));
+										
+										trace("cached " + replaced);
+									}
+								
+								for (i in xml)
+									{
+										var replaced = i.replace(".xml","");
+										FlxG.bitmap.add(Paths.image("kack/" + replaced,"shared"));
+										
+										trace("cached " + replaced);
+									}
 						var bg:FlxSprite = new FlxSprite(-3000, -200).loadGraphic(Paths.image('kack/Jack BG'));
 						bg.antialiasing = true;
 						bg.scrollFactor.set(0.9, 0.9);
