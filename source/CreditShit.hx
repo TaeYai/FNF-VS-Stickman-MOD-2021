@@ -27,6 +27,8 @@ class CreditShit extends MusicBeatSubstate
     var paper5:FlxSprite;
     var paper6:FlxSprite;
     var paper7:FlxSprite;
+    var twittershit:FlxSprite;
+    var youtubeshit:FlxSprite;
     var infopaper:FlxSprite;
     var videogroup:FlxTypedGroup<FlxSprite>;
     var curSelected:Int = 0;
@@ -175,6 +177,32 @@ class CreditShit extends MusicBeatSubstate
             //click.screenCenter();
             infopaper.scrollFactor.set();
             add(infopaper);
+
+            twittershit = new FlxSprite(0,0);
+            twittershit.y += 100; 
+            twittershit.x = 10000;
+            //twittershit.setGraphicSize(FlxG.width);
+            twittershit.frames = Paths.getSparrowAtlas('credit/mediaButtons', 'preload');
+            twittershit.animation.addByPrefix('twitter', 'twitter white0', 24, true);
+            twittershit.animation.addByPrefix('select', 'twitter hover0', 24, true);
+            twittershit.animation.play('twitter');
+            
+            
+            youtubeshit = new FlxSprite(0,0);
+            youtubeshit.x = 10000;
+            youtubeshit.y += 400; 
+            //youtubeshit.setGraphicSize(FlxG.width);
+            youtubeshit.frames = Paths.getSparrowAtlas('credit/mediaButtons', 'preload');
+            youtubeshit.animation.addByPrefix('youtube', 'youtube white0', 24, true);
+            youtubeshit.animation.addByPrefix('select', 'youtube hover0', 24, true);
+            youtubeshit.animation.play('youtube');
+            
+            add(twittershit);
+            add(youtubeshit);
+
+            trace(youtubeshit);
+            trace(twittershit);
+            trace(text);
         
         }
     override function update(elapsed:Float)
@@ -187,16 +215,19 @@ class CreditShit extends MusicBeatSubstate
             if(jz)
                 {
                     FlxTween.tween(infopaper, {y: -1000}, {ease: FlxEase.expoInOut});
-                    new FlxTimer().start(1, function(tmr:FlxTimer)
+                    new FlxTimer().start(0.5, function(tmr:FlxTimer)
                         {
+                            FlxTween.tween(text, {y: 0}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper2, {x: 380}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper3, {x: 700}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper4, {x: 380}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper5, {x: 700}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper6, {x: 1000}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper7, {x: 65}, {ease: FlxEase.expoInOut});
+                            FlxTween.tween(twittershit, {x: 10000}, {ease: FlxEase.expoInOut});
+                            FlxTween.tween(youtubeshit, {x: 10000}, {ease: FlxEase.expoInOut});
                         });
-                    new FlxTimer().start(1.5, function(tmr:FlxTimer)
+                    new FlxTimer().start(1, function(tmr:FlxTimer)
                      {
                         FlxTween.tween(paper, {y: 120}, {ease: FlxEase.expoInOut});
                      });
@@ -205,16 +236,19 @@ class CreditShit extends MusicBeatSubstate
             else if (kal)
                 {
                     FlxTween.tween(infopaper, {y: -1000}, {ease: FlxEase.expoInOut});
-                    new FlxTimer().start(1, function(tmr:FlxTimer)
+                    new FlxTimer().start(0.5, function(tmr:FlxTimer)
                         {
+                            FlxTween.tween(text, {y: 0}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper, {x: 65}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper3, {x: 700}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper4, {x: 380}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper5, {x: 700}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper6, {x: 1000}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper7, {x: 65}, {ease: FlxEase.expoInOut});
+                            FlxTween.tween(twittershit, {x: 10000}, {ease: FlxEase.expoInOut});
+                            FlxTween.tween(youtubeshit, {x: 10000}, {ease: FlxEase.expoInOut});
                         });
-                    new FlxTimer().start(1.5, function(tmr:FlxTimer)
+                    new FlxTimer().start(1, function(tmr:FlxTimer)
                      {
                         FlxTween.tween(paper2, {y: 120}, {ease: FlxEase.expoInOut});
                      });
@@ -223,16 +257,19 @@ class CreditShit extends MusicBeatSubstate
             else if (taeyai)
                 {
                     FlxTween.tween(infopaper, {y: -1000}, {ease: FlxEase.expoInOut});
-                    new FlxTimer().start(1, function(tmr:FlxTimer)
+                    new FlxTimer().start(0.5, function(tmr:FlxTimer)
                         {
+                            FlxTween.tween(text, {y: 0}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper, {x: 65}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper2, {x: 380}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper4, {x: 380}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper5, {x: 700}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper6, {x: 1000}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper7, {x: 65}, {ease: FlxEase.expoInOut});
+                            FlxTween.tween(twittershit, {x: 10000}, {ease: FlxEase.expoInOut});
+                            FlxTween.tween(youtubeshit, {x: 10000}, {ease: FlxEase.expoInOut});
                         });
-                    new FlxTimer().start(1.5, function(tmr:FlxTimer)
+                    new FlxTimer().start(1, function(tmr:FlxTimer)
                      {
                         FlxTween.tween(paper3, {y: 120}, {ease: FlxEase.expoInOut});
                      });
@@ -241,16 +278,19 @@ class CreditShit extends MusicBeatSubstate
              else if (atom)
                 {
                     FlxTween.tween(infopaper, {y: -1000}, {ease: FlxEase.expoInOut});
-                    new FlxTimer().start(1, function(tmr:FlxTimer)
+                    new FlxTimer().start(0.5, function(tmr:FlxTimer)
                         {
+                            FlxTween.tween(text, {y: 0}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper, {x: 65}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper2, {x: 380}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper3, {x: 700}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper5, {x: 700}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper6, {x: 1000}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper7, {x: 65}, {ease: FlxEase.expoInOut});
+                            FlxTween.tween(twittershit, {x: 10000}, {ease: FlxEase.expoInOut});
+                            FlxTween.tween(youtubeshit, {x: 10000}, {ease: FlxEase.expoInOut});
                         });
-                    new FlxTimer().start(1.5, function(tmr:FlxTimer)
+                    new FlxTimer().start(1, function(tmr:FlxTimer)
                      {
                         FlxTween.tween(paper4, {y: 400}, {ease: FlxEase.expoInOut});
                      });
@@ -259,16 +299,19 @@ class CreditShit extends MusicBeatSubstate
             else if (blin)
                 {
                     FlxTween.tween(infopaper, {y: -1000}, {ease: FlxEase.expoInOut});
-                    new FlxTimer().start(1, function(tmr:FlxTimer)
+                    new FlxTimer().start(0.5, function(tmr:FlxTimer)
                         {
+                            FlxTween.tween(text, {y: 0}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper, {x: 65}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper2, {x: 380}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper3, {x: 700}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper4, {x: 380}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper6, {x: 1000}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper7, {x: 65}, {ease: FlxEase.expoInOut});
+                            FlxTween.tween(twittershit, {x: 10000}, {ease: FlxEase.expoInOut});
+                            FlxTween.tween(youtubeshit, {x: 10000}, {ease: FlxEase.expoInOut});
                         });
-                    new FlxTimer().start(1.5, function(tmr:FlxTimer)
+                    new FlxTimer().start(1, function(tmr:FlxTimer)
                      {
                         FlxTween.tween(paper5, {y: 400}, {ease: FlxEase.expoInOut});
                      });
@@ -277,16 +320,19 @@ class CreditShit extends MusicBeatSubstate
             else if (pee)
                 {
                     FlxTween.tween(infopaper, {y: -1000}, {ease: FlxEase.expoInOut});
-                    new FlxTimer().start(1, function(tmr:FlxTimer)
+                    new FlxTimer().start(0.5, function(tmr:FlxTimer)
                         {
+                            FlxTween.tween(text, {y: 0}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper, {x: 65}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper2, {x: 380}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper3, {x: 700}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper4, {x: 380}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper5, {x: 700}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper7, {x: 65}, {ease: FlxEase.expoInOut});
+                            FlxTween.tween(twittershit, {x: 10000}, {ease: FlxEase.expoInOut});
+                            FlxTween.tween(youtubeshit, {x: 10000}, {ease: FlxEase.expoInOut});
                         });
-                    new FlxTimer().start(1.5, function(tmr:FlxTimer)
+                    new FlxTimer().start(1, function(tmr:FlxTimer)
                      {
                         FlxTween.tween(paper6, {y: 120}, {ease: FlxEase.expoInOut});
                      });
@@ -295,16 +341,19 @@ class CreditShit extends MusicBeatSubstate
             else if (mami)
                 {
                     FlxTween.tween(infopaper, {y: -1000}, {ease: FlxEase.expoInOut});
-                    new FlxTimer().start(1, function(tmr:FlxTimer)
+                    new FlxTimer().start(0.5, function(tmr:FlxTimer)
                         {
+                            FlxTween.tween(text, {y: 0}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper, {x: 65}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper2, {x: 380}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper3, {x: 700}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper4, {x: 380}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper5, {x: 700}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper6, {x: 1000}, {ease: FlxEase.expoInOut});
+                            FlxTween.tween(twittershit, {x: 10000}, {ease: FlxEase.expoInOut});
+                            FlxTween.tween(youtubeshit, {x: 10000}, {ease: FlxEase.expoInOut});
                         });
-                    new FlxTimer().start(1.5, function(tmr:FlxTimer)
+                    new FlxTimer().start(1, function(tmr:FlxTimer)
                      {
                         FlxTween.tween(paper7, {y: 400}, {ease: FlxEase.expoInOut});
                      });
@@ -317,6 +366,84 @@ class CreditShit extends MusicBeatSubstate
                 }
             
         }
+        if (FlxG.mouse.overlaps(twittershit))
+            {
+                if (FlxG.mouse.justPressed)
+                {
+                    if(jz)
+                        {
+                            fancyOpenURL('https://twitter.com/JzBoyAnims');
+                        }
+                    else if(kal)
+                        {
+                            fancyOpenURL('https://twitter.com/Kal_050');
+                        }
+                    else  if(taeyai)
+                        {
+                            fancyOpenURL('https://twitter.com/Taeyai_');
+                        }
+                    else if(atom)
+                        {
+                            fancyOpenURL('https://twitter.com/imjustatomixx');
+                        }
+                    else if(blin)
+                        {
+                            fancyOpenURL('https://twitter.com/RareWubboxer');
+                        }
+                    else if(pee)
+                        {
+                            fancyOpenURL('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+                        }
+                    else if(mami)
+                        {
+                            fancyOpenURL('https://twitter.com/mami_pipo');
+                        }
+                    twittershit.animation.play('select');
+                    new FlxTimer().start(0.03, function(tmr:FlxTimer)
+                        {
+                            twittershit.animation.play('twitter');
+                        });
+                }
+            }
+        if (FlxG.mouse.overlaps(youtubeshit))
+            {
+                if (FlxG.mouse.justPressed)
+                    {
+                        if(jz)
+                            {
+                                fancyOpenURL('https://www.youtube.com/c/JzBoy');
+                            }
+                        else if(kal)
+                            {
+                                fancyOpenURL('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+                            }
+                        else  if(taeyai)
+                            {
+                                fancyOpenURL('https://www.youtube.com/c/TaeYai/featured');
+                            }
+                        else if(atom)
+                            {
+                                fancyOpenURL('https://www.youtube.com/channel/UCNHnf2JgOLaGyrBeIBJWSYg');
+                            }
+                        else if(blin)
+                            {
+                                fancyOpenURL('https://www.youtube.com/channel/UCnTN-0q7Wv1zqvBXQ_g4gZA');
+                            }
+                        else if(pee)
+                            {
+                                fancyOpenURL('https://www.youtube.com/channel/UCPjEXvh-57IBh-KVnzr1gMg');
+                            }
+                        else if(mami)
+                            {
+                                fancyOpenURL('https://www.youtube.com/c/MamiPipO');
+                            }
+                    youtubeshit.animation.play('select');
+                    new FlxTimer().start(0.03, function(tmr:FlxTimer)
+                        {
+                            youtubeshit.animation.play('youtube');
+                        });
+                    }
+            }
         
         if (FlxG.mouse.overlaps(paper))
         {
@@ -325,21 +452,22 @@ class CreditShit extends MusicBeatSubstate
                 infopaper.animation.play('jz');
                 FlxTween.tween(paper, {y: -1000}, {ease: FlxEase.expoInOut});
                 jz = true;
-                new FlxTimer().start(1, function(tmr:FlxTimer)
+                new FlxTimer().start(0.5, function(tmr:FlxTimer)
                     {
+                        FlxTween.tween(text, {y: -600}, {ease: FlxEase.expoInOut});
                         FlxTween.tween(paper2, {x: -9000}, {ease: FlxEase.expoInOut});
                         FlxTween.tween(paper3, {x: -9000}, {ease: FlxEase.expoInOut});
                         FlxTween.tween(paper4, {x: -9000}, {ease: FlxEase.expoInOut});
                         FlxTween.tween(paper5, {x: -9000}, {ease: FlxEase.expoInOut});
                         FlxTween.tween(paper6, {x: -9000}, {ease: FlxEase.expoInOut});
                         FlxTween.tween(paper7, {x: -9000}, {ease: FlxEase.expoInOut});
+                        FlxTween.tween(twittershit, {x: 0}, {ease: FlxEase.expoInOut});
+                        FlxTween.tween(youtubeshit, {x: 0}, {ease: FlxEase.expoInOut});
                     });
-                 new FlxTimer().start(2, function(tmr:FlxTimer)
+                 new FlxTimer().start(1, function(tmr:FlxTimer)
                      {
                         FlxTween.tween(infopaper, {y: 100}, {ease: FlxEase.expoInOut});
                      });
-                    
-
             }
         }
         if (FlxG.mouse.overlaps(paper2))
@@ -349,16 +477,19 @@ class CreditShit extends MusicBeatSubstate
                     infopaper.animation.play('kal');
                     FlxTween.tween(paper2, {y: -1000}, {ease: FlxEase.expoInOut});
                     kal = true;
-                    new FlxTimer().start(1, function(tmr:FlxTimer)
+                    new FlxTimer().start(0.5, function(tmr:FlxTimer)
                         {
+                            FlxTween.tween(text, {y: -600}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper, {x: -9000}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper3, {x: -9000}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper4, {x: -9000}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper5, {x: -9000}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper6, {x: -9000}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper7, {x: -9000}, {ease: FlxEase.expoInOut});
+                            FlxTween.tween(twittershit, {x: 0}, {ease: FlxEase.expoInOut});
+                            FlxTween.tween(youtubeshit, {x: 0}, {ease: FlxEase.expoInOut});
                         });
-                     new FlxTimer().start(2, function(tmr:FlxTimer)
+                     new FlxTimer().start(1, function(tmr:FlxTimer)
                          {
                             FlxTween.tween(infopaper, {y: 100}, {ease: FlxEase.expoInOut});
                          });
@@ -373,16 +504,19 @@ class CreditShit extends MusicBeatSubstate
                         infopaper.animation.play('taeyai');
                         FlxTween.tween(paper3, {y: -1000}, {ease: FlxEase.expoInOut});
                         taeyai = true;
-                        new FlxTimer().start(1, function(tmr:FlxTimer)
+                        new FlxTimer().start(0.5, function(tmr:FlxTimer)
                             {
+                                FlxTween.tween(text, {y: -600}, {ease: FlxEase.expoInOut});
                                 FlxTween.tween(paper, {x: -9000}, {ease: FlxEase.expoInOut});
                                 FlxTween.tween(paper2, {x: -9000}, {ease: FlxEase.expoInOut});
                                 FlxTween.tween(paper4, {x: -9000}, {ease: FlxEase.expoInOut});
                                 FlxTween.tween(paper5, {x: -9000}, {ease: FlxEase.expoInOut});
                                 FlxTween.tween(paper6, {x: -9000}, {ease: FlxEase.expoInOut});
                                 FlxTween.tween(paper7, {x: -9000}, {ease: FlxEase.expoInOut});
+                                FlxTween.tween(twittershit, {x: 0}, {ease: FlxEase.expoInOut});
+                                FlxTween.tween(youtubeshit, {x: 0}, {ease: FlxEase.expoInOut});
                             });
-                         new FlxTimer().start(2, function(tmr:FlxTimer)
+                         new FlxTimer().start(1, function(tmr:FlxTimer)
                              {
                                 FlxTween.tween(infopaper, {y: 100}, {ease: FlxEase.expoInOut});
                              });
@@ -398,16 +532,19 @@ class CreditShit extends MusicBeatSubstate
                         infopaper.animation.play('atom');
                         FlxTween.tween(paper4, {y: -1000}, {ease: FlxEase.expoInOut});
                         atom = true;
-                        new FlxTimer().start(1, function(tmr:FlxTimer)
+                        new FlxTimer().start(0.5, function(tmr:FlxTimer)
                             {
+                                FlxTween.tween(text, {y: -600}, {ease: FlxEase.expoInOut});
                                 FlxTween.tween(paper, {x: -9000}, {ease: FlxEase.expoInOut});
                                 FlxTween.tween(paper2, {x: -9000}, {ease: FlxEase.expoInOut});
                                 FlxTween.tween(paper3, {x: -9000}, {ease: FlxEase.expoInOut});
                                 FlxTween.tween(paper5, {x: -9000}, {ease: FlxEase.expoInOut});
                                 FlxTween.tween(paper6, {x: -9000}, {ease: FlxEase.expoInOut});
                                 FlxTween.tween(paper7, {x: -9000}, {ease: FlxEase.expoInOut});
+                                FlxTween.tween(twittershit, {x: 0}, {ease: FlxEase.expoInOut});
+                                FlxTween.tween(youtubeshit, {x: 0}, {ease: FlxEase.expoInOut});
                             });
-                         new FlxTimer().start(2, function(tmr:FlxTimer)
+                         new FlxTimer().start(1, function(tmr:FlxTimer)
                              {
                                 FlxTween.tween(infopaper, {y: 100}, {ease: FlxEase.expoInOut});
                              });
@@ -421,16 +558,19 @@ class CreditShit extends MusicBeatSubstate
                     infopaper.animation.play('blin');
                     FlxTween.tween(paper5, {y: -1000}, {ease: FlxEase.expoInOut});
                     blin = true;
-                    new FlxTimer().start(1, function(tmr:FlxTimer)
+                    new FlxTimer().start(0.5, function(tmr:FlxTimer)
                         {
+                            FlxTween.tween(text, {y: -600}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper, {x: -9000}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper2, {x: -9000}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper3, {x: -9000}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper4, {x: -9000}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper6, {x: -9000}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper7, {x: -9000}, {ease: FlxEase.expoInOut});
+                            FlxTween.tween(twittershit, {x: 0}, {ease: FlxEase.expoInOut});
+                            FlxTween.tween(youtubeshit, {x: 0}, {ease: FlxEase.expoInOut});
                         });
-                     new FlxTimer().start(2, function(tmr:FlxTimer)
+                     new FlxTimer().start(1, function(tmr:FlxTimer)
                          {
                             FlxTween.tween(infopaper, {y: 100}, {ease: FlxEase.expoInOut});
                          });
@@ -443,16 +583,19 @@ class CreditShit extends MusicBeatSubstate
                     infopaper.animation.play('pee');
                     FlxTween.tween(paper6, {y: -1000}, {ease: FlxEase.expoInOut});
                     pee = true;
-                    new FlxTimer().start(1, function(tmr:FlxTimer)
+                    new FlxTimer().start(0.5, function(tmr:FlxTimer)
                         {
+                            FlxTween.tween(text, {y: -600}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper, {x: -9000}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper2, {x: -9000}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper3, {x: -9000}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper4, {x: -9000}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper5, {x: -9000}, {ease: FlxEase.expoInOut});
                             FlxTween.tween(paper7, {x: -9000}, {ease: FlxEase.expoInOut});
+                            FlxTween.tween(twittershit, {x: 0}, {ease: FlxEase.expoInOut});
+                            FlxTween.tween(youtubeshit, {x: 0}, {ease: FlxEase.expoInOut});
                         });
-                     new FlxTimer().start(2, function(tmr:FlxTimer)
+                     new FlxTimer().start(1, function(tmr:FlxTimer)
                          {
                             FlxTween.tween(infopaper, {y: 100}, {ease: FlxEase.expoInOut});
                          });
@@ -467,16 +610,19 @@ class CreditShit extends MusicBeatSubstate
                         infopaper.animation.play('mami');
                         FlxTween.tween(paper7, {y: -1000}, {ease: FlxEase.expoInOut});
                         mami = true;
-                        new FlxTimer().start(1, function(tmr:FlxTimer)
+                        new FlxTimer().start(0.5, function(tmr:FlxTimer)
                             {
+                                FlxTween.tween(text, {y: -600}, {ease: FlxEase.expoInOut});
                                 FlxTween.tween(paper, {x: -9000}, {ease: FlxEase.expoInOut});
                                 FlxTween.tween(paper2, {x: -9000}, {ease: FlxEase.expoInOut});
                                 FlxTween.tween(paper3, {x: -9000}, {ease: FlxEase.expoInOut});
                                 FlxTween.tween(paper4, {x: -9000}, {ease: FlxEase.expoInOut});
                                 FlxTween.tween(paper5, {x: -9000}, {ease: FlxEase.expoInOut});
                                 FlxTween.tween(paper6, {x: -9000}, {ease: FlxEase.expoInOut});
+                                FlxTween.tween(twittershit, {x: 0}, {ease: FlxEase.expoInOut});
+                                FlxTween.tween(youtubeshit, {x: 0}, {ease: FlxEase.expoInOut});
                             });
-                         new FlxTimer().start(2, function(tmr:FlxTimer)
+                         new FlxTimer().start(1, function(tmr:FlxTimer)
                              {
                                 FlxTween.tween(infopaper, {y: 100}, {ease: FlxEase.expoInOut});
                              });
