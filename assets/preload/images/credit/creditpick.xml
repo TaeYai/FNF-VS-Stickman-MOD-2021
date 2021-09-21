@@ -2,33 +2,14 @@
 <TextureAtlas imagePath="creditpick.png">
 	<!-- Created with Adobe Animate version 19.2.1.408 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="Card10000" x="0" y="0" width="456" height="420"/>
-	<SubTexture name="Card1 selected0000" x="496" y="0" width="469" height="435" frameX="0" frameY="0" frameWidth="470" frameHeight="435"/>
-	<SubTexture name="Card1 selected0001" x="1005" y="0" width="469" height="435" frameX="0" frameY="0" frameWidth="470" frameHeight="435"/>
-	<SubTexture name="Card1 selected0002" x="1514" y="0" width="470" height="435"/>
-	<SubTexture name="Card20000" x="0" y="475" width="461" height="402"/>
-	<SubTexture name="Card2 selected0000" x="501" y="475" width="493" height="426"/>
-	<SubTexture name="Card2 selected0001" x="1034" y="475" width="493" height="426"/>
-	<SubTexture name="Card2 selected0002" x="0" y="941" width="493" height="426"/>
-	<SubTexture name="Card30000" x="533" y="941" width="435" height="424"/>
-	<SubTexture name="Card3 seleted0000" x="1008" y="941" width="463" height="443"/>
-	<SubTexture name="Card3 seleted0001" x="1511" y="941" width="462" height="443" frameX="0" frameY="0" frameWidth="463" frameHeight="443"/>
-	<SubTexture name="Card3 seleted0002" x="0" y="1424" width="461" height="442" frameX="-1" frameY="-1" frameWidth="463" frameHeight="443"/>
-	<SubTexture name="Card40000" x="501" y="1424" width="469" height="412"/>
-	<SubTexture name="Card4 selected0000" x="1010" y="1424" width="488" height="427" frameX="-1" frameY="0" frameWidth="489" frameHeight="427"/>
-	<SubTexture name="Card4 selected0001" x="1538" y="1424" width="486" height="427" frameX="-2" frameY="0" frameWidth="489" frameHeight="427"/>
-	<SubTexture name="Card4 selected0002" x="0" y="1906" width="489" height="424" frameX="0" frameY="-3" frameWidth="489" frameHeight="427"/>
-	<SubTexture name="Card50000" x="529" y="1906" width="463" height="429"/>
-	<SubTexture name="Card50001" x="529" y="1906" width="463" height="429"/>
-	<SubTexture name="Card5 selected0000" x="1032" y="1906" width="486" height="446"/>
-	<SubTexture name="Card5 selected0001" x="1558" y="1906" width="486" height="445" frameX="0" frameY="-1" frameWidth="486" frameHeight="446"/>
-	<SubTexture name="Card5 selected0002" x="0" y="2392" width="486" height="445" frameX="0" frameY="-1" frameWidth="486" frameHeight="446"/>
-	<SubTexture name="Card60000" x="526" y="2392" width="482" height="419"/>
-	<SubTexture name="Card6 seleted0000" x="1048" y="2392" width="494" height="438"/>
-	<SubTexture name="Card6 seleted0001" x="0" y="2877" width="494" height="438"/>
-	<SubTexture name="Card6 seleted0002" x="534" y="2877" width="494" height="438"/>
-	<SubTexture name="Card7 0000" x="1068" y="2877" width="445" height="424"/>
-	<SubTexture name="Card7 seleted0000" x="1553" y="2877" width="477" height="440" frameX="0" frameY="-1" frameWidth="477" frameHeight="441"/>
-	<SubTexture name="Card7 seleted0001" x="0" y="3357" width="477" height="441"/>
-	<SubTexture name="Card7 seleted0002" x="517" y="3357" width="473" height="439" frameX="-1" frameY="-2" frameWidth="477" frameHeight="441"/>
+	<SubTexture name="Card special0000" x="2" y="2" width="207" height="203"/>
+	<SubTexture name="Card special 20000" x="212" y="2" width="207" height="203"/>
+	<SubTexture name="Card10000" x="422" y="2" width="456" height="420"/>
+	<SubTexture name="Card20000" x="2" y="425" width="461" height="402"/>
+	<SubTexture name="Card30000" x="466" y="425" width="435" height="424"/>
+	<SubTexture name="Card40000" x="2" y="852" width="469" height="412"/>
+	<SubTexture name="Card50000" x="474" y="852" width="463" height="429"/>
+	<SubTexture name="Card50001" x="474" y="852" width="463" height="429"/>
+	<SubTexture name="Card60000" x="2" y="1284" width="482" height="419"/>
+	<SubTexture name="Card7 0000" x="487" y="1284" width="445" height="424"/>
 </TextureAtlas>
