@@ -19,6 +19,7 @@
 	<SubTexture name="Card4 selected0001" x="1538" y="1424" width="486" height="427" frameX="-2" frameY="0" frameWidth="489" frameHeight="427"/>
 	<SubTexture name="Card4 selected0002" x="0" y="1906" width="489" height="424" frameX="0" frameY="-3" frameWidth="489" frameHeight="427"/>
 	<SubTexture name="Card50000" x="529" y="1906" width="463" height="429"/>
+	<SubTexture name="Card50001" x="529" y="1906" width="463" height="429"/>
 	<SubTexture name="Card5 selected0000" x="1032" y="1906" width="486" height="446"/>
 	<SubTexture name="Card5 selected0001" x="1558" y="1906" width="486" height="445" frameX="0" frameY="-1" frameWidth="486" frameHeight="446"/>
 	<SubTexture name="Card5 selected0002" x="0" y="2392" width="486" height="445" frameX="0" frameY="-1" frameWidth="486" frameHeight="446"/>

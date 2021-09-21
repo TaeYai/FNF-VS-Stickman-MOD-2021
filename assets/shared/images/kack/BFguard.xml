@@ -124,49 +124,19 @@
 	<SubTexture name="BF NOTE UP guard0012" x="1311" y="446" width="377" height="417" frameX="0" frameY="-4" frameWidth="377" frameHeight="421"/>
 	<SubTexture name="BF NOTE UP guard0013" x="1311" y="446" width="377" height="417" frameX="0" frameY="-4" frameWidth="377" frameHeight="421"/>
 	<SubTexture name="BF NOTE UP guard0014" x="1311" y="446" width="377" height="417" frameX="0" frameY="-4" frameWidth="377" frameHeight="421"/>
-	<SubTexture name="BF idle dance whatt0000" x="0" y="907" width="388" height="408"/>
-	<SubTexture name="BF idle dance whatt0001" x="428" y="907" width="388" height="408"/>
-	<SubTexture name="BF idle dance whatt0002" x="428" y="907" width="388" height="408"/>
-	<SubTexture name="BF idle dance whatt0003" x="0" y="907" width="388" height="408"/>
-	<SubTexture name="BF idle dance whatt0004" x="856" y="907" width="388" height="408"/>
-	<SubTexture name="BF idle dance whatt0005" x="856" y="907" width="388" height="408"/>
-	<SubTexture name="BF idle dance whatt0006" x="856" y="907" width="388" height="408"/>
-	<SubTexture name="BF idle dance whatt0007" x="856" y="907" width="388" height="408"/>
-	<SubTexture name="BF idle dance whatt0008" x="856" y="907" width="388" height="408"/>
-	<SubTexture name="BF idle dance whatt0009" x="856" y="907" width="388" height="408"/>
-	<SubTexture name="BF idle dance whatt0010" x="856" y="907" width="388" height="408"/>
-	<SubTexture name="BF idle dance whatt0011" x="856" y="907" width="388" height="408"/>
-	<SubTexture name="BF idle dance whatt0012" x="856" y="907" width="388" height="408"/>
-	<SubTexture name="BF idle dance whatt0013" x="856" y="907" width="388" height="408"/>
-	<SubTexture name="BF idle dance whatt0014" x="856" y="907" width="388" height="408"/>
-	<SubTexture name="BF idle dance whatt0015" x="856" y="907" width="388" height="408"/>
-	<SubTexture name="BF idle dance whatt0016" x="856" y="907" width="388" height="408"/>
-	<SubTexture name="BF idle dance whatt0017" x="856" y="907" width="388" height="408"/>
-	<SubTexture name="BF idle dance whatt0018" x="856" y="907" width="388" height="408"/>
-	<SubTexture name="BF idle dance whatt0019" x="856" y="907" width="388" height="408"/>
-	<SubTexture name="BF idle dance whatt0020" x="856" y="907" width="388" height="408"/>
-	<SubTexture name="BF idle dance whatt0021" x="856" y="907" width="388" height="408"/>
-	<SubTexture name="BF idle dance whatt0022" x="856" y="907" width="388" height="408"/>
-	<SubTexture name="BF idle dance whatt0023" x="856" y="907" width="388" height="408"/>
-	<SubTexture name="BF idle dance whatt0024" x="856" y="907" width="388" height="408"/>
-	<SubTexture name="BF idle dance whatt0025" x="856" y="907" width="388" height="408"/>
-	<SubTexture name="BF idle dance whatt0026" x="856" y="907" width="388" height="408"/>
-	<SubTexture name="BF idle dance whatt0027" x="856" y="907" width="388" height="408"/>
-	<SubTexture name="BF idle dance whatt0028" x="856" y="907" width="388" height="408"/>
-	<SubTexture name="BF idle dance whatt0029" x="856" y="907" width="388" height="408"/>
-	<SubTexture name="BF idle guard0000" x="1284" y="907" width="343" height="379" frameX="-11" frameY="-4" frameWidth="355" frameHeight="383"/>
-	<SubTexture name="BF idle guard0001" x="1667" y="907" width="355" height="368" frameX="0" frameY="-15" frameWidth="355" frameHeight="383"/>
-	<SubTexture name="BF idle guard0002" x="1667" y="907" width="355" height="368" frameX="0" frameY="-15" frameWidth="355" frameHeight="383"/>
-	<SubTexture name="BF idle guard0003" x="0" y="1355" width="342" height="381" frameX="-12" frameY="-2" frameWidth="355" frameHeight="383"/>
-	<SubTexture name="BF idle guard0004" x="0" y="1355" width="342" height="381" frameX="-12" frameY="-2" frameWidth="355" frameHeight="383"/>
-	<SubTexture name="BF idle guard0005" x="382" y="1355" width="339" height="383" frameX="-15" frameY="0" frameWidth="355" frameHeight="383"/>
-	<SubTexture name="BF idle guard0006" x="382" y="1355" width="339" height="383" frameX="-15" frameY="0" frameWidth="355" frameHeight="383"/>
-	<SubTexture name="BF idle guard0007" x="382" y="1355" width="339" height="383" frameX="-15" frameY="0" frameWidth="355" frameHeight="383"/>
-	<SubTexture name="BF idle guard0008" x="382" y="1355" width="339" height="383" frameX="-15" frameY="0" frameWidth="355" frameHeight="383"/>
-	<SubTexture name="BF idle guard0009" x="382" y="1355" width="339" height="383" frameX="-15" frameY="0" frameWidth="355" frameHeight="383"/>
-	<SubTexture name="BF idle guard0010" x="382" y="1355" width="339" height="383" frameX="-15" frameY="0" frameWidth="355" frameHeight="383"/>
-	<SubTexture name="BF idle guard0011" x="382" y="1355" width="339" height="383" frameX="-15" frameY="0" frameWidth="355" frameHeight="383"/>
-	<SubTexture name="BF idle guard0012" x="382" y="1355" width="339" height="383" frameX="-15" frameY="0" frameWidth="355" frameHeight="383"/>
-	<SubTexture name="BF idle guard0013" x="382" y="1355" width="339" height="383" frameX="-15" frameY="0" frameWidth="355" frameHeight="383"/>
-	<SubTexture name="BF idle guard0014" x="382" y="1355" width="339" height="383" frameX="-15" frameY="0" frameWidth="355" frameHeight="383"/>
+	<SubTexture name="BF idle guard0000" x="0" y="907" width="343" height="379" frameX="-11" frameY="-4" frameWidth="355" frameHeight="383"/>
+	<SubTexture name="BF idle guard0001" x="383" y="907" width="355" height="368" frameX="0" frameY="-15" frameWidth="355" frameHeight="383"/>
+	<SubTexture name="BF idle guard0002" x="383" y="907" width="355" height="368" frameX="0" frameY="-15" frameWidth="355" frameHeight="383"/>
+	<SubTexture name="BF idle guard0003" x="778" y="907" width="342" height="381" frameX="-12" frameY="-2" frameWidth="355" frameHeight="383"/>
+	<SubTexture name="BF idle guard0004" x="778" y="907" width="342" height="381" frameX="-12" frameY="-2" frameWidth="355" frameHeight="383"/>
+	<SubTexture name="BF idle guard0005" x="1160" y="907" width="339" height="383" frameX="-15" frameY="0" frameWidth="355" frameHeight="383"/>
+	<SubTexture name="BF idle guard0006" x="1160" y="907" width="339" height="383" frameX="-15" frameY="0" frameWidth="355" frameHeight="383"/>
+	<SubTexture name="BF idle guard0007" x="1160" y="907" width="339" height="383" frameX="-15" frameY="0" frameWidth="355" frameHeight="383"/>
+	<SubTexture name="BF idle guard0008" x="1160" y="907" width="339" height="383" frameX="-15" frameY="0" frameWidth="355" frameHeight="383"/>
+	<SubTexture name="BF idle guard0009" x="1160" y="907" width="339" height="383" frameX="-15" frameY="0" frameWidth="355" frameHeight="383"/>
+	<SubTexture name="BF idle guard0010" x="1160" y="907" width="339" height="383" frameX="-15" frameY="0" frameWidth="355" frameHeight="383"/>
+	<SubTexture name="BF idle guard0011" x="1160" y="907" width="339" height="383" frameX="-15" frameY="0" frameWidth="355" frameHeight="383"/>
+	<SubTexture name="BF idle guard0012" x="1160" y="907" width="339" height="383" frameX="-15" frameY="0" frameWidth="355" frameHeight="383"/>
+	<SubTexture name="BF idle guard0013" x="1160" y="907" width="339" height="383" frameX="-15" frameY="0" frameWidth="355" frameHeight="383"/>
+	<SubTexture name="BF idle guard0014" x="1160" y="907" width="339" height="383" frameX="-15" frameY="0" frameWidth="355" frameHeight="383"/>
 </TextureAtlas>
