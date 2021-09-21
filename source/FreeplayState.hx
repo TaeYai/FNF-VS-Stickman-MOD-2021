@@ -47,7 +47,6 @@ class FreeplayState extends MusicBeatState
 			var data:Array<String> = initSonglist[i].split(':');
 			songs.push(new SongMetadata(data[0], Std.parseInt(data[2]), data[1]));
 		}
-
 		/* 
 			if (FlxG.sound.music != null)
 			{
@@ -220,10 +219,22 @@ class FreeplayState extends MusicBeatState
 			changeSelection(1);
 		}
 
-		if (FlxG.keys.justPressed.LEFT)
-			changeDiff(-1);
-		if (FlxG.keys.justPressed.RIGHT)
-			changeDiff(1);
+		if (songs[curSelected].songName.toLowerCase() != "boombox" && songs[curSelected].songName.toLowerCase() != "fight" && songs[curSelected].songName.toLowerCase() != "sticking" && songs[curSelected].songName.toLowerCase() != "serious")
+			{
+				if (FlxG.keys.justPressed.RIGHT)
+					changeDiff(1);
+				if (FlxG.keys.justPressed.LEFT)
+					changeDiff(-1);
+			}  
+			else
+			{
+				curDifficulty = 2;
+				changeDiff();
+				if (FlxG.keys.justPressed.RIGHT)
+					changeDiff(0);
+				if (FlxG.keys.justPressed.LEFT)
+					changeDiff(0);
+			}
 
 		if (controls.BACK)
 		{
