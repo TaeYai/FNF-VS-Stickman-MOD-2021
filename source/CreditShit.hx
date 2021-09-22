@@ -415,7 +415,7 @@ class CreditShit extends MusicBeatSubstate
                             }
                         else if(kal)
                             {
-                                fancyOpenURL('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
+                                fancyOpenURL('https://www.youtube.com/channel/UCXNXFvPaPOcGKN2Uize57LA');
                             }
                         else  if(taeyai)
                             {

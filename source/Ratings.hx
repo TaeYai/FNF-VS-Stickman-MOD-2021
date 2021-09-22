@@ -48,29 +48,29 @@ class Ratings
                 switch(i)
                 {
                     case 0:
-                        ranking += " AAAAA";
+                        ranking += " GOD";
                     case 1:
-                        ranking += " AAAA:";
+                        ranking += " UNHUMAN:";
                     case 2:
-                        ranking += " AAAA.";
+                        ranking += " SSR++.";
                     case 3:
-                        ranking += " AAAA";
+                        ranking += " SSR+";
                     case 4:
-                        ranking += " AAA:";
+                        ranking += " SSR:";
                     case 5:
-                        ranking += " AAA.";
+                        ranking += " SS++.";
                     case 6:
-                        ranking += " AAA";
+                        ranking += " SS+";
                     case 7:
-                        ranking += " AA:";
+                        ranking += " SS";
                     case 8:
-                        ranking += " AA.";
+                        ranking += " S+.";
                     case 9:
-                        ranking += " AA";
+                        ranking += " S";
                     case 10:
-                        ranking += " A:";
+                        ranking += " A++:";
                     case 11:
-                        ranking += " A.";
+                        ranking += " A+.";
                     case 12:
                         ranking += " A";
                     case 13:
