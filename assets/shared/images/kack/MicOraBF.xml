@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="MicOraBF.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="BF mic r0000" x="0" y="0" width="1117" height="349" frameX="-1041" frameY="-567" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0001" x="1157" y="0" width="212" height="334" frameX="-1012" frameY="-513" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0002" x="1409" y="0" width="1136" height="621" frameX="-1023" frameY="-341" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0003" x="2585" y="0" width="286" height="737" frameX="-946" frameY="-295" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0004" x="2911" y="0" width="1436" height="652" frameX="-726" frameY="-291" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0005" x="4387" y="0" width="726" height="394" frameX="-611" frameY="-467" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0006" x="5153" y="0" width="1603" height="344" frameX="-556" frameY="-536" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0007" x="6796" y="0" width="988" height="411" frameX="-431" frameY="-682" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0008" x="0" y="777" width="1990" height="759" frameX="-172" frameY="-513" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0009" x="2030" y="777" width="806" height="621" frameX="-875" frameY="-439" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0010" x="2876" y="777" width="1406" height="749" frameX="-753" frameY="-414" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0011" x="4322" y="777" width="958" height="840" frameX="-673" frameY="-391" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0012" x="5320" y="777" width="1640" height="606" frameX="-522" frameY="-395" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0013" x="0" y="1657" width="1684" height="502" frameX="-385" frameY="-456" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0014" x="1724" y="1657" width="1921" height="639" frameX="-238" frameY="-475" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0015" x="3685" y="1657" width="1831" height="682" frameX="-223" frameY="-359" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0016" x="5556" y="1657" width="1858" height="879" frameX="-303" frameY="-323" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0017" x="0" y="2576" width="1455" height="823" frameX="-373" frameY="-323" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0018" x="1495" y="2576" width="1687" height="863" frameX="-472" frameY="-417" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0019" x="3222" y="2576" width="969" height="776" frameX="-490" frameY="-428" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0020" x="4231" y="2576" width="1742" height="732" frameX="-420" frameY="-414" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0021" x="6013" y="2576" width="1273" height="868" frameX="-362" frameY="-334" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0022" x="0" y="3484" width="1618" height="966" frameX="-541" frameY="-306" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0023" x="1658" y="3484" width="1118" height="935" frameX="-483" frameY="-258" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0024" x="2816" y="3484" width="1716" height="838" frameX="-444" frameY="-248" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0025" x="4572" y="3484" width="955" height="926" frameX="-430" frameY="-254" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0026" x="5567" y="3484" width="1713" height="833" frameX="-446" frameY="-288" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0027" x="0" y="4490" width="2102" height="1077" frameX="-371" frameY="-195" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0028" x="2142" y="4490" width="1847" height="1045" frameX="-315" frameY="-84" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0029" x="4029" y="4490" width="2017" height="1156" frameX="-456" frameY="-46" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0030" x="6086" y="4490" width="1558" height="1080" frameX="-686" frameY="-46" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0031" x="0" y="5686" width="1865" height="1094" frameX="-610" frameY="-60" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0032" x="1905" y="5686" width="2102" height="1153" frameX="-507" frameY="-31" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0033" x="4047" y="5686" width="2081" height="1128" frameX="-391" frameY="-31" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0034" x="0" y="6879" width="2126" height="1159" frameX="-471" frameY="-31" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0035" x="2166" y="6879" width="2135" height="1037" frameX="-339" frameY="-45" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0036" x="4341" y="6879" width="2403" height="1086" frameX="-223" frameY="-87" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0048" x="6784" y="6879" width="1364" height="723" frameX="-794" frameY="-391" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0049" x="0" y="7563" width="938" height="441" frameX="-686" frameY="-477" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0050" x="978" y="7563" width="1549" height="424" frameX="-610" frameY="-560" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0051" x="0" y="5466" width="988" height="663" frameX="-567" frameY="-484" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0056" x="2567" y="7563" width="1242" height="502" frameX="-401" frameY="-437" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0059" x="3849" y="7563" width="94" height="167" frameX="-1780" frameY="-970" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0060" x="0" y="8078" width="169" height="86" frameX="-1706" frameY="-1448" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0061" x="0" y="8078" width="169" height="86" frameX="-1706" frameY="-1448" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0062" x="0" y="8078" width="169" height="86" frameX="-1706" frameY="-1448" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0063" x="0" y="8078" width="169" height="86" frameX="-1706" frameY="-1448" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0064" x="0" y="8078" width="169" height="86" frameX="-1706" frameY="-1448" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0065" x="0" y="8078" width="169" height="86" frameX="-1706" frameY="-1448" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0066" x="0" y="8078" width="169" height="86" frameX="-1706" frameY="-1448" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0067" x="0" y="8078" width="169" height="86" frameX="-1706" frameY="-1448" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0068" x="0" y="8078" width="169" height="86" frameX="-1706" frameY="-1448" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0069" x="0" y="8078" width="169" height="86" frameX="-1706" frameY="-1448" frameWidth="2696" frameHeight="1546"/>
+	<SubTexture name="BF mic r0070" x="0" y="8078" width="169" height="86" frameX="-1706" frameY="-1448" frameWidth="2696" frameHeight="1546"/>
+</TextureAtlas>

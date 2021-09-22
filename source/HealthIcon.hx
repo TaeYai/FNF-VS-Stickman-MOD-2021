@@ -26,7 +26,7 @@ class HealthIcon extends FlxSprite
 				animation.add('jack3-1', [0, 1], 0, false, isPlayer);		
 				animation.add('jack3-2', [0, 1], 0, false, isPlayer);					
 				animation.add('jack3-3', [0, 1], 0, false, isPlayer);					
-			case 'bf' | 'bfora' | 'bfguard' | 'bfhit' | 'bfwhat' | 'bfno' | 'bfgot' | 'bfthrow' | 'bfattack' | 'bfgot2' | 'bfatk' | 'bfatk2':
+			case 'bf' | 'bfora' | 'bfguard' | 'bfhit' | 'bfwhat' | 'bfno' | 'bfgot' | 'bfthrow' | 'bfattack' | 'bfgot2' | 'bfatk' | 'bfatk2' | 'bfconfused':
 				loadGraphic(Paths.image('iconGrid'), true, 150, 150);
 				animation.add('bf', [0, 1], 0, false, isPlayer);
 				animation.add('bfora', [0, 1], 0, false, isPlayer);
@@ -40,6 +40,7 @@ class HealthIcon extends FlxSprite
 				animation.add('bfgot2', [0, 1], 0, false, isPlayer);
 				animation.add('bfatk', [0, 1], 0, false, isPlayer);
 				animation.add('bfatk2', [0, 1], 0, false, isPlayer);
+				animation.add('bfconfused', [0, 1], 0, false, isPlayer);
 
 		default:
 		loadGraphic(Paths.image('iconGrid'), true, 150, 150);

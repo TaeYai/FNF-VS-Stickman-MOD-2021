@@ -19,3 +19,4 @@ bfattack
 bfgot2
 bfatk
 bfatk2
+bfconfused

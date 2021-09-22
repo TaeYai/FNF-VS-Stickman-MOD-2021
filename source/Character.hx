@@ -424,8 +424,54 @@ class Character extends FlxSprite
 
 				flipX = true;
 
-			case 'bfhit':
-					var tex = Paths.getSparrowAtlas('kack/BFsong2');
+			case 'bfconfused':
+				var tex = Paths.getSparrowAtlas('kack/BFabuse');
+				frames = tex;
+
+				trace(tex.frames.length);
+
+				animation.addByPrefix('idle', 'BF wth idle', 24, false);
+				animation.addByPrefix('singUP', 'BF NOTE UP wth', 24, false);
+				animation.addByPrefix('singLEFT', 'BF NOTE LEFT wth', 24, false);
+				animation.addByPrefix('singRIGHT', 'BF NOTE RIGHT wth', 24, false);
+				animation.addByPrefix('singDOWN', 'BF NOTE DOWN wth', 24, false);
+				animation.addByPrefix('wha', 'BF watch', 24, false);
+
+
+				addOffset('idle', -5);
+				addOffset("singUP", -47, 29);
+				addOffset("singRIGHT", -46, -6);
+				addOffset("singLEFT", 10, -7);
+				addOffset("singDOWN", -13, -51);
+
+				playAnim('idle');
+
+				flipX = true;	
+				
+				
+				case 'bfgettingabuse':
+					var tex = Paths.getSparrowAtlas('kack/BFabuse');
+					frames = tex;
+	
+					trace(tex.frames.length);
+
+					animation.addByPrefix('wha', 'BF watch', 24, false);
+					animation.addByPrefix('bflook', 'BF idle  speaker off', 24, false);
+					animation.addByPrefix('bfgf', 'BF wactch gf', 24, false);
+
+		
+					addOffset('wha', -5);
+					addOffset('bflook', -5);
+					addOffset('bfgf', -5);
+
+					//playAnim('wha');
+	
+					flipX = true;				
+					
+				
+
+			case 'bfmichit':
+					var tex = Paths.getSparrowAtlas('kack/BFHitWithMic');
 					frames = tex;
 	
 					trace(tex.frames.length);
@@ -438,6 +484,9 @@ class Character extends FlxSprite
 					playAnim('idle');
 	
 					flipX = true;
+
+
+
 
 			case 'bforaed':
 					var tex = Paths.getSparrowAtlas('kack/BFsong2');
@@ -495,20 +544,22 @@ class Character extends FlxSprite
 					playAnim('idle'); 
 		
 					flipX = true;
+
 			case 'bfgot':
 					var tex = Paths.getSparrowAtlas('kack/BFthrow');
 					frames = tex;
 		
 					trace(tex.frames.length);
 		
-					animation.addByPrefix('got', 'bf got mic', 24, false);
-					animation.addByIndices('idle', 'bf got mic', [6], "", 24, false);
+					animation.addByPrefix('got', 'bf get mic', 24, false);
+					//animation.addByIndices('idle', 'bf got mic', [6], "", 24, false);
 		
-					addOffset('idle', -5);
+					addOffset('got', -5);
 		
-					playAnim('idle'); 
+					playAnim('got'); 
 		
 					flipX = true;
+
 			case 'bfthrow':
 					var tex = Paths.getSparrowAtlas('kack/BFthrow');
 					frames = tex;
@@ -885,13 +936,13 @@ class Character extends FlxSprite
 					animation.addByPrefix('singLEFT', 'Jack_Left', 24);
 	
 					addOffset('idle', -769, -102);
-					addOffset('idle2', -770, -110);
-					addOffset('idle3', -750, -120);
-					addOffset('go', 583, -70);
-					addOffset("singUP", -749, -38);
-					addOffset("singRIGHT", -791, -84);
-					addOffset("singLEFT", -773, -102);
-					addOffset("singDOWN", -790, -151);
+					addOffset('idle2', -770, -100);
+					addOffset('idle3', -767, -104);
+					addOffset('go', 583, -74);
+					addOffset("singUP", -789, -29);
+					addOffset("singRIGHT", -811, -84);
+					addOffset("singLEFT", -783, -102);
+					addOffset("singDOWN", -810, -149);
 	
 					playAnim('idle2');
 				case 'jack-piano':
@@ -903,11 +954,11 @@ class Character extends FlxSprite
 					animation.addByPrefix('singDOWN', 'Jack_piano_down', 24);
 					animation.addByPrefix('singLEFT', 'Jack_piano_left', 24);
 
-					addOffset('idle');
-					addOffset("singUP");
-					addOffset("singRIGHT");
-					addOffset("singLEFT");
-					addOffset("singDOWN");
+					addOffset('idle', 0, 0);
+					addOffset("singUP", 46, 0);
+					addOffset("singRIGHT", 19, 0);
+					addOffset("singLEFT", 17, 0);
+					addOffset("singDOWN", 18, 0);
 	
 					playAnim('idle');
 				case 'jackmic':
@@ -921,15 +972,24 @@ class Character extends FlxSprite
 					addOffset('idle');
 					playAnim('idle');
 
+				case 'jackstop':
+					tex = Paths.getSparrowAtlas('kack/JzSongtwo');
+					frames = tex;
+					animation.addByIndices('thrownstop', 'Jack_throwmic1', [6], "", 24, false);
+
+	
+					addOffset('thrownstop');
+					playAnim('thrownstop');
+
 				case 'jackprethrow':
 					tex = Paths.getSparrowAtlas('kack/Jackthrow');
 					frames = tex;
-					animation.addByPrefix('jackpreattack', 'Jack_pre attack', 24);
-					animation.addByPrefix('jackpreattack2', 'Jack_pre attack strong', 24);
+					animation.addByPrefix('jackpreattack', 'Jackpre attack', 24);
+					animation.addByPrefix('jackbigattack', 'Jack_pre attack strong', 24);
 					animation.addByPrefix('jackspaam', 'Jack_throwmic ora', 24);
 	
 					addOffset('jackpreattack');
-					addOffset('jackpreattack2');
+					addOffset('jackbigattack');
 					playAnim('jackpreattack');
 
 
@@ -967,6 +1027,7 @@ class Character extends FlxSprite
 					addOffset('idle');
 	
 					playAnim('idle');
+
 				case 'jacktaunt':
 					tex = Paths.getSparrowAtlas('kack/JackSong2');
 					frames = tex;
@@ -987,14 +1048,18 @@ class Character extends FlxSprite
 					addOffset('idle');
 	
 					playAnim('idle');
+					
 				case 'jackded':
 					tex = Paths.getSparrowAtlas('kack/JackSong2');
 					frames = tex;
 					animation.addByPrefix('idle', 'Jack_rip', 24);
+					animation.addByIndices('dedstop', 'Jack_rip', [15], "", 24, false);
 
 					addOffset('idle');
-	
-					playAnim('idle');
+					addOffset('dedstop');
+
+					playAnim('dedstop');
+
 				case 'fighting':
 					tex = Paths.getSparrowAtlas('kack/fighting');
 					frames = tex;

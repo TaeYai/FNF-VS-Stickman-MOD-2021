@@ -213,6 +213,7 @@ class PlayState extends MusicBeatState
 	private var miconet:Bool = false;
 	var mic:FlxSprite;
 	var micone:FlxSprite;
+	var mimi:FlxSprite;
 	public static var timeCurrently:Float = 0;
 	public static var timeCurrentlyR:Float = 0;
 	
@@ -2819,7 +2820,7 @@ class PlayState extends MusicBeatState
 
 
 		
-		if (FlxG.keys.justPressed.C)
+		if (FlxG.keys.justPressed.ONE)
 			endSong();
 		
 	}
@@ -3999,24 +4000,45 @@ class PlayState extends MusicBeatState
 				dad.y += 670;
 				dad.x -= 1400;
 				add(dad);
-			case 289:
+			case 296:
 				remove(boyfriend);
-				boyfriend = new Boyfriend(770, 450,'bfmad');
+				boyfriend = new Boyfriend(770, 450,'bfgettingabuse');
 				boyfriend.y += 600;
 				boyfriend.x += 200;
 				add(boyfriend);
+				boyfriend.playAnim('wha');
 			case 290:
 				remove(gf);
 				gf = new Character(400, 130, 'gfspeaker2');
 				gf.y += 500;
 				gf.x -= 300;
 				add(gf);
+			case 360:
+				remove(boyfriend);
+				boyfriend = new Boyfriend(770, 450,'bfconfused');
+				boyfriend.y += 600;
+				boyfriend.x += 200;
+				add(boyfriend);
 			case 384:
 				remove(dad);
 				dad = new Character(100, 100, 'jack-piano');
 				dad.y += 670;
 			    dad.x -= 700;
 				add(dad);
+			case 448:
+				remove(boyfriend);
+				boyfriend = new Boyfriend(770, 450,'bfgettingabuse');
+				boyfriend.y += 600;
+				boyfriend.x += 200;
+				add(boyfriend);
+				boyfriend.playAnim('wha');
+			case 496:
+				remove(boyfriend);
+				boyfriend = new Boyfriend(770, 450,'bfmad');
+				boyfriend.y += 600;
+				boyfriend.x += 200;
+				add(boyfriend);
+
 			case 575:
 				remove(gf);
 				dad.alpha = 0;
@@ -4025,10 +4047,29 @@ class PlayState extends MusicBeatState
 				fightgf.x -= 490;
 				fightgf.y += 480;
 				fightgf.playAnim('jackpress', false);
+				
+				remove(boyfriend);
+				boyfriend = new Boyfriend(770, 450,'bfgettingabuse');
+				boyfriend.y += 600;
+				boyfriend.x += 200;
+				add(boyfriend);
+				boyfriend.playAnim('bflook');
+
+
+
+
 			case 576:
 				fightgf.playAnim('idlej');
 			case 591:
 				fightgf.playAnim('gfpress', false);
+
+			case 592:
+				remove(boyfriend);
+				boyfriend = new Boyfriend(770, 450,'bfmad');
+				boyfriend.y += 600;
+				boyfriend.x += 200;
+				add(boyfriend);		
+
 			case 593:
 				fightgf.playAnim('idlegf', false);
 			case 607:
@@ -4041,15 +4082,17 @@ class PlayState extends MusicBeatState
 				fightgf.playAnim('idlegf');
 			case 623:
 				fightgf.playAnim('jackpress', false);
-			case 625:
-				fightgf.playAnim('gfpress', false);
-			case 626:
+
+			case 624:			
 				remove(boyfriend);
-				boyfriend = new Boyfriend(770, 450,'bfwhat');
+				boyfriend = new Boyfriend(770, 450,'bfgettingabuse');
 				boyfriend.y += 600;
 				boyfriend.x += 200;
 				add(boyfriend);
-				boyfriend.playAnim('idle');	
+				boyfriend.playAnim('bfgf', false);	
+
+			case 625:
+				fightgf.playAnim('gfpress', false);
 			case 628:
 				fightgf.playAnim('jackpress', false);
 			case 629:
@@ -4099,9 +4142,12 @@ class PlayState extends MusicBeatState
 			case 672:
 				remove(dad);
 				boom = true;
+				boyfriend.alpha = 0;
 			case 675:
 				boom = false;
 		  }
+
+		  
 		  case 'fight':
 		  switch(curStep)
 		  {
@@ -4110,22 +4156,30 @@ class PlayState extends MusicBeatState
 				miconet = true;
 				dad.playAnim('thrown',false);
 				remove(boyfriend);
-				boyfriend = new Boyfriend(770, 450,'bfhit');
-				boyfriend.y += 600;
-				boyfriend.x += 200;
+				boyfriend = new Boyfriend(770, 450,'bfmichit');
+				boyfriend.y += 400;
+				boyfriend.x -= 490;
 				add(boyfriend);
 				boyfriend.playAnim('idle');
 				health -= 0.4;
-				add(micone);	
-				micone.animation.play('idle', true);
+				//add(micone);	
+				//micone.animation.play('idle', true);
 
 			
-
 				gf.playAnim('fearstop',false);
 
 			case 155:
 				miconet = false;
-				dad.playAnim('thrownstop',false);
+				//t = false;
+				//dad.playAnim('thrownstop',false);
+
+				remove(dad);
+				dad = new Character(100, 100, 'jackstop');
+				dad.x -= 600; //AAAAAAAAAAAAAAAAAAAAAAaa
+				dad.y += 800;
+				add(dad);
+				dad.playAnim('thrownstop');
+
 
 				remove(gf);
 				gf = new Character(400, 130, 'gf-tableuh');
@@ -4147,7 +4201,7 @@ class PlayState extends MusicBeatState
 				gf.playAnim('fear');	
 
 
-				remove(micone);
+				//remove(micone);
 				remove(boyfriend);
 				boyfriend = new Boyfriend(770, 450,'bforaed');
 				boyfriend.y += 600;
@@ -4161,6 +4215,15 @@ class PlayState extends MusicBeatState
 				micbf.animation.addByPrefix('idle', 'Ora mic', 24, false);
 				micbf.antialiasing = true;
 				micbf.animation.play('idle', true);
+
+
+				remove(dad);
+				dad = new Character(100, 100, 'jackprethrow');
+				dad.y += 800;
+			    dad.x -= 600;
+				add(dad);
+		
+
 				dad.playAnim('jackspaam',false);
 				//mic.flipX = true;
 				add(micbf);
@@ -4217,7 +4280,7 @@ class PlayState extends MusicBeatState
 			    dad.x -= 700;
 				add(dad);
 
-			case 198:
+			case 201:
 				remove(micbf);
 
 			case 270:
@@ -4237,17 +4300,19 @@ class PlayState extends MusicBeatState
 				gf.playAnim('fear');
 			
 
-				add(micone);	
-				micone.animation.play('idle', true);
+				//add(micone);	
+				//micone.animation.play('idle', true);
 				miconet = true;
+				
+		
 				remove(boyfriend);
 				remove(dad);
 				dad = new Character(100,100,'jackmic');
 				dad.x -= 600; 
 				dad.y += 800;
-				boyfriend = new Boyfriend(770, 450,'bfhit');
-				boyfriend.y += 600;
-				boyfriend.x += 200; 
+				boyfriend = new Boyfriend(770, 450,'bfmichit');
+				boyfriend.y += 400;
+				boyfriend.x -= 490;
 		
 				add(boyfriend);
 				add(dad);
@@ -4256,7 +4321,7 @@ class PlayState extends MusicBeatState
 				health -= 1;
 			case 310:
 				miconet = false;
-				remove(micone);
+				//remove(micone);
 
 			case 315:
 
@@ -4292,9 +4357,9 @@ class PlayState extends MusicBeatState
 				remove(boyfriend);
 				boyfriend = new Boyfriend(770, 450,'bfgot');
 				boyfriend.y += 600;
-				boyfriend.x -= 50;
-				add(boyfriend);
-				boyfriend.playAnim('idle');
+				boyfriend.x += 50;
+				add(boyfriend); 
+				boyfriend.playAnim('got', false);
 
 			case 388:
 				remove(dad);
@@ -4373,7 +4438,7 @@ class PlayState extends MusicBeatState
 				remove(boyfriend);
 				boyfriend = new Boyfriend(770, 450,'bfgot2');
 				boyfriend.y += 600;
-				boyfriend.x -= 80;
+				boyfriend.x -= 200;
 				add(boyfriend);
 				boyfriend.playAnim('got', false);
 			case 421:
@@ -4383,7 +4448,7 @@ class PlayState extends MusicBeatState
 				remove(boyfriend);
 				boyfriend = new Boyfriend(770, 450,'bfpreatk');
 				boyfriend.y += 600;
-				boyfriend.x += 200;
+				boyfriend.x += 170;
 				add(boyfriend); 
 				boyfriend.playAnim('idle', false);
 
@@ -4420,7 +4485,7 @@ class PlayState extends MusicBeatState
 				dad.x -= 800; 
 				dad.y += 760;
 				add(dad);
-				dad.playAnim('jackpreattack2',false);	
+				dad.playAnim('jackbigattack',false);	
 
 
 			case 451:
@@ -4445,17 +4510,17 @@ class PlayState extends MusicBeatState
 
 				miconet = true;
 				remove(boyfriend);
-				boyfriend = new Boyfriend(770, 450,'bfhit');
-				boyfriend.y += 600;
-				boyfriend.x += 200; 
+				boyfriend = new Boyfriend(770, 450,'bfmichit');
+				boyfriend.y += 400;
+				boyfriend.x -= 490;
 				add(boyfriend);
 				health -= 0.8;
-				add(micone);	
-				micone.animation.play('idle', true);
+				//add(micone);	
+				//micone.animation.play('idle', true);
 			case 455:
 				miconet = false;
-				remove(micone);
-			case 464:
+				//remove(micone);
+			case 463:
 				remove(gf);
 				gf = new Character(400, 130, 'gf-tableuh');
 				gf.y += 743;
@@ -4464,6 +4529,7 @@ class PlayState extends MusicBeatState
 	
 				gf.playAnim('danceRight');	
 
+		
 
 				defaultCamZoom = 0.9;
 				remove(dad);
@@ -4473,7 +4539,13 @@ class PlayState extends MusicBeatState
 				add(dad);
 				dad.playAnim('noob',false);
 
-				
+			case 480:	
+				remove(boyfriend);
+				boyfriend = new Boyfriend(770, 450,'bfmad');
+				boyfriend.y += 600;
+				boyfriend.x += 200;
+				add(boyfriend);
+
 
 			case 490:
 				dad.playAnim('idle');
@@ -4496,25 +4568,37 @@ class PlayState extends MusicBeatState
 				dad.x -= 600; //lol game crash
 				dad.y += 800;
 				add(dad);
+
 				mic = new FlxSprite(-1400,400);
-				mic.frames = Paths.getSparrowAtlas('kack/micattack');
-				mic.animation.addByPrefix('idle', 'ora mic but BF', 24, false);
+				mic.frames = Paths.getSparrowAtlas('kack/MicOraBF');
+				mic.animation.addByPrefix('idle', 'BF mic r', 24, false);
 				mic.antialiasing = true;
 				mic.animation.play('idle', true);
 				add(mic);
-			case 667:
-				mic.animation.play('idle', true);
-			case 668:
+
+
+
+			case 650:
+				mimi = new FlxSprite(-1400,400);
+				mimi.frames = Paths.getSparrowAtlas('kack/micattack');
+				mimi.animation.addByPrefix('idle', 'ora mic but BF', 24, false);
+				mimi.antialiasing = true;
+				mimi.animation.play('idle', true);
+				add(mimi);
+
+			case 672:
 				remove(dad);
 				dad = new Character(100,100,'jackded');
-				dad.x -= 600; //lol game crash
+				dad.x -= 600; //fix when jz
 				dad.y += 1000;
 				add(dad);
-				micfight = false;
-				remove(mic);
+				
+				dad.playAnim('idle');
 
+			case 674:
+				dad.playAnim('dedstop', false);
 
-			case 673:	
+			case 676:	
 				remove(boyfriend);
 				boyfriend = new Boyfriend(770, 450,'bfno');
 				boyfriend.y += 600;
@@ -4522,7 +4606,11 @@ class PlayState extends MusicBeatState
 				add(boyfriend);
 				boyfriend.playAnim('idle');
 
-
+				micfight = false;
+				remove(mic);
+				
+				miconet = false;
+				remove(mimi);
 		
 
 
@@ -4540,6 +4628,9 @@ class PlayState extends MusicBeatState
 				add(gf);	
 				gf.playAnim('danceRight');	
 			}
+
+
+
 			case 'serious':
 			switch(curStep)
 			{

@@ -2,13 +2,13 @@
 <TextureAtlas imagePath="Jackthrow.png">
 	<!-- Created with Adobe Animate version 19.2.1.408 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="Jack_pre attack0000" x="0" y="0" width="198" height="550" frameX="-42" frameY="0" frameWidth="240" frameHeight="550"/>
-	<SubTexture name="Jack_pre attack0001" x="238" y="0" width="203" height="531" frameX="-24" frameY="-19" frameWidth="240" frameHeight="550"/>
-	<SubTexture name="Jack_pre attack0002" x="481" y="0" width="225" height="535" frameX="0" frameY="-15" frameWidth="240" frameHeight="550"/>
-	<SubTexture name="Jack_pre attack0003" x="746" y="0" width="219" height="535" frameX="-6" frameY="-15" frameWidth="240" frameHeight="550"/>
-	<SubTexture name="Jack_pre attack0004" x="746" y="0" width="219" height="535" frameX="-6" frameY="-15" frameWidth="240" frameHeight="550"/>
-	<SubTexture name="Jack_pre attack0005" x="746" y="0" width="219" height="535" frameX="-6" frameY="-15" frameWidth="240" frameHeight="550"/>
-	<SubTexture name="Jack_pre attack0006" x="746" y="0" width="219" height="535" frameX="-6" frameY="-15" frameWidth="240" frameHeight="550"/>
+	<SubTexture name="Jackpre attack0000" x="0" y="0" width="198" height="550" frameX="-42" frameY="0" frameWidth="240" frameHeight="550"/>
+	<SubTexture name="Jackpre attack0001" x="238" y="0" width="203" height="531" frameX="-24" frameY="-19" frameWidth="240" frameHeight="550"/>
+	<SubTexture name="Jackpre attack0002" x="481" y="0" width="225" height="535" frameX="0" frameY="-15" frameWidth="240" frameHeight="550"/>
+	<SubTexture name="Jackpre attack0003" x="746" y="0" width="219" height="535" frameX="-6" frameY="-15" frameWidth="240" frameHeight="550"/>
+	<SubTexture name="Jackpre attack0004" x="746" y="0" width="219" height="535" frameX="-6" frameY="-15" frameWidth="240" frameHeight="550"/>
+	<SubTexture name="Jackpre attack0005" x="746" y="0" width="219" height="535" frameX="-6" frameY="-15" frameWidth="240" frameHeight="550"/>
+	<SubTexture name="Jackpre attack0006" x="746" y="0" width="219" height="535" frameX="-6" frameY="-15" frameWidth="240" frameHeight="550"/>
 	<SubTexture name="Jack_pre attack strong0000" x="1005" y="0" width="388" height="453" frameX="-22" frameY="-101" frameWidth="412" frameHeight="563"/>
 	<SubTexture name="Jack_pre attack strong0001" x="1433" y="0" width="412" height="517" frameX="0" frameY="-46" frameWidth="412" frameHeight="563"/>
 	<SubTexture name="Jack_pre attack strong0002" x="0" y="590" width="378" height="563" frameX="-31" frameY="0" frameWidth="412" frameHeight="563"/>
