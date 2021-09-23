@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="FireWrath.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="FIREEE instance 10000" x="0" y="0" width="4112" height="829" frameX="0" frameY="-77" frameWidth="4120" frameHeight="906"/>
+	<SubTexture name="FIREEE instance 10001" x="0" y="0" width="4112" height="829" frameX="0" frameY="-77" frameWidth="4120" frameHeight="906"/>
+	<SubTexture name="FIREEE instance 10002" x="0" y="0" width="4112" height="829" frameX="0" frameY="-77" frameWidth="4120" frameHeight="906"/>
+	<SubTexture name="FIREEE instance 10003" x="0" y="869" width="4101" height="864" frameX="-5" frameY="-34" frameWidth="4120" frameHeight="906"/>
+	<SubTexture name="FIREEE instance 10004" x="0" y="869" width="4101" height="864" frameX="-5" frameY="-34" frameWidth="4120" frameHeight="906"/>
+	<SubTexture name="FIREEE instance 10005" x="0" y="869" width="4101" height="864" frameX="-5" frameY="-34" frameWidth="4120" frameHeight="906"/>
+	<SubTexture name="FIREEE instance 10006" x="0" y="1773" width="4101" height="886" frameX="0" frameY="-12" frameWidth="4120" frameHeight="906"/>
+	<SubTexture name="FIREEE instance 10007" x="0" y="1773" width="4101" height="886" frameX="0" frameY="-12" frameWidth="4120" frameHeight="906"/>
+	<SubTexture name="FIREEE instance 10008" x="0" y="1773" width="4101" height="886" frameX="0" frameY="-12" frameWidth="4120" frameHeight="906"/>
+	<SubTexture name="FIREEE instance 10009" x="0" y="2699" width="4120" height="902" frameX="0" frameY="0" frameWidth="4120" frameHeight="906"/>
+	<SubTexture name="FIREEE instance 10010" x="0" y="2699" width="4120" height="902" frameX="0" frameY="0" frameWidth="4120" frameHeight="906"/>
+	<SubTexture name="FIREEE instance 10011" x="0" y="2699" width="4120" height="902" frameX="0" frameY="0" frameWidth="4120" frameHeight="906"/>
+	<SubTexture name="FIREEE instance 10012" x="0" y="3641" width="4119" height="851" frameX="0" frameY="-50" frameWidth="4120" frameHeight="906"/>
+	<SubTexture name="FIREEE instance 10013" x="0" y="3641" width="4119" height="851" frameX="0" frameY="-50" frameWidth="4120" frameHeight="906"/>
+	<SubTexture name="FIREEE instance 10014" x="0" y="3641" width="4119" height="851" frameX="0" frameY="-50" frameWidth="4120" frameHeight="906"/>
+</TextureAtlas>
