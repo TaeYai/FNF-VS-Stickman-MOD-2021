@@ -235,10 +235,11 @@ class TitleState extends MusicBeatState
 
 		credTextShit.visible = false;
 
-		ngSpr = new FlxSprite(0, FlxG.height * 0.52).loadGraphic(Paths.image('newgrounds_logo'));
+		ngSpr = new FlxSprite(0, 0).loadGraphic(Paths.image('logo3'));
+		ngSpr.scale.set(0.4, 0.4);
 		add(ngSpr);
 		ngSpr.visible = false;
-		ngSpr.setGraphicSize(Std.int(ngSpr.width * 0.8));
+		
 		ngSpr.updateHitbox();
 		ngSpr.screenCenter(X);
 		ngSpr.antialiasing = true;
@@ -378,6 +379,14 @@ class TitleState extends MusicBeatState
 		credGroup.add(coolText);
 		textGroup.add(coolText);
 	}
+	function addprsent(text:String)
+		{
+			var coolText:Alphabet = new Alphabet(0, 0, text, true, false);
+			coolText.screenCenter(X);
+			coolText.y += 500;
+			credGroup.add(coolText);
+			textGroup.add(coolText);
+		}
 
 	function deleteCoolText()
 	{
@@ -397,22 +406,17 @@ class TitleState extends MusicBeatState
 
 			gfDance.animation.play('idle');
 
-		FlxG.log.add(curBeat);
+		trace(curBeat);
 
 		switch (curBeat)
 		{
 			case 1:
-				createCoolText(['ninjamuffin99', 'phantomArcade', 'kawaisprite', 'evilsk8er']);
-			// credTextShit.visible = true;
+				ngSpr.visible = true;
 			case 3:
-				addMoreText('present');
-			// credTextShit.text += '\npresent...';
-			// credTextShit.addText();
+				addprsent('present');
 			case 4:
 				deleteCoolText();
-			// credTextShit.visible = false;
-			// credTextShit.text = 'In association \nwith';
-			// credTextShit.screenCenter();
+				ngSpr.visible = false;
 			case 5:
 					createCoolText(['Kade Engine', 'by']);
 

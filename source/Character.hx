@@ -909,6 +909,7 @@ class Character extends FlxSprite
 					tex = Paths.getSparrowAtlas('kack/Jacksong3end');
 					frames = tex;
 					animation.addByPrefix('idle', 'Jack_Song3end', 24);
+					animation.addByIndices('ded', 'Jack_Song3end', [186], "", 24, false);
 			
 					playAnim('idle');
 
@@ -1053,12 +1054,12 @@ class Character extends FlxSprite
 					tex = Paths.getSparrowAtlas('kack/JackSong2');
 					frames = tex;
 					animation.addByPrefix('idle', 'Jack_rip', 24);
-					animation.addByIndices('dedstop', 'Jack_rip', [15], "", 24, false);
+					animation.addByIndices('dedstop', 'Jack_rip', [21, 21, 21, 21, 21, 21, 21], "", 24, false);
 
 					addOffset('idle');
 					addOffset('dedstop');
 
-					playAnim('dedstop');
+					playAnim('idle');
 
 				case 'fighting':
 					tex = Paths.getSparrowAtlas('kack/fighting');

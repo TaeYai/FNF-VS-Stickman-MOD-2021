@@ -4227,36 +4227,8 @@ class PlayState extends MusicBeatState
 				dad.playAnim('jackspaam',false);
 				//mic.flipX = true;
 				add(micbf);
-			case 177:
-				health -= 0.080;
-			case 178:
-				health -= 0.080;
-			case 179:
-				health -= 0.080;
-			case 180:
-				health -= 0.080;
-			case 181:
-				health -= 0.080;
-			case 182:
-				health -= 0.080;
-			case 183:
-				health -= 0.080;
-			case 184:
-				health -= 0.080;
-			case 185:
-				health -= 0.080;
-			case 186:
-				health -= 0.080;
-			case 187:
-				health -= 0.080;
-			case 188:
-				health -= 0.080;
-			case 189:
-				health -= 0.080;
-			case 190:
-				health -= 0.080;
-			case 191:
-				health -= 0.080;
+				case 177 | 178 | 179 | 180 | 181 | 182 | 183 | 184 | 185 | 186 | 187 | 188 | 189 | 190 | 191:
+					health -= 0.080;
 				
 			case 192:
 				remove(gf);
@@ -4596,7 +4568,7 @@ class PlayState extends MusicBeatState
 				dad.playAnim('idle');
 
 			case 674:
-				dad.playAnim('dedstop', false);
+				dad.playAnim('dedstop', true);
 
 			case 676:	
 				remove(boyfriend);

@@ -25,7 +25,7 @@ class GameOverSubstate extends MusicBeatSubstate
 				daBf = 'bf-pixel-dead';
 			case 'jackroom' | 'jackroomfight':
 				daBf = 'bf-jack-dead';
-				stageSuffix = '-pixel';
+				stageSuffix = '-jack';
 			default:
 				daBf = 'bf';
 		}
@@ -109,7 +109,7 @@ class GameOverSubstate extends MusicBeatSubstate
 			isEnding = true;
 			bf.playAnim('deathConfirm', true);
 			FlxG.sound.music.stop();
-			FlxG.sound.play(Paths.music('gameOverEnd'));
+			FlxG.sound.play(Paths.music('gameOverEnd' + stageSuffix));
 			new FlxTimer().start(0.7, function(tmr:FlxTimer)
 			{
 				FlxG.camera.fade(FlxColor.BLACK, 2, false, function()
