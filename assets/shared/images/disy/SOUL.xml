@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="SOUL.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="HERSOUL down instance 10000" x="0" y="0" width="516" height="452" frameX="0" frameY="-20" frameWidth="520" frameHeight="472"/>
+	<SubTexture name="HERSOUL down instance 10001" x="0" y="0" width="516" height="452" frameX="0" frameY="-20" frameWidth="520" frameHeight="472"/>
+	<SubTexture name="HERSOUL down instance 10002" x="556" y="0" width="516" height="459" frameX="-1" frameY="-5" frameWidth="520" frameHeight="472"/>
+	<SubTexture name="HERSOUL down instance 10003" x="1112" y="0" width="516" height="455" frameX="-1" frameY="-9" frameWidth="520" frameHeight="472"/>
+	<SubTexture name="HERSOUL down instance 10004" x="1668" y="0" width="516" height="457" frameX="-2" frameY="-6" frameWidth="520" frameHeight="472"/>
+	<SubTexture name="HERSOUL down instance 10005" x="2224" y="0" width="514" height="457" frameX="-2" frameY="-8" frameWidth="520" frameHeight="472"/>
+	<SubTexture name="HERSOUL down instance 10006" x="2778" y="0" width="516" height="459" frameX="-3" frameY="-3" frameWidth="520" frameHeight="472"/>
+	<SubTexture name="HERSOUL down instance 10007" x="2778" y="0" width="516" height="459" frameX="-3" frameY="-3" frameWidth="520" frameHeight="472"/>
+	<SubTexture name="HERSOUL down instance 10008" x="3334" y="0" width="516" height="461" frameX="-4" frameY="0" frameWidth="520" frameHeight="472"/>
+	<SubTexture name="HERSOUL down instance 10009" x="3334" y="0" width="516" height="461" frameX="-4" frameY="0" frameWidth="520" frameHeight="472"/>
+	<SubTexture name="HERSOUL down instance 10010" x="3334" y="0" width="516" height="461" frameX="-4" frameY="0" frameWidth="520" frameHeight="472"/>
+	<SubTexture name="HERSOUL down instance 10011" x="3334" y="0" width="516" height="461" frameX="-4" frameY="0" frameWidth="520" frameHeight="472"/>
+	<SubTexture name="HERSOUL down instance 10012" x="3334" y="0" width="516" height="461" frameX="-4" frameY="0" frameWidth="520" frameHeight="472"/>
+	<SubTexture name="HERSOUL down instance 10013" x="3334" y="0" width="516" height="461" frameX="-4" frameY="0" frameWidth="520" frameHeight="472"/>
+	<SubTexture name="HERSOUL down instance 10014" x="3334" y="0" width="516" height="461" frameX="-4" frameY="0" frameWidth="520" frameHeight="472"/>
+	<SubTexture name="HERSOUL down instance 10015" x="3334" y="0" width="516" height="461" frameX="-4" frameY="0" frameWidth="520" frameHeight="472"/>
+	<SubTexture name="HERSOUL down instance 10016" x="3334" y="0" width="516" height="461" frameX="-4" frameY="0" frameWidth="520" frameHeight="472"/>
+	<SubTexture name="HERSOUL down instance 10017" x="3334" y="0" width="516" height="461" frameX="-4" frameY="0" frameWidth="520" frameHeight="472"/>
+	<SubTexture name="HERSOUL down instance 10018" x="3334" y="0" width="516" height="461" frameX="-4" frameY="0" frameWidth="520" frameHeight="472"/>
+	<SubTexture name="HERSOUL down instance 10019" x="3334" y="0" width="516" height="461" frameX="-4" frameY="0" frameWidth="520" frameHeight="472"/>
+	<SubTexture name="HERSOUL down instance 10020" x="3334" y="0" width="516" height="461" frameX="-4" frameY="0" frameWidth="520" frameHeight="472"/>
+	<SubTexture name="HERSOUL down instance 10021" x="3334" y="0" width="516" height="461" frameX="-4" frameY="0" frameWidth="520" frameHeight="472"/>
+	<SubTexture name="HERSOUL down instance 10022" x="3334" y="0" width="516" height="461" frameX="-4" frameY="0" frameWidth="520" frameHeight="472"/>
+	<SubTexture name="HERSOUL down instance 10023" x="3334" y="0" width="516" height="461" frameX="-4" frameY="0" frameWidth="520" frameHeight="472"/>
+	<SubTexture name="HERSOUL idle instance 10000" x="0" y="501" width="479" height="508" frameX="-3" frameY="0" frameWidth="485" frameHeight="508"/>
+	<SubTexture name="HERSOUL idle instance 10001" x="519" y="501" width="484" height="507" frameX="0" frameY="0" frameWidth="485" frameHeight="508"/>
+	<SubTexture name="HERSOUL idle instance 10002" x="1043" y="501" width="480" height="507" frameX="-1" frameY="-1" frameWidth="485" frameHeight="508"/>
+	<SubTexture name="HERSOUL idle instance 10003" x="1563" y="501" width="483" height="504" frameX="-1" frameY="-1" frameWidth="485" frameHeight="508"/>
+	<SubTexture name="HERSOUL idle instance 10004" x="2086" y="501" width="485" height="505" frameX="0" frameY="-1" frameWidth="485" frameHeight="508"/>
+	<SubTexture name="HERSOUL left instance 10000" x="2611" y="501" width="402" height="481" frameX="-8" frameY="-10" frameWidth="426" frameHeight="495"/>
+	<SubTexture name="HERSOUL left instance 10001" x="2611" y="501" width="402" height="481" frameX="-8" frameY="-10" frameWidth="426" frameHeight="495"/>
+	<SubTexture name="HERSOUL left instance 10002" x="3053" y="501" width="416" height="486" frameX="-2" frameY="-7" frameWidth="426" frameHeight="495"/>
+	<SubTexture name="HERSOUL left instance 10003" x="3509" y="501" width="414" height="487" frameX="-4" frameY="-6" frameWidth="426" frameHeight="495"/>
+	<SubTexture name="HERSOUL left instance 10004" x="0" y="1049" width="422" height="492" frameX="-1" frameY="-2" frameWidth="426" frameHeight="495"/>
+	<SubTexture name="HERSOUL left instance 10005" x="462" y="1049" width="425" height="494" frameX="0" frameY="-1" frameWidth="426" frameHeight="495"/>
+	<SubTexture name="HERSOUL left instance 10006" x="927" y="1049" width="426" height="495"/>
+	<SubTexture name="HERSOUL left instance 10007" x="927" y="1049" width="426" height="495"/>
+	<SubTexture name="HERSOUL left instance 10008" x="927" y="1049" width="426" height="495"/>
+	<SubTexture name="HERSOUL left instance 10009" x="927" y="1049" width="426" height="495"/>
+	<SubTexture name="HERSOUL left instance 10010" x="927" y="1049" width="426" height="495"/>
+	<SubTexture name="HERSOUL left instance 10011" x="927" y="1049" width="426" height="495"/>
+	<SubTexture name="HERSOUL left instance 10012" x="927" y="1049" width="426" height="495"/>
+	<SubTexture name="HERSOUL left instance 10013" x="927" y="1049" width="426" height="495"/>
+	<SubTexture name="HERSOUL left instance 10014" x="927" y="1049" width="426" height="495"/>
+	<SubTexture name="HERSOUL right instance 10000" x="1393" y="1049" width="483" height="478" frameX="-6" frameY="-2" frameWidth="489" frameHeight="487"/>
+	<SubTexture name="HERSOUL right instance 10001" x="1393" y="1049" width="483" height="478" frameX="-6" frameY="-2" frameWidth="489" frameHeight="487"/>
+	<SubTexture name="HERSOUL right instance 10002" x="1916" y="1049" width="480" height="481" frameX="-1" frameY="-2" frameWidth="489" frameHeight="487"/>
+	<SubTexture name="HERSOUL right instance 10003" x="2436" y="1049" width="478" height="483" frameX="-3" frameY="0" frameWidth="489" frameHeight="487"/>
+	<SubTexture name="HERSOUL right instance 10004" x="2954" y="1049" width="471" height="481" frameX="-1" frameY="-4" frameWidth="489" frameHeight="487"/>
+	<SubTexture name="HERSOUL right instance 10005" x="3465" y="1049" width="473" height="478" frameX="-1" frameY="-4" frameWidth="489" frameHeight="487"/>
+	<SubTexture name="HERSOUL right instance 10006" x="0" y="1584" width="467" height="482" frameX="0" frameY="-5" frameWidth="489" frameHeight="487"/>
+	<SubTexture name="HERSOUL right instance 10007" x="0" y="1584" width="467" height="482" frameX="0" frameY="-5" frameWidth="489" frameHeight="487"/>
+	<SubTexture name="HERSOUL right instance 10008" x="0" y="1584" width="467" height="482" frameX="0" frameY="-5" frameWidth="489" frameHeight="487"/>
+	<SubTexture name="HERSOUL right instance 10009" x="0" y="1584" width="467" height="482" frameX="0" frameY="-5" frameWidth="489" frameHeight="487"/>
+	<SubTexture name="HERSOUL right instance 10010" x="0" y="1584" width="467" height="482" frameX="0" frameY="-5" frameWidth="489" frameHeight="487"/>
+	<SubTexture name="HERSOUL right instance 10011" x="0" y="1584" width="467" height="482" frameX="0" frameY="-5" frameWidth="489" frameHeight="487"/>
+	<SubTexture name="HERSOUL right instance 10012" x="0" y="1584" width="467" height="482" frameX="0" frameY="-5" frameWidth="489" frameHeight="487"/>
+	<SubTexture name="HERSOUL right instance 10013" x="0" y="1584" width="467" height="482" frameX="0" frameY="-5" frameWidth="489" frameHeight="487"/>
+	<SubTexture name="HERSOUL right instance 10014" x="0" y="1584" width="467" height="482" frameX="0" frameY="-5" frameWidth="489" frameHeight="487"/>
+	<SubTexture name="HERSOUL right instance 10015" x="0" y="1584" width="467" height="482" frameX="0" frameY="-5" frameWidth="489" frameHeight="487"/>
+	<SubTexture name="HERSOUL right instance 10016" x="0" y="1584" width="467" height="482" frameX="0" frameY="-5" frameWidth="489" frameHeight="487"/>
+	<SubTexture name="HERSOUL right instance 10017" x="0" y="1584" width="467" height="482" frameX="0" frameY="-5" frameWidth="489" frameHeight="487"/>
+	<SubTexture name="HERSOUL right instance 10018" x="0" y="1584" width="467" height="482" frameX="0" frameY="-5" frameWidth="489" frameHeight="487"/>
+	<SubTexture name="HERSOUL up instance 10000" x="507" y="1584" width="455" height="531" frameX="0" frameY="0" frameWidth="458" frameHeight="552"/>
+	<SubTexture name="HERSOUL up instance 10001" x="1002" y="1584" width="458" height="532" frameX="0" frameY="-3" frameWidth="458" frameHeight="552"/>
+	<SubTexture name="HERSOUL up instance 10002" x="1500" y="1584" width="456" height="531" frameX="-1" frameY="-15" frameWidth="458" frameHeight="552"/>
+	<SubTexture name="HERSOUL up instance 10003" x="1996" y="1584" width="452" height="531" frameX="-4" frameY="-15" frameWidth="458" frameHeight="552"/>
+	<SubTexture name="HERSOUL up instance 10004" x="2488" y="1584" width="456" height="531" frameX="-1" frameY="-18" frameWidth="458" frameHeight="552"/>
+	<SubTexture name="HERSOUL up instance 10005" x="2984" y="1584" width="453" height="531" frameX="-1" frameY="-18" frameWidth="458" frameHeight="552"/>
+	<SubTexture name="HERSOUL up instance 10006" x="3477" y="1584" width="454" height="531" frameX="-1" frameY="-20" frameWidth="458" frameHeight="552"/>
+	<SubTexture name="HERSOUL up instance 10007" x="0" y="2156" width="451" height="532" frameX="-2" frameY="-20" frameWidth="458" frameHeight="552"/>
+	<SubTexture name="HERSOUL up instance 10008" x="491" y="2156" width="450" height="530" frameX="-1" frameY="-21" frameWidth="458" frameHeight="552"/>
+	<SubTexture name="HERSOUL up instance 10009" x="491" y="2156" width="450" height="530" frameX="-1" frameY="-21" frameWidth="458" frameHeight="552"/>
+	<SubTexture name="HERSOUL up instance 10010" x="491" y="2156" width="450" height="530" frameX="-1" frameY="-21" frameWidth="458" frameHeight="552"/>
+	<SubTexture name="HERSOUL up instance 10011" x="491" y="2156" width="450" height="530" frameX="-1" frameY="-21" frameWidth="458" frameHeight="552"/>
+	<SubTexture name="HERSOUL up instance 10012" x="491" y="2156" width="450" height="530" frameX="-1" frameY="-21" frameWidth="458" frameHeight="552"/>
+	<SubTexture name="HERSOUL up instance 10013" x="491" y="2156" width="450" height="530" frameX="-1" frameY="-21" frameWidth="458" frameHeight="552"/>
+	<SubTexture name="HERSOUL up instance 10014" x="491" y="2156" width="450" height="530" frameX="-1" frameY="-21" frameWidth="458" frameHeight="552"/>
+	<SubTexture name="HERSOUL up instance 10015" x="491" y="2156" width="450" height="530" frameX="-1" frameY="-21" frameWidth="458" frameHeight="552"/>
+	<SubTexture name="HERSOUL up instance 10016" x="491" y="2156" width="450" height="530" frameX="-1" frameY="-21" frameWidth="458" frameHeight="552"/>
+	<SubTexture name="HERSOUL up instance 10017" x="491" y="2156" width="450" height="530" frameX="-1" frameY="-21" frameWidth="458" frameHeight="552"/>
+	<SubTexture name="HERSOUL up instance 10018" x="491" y="2156" width="450" height="530" frameX="-1" frameY="-21" frameWidth="458" frameHeight="552"/>
+	<SubTexture name="HERSOUL up instance 10019" x="491" y="2156" width="450" height="530" frameX="-1" frameY="-21" frameWidth="458" frameHeight="552"/>
+	<SubTexture name="HERSOUL up instance 10020" x="491" y="2156" width="450" height="530" frameX="-1" frameY="-21" frameWidth="458" frameHeight="552"/>
+	<SubTexture name="HERSOUL up instance 10021" x="491" y="2156" width="450" height="530" frameX="-1" frameY="-21" frameWidth="458" frameHeight="552"/>
+	<SubTexture name="HERSOUL up instance 10022" x="491" y="2156" width="450" height="530" frameX="-1" frameY="-21" frameWidth="458" frameHeight="552"/>
+	<SubTexture name="HERSOUL up instance 10023" x="491" y="2156" width="450" height="530" frameX="-1" frameY="-21" frameWidth="458" frameHeight="552"/>
+	<SubTexture name="HERSOUL up instance 10024" x="491" y="2156" width="450" height="530" frameX="-1" frameY="-21" frameWidth="458" frameHeight="552"/>
+</TextureAtlas>
