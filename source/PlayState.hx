@@ -243,6 +243,9 @@ class PlayState extends MusicBeatState
 	//Video
 	var video:MP4Handler = new MP4Handler();
 
+	//Disy Room Bitch
+	var room:FlxSprite;
+
 
 	override public function create()
 	{
@@ -763,6 +766,7 @@ class PlayState extends MusicBeatState
 						fightgf = new Character(400, 130,'fighting');
 						add(fightgf);
 						fightgf.alpha = 0;
+						fightgf.scrollFactor.set(0.95, 0.95);
 				    	
 				}
 			case 'jackroomfight':
@@ -814,7 +818,19 @@ class PlayState extends MusicBeatState
 						fightgf = new Character(400, 130,'fighting');
 						add(fightgf);
 						fightgf.alpha = 0;
+						fightgf.scrollFactor.set(0.95, 0.95);
 				    	
+				}
+			case 'disyroom':
+				{
+					defaultCamZoom = 0.9;
+					curStage = 'disyroom';
+					room = new FlxSprite(-3000, -200).loadGraphic(Paths.image('kack/Jack BG'));
+					room.antialiasing = true;
+					room.scrollFactor.set(0.9, 0.9);
+					room.active = false;
+					add(room);
+
 				}
 			case 'stage':
 				{
@@ -905,7 +921,7 @@ class PlayState extends MusicBeatState
 		
 		gf = new Character(400, 130, curGf);
 		gf.scrollFactor.set(0.95, 0.95);
-		fightgf.scrollFactor.set(0.95, 0.95);
+		
 
 		dad = new Character(100, 100, SONG.player2);
 
@@ -1065,7 +1081,7 @@ class PlayState extends MusicBeatState
 		cpuStrums = new FlxTypedGroup<FlxSprite>();
 
 		// startCountdown();
-
+		trace(curStage + 'load');
 		if (SONG.song == null)
 			trace('song is null???');
 		else
