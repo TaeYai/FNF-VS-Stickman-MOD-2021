@@ -334,6 +334,38 @@ class Character extends FlxSprite
 				playAnim('idle');
 
 				flipX = true;
+			
+			case 'bfdark':
+				if (!FlxG.save.data.fire)
+					{
+					  tex = Paths.getSparrowAtlas('disy/BF darkroom', 'shared');
+					}
+				else 
+					{
+						tex = Paths.getSparrowAtlas('disy/BFvsHER', 'shared');
+					}
+					
+				
+				
+				frames = tex;
+
+				trace(tex.frames.length);
+
+				animation.addByPrefix('idle', 'BF idle dance instance 1', 24, false);
+				animation.addByPrefix('singUP', 'BF NOTE UP instance 1', 24, false);
+				animation.addByPrefix('singLEFT', 'BF NOTE LEFT instance 1', 24, false);
+				animation.addByPrefix('singRIGHT', 'BF NOTE RIGHT instance 1', 24, false);
+				animation.addByPrefix('singDOWN', 'BF NOTE DOWN instance 1', 24, false);
+
+				addOffset('idle', -5);
+				addOffset("singUP", -29, 27);
+				addOffset("singRIGHT", -38, -7);
+				addOffset("singLEFT", 12, -6);
+				addOffset("singDOWN", -10, -50);
+
+				playAnim('idle');
+
+				flipX = true;
 
 			case 'bf':
 				var tex = Paths.getSparrowAtlas('characters/BOYFRIEND', 'shared');
@@ -484,6 +516,24 @@ class Character extends FlxSprite
 					playAnim('idle');
 	
 					flipX = true;
+
+			case 'disy':
+				tex = Paths.getSparrowAtlas('disy/DaisyFNF', 'shared');
+				frames = tex;
+				animation.addByPrefix('idle', 'Daisy Idle instance 1', 24);
+				animation.addByPrefix('singUP', 'Daisy Up instance 1', 24);
+				animation.addByPrefix('singRIGHT', 'Daisy right instance 1', 24);
+				animation.addByPrefix('singDOWN', 'Daisy Down instance 1', 24);
+				animation.addByPrefix('singLEFT', 'Daisy left instance 1', 24);
+
+				addOffset('idle');
+				addOffset("singUP", 4, 17);
+				addOffset("singRIGHT", -8, -1);
+				addOffset("singLEFT", 7, -1);
+				addOffset("singDOWN", 0, -20);
+
+				playAnim('idle');
+
 
 
 

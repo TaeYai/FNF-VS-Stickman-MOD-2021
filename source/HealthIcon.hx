@@ -26,12 +26,13 @@ class HealthIcon extends FlxSprite
 				animation.add('jack3-1', [0, 1], 0, false, isPlayer);		
 				animation.add('jack3-2', [0, 1], 0, false, isPlayer);					
 				animation.add('jack3-3', [0, 1], 0, false, isPlayer);					
-			case 'bf' | 'bfora' | 'bfguard' | 'bfhit' | 'bfwhat' | 'bfno' | 'bfgot' | 'bfthrow' | 'bfattack' | 'bfgot2' | 'bfatk' | 'bfatk2' | 'bfconfused':
+			case 'bf' | 'bfora' | 'bfguard' | 'bfhit' | 'bfwhat' | 'bfno' | 'bfgot' | 'bfthrow' | 'bfattack' | 'bfgot2' | 'bfatk' | 'bfatk2' | 'bfconfused' | 'bfdark':
 				loadGraphic(Paths.image('iconGrid'), true, 150, 150);
 				animation.add('bf', [0, 1], 0, false, isPlayer);
 				animation.add('bfora', [0, 1], 0, false, isPlayer);
 				animation.add('bfguard', [0, 1], 0, false, isPlayer);
 				animation.add('bfhit', [0, 1], 0, false, isPlayer);
+				animation.add('bfdark', [0, 1], 0, false, isPlayer);
 				animation.add('bfwhat', [0, 1], 0, false, isPlayer);
 				animation.add('bfno', [0, 1], 0, false, isPlayer);
 				animation.add('bfgot', [0, 1], 0, false, isPlayer);
@@ -57,6 +58,7 @@ class HealthIcon extends FlxSprite
 		animation.add('mom-car', [6, 7], 0, false, isPlayer);
 		animation.add('tankman', [8, 9], 0, false, isPlayer);
 		animation.add('face', [10, 11], 0, false, isPlayer);
+		animation.add('disy', [10, 11], 0, false, isPlayer);
 		animation.add('jackcop', [10, 11], 0, false, isPlayer);
 		animation.add('jackcop-record', [10, 11], 0, false, isPlayer);
 		animation.add('jack-piano', [10, 11], 0, false, isPlayer);

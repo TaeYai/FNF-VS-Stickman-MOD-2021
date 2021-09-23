@@ -825,7 +825,7 @@ class PlayState extends MusicBeatState
 				{
 					defaultCamZoom = 0.9;
 					curStage = 'disyroom';
-					room = new FlxSprite(-3000, -200).loadGraphic(Paths.image('kack/Jack BG'));
+					room = new FlxSprite(-800, -200).loadGraphic(Paths.image('kack/Jack BG'));
 					room.antialiasing = true;
 					room.scrollFactor.set(0.9, 0.9);
 					room.active = false;
@@ -1027,6 +1027,10 @@ class PlayState extends MusicBeatState
 				dad.y += 800;
 				boyfriend.y += 600;
 				boyfriend.x += 200; //strange still not work
+			case 'disyroom':
+				boyfriend.y += 600;
+				dad.y += 800;
+				gf.visible = false;
 
 		}
 		
