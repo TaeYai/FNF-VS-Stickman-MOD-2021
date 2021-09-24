@@ -4791,28 +4791,40 @@ class PlayState extends MusicBeatState
 				dad.playAnim('idle',false);
 
 				
-			case 1119:	
+			case 1115:	
 				remove(dad);
 				dad = new Character(100,100,'lilyattack');
 				dad.x -= 600; 
 				dad.y += 600;
 				add(dad);
 				dad.playAnim('shoot',false);	
-				health -= 0.080;
-				
-				
-			case 1136:	
-				health -= 0.080;
-				dad.playAnim('Slash',false);	
-				
-			case 1143:	 
+				health -= 0.5;
+
+			case 1123:	 
 				remove(dad);
 				dad = new Character(100,100,'lilysoul');
 				dad.x -= 600; 
 				dad.y += 600;
 				add(dad);
-				dad.playAnim('idle',false);
+				dad.playAnim('idle',false);					
+				
+			case 1159:	
+				remove(dad);
+				dad = new Character(100,100,'lilyattack');
+				dad.x -= 600; 
+				dad.y += 600;
+				add(dad);
+				dad.playAnim('Slash',false);	
+				health -= 0.5;
 
+			case 1171:	 
+				remove(dad);
+				dad = new Character(100,100,'lilysoul');
+				dad.x -= 600; 
+				dad.y += 600;
+				add(dad);
+				dad.playAnim('idle',false);				
+		
 			case 1175:	
 				remove(dad);
 				dad = new Character(100,100,'lilyattack');
@@ -4820,15 +4832,16 @@ class PlayState extends MusicBeatState
 				dad.y += 600;
 				add(dad);
 				dad.playAnim('shoot',false);	
-				health -= 0.080;
-				
-			case 1146:	 
+				health -= 0.5;
+
+			case 1187:	 
 				remove(dad);
 				dad = new Character(100,100,'lilysoul');
 				dad.x -= 600; 
 				dad.y += 600;
 				add(dad);
-				dad.playAnim('idle',false);
+				dad.playAnim('idle',false);					
+
 
 			case 1252:	
 				remove(dad);
@@ -4837,16 +4850,16 @@ class PlayState extends MusicBeatState
 				dad.y += 600;
 				add(dad);
 				dad.playAnim('shoot',false);
-				health -= 0.080;
+				health -= 0.50;
 
 
 			case 1261:	
 				dad.playAnim('Slash',false);
-				health -= 0.080;
+				health -= 0.50;
 
 			case 1269:	
-				dad.playAnim('Slash',false);
-				health -= 0.080;
+				dad.playAnim('shoot',false);
+				health -= 0.50;
 
 
 
@@ -4865,11 +4878,11 @@ class PlayState extends MusicBeatState
 						dad.y += 600;
 						add(dad);
 						dad.playAnim('shoot',false);
-						health -= 0.080;
+						health -= 0.50;
 
 					case 1332:	
 						dad.playAnim('Slash',false);
-						health -= 0.080;
+						health -= 0.50;
 
 
 						case 1345:	 
@@ -4898,7 +4911,7 @@ class PlayState extends MusicBeatState
 
 
 
-			case 1600:	
+			case 1568:	
 				remove(dad);
 				dad = new Character(100,100,'robotbroken-1');
 				dad.x -= 600; 
@@ -4906,7 +4919,7 @@ class PlayState extends MusicBeatState
 				add(dad);
 				dad.playAnim('idle',false);
 
-			case 1692:	
+			case 1664:	
 				remove(dad);
 				dad = new Character(100,100,'robotbroken-2');
 				dad.x -= 600; 
@@ -4914,7 +4927,7 @@ class PlayState extends MusicBeatState
 				add(dad);
 				dad.playAnim('idle',false);
 
-			case 1790:	
+			case 1808:	
 				remove(dad);
 				dad = new Character(100,100,'robotbroken-3');
 				dad.x -= 600; 
