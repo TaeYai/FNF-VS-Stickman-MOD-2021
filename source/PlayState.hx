@@ -4731,9 +4731,201 @@ class PlayState extends MusicBeatState
 
 
 
-		  }
-	    }  
+		 	}
+			 
+		  case 'wrath-soul':
+			switch(curStep)
 
+			{
+
+
+
+			/*case 10:	
+				remove(dad);
+				dad = new Character(100,100,'lilysoul');
+				dad.x -= 600; 
+				dad.y += 600;
+				add(dad);
+				dad.playAnim('idle',false);		
+				
+				
+
+			case 20:	
+				remove(dad);
+				dad = new Character(100,100,'lilyattack');
+				dad.x -= 600; 
+				dad.y += 600;
+				add(dad);
+				dad.playAnim('Slash',false);		
+				
+			
+
+
+			case 50:	
+				remove(dad);
+				dad = new Character(100,100,'lilysoul');
+				dad.x -= 600; 
+				dad.y += 600;
+				add(dad);
+				dad.playAnim('idle',false);	*/
+				
+
+
+
+			case 704:	
+				iconP2.animation.play('daisysoul');
+				remove(dad);
+				dad = new Character(100,100,'daisysoul');
+				dad.x -= 600; 
+				dad.y += 600;
+				add(dad);
+				dad.playAnim('idle',false);
+
+
+			case 1088:	
+				remove(dad);
+				dad = new Character(100,100,'lilysoul');
+				dad.x -= 600; 
+				dad.y += 600;
+				add(dad);
+				dad.playAnim('idle',false);
+
+				
+			case 1119:	
+				remove(dad);
+				dad = new Character(100,100,'lilyattack');
+				dad.x -= 600; 
+				dad.y += 600;
+				add(dad);
+				dad.playAnim('shoot',false);	
+				health -= 0.080;
+				
+				
+			case 1136:	
+				health -= 0.080;
+				dad.playAnim('Slash',false);	
+				
+			case 1143:	 
+				remove(dad);
+				dad = new Character(100,100,'lilysoul');
+				dad.x -= 600; 
+				dad.y += 600;
+				add(dad);
+				dad.playAnim('idle',false);
+
+			case 1175:	
+				remove(dad);
+				dad = new Character(100,100,'lilyattack');
+				dad.x -= 600; 
+				dad.y += 600;
+				add(dad);
+				dad.playAnim('shoot',false);	
+				health -= 0.080;
+				
+			case 1146:	 
+				remove(dad);
+				dad = new Character(100,100,'lilysoul');
+				dad.x -= 600; 
+				dad.y += 600;
+				add(dad);
+				dad.playAnim('idle',false);
+
+			case 1252:	
+				remove(dad);
+				dad = new Character(100,100,'lilyattack');
+				dad.x -= 600; 
+				dad.y += 600;
+				add(dad);
+				dad.playAnim('shoot',false);
+				health -= 0.080;
+
+
+			case 1261:	
+				dad.playAnim('Slash',false);
+				health -= 0.080;
+
+			case 1269:	
+				dad.playAnim('Slash',false);
+				health -= 0.080;
+
+
+
+				case 1277:	 
+					remove(dad);
+					dad = new Character(100,100,'lilysoul');
+					dad.x -= 600; 
+					dad.y += 600;
+					add(dad);
+					dad.playAnim('idle',false);
+
+					case 1316:	
+						remove(dad);
+						dad = new Character(100,100,'lilyattack');
+						dad.x -= 600; 
+						dad.y += 600;
+						add(dad);
+						dad.playAnim('shoot',false);
+						health -= 0.080;
+
+					case 1332:	
+						dad.playAnim('Slash',false);
+						health -= 0.080;
+
+
+						case 1345:	 
+							remove(dad);
+							dad = new Character(100,100,'lilysoul');
+							dad.x -= 600; 
+							dad.y += 600;
+							add(dad);
+							dad.playAnim('idle',false);
+
+
+
+			case 1472:	
+				remove(dad);
+				dad = new Character(100,100,'daisysoul');
+				dad.x -= 600; 
+				dad.y += 600;
+				add(dad);
+				dad.playAnim('idle',false);
+
+
+
+
+
+
+
+
+
+			case 1600:	
+				remove(dad);
+				dad = new Character(100,100,'robotbroken-1');
+				dad.x -= 600; 
+				dad.y += 600;
+				add(dad);
+				dad.playAnim('idle',false);
+
+			case 1692:	
+				remove(dad);
+				dad = new Character(100,100,'robotbroken-2');
+				dad.x -= 600; 
+				dad.y += 600;
+				add(dad);
+				dad.playAnim('idle',false);
+
+			case 1790:	
+				remove(dad);
+				dad = new Character(100,100,'robotbroken-3');
+				dad.x -= 600; 
+				dad.y += 600;
+				add(dad);
+				dad.playAnim('idle',false);
+
+	  		} 
+
+
+		}
 	}
 
 	var lightningStrikeBeat:Int = 0;

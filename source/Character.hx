@@ -534,6 +534,105 @@ class Character extends FlxSprite
 
 				playAnim('idle');
 
+			case 'daisysoul':
+				tex = Paths.getSparrowAtlas('disy/HER', 'shared');
+				frames = tex;
+				animation.addByPrefix('idle', 'HER idle instance 1', 24);
+				animation.addByPrefix('singUP', 'HER up instance 1', 24);
+				animation.addByPrefix('singRIGHT', 'HER right instance 1', 24);
+				animation.addByPrefix('singDOWN', 'HER down instance 1', 24);
+				animation.addByPrefix('singLEFT', 'HER left instance 1', 24);
+	
+				addOffset('idle');
+				addOffset("singUP", -66, 67);
+				addOffset("singRIGHT", -70, -1);
+				addOffset("singLEFT", -35, -1);
+				addOffset("singDOWN", 30, -50);
+	
+				playAnim('idle');
+
+			case 'lilysoul':
+				tex = Paths.getSparrowAtlas('disy/SOUL', 'shared');
+				frames = tex;
+				animation.addByPrefix('idle', 'HERSOUL idle instance 1', 24);
+				animation.addByPrefix('singUP', 'HERSOUL up instance 1', 24);
+				animation.addByPrefix('singRIGHT', 'HERSOUL right instance 1', 24);
+				animation.addByPrefix('singDOWN', 'HERSOUL down instance 1', 24);
+				animation.addByPrefix('singLEFT', 'HERSOUL left instance 1', 24);
+		
+				addOffset('idle');
+				addOffset("singUP", -66, 67);
+				addOffset("singRIGHT", -70, -1);
+				addOffset("singLEFT", -35, -1);
+				addOffset("singDOWN", 30, -50);
+		
+				playAnim('idle');
+
+
+			case 'robotbroken-1':
+				tex = Paths.getSparrowAtlas('disy/TheWrathSoul', 'shared');
+				frames = tex;
+				animation.addByPrefix('idle', 'WRATH idle instance 1', 24);
+				animation.addByPrefix('singUP', 'WRATH up instance 1', 24);
+				animation.addByPrefix('singRIGHT', 'WRATH right instance 1', 24);
+				animation.addByPrefix('singDOWN', 'WRATH down instance 1', 24);
+				animation.addByPrefix('singLEFT', 'WRATH left instance 1', 24);
+		
+				addOffset('idle');
+				addOffset("singUP", -56, 37);
+				addOffset("singRIGHT", -98, -1);
+				addOffset("singLEFT", 27, -1);
+				addOffset("singDOWN", 11, -40);
+		
+				playAnim('idle');	
+
+			case 'robotbroken-2':
+				tex = Paths.getSparrowAtlas('disy/TheWrathSoul', 'shared');
+				frames = tex;
+				animation.addByPrefix('idle', 'WRATHSoul idle instance 1', 24);
+				animation.addByPrefix('singUP', 'WRATHSoul up instance 1', 24);
+				animation.addByPrefix('singRIGHT', 'WRATHSoul right instance 1', 24);
+				animation.addByPrefix('singDOWN', 'WRATHSoul down instance 1', 24);
+				animation.addByPrefix('singLEFT', 'WRATHSoul left instance 1', 24);
+		
+				addOffset('idle');
+				addOffset("singUP", -6, 47);
+				addOffset("singRIGHT", -38, -1);
+				addOffset("singLEFT", 27, -1);
+				addOffset("singDOWN", 18, -60);
+		
+				playAnim('idle');	
+
+			case 'robotbroken-3':
+				tex = Paths.getSparrowAtlas('disy/TheWrathSoul', 'shared');
+				frames = tex;
+				animation.addByPrefix('idle', 'TheWrathSoul idle instance 1', 24);
+				animation.addByPrefix('singUP', 'TheWrathSoul up instance 1', 24);
+				animation.addByPrefix('singRIGHT', 'TheWrathSoul right instance 1', 24);
+				animation.addByPrefix('singDOWN', 'TheWrathSoul down instance 1', 24);
+				animation.addByPrefix('singLEFT', 'TheWrathSoul left instance 1', 24);
+		
+				addOffset('idle');
+				addOffset("singUP", 4, 47);
+				addOffset("singRIGHT", -58, -1);
+				addOffset("singLEFT", 47, -1);
+				addOffset("singDOWN", 20, -50);
+		
+				playAnim('idle');	
+
+			case 'lilyattack':
+				tex = Paths.getSparrowAtlas('disy/DaisyAttack', 'shared');
+				frames = tex;
+				animation.addByPrefix('shoot', 'HERSOULShoot instance 1', 24);
+				animation.addByPrefix('Slash', 'HERSlash instance 1', 24);
+
+				addOffset('shoot');
+				addOffset("Slash");
+			
+			
+	
+
+
 
 
 

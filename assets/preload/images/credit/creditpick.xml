@@ -2,14 +2,15 @@
 <TextureAtlas imagePath="creditpick.png">
 	<!-- Created with Adobe Animate version 19.2.1.408 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="Card special0000" x="2" y="2" width="207" height="203"/>
-	<SubTexture name="Card special 20000" x="212" y="2" width="207" height="203"/>
-	<SubTexture name="Card10000" x="422" y="2" width="456" height="420"/>
-	<SubTexture name="Card20000" x="2" y="425" width="461" height="402"/>
-	<SubTexture name="Card30000" x="466" y="425" width="435" height="424"/>
-	<SubTexture name="Card40000" x="2" y="852" width="469" height="412"/>
-	<SubTexture name="Card50000" x="474" y="852" width="463" height="429"/>
-	<SubTexture name="Card50001" x="474" y="852" width="463" height="429"/>
-	<SubTexture name="Card60000" x="2" y="1284" width="482" height="419"/>
-	<SubTexture name="Card7 0000" x="487" y="1284" width="445" height="424"/>
+	<SubTexture name="Card special0000" x="0" y="0" width="207" height="203"/>
+	<SubTexture name="Card specialFC0000" x="247" y="0" width="207" height="203"/>
+	<SubTexture name="Card10000" x="494" y="0" width="456" height="420"/>
+	<SubTexture name="Card20000" x="990" y="0" width="461" height="402"/>
+	<SubTexture name="Card30000" x="1491" y="0" width="435" height="424"/>
+	<SubTexture name="Card40000" x="0" y="464" width="469" height="412"/>
+	<SubTexture name="Card50000" x="509" y="464" width="463" height="429"/>
+	<SubTexture name="Card50001" x="509" y="464" width="463" height="429"/>
+	<SubTexture name="Card60000" x="1012" y="464" width="482" height="419"/>
+	<SubTexture name="Card7 0000" x="1534" y="464" width="445" height="424"/>
+	<SubTexture name="Card80000" x="0" y="933" width="423" height="407"/>
 </TextureAtlas>

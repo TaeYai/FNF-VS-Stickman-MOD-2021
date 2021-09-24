@@ -2,12 +2,13 @@
 <TextureAtlas imagePath="creditinfo.png">
 	<!-- Created with Adobe Animate version 19.2.1.408 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="creditinfo atomixx0000" x="2" y="2" width="1198" height="1151"/>
-	<SubTexture name="creditinfo foot0000" x="1203" y="2" width="1198" height="1151"/>
-	<SubTexture name="creditinfo jzboy0000" x="2404" y="2" width="1198" height="1151"/>
-	<SubTexture name="creditinfo mami0000" x="2" y="1156" width="1198" height="1151"/>
-	<SubTexture name="creditinfo moro0000" x="1203" y="1156" width="1198" height="1151"/>
-	<SubTexture name="creditinfo ptagorad0000" x="2404" y="1156" width="1198" height="1151"/>
-	<SubTexture name="creditinfo rareblin0000" x="2" y="2310" width="1198" height="1151"/>
-	<SubTexture name="creditinfo taeyai0000" x="1203" y="2310" width="1198" height="1151"/>
+	<SubTexture name="creditinfo DJ0000" x="0" y="0" width="1198" height="1151"/>
+	<SubTexture name="creditinfo atomixx0000" x="1238" y="0" width="1198" height="1151"/>
+	<SubTexture name="creditinfo foot0000" x="2476" y="0" width="1198" height="1151"/>
+	<SubTexture name="creditinfo jzboy0000" x="0" y="1191" width="1198" height="1151"/>
+	<SubTexture name="creditinfo mami0000" x="1238" y="1191" width="1198" height="1151"/>
+	<SubTexture name="creditinfo moro0000" x="2476" y="1191" width="1198" height="1151"/>
+	<SubTexture name="creditinfo ptagorad0000" x="0" y="2382" width="1198" height="1151"/>
+	<SubTexture name="creditinfo rareblin0000" x="1238" y="2382" width="1198" height="1151"/>
+	<SubTexture name="creditinfo taeyai0000" x="2476" y="2382" width="1198" height="1151"/>
 </TextureAtlas>

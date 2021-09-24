@@ -25,7 +25,18 @@ class HealthIcon extends FlxSprite
 				animation.add('jacktaunt', [0, 1], 0, false, isPlayer);	
 				animation.add('jack3-1', [0, 1], 0, false, isPlayer);		
 				animation.add('jack3-2', [0, 1], 0, false, isPlayer);					
-				animation.add('jack3-3', [0, 1], 0, false, isPlayer);					
+				animation.add('jack3-3', [0, 1], 0, false, isPlayer);	
+
+			case 'disy' | 'daisysoul' | 'lilysoul' | 'robotbroken-1' | 'robotbroken-2' | 'robotbroken-3':
+				loadGraphic(Paths.image('daisyicon'), true, 150, 150);
+				animation.add('disy', [0, 1], 0, false, isPlayer);
+				animation.add('daisysoul', [2, 3], 0, false, isPlayer);
+				animation.add('lilysoul', [2, 3], 0, false, isPlayer);
+				animation.add('robotbroken-1', [2, 3], 0, false, isPlayer);
+				animation.add('robotbroken-2', [2, 3], 0, false, isPlayer);
+				animation.add('robotbroken-3', [2, 3], 0, false, isPlayer);
+				
+
 			case 'bf' | 'bfora' | 'bfguard' | 'bfhit' | 'bfwhat' | 'bfno' | 'bfgot' | 'bfthrow' | 'bfattack' | 'bfgot2' | 'bfatk' | 'bfatk2' | 'bfconfused' | 'bfdark':
 				loadGraphic(Paths.image('iconGrid'), true, 150, 150);
 				animation.add('bf', [0, 1], 0, false, isPlayer);
