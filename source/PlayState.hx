@@ -2643,6 +2643,7 @@ class PlayState extends MusicBeatState
 			persistentUpdate = false;
 			persistentDraw = false;
 			paused = true;
+			PlayState.firemode = false;
 
 			vocals.stop();
 			FlxG.sound.music.stop();
@@ -2661,7 +2662,7 @@ class PlayState extends MusicBeatState
 			if(FlxG.keys.justPressed.R)
 				{
 					boyfriend.stunned = true;
-
+					PlayState.firemode = false;
 					persistentUpdate = false;
 					persistentDraw = false;
 					paused = true;

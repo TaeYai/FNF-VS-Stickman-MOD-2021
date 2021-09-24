@@ -55,12 +55,8 @@ class GameOverSubstate extends MusicBeatSubstate
 	{
 		super.update(elapsed);
 
-		if (FlxG.keys.justPressed.SIX)
-			{
-				
-				FlxG.switchState(new AnimationDebug(daBf));
-				
-			}
+		PlayState.firemode = false;
+
 		if (controls.ACCEPT)
 		{
 			endBullshit();
