@@ -3,4 +3,3 @@ Sticking:jackcop:7
 Fight:jackcop:7
 Serious:jackcop:7
 Boombox:jackcop:7
-wrath-soul:disy:8

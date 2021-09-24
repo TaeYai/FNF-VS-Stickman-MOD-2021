@@ -864,7 +864,7 @@ class PlayState extends MusicBeatState
 					room.active = false;
 					add(room);
 					
-					fireshit = new FlxSprite(-800, 600);
+					fireshit = new FlxSprite(-1000, 600);
 					fireshit.frames = Paths.getSparrowAtlas('disy/FireWrath', 'shared');
 					fireshit.animation.addByPrefix('idle', 'FIREEE instance 1', 24);
 					fireshit.animation.play('idle');
@@ -3002,17 +3002,32 @@ class PlayState extends MusicBeatState
 	
 					if (storyPlaylist.length <= 0)
 					{
-						transIn = FlxTransitionableState.defaultTransIn;
-						transOut = FlxTransitionableState.defaultTransOut;
+						
+						switch (PlayState.SONG.song.toLowerCase()){
+							case 'serious':
+								transIn = FlxTransitionableState.defaultTransIn;
+								transOut = FlxTransitionableState.defaultTransOut;
+								inCutscene = true;
+								paused = true;
+								FlxG.sound.music.stop();
+								vocals.stop();
+								video.playMP4(Paths.video('cre'), new MainMenuState()); 
+							case 'wrath-soul':
+								transIn = FlxTransitionableState.defaultTransIn;
+								transOut = FlxTransitionableState.defaultTransOut;
+								inCutscene = true;
+								FlxG.save.data.disy = true;
+								paused = true;
+								FlxG.sound.music.stop();
+								vocals.stop();
+								video.playMP4(Paths.video('disy'), new MainMenuState()); 
 
-						inCutscene = true;
-						paused = true;
-						video.playMP4(Paths.video('cre'), new MainMenuState()); 
+						}
 
 						
-	
-						FlxG.sound.music.stop();
-						vocals.stop();
+
+					
+						
 						
 	
 						#if windows

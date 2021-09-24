@@ -47,6 +47,10 @@ class FreeplayState extends MusicBeatState
 			var data:Array<String> = initSonglist[i].split(':');
 			songs.push(new SongMetadata(data[0], Std.parseInt(data[2]), data[1]));
 		}
+		if (FlxG.save.data.disy)
+			{
+				songs.push(new SongMetadata("wrath-soul", 8, "disy"));
+			}
 		/* 
 			if (FlxG.sound.music != null)
 			{
