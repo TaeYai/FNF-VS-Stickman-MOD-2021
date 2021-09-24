@@ -4864,12 +4864,13 @@ class PlayState extends MusicBeatState
 
 			case 638:
 				ohno();
-			case 663:
+	/*		case 663:
 				FlxTween.tween(songPosBar, {angle: 10}, {ease: FlxEase.quadOut});
 				FlxTween.tween(songPosBar, {y: 900}, {ease: FlxEase.quadOut});
 				FlxTween.tween(songPosBG, {angle: 10}, {ease: FlxEase.quadOut});
 				FlxTween.tween(songPosBG, {y: 900}, {ease: FlxEase.quadOut});
-				remove(songName);
+				remove(songName);*/
+
 			case 704:	
 				dad.visible = true;
 				boyfriend.visible = true;
@@ -5007,6 +5008,8 @@ class PlayState extends MusicBeatState
 						health -= 0.50;
 
 
+
+
 						case 1345:	 
 							remove(dad);
 							dad = new Character(100,100,'lilysoul');
@@ -5015,6 +5018,57 @@ class PlayState extends MusicBeatState
 							add(dad);
 							dad.playAnim('idle',false);
 
+
+						case 1376:	
+							remove(dad);
+							dad = new Character(100,100,'lilyattack');
+							dad.x -= 600; 
+							dad.y += 600;
+							add(dad);
+							dad.playAnim('shoot',false);
+							health -= 0.50;
+			
+							case 1376:	
+								dad.playAnim('shoot',false);
+								health -= 0.50;
+								
+								case 1380:	 
+									remove(dad);
+									dad = new Character(100,100,'lilysoul');
+									dad.x -= 600; 
+									dad.y += 600;
+									add(dad);
+									dad.playAnim('idle',false);
+
+								case 1413:	
+									remove(dad);
+									dad = new Character(100,100,'lilyattack');
+									dad.x -= 600; 
+									dad.y += 600;
+									add(dad);
+									dad.playAnim('shoot',false);
+									health -= 0.50;
+
+								
+									case 1422:	 
+										remove(dad);
+										dad = new Character(100,100,'lilysoul');
+										dad.x -= 600; 
+										dad.y += 600;
+										add(dad);
+										dad.playAnim('idle',false);
+
+						
+	
+					case 1463:	
+						remove(dad);
+						dad = new Character(100,100,'lilyattack');
+						dad.x -= 600; 
+						dad.y += 600;
+						add(dad);
+						dad.playAnim('shoot',false);
+						health -= 0.50;
+		
 
 
 			case 1472:	
