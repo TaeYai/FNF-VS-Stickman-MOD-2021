@@ -81,6 +81,7 @@ class PlayState extends MusicBeatState
 	public static var curStage:String = '';
 	public static var SONG:SwagSong;
 	public static var isStoryMode:Bool = false;
+	public static var firemode:Bool = false;
 	public static var stickthingidk:Bool = false;
 	public static var storyWeek:Int = 0;
 	public static var storyPlaylist:Array<String> = [];
@@ -245,12 +246,14 @@ class PlayState extends MusicBeatState
 
 	//Disy Room Bitch
 	var room:FlxSprite;
+	var blackshit:FlxSprite;
+	var fireshit:FlxSprite;
+	private var floatvalve:Float = 0;
 
 
 	override public function create()
 	{
 		instance = this;
-		
 		if (FlxG.save.data.fpsCap > 290)
 			(cast (Lib.current.getChildAt(0), Main)).setFPSCap(800);
 		
@@ -825,11 +828,52 @@ class PlayState extends MusicBeatState
 				{
 					defaultCamZoom = 0.9;
 					curStage = 'disyroom';
+					var images = [];
+						var xml = [];
+			
+						trace("caching images...");
+						
+							for (i in FileSystem.readDirectory(FileSystem.absolutePath("assets/shared/images/disy")))
+								{
+									if (!i.endsWith(".png"))
+										continue;
+									images.push(i);
+						
+									if (!i.endsWith(".xml"))
+										continue;
+									xml.push(i);
+								}
+							for (i in images)
+									{
+										var replaced = i.replace(".png","");
+										FlxG.bitmap.add(Paths.image("disy/" + replaced,"shared"));
+										
+										trace("cached " + replaced);
+									}
+								
+								for (i in xml)
+									{
+										var replaced = i.replace(".xml","");
+										FlxG.bitmap.add(Paths.image("disy/" + replaced,"shared"));
+										
+										trace("cached " + replaced);
+									}
 					room = new FlxSprite(-800, -200).loadGraphic(Paths.image('kack/Jack BG'));
 					room.antialiasing = true;
 					room.scrollFactor.set(0.9, 0.9);
 					room.active = false;
 					add(room);
+					
+					fireshit = new FlxSprite(-800, 600);
+					fireshit.frames = Paths.getSparrowAtlas('disy/FireWrath', 'shared');
+					fireshit.animation.addByPrefix('idle', 'FIREEE instance 1', 24);
+					fireshit.animation.play('idle');
+					fireshit.visible = false;
+					add(fireshit);
+
+					blackshit = new FlxSprite(-800, -200).loadGraphic(Paths.image('kack/Jack BG'));
+					add(blackshit);
+					blackshit.visible = false;
 
 				}
 			case 'stage':
@@ -1047,7 +1091,9 @@ class PlayState extends MusicBeatState
 			add(dad);
 			add(boyfriend);
 		}
-
+		trace(boyfriend);
+		trace(dad);
+		
 
 		if (loadRep)
 		{
@@ -2043,11 +2089,11 @@ class PlayState extends MusicBeatState
 
 	override public function update(elapsed:Float)
 	{
-		
+		floatvalve += 0.06;
 		#if !debug
 		perfectMode = false;
 		#end
-
+		
 		if (PlayStateChangeables.botPlay && FlxG.keys.justPressed.ONE)
 			camHUD.visible = !camHUD.visible;
 
@@ -2238,7 +2284,30 @@ class PlayState extends MusicBeatState
 
 		// FlxG.watch.addQuick('VOL', vocals.amplitudeLeft);
 		// FlxG.watch.addQuick('VOLRight', vocals.amplitudeRight);
-
+		if (dad.curCharacter == "daisysoul"){
+			dad.y += Math.sin(floatvalve);
+			dad.y += Math.cos(floatvalve);
+		}
+		if (dad.curCharacter == "lilysoul"){
+			dad.y += Math.sin(floatvalve);
+			dad.y += Math.cos(floatvalve);
+		}
+		if (dad.curCharacter == "lilyattack"){
+			dad.y += Math.sin(floatvalve);
+			dad.y += Math.cos(floatvalve);
+		}
+		if (dad.curCharacter == "robotbroken-1"){
+			dad.y += Math.sin(floatvalve);
+			dad.y += Math.cos(floatvalve);
+		}
+		if (dad.curCharacter == "robotbroken-2"){
+			dad.y += Math.sin(floatvalve);
+			dad.y += Math.cos(floatvalve);
+		}
+		if (dad.curCharacter == "robotbroken-3"){
+			dad.y += Math.sin(floatvalve);
+			dad.y += Math.cos(floatvalve);
+		}
 		iconP1.setGraphicSize(Std.int(FlxMath.lerp(150, iconP1.width, 0.50)));
 		iconP2.setGraphicSize(Std.int(FlxMath.lerp(150, iconP2.width, 0.50)));
 
@@ -2471,6 +2540,21 @@ class PlayState extends MusicBeatState
 					case 'senpai-angry':
 						camFollow.y = dad.getMidpoint().y - 430;
 						camFollow.x = dad.getMidpoint().x - 100;
+					case 'daisysoul':
+						camFollow.x = dad.getMidpoint().x + 300;
+						camFollow.y = dad.getMidpoint().y + 100;
+					case 'lilysoul':
+						camFollow.x = dad.getMidpoint().x + 300;
+						camFollow.y = dad.getMidpoint().y + 100;
+					case 'robotbroken-1':
+						camFollow.x = dad.getMidpoint().x + 300;
+						camFollow.y = dad.getMidpoint().y + 100;
+					case 'robotbroken-2':
+						camFollow.x = dad.getMidpoint().x + 300;
+						camFollow.y = dad.getMidpoint().y + 100;
+					case 'robotbroken-3':
+						camFollow.x = dad.getMidpoint().x + 300;
+						camFollow.y = dad.getMidpoint().y + 100;
 				}
 
 				if (dad.curCharacter == 'mom')
@@ -3960,6 +4044,14 @@ class PlayState extends MusicBeatState
 		}
 	}
 
+	function ohno():Void
+	{
+		room.visible = false;
+		dad.visible = false;
+		boyfriend.visible = false;
+		
+	}
+
 	public function addOffset(name:String, x:Float = 0, y:Float = 0)
 		{
 			animOffsets[name] = [x, y];
@@ -4735,7 +4827,7 @@ class PlayState extends MusicBeatState
 			 
 		  case 'wrath-soul':
 			switch(curStep)
-
+//disystep
 			{
 
 
@@ -4770,10 +4862,23 @@ class PlayState extends MusicBeatState
 				dad.playAnim('idle',false);	*/
 				
 
-
-
+			case 638:
+				ohno();
+			case 663:
+				FlxTween.tween(songPosBar, {angle: 10}, {ease: FlxEase.quadOut});
+				FlxTween.tween(songPosBar, {y: 900}, {ease: FlxEase.quadOut});
+				FlxTween.tween(songPosBG, {angle: 10}, {ease: FlxEase.quadOut});
+				FlxTween.tween(songPosBG, {y: 900}, {ease: FlxEase.quadOut});
+				remove(songName);
 			case 704:	
+				dad.visible = true;
+				boyfriend.visible = true;
+				fireshit.visible = true;
+				firemode = true;
 				iconP2.animation.play('daisysoul');
+				remove(boyfriend);
+				boyfriend = new Boyfriend(770,1050,'bfdark');
+				add(boyfriend);
 				remove(dad);
 				dad = new Character(100,100,'daisysoul');
 				dad.x -= 600; 
@@ -4792,13 +4897,18 @@ class PlayState extends MusicBeatState
 
 				
 			case 1115:	
+				remove(boyfriend);
+				boyfriend = new Boyfriend(770,1050,'bfdark');
+				
 				remove(dad);
 				dad = new Character(100,100,'lilyattack');
 				dad.x -= 600; 
 				dad.y += 600;
-				add(dad);
+				
 				dad.playAnim('shoot',false);	
 				health -= 0.5;
+				add(boyfriend);
+				add(dad);
 
 			case 1123:	 
 				remove(dad);
@@ -4809,10 +4919,14 @@ class PlayState extends MusicBeatState
 				dad.playAnim('idle',false);					
 				
 			case 1159:	
+				remove(boyfriend);
+				boyfriend = new Boyfriend(770,1050,'bfdark');
+				
 				remove(dad);
 				dad = new Character(100,100,'lilyattack');
 				dad.x -= 600; 
 				dad.y += 600;
+				add(boyfriend);
 				add(dad);
 				dad.playAnim('Slash',false);	
 				health -= 0.5;
@@ -4826,10 +4940,14 @@ class PlayState extends MusicBeatState
 				dad.playAnim('idle',false);				
 		
 			case 1175:	
+				remove(boyfriend);
+				boyfriend = new Boyfriend(770,1050,'bfdark');
+				
 				remove(dad);
 				dad = new Character(100,100,'lilyattack');
 				dad.x -= 600; 
 				dad.y += 600;
+				add(boyfriend);
 				add(dad);
 				dad.playAnim('shoot',false);	
 				health -= 0.5;
@@ -4844,10 +4962,14 @@ class PlayState extends MusicBeatState
 
 
 			case 1252:	
+				remove(boyfriend);
+				boyfriend = new Boyfriend(770,1050,'bfdark');
+				
 				remove(dad);
 				dad = new Character(100,100,'lilyattack');
 				dad.x -= 600; 
 				dad.y += 600;
+				add(boyfriend);
 				add(dad);
 				dad.playAnim('shoot',false);
 				health -= 0.50;
@@ -4934,7 +5056,7 @@ class PlayState extends MusicBeatState
 				dad.y += 600;
 				add(dad);
 				dad.playAnim('idle',false);
-
+				firemode = false;
 	  		} 
 
 

@@ -1,6 +1,5 @@
 import flixel.ui.FlxButton;
 import flixel.text.FlxText;
-import flixel.addons.api.FlxGameJolt as GJApi;
 import flixel.FlxSubState;
 import flixel.addons.ui.FlxUIInputText;
 import flixel.group.FlxGroup.FlxTypedGroup;

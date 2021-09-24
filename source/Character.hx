@@ -336,7 +336,7 @@ class Character extends FlxSprite
 				flipX = true;
 			
 			case 'bfdark':
-				if (!FlxG.save.data.fire)
+				if (!PlayState.firemode)
 					{
 					  tex = Paths.getSparrowAtlas('disy/BF darkroom', 'shared');
 					}
