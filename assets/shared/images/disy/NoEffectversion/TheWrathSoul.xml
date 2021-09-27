@@ -2,220 +2,214 @@
 <TextureAtlas imagePath="TheWrathSoul.png">
 	<!-- Created with Adobe Animate version 19.2.1.408 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="TheWrathSoul0000" x="0" y="0" width="302" height="500"/>
-	<SubTexture name="TheWrathSoul0001" x="342" y="0" width="300" height="500" frameX="-1" frameY="0" frameWidth="302" frameHeight="500"/>
-	<SubTexture name="TheWrathSoul0002" x="342" y="0" width="300" height="500" frameX="-1" frameY="0" frameWidth="302" frameHeight="500"/>
-	<SubTexture name="TheWrathSoul0003" x="342" y="0" width="300" height="500" frameX="-1" frameY="0" frameWidth="302" frameHeight="500"/>
-	<SubTexture name="TheWrathSoul0004" x="342" y="0" width="300" height="500" frameX="-1" frameY="0" frameWidth="302" frameHeight="500"/>
-	<SubTexture name="TheWrathSoul0005" x="342" y="0" width="300" height="500" frameX="-1" frameY="0" frameWidth="302" frameHeight="500"/>
-	<SubTexture name="TheWrathSoul0006" x="342" y="0" width="300" height="500" frameX="-1" frameY="0" frameWidth="302" frameHeight="500"/>
-	<SubTexture name="TheWrathSoul0007" x="342" y="0" width="300" height="500" frameX="-1" frameY="0" frameWidth="302" frameHeight="500"/>
-	<SubTexture name="TheWrathSoul0008" x="342" y="0" width="300" height="500" frameX="-1" frameY="0" frameWidth="302" frameHeight="500"/>
-	<SubTexture name="TheWrathSoul0009" x="342" y="0" width="300" height="500" frameX="-1" frameY="0" frameWidth="302" frameHeight="500"/>
-	<SubTexture name="TheWrathSoul0010" x="342" y="0" width="300" height="500" frameX="-1" frameY="0" frameWidth="302" frameHeight="500"/>
-	<SubTexture name="TheWrathSoul0011" x="342" y="0" width="300" height="500" frameX="-1" frameY="0" frameWidth="302" frameHeight="500"/>
-	<SubTexture name="TheWrathSoul0012" x="342" y="0" width="300" height="500" frameX="-1" frameY="0" frameWidth="302" frameHeight="500"/>
-	<SubTexture name="TheWrathSoul0013" x="342" y="0" width="300" height="500" frameX="-1" frameY="0" frameWidth="302" frameHeight="500"/>
-	<SubTexture name="TheWrathSoul0014" x="342" y="0" width="300" height="500" frameX="-1" frameY="0" frameWidth="302" frameHeight="500"/>
-	<SubTexture name="TheWrathSoul0015" x="342" y="0" width="300" height="500" frameX="-1" frameY="0" frameWidth="302" frameHeight="500"/>
-	<SubTexture name="TheWrathSoul down0000" x="682" y="0" width="299" height="450" frameX="-3" frameY="-10" frameWidth="302" frameHeight="460"/>
-	<SubTexture name="TheWrathSoul down0001" x="682" y="0" width="299" height="450" frameX="-3" frameY="-10" frameWidth="302" frameHeight="460"/>
-	<SubTexture name="TheWrathSoul down0002" x="1021" y="0" width="299" height="458" frameX="0" frameY="0" frameWidth="302" frameHeight="460"/>
-	<SubTexture name="TheWrathSoul down0003" x="1021" y="0" width="299" height="458" frameX="0" frameY="0" frameWidth="302" frameHeight="460"/>
-	<SubTexture name="TheWrathSoul down0004" x="1021" y="0" width="299" height="458" frameX="0" frameY="0" frameWidth="302" frameHeight="460"/>
-	<SubTexture name="TheWrathSoul down0005" x="1021" y="0" width="299" height="458" frameX="0" frameY="0" frameWidth="302" frameHeight="460"/>
-	<SubTexture name="TheWrathSoul down0006" x="1021" y="0" width="299" height="458" frameX="0" frameY="0" frameWidth="302" frameHeight="460"/>
-	<SubTexture name="TheWrathSoul down0007" x="1021" y="0" width="299" height="458" frameX="0" frameY="0" frameWidth="302" frameHeight="460"/>
-	<SubTexture name="TheWrathSoul down0008" x="1021" y="0" width="299" height="458" frameX="0" frameY="0" frameWidth="302" frameHeight="460"/>
-	<SubTexture name="TheWrathSoul down0009" x="1021" y="0" width="299" height="458" frameX="0" frameY="0" frameWidth="302" frameHeight="460"/>
-	<SubTexture name="TheWrathSoul down0010" x="1021" y="0" width="299" height="458" frameX="0" frameY="0" frameWidth="302" frameHeight="460"/>
-	<SubTexture name="TheWrathSoul down0011" x="1021" y="0" width="299" height="458" frameX="0" frameY="0" frameWidth="302" frameHeight="460"/>
-	<SubTexture name="TheWrathSoul down0012" x="1021" y="0" width="299" height="458" frameX="0" frameY="0" frameWidth="302" frameHeight="460"/>
-	<SubTexture name="TheWrathSoul down0013" x="1021" y="0" width="299" height="458" frameX="0" frameY="0" frameWidth="302" frameHeight="460"/>
-	<SubTexture name="TheWrathSoul down0014" x="1021" y="0" width="299" height="458" frameX="0" frameY="0" frameWidth="302" frameHeight="460"/>
-	<SubTexture name="TheWrathSoul down0015" x="1021" y="0" width="299" height="458" frameX="0" frameY="0" frameWidth="302" frameHeight="460"/>
-	<SubTexture name="TheWrathSoul left0000" x="1360" y="0" width="322" height="482" frameX="0" frameY="-8" frameWidth="322" frameHeight="492"/>
-	<SubTexture name="TheWrathSoul left0001" x="1360" y="0" width="322" height="482" frameX="0" frameY="-8" frameWidth="322" frameHeight="492"/>
-	<SubTexture name="TheWrathSoul left0002" x="1722" y="0" width="304" height="492" frameX="-18" frameY="0" frameWidth="322" frameHeight="492"/>
-	<SubTexture name="TheWrathSoul left0003" x="1722" y="0" width="304" height="492" frameX="-18" frameY="0" frameWidth="322" frameHeight="492"/>
-	<SubTexture name="TheWrathSoul left0004" x="1722" y="0" width="304" height="492" frameX="-18" frameY="0" frameWidth="322" frameHeight="492"/>
-	<SubTexture name="TheWrathSoul left0005" x="1722" y="0" width="304" height="492" frameX="-18" frameY="0" frameWidth="322" frameHeight="492"/>
-	<SubTexture name="TheWrathSoul left0006" x="1722" y="0" width="304" height="492" frameX="-18" frameY="0" frameWidth="322" frameHeight="492"/>
-	<SubTexture name="TheWrathSoul left0007" x="1722" y="0" width="304" height="492" frameX="-18" frameY="0" frameWidth="322" frameHeight="492"/>
-	<SubTexture name="TheWrathSoul left0008" x="1722" y="0" width="304" height="492" frameX="-18" frameY="0" frameWidth="322" frameHeight="492"/>
-	<SubTexture name="TheWrathSoul left0009" x="1722" y="0" width="304" height="492" frameX="-18" frameY="0" frameWidth="322" frameHeight="492"/>
-	<SubTexture name="TheWrathSoul left0010" x="1722" y="0" width="304" height="492" frameX="-18" frameY="0" frameWidth="322" frameHeight="492"/>
-	<SubTexture name="TheWrathSoul left0011" x="1722" y="0" width="304" height="492" frameX="-18" frameY="0" frameWidth="322" frameHeight="492"/>
-	<SubTexture name="TheWrathSoul left0012" x="1722" y="0" width="304" height="492" frameX="-18" frameY="0" frameWidth="322" frameHeight="492"/>
-	<SubTexture name="TheWrathSoul left0013" x="1722" y="0" width="304" height="492" frameX="-18" frameY="0" frameWidth="322" frameHeight="492"/>
-	<SubTexture name="TheWrathSoul left0014" x="1722" y="0" width="304" height="492" frameX="-18" frameY="0" frameWidth="322" frameHeight="492"/>
-	<SubTexture name="TheWrathSoul left0015" x="1722" y="0" width="304" height="492" frameX="-18" frameY="0" frameWidth="322" frameHeight="492"/>
-	<SubTexture name="TheWrathSoul left0016" x="1722" y="0" width="304" height="492" frameX="-18" frameY="0" frameWidth="322" frameHeight="492"/>
-	<SubTexture name="TheWrathSoul right0000" x="2066" y="0" width="276" height="505"/>
-	<SubTexture name="TheWrathSoul right0001" x="2066" y="0" width="276" height="505"/>
-	<SubTexture name="TheWrathSoul right0002" x="2382" y="0" width="262" height="505" frameX="-5" frameY="0" frameWidth="276" frameHeight="505"/>
-	<SubTexture name="TheWrathSoul right0003" x="2382" y="0" width="262" height="505" frameX="-5" frameY="0" frameWidth="276" frameHeight="505"/>
-	<SubTexture name="TheWrathSoul right0004" x="2382" y="0" width="262" height="505" frameX="-5" frameY="0" frameWidth="276" frameHeight="505"/>
-	<SubTexture name="TheWrathSoul right0005" x="2382" y="0" width="262" height="505" frameX="-5" frameY="0" frameWidth="276" frameHeight="505"/>
-	<SubTexture name="TheWrathSoul right0006" x="2382" y="0" width="262" height="505" frameX="-5" frameY="0" frameWidth="276" frameHeight="505"/>
-	<SubTexture name="TheWrathSoul right0007" x="2382" y="0" width="262" height="505" frameX="-5" frameY="0" frameWidth="276" frameHeight="505"/>
-	<SubTexture name="TheWrathSoul right0008" x="2382" y="0" width="262" height="505" frameX="-5" frameY="0" frameWidth="276" frameHeight="505"/>
-	<SubTexture name="TheWrathSoul right0009" x="2382" y="0" width="262" height="505" frameX="-5" frameY="0" frameWidth="276" frameHeight="505"/>
-	<SubTexture name="TheWrathSoul right0010" x="2382" y="0" width="262" height="505" frameX="-5" frameY="0" frameWidth="276" frameHeight="505"/>
-	<SubTexture name="TheWrathSoul right0011" x="2382" y="0" width="262" height="505" frameX="-5" frameY="0" frameWidth="276" frameHeight="505"/>
-	<SubTexture name="TheWrathSoul right0012" x="2382" y="0" width="262" height="505" frameX="-5" frameY="0" frameWidth="276" frameHeight="505"/>
-	<SubTexture name="TheWrathSoul right0013" x="2382" y="0" width="262" height="505" frameX="-5" frameY="0" frameWidth="276" frameHeight="505"/>
-	<SubTexture name="TheWrathSoul right0014" x="2382" y="0" width="262" height="505" frameX="-5" frameY="0" frameWidth="276" frameHeight="505"/>
-	<SubTexture name="TheWrathSoul right0015" x="2382" y="0" width="262" height="505" frameX="-5" frameY="0" frameWidth="276" frameHeight="505"/>
-	<SubTexture name="TheWrathSoul right0016" x="2382" y="0" width="262" height="505" frameX="-5" frameY="0" frameWidth="276" frameHeight="505"/>
-	<SubTexture name="TheWrathSoul up0000" x="2684" y="0" width="305" height="498" frameX="0" frameY="0" frameWidth="305" frameHeight="512"/>
-	<SubTexture name="TheWrathSoul up0001" x="2684" y="0" width="305" height="498" frameX="0" frameY="0" frameWidth="305" frameHeight="512"/>
-	<SubTexture name="TheWrathSoul up0002" x="3029" y="0" width="304" height="502" frameX="0" frameY="-10" frameWidth="305" frameHeight="512"/>
-	<SubTexture name="TheWrathSoul up0003" x="3029" y="0" width="304" height="502" frameX="0" frameY="-10" frameWidth="305" frameHeight="512"/>
-	<SubTexture name="TheWrathSoul up0004" x="3029" y="0" width="304" height="502" frameX="0" frameY="-10" frameWidth="305" frameHeight="512"/>
-	<SubTexture name="TheWrathSoul up0005" x="3029" y="0" width="304" height="502" frameX="0" frameY="-10" frameWidth="305" frameHeight="512"/>
-	<SubTexture name="TheWrathSoul up0006" x="3029" y="0" width="304" height="502" frameX="0" frameY="-10" frameWidth="305" frameHeight="512"/>
-	<SubTexture name="TheWrathSoul up0007" x="3029" y="0" width="304" height="502" frameX="0" frameY="-10" frameWidth="305" frameHeight="512"/>
-	<SubTexture name="TheWrathSoul up0008" x="3029" y="0" width="304" height="502" frameX="0" frameY="-10" frameWidth="305" frameHeight="512"/>
-	<SubTexture name="TheWrathSoul up0009" x="3029" y="0" width="304" height="502" frameX="0" frameY="-10" frameWidth="305" frameHeight="512"/>
-	<SubTexture name="TheWrathSoul up0010" x="3029" y="0" width="304" height="502" frameX="0" frameY="-10" frameWidth="305" frameHeight="512"/>
-	<SubTexture name="TheWrathSoul up0011" x="3029" y="0" width="304" height="502" frameX="0" frameY="-10" frameWidth="305" frameHeight="512"/>
-	<SubTexture name="TheWrathSoul up0012" x="3029" y="0" width="304" height="502" frameX="0" frameY="-10" frameWidth="305" frameHeight="512"/>
-	<SubTexture name="TheWrathSoul up0013" x="3029" y="0" width="304" height="502" frameX="0" frameY="-10" frameWidth="305" frameHeight="512"/>
-	<SubTexture name="TheWrathSoul up0014" x="3029" y="0" width="304" height="502" frameX="0" frameY="-10" frameWidth="305" frameHeight="512"/>
-	<SubTexture name="TheWrathSoul up0015" x="3029" y="0" width="304" height="502" frameX="0" frameY="-10" frameWidth="305" frameHeight="512"/>
-	<SubTexture name="WRATH down0000" x="3373" y="0" width="442" height="453" frameX="0" frameY="-16" frameWidth="442" frameHeight="473"/>
-	<SubTexture name="WRATH down0001" x="3373" y="0" width="442" height="453" frameX="0" frameY="-16" frameWidth="442" frameHeight="473"/>
-	<SubTexture name="WRATH down0002" x="0" y="545" width="421" height="473" frameX="-16" frameY="0" frameWidth="442" frameHeight="473"/>
-	<SubTexture name="WRATH down0003" x="0" y="545" width="421" height="473" frameX="-16" frameY="0" frameWidth="442" frameHeight="473"/>
-	<SubTexture name="WRATH down0004" x="0" y="545" width="421" height="473" frameX="-16" frameY="0" frameWidth="442" frameHeight="473"/>
-	<SubTexture name="WRATH down0005" x="0" y="545" width="421" height="473" frameX="-16" frameY="0" frameWidth="442" frameHeight="473"/>
-	<SubTexture name="WRATH down0006" x="0" y="545" width="421" height="473" frameX="-16" frameY="0" frameWidth="442" frameHeight="473"/>
-	<SubTexture name="WRATH down0007" x="0" y="545" width="421" height="473" frameX="-16" frameY="0" frameWidth="442" frameHeight="473"/>
-	<SubTexture name="WRATH down0008" x="0" y="545" width="421" height="473" frameX="-16" frameY="0" frameWidth="442" frameHeight="473"/>
-	<SubTexture name="WRATH down0009" x="0" y="545" width="421" height="473" frameX="-16" frameY="0" frameWidth="442" frameHeight="473"/>
-	<SubTexture name="WRATH down0010" x="0" y="545" width="421" height="473" frameX="-16" frameY="0" frameWidth="442" frameHeight="473"/>
-	<SubTexture name="WRATH down0011" x="0" y="545" width="421" height="473" frameX="-16" frameY="0" frameWidth="442" frameHeight="473"/>
-	<SubTexture name="WRATH down0012" x="0" y="545" width="421" height="473" frameX="-16" frameY="0" frameWidth="442" frameHeight="473"/>
-	<SubTexture name="WRATH down0013" x="0" y="545" width="421" height="473" frameX="-16" frameY="0" frameWidth="442" frameHeight="473"/>
-	<SubTexture name="WRATH down0014" x="0" y="545" width="421" height="473" frameX="-16" frameY="0" frameWidth="442" frameHeight="473"/>
-	<SubTexture name="WRATH idle0000" x="461" y="545" width="402" height="494" frameX="-3" frameY="-1" frameWidth="409" frameHeight="498"/>
-	<SubTexture name="WRATH idle0001" x="903" y="545" width="407" height="492" frameX="-1" frameY="-3" frameWidth="409" frameHeight="498"/>
-	<SubTexture name="WRATH idle0002" x="1350" y="545" width="402" height="492" frameX="-5" frameY="0" frameWidth="409" frameHeight="498"/>
-	<SubTexture name="WRATH idle0003" x="1792" y="545" width="408" height="497" frameX="-1" frameY="-1" frameWidth="409" frameHeight="498"/>
-	<SubTexture name="WRATH idle0004" x="2240" y="545" width="407" height="496" frameX="0" frameY="-1" frameWidth="409" frameHeight="498"/>
-	<SubTexture name="WRATH left0000" x="2687" y="545" width="382" height="487" frameX="0" frameY="0" frameWidth="395" frameHeight="487"/>
-	<SubTexture name="WRATH left0001" x="2687" y="545" width="382" height="487" frameX="0" frameY="0" frameWidth="395" frameHeight="487"/>
-	<SubTexture name="WRATH left0002" x="3109" y="545" width="368" height="487" frameX="-27" frameY="0" frameWidth="395" frameHeight="487"/>
-	<SubTexture name="WRATH left0003" x="3109" y="545" width="368" height="487" frameX="-27" frameY="0" frameWidth="395" frameHeight="487"/>
-	<SubTexture name="WRATH left0004" x="3109" y="545" width="368" height="487" frameX="-27" frameY="0" frameWidth="395" frameHeight="487"/>
-	<SubTexture name="WRATH left0005" x="3109" y="545" width="368" height="487" frameX="-27" frameY="0" frameWidth="395" frameHeight="487"/>
-	<SubTexture name="WRATH left0006" x="3109" y="545" width="368" height="487" frameX="-27" frameY="0" frameWidth="395" frameHeight="487"/>
-	<SubTexture name="WRATH left0007" x="3109" y="545" width="368" height="487" frameX="-27" frameY="0" frameWidth="395" frameHeight="487"/>
-	<SubTexture name="WRATH left0008" x="3109" y="545" width="368" height="487" frameX="-27" frameY="0" frameWidth="395" frameHeight="487"/>
-	<SubTexture name="WRATH left0009" x="3109" y="545" width="368" height="487" frameX="-27" frameY="0" frameWidth="395" frameHeight="487"/>
-	<SubTexture name="WRATH left0010" x="3109" y="545" width="368" height="487" frameX="-27" frameY="0" frameWidth="395" frameHeight="487"/>
-	<SubTexture name="WRATH left0011" x="3109" y="545" width="368" height="487" frameX="-27" frameY="0" frameWidth="395" frameHeight="487"/>
-	<SubTexture name="WRATH left0012" x="3109" y="545" width="368" height="487" frameX="-27" frameY="0" frameWidth="395" frameHeight="487"/>
-	<SubTexture name="WRATH left0013" x="3109" y="545" width="368" height="487" frameX="-27" frameY="0" frameWidth="395" frameHeight="487"/>
-	<SubTexture name="WRATH left0014" x="3109" y="545" width="368" height="487" frameX="-27" frameY="0" frameWidth="395" frameHeight="487"/>
-	<SubTexture name="WRATH right0000" x="3517" y="545" width="435" height="482"/>
-	<SubTexture name="WRATH right0001" x="3517" y="545" width="435" height="482"/>
-	<SubTexture name="WRATH right0002" x="0" y="1082" width="420" height="482" frameX="-3" frameY="0" frameWidth="435" frameHeight="482"/>
-	<SubTexture name="WRATH right0003" x="0" y="1082" width="420" height="482" frameX="-3" frameY="0" frameWidth="435" frameHeight="482"/>
-	<SubTexture name="WRATH right0004" x="0" y="1082" width="420" height="482" frameX="-3" frameY="0" frameWidth="435" frameHeight="482"/>
-	<SubTexture name="WRATH right0005" x="0" y="1082" width="420" height="482" frameX="-3" frameY="0" frameWidth="435" frameHeight="482"/>
-	<SubTexture name="WRATH right0006" x="0" y="1082" width="420" height="482" frameX="-3" frameY="0" frameWidth="435" frameHeight="482"/>
-	<SubTexture name="WRATH right0007" x="0" y="1082" width="420" height="482" frameX="-3" frameY="0" frameWidth="435" frameHeight="482"/>
-	<SubTexture name="WRATH right0008" x="0" y="1082" width="420" height="482" frameX="-3" frameY="0" frameWidth="435" frameHeight="482"/>
-	<SubTexture name="WRATH right0009" x="0" y="1082" width="420" height="482" frameX="-3" frameY="0" frameWidth="435" frameHeight="482"/>
-	<SubTexture name="WRATH right0010" x="0" y="1082" width="420" height="482" frameX="-3" frameY="0" frameWidth="435" frameHeight="482"/>
-	<SubTexture name="WRATH right0011" x="0" y="1082" width="420" height="482" frameX="-3" frameY="0" frameWidth="435" frameHeight="482"/>
-	<SubTexture name="WRATH right0012" x="0" y="1082" width="420" height="482" frameX="-3" frameY="0" frameWidth="435" frameHeight="482"/>
-	<SubTexture name="WRATH right0013" x="0" y="1082" width="420" height="482" frameX="-3" frameY="0" frameWidth="435" frameHeight="482"/>
-	<SubTexture name="WRATH right0014" x="0" y="1082" width="420" height="482" frameX="-3" frameY="0" frameWidth="435" frameHeight="482"/>
-	<SubTexture name="WRATH up0000" x="460" y="1082" width="320" height="513" frameX="-11" frameY="0" frameWidth="340" frameHeight="517"/>
-	<SubTexture name="WRATH up0001" x="460" y="1082" width="320" height="513" frameX="-11" frameY="0" frameWidth="340" frameHeight="517"/>
-	<SubTexture name="WRATH up0002" x="820" y="1082" width="340" height="506" frameX="0" frameY="-11" frameWidth="340" frameHeight="517"/>
-	<SubTexture name="WRATH up0003" x="820" y="1082" width="340" height="506" frameX="0" frameY="-11" frameWidth="340" frameHeight="517"/>
-	<SubTexture name="WRATH up0004" x="820" y="1082" width="340" height="506" frameX="0" frameY="-11" frameWidth="340" frameHeight="517"/>
-	<SubTexture name="WRATH up0005" x="820" y="1082" width="340" height="506" frameX="0" frameY="-11" frameWidth="340" frameHeight="517"/>
-	<SubTexture name="WRATH up0006" x="820" y="1082" width="340" height="506" frameX="0" frameY="-11" frameWidth="340" frameHeight="517"/>
-	<SubTexture name="WRATH up0007" x="820" y="1082" width="340" height="506" frameX="0" frameY="-11" frameWidth="340" frameHeight="517"/>
-	<SubTexture name="WRATH up0008" x="820" y="1082" width="340" height="506" frameX="0" frameY="-11" frameWidth="340" frameHeight="517"/>
-	<SubTexture name="WRATH up0009" x="820" y="1082" width="340" height="506" frameX="0" frameY="-11" frameWidth="340" frameHeight="517"/>
-	<SubTexture name="WRATH up0010" x="820" y="1082" width="340" height="506" frameX="0" frameY="-11" frameWidth="340" frameHeight="517"/>
-	<SubTexture name="WRATH up0011" x="820" y="1082" width="340" height="506" frameX="0" frameY="-11" frameWidth="340" frameHeight="517"/>
-	<SubTexture name="WRATH up0012" x="820" y="1082" width="340" height="506" frameX="0" frameY="-11" frameWidth="340" frameHeight="517"/>
-	<SubTexture name="WRATH up0013" x="820" y="1082" width="340" height="506" frameX="0" frameY="-11" frameWidth="340" frameHeight="517"/>
-	<SubTexture name="WRATH up0014" x="820" y="1082" width="340" height="506" frameX="0" frameY="-11" frameWidth="340" frameHeight="517"/>
-	<SubTexture name="WRATHSoul down0000" x="1200" y="1082" width="386" height="449" frameX="0" frameY="-6" frameWidth="387" frameHeight="456"/>
-	<SubTexture name="WRATHSoul down0001" x="1200" y="1082" width="386" height="449" frameX="0" frameY="-6" frameWidth="387" frameHeight="456"/>
-	<SubTexture name="WRATHSoul down0002" x="1626" y="1082" width="385" height="456" frameX="-2" frameY="0" frameWidth="387" frameHeight="456"/>
-	<SubTexture name="WRATHSoul down0003" x="1626" y="1082" width="385" height="456" frameX="-2" frameY="0" frameWidth="387" frameHeight="456"/>
-	<SubTexture name="WRATHSoul down0004" x="1626" y="1082" width="385" height="456" frameX="-2" frameY="0" frameWidth="387" frameHeight="456"/>
-	<SubTexture name="WRATHSoul down0005" x="1626" y="1082" width="385" height="456" frameX="-2" frameY="0" frameWidth="387" frameHeight="456"/>
-	<SubTexture name="WRATHSoul down0006" x="1626" y="1082" width="385" height="456" frameX="-2" frameY="0" frameWidth="387" frameHeight="456"/>
-	<SubTexture name="WRATHSoul down0007" x="1626" y="1082" width="385" height="456" frameX="-2" frameY="0" frameWidth="387" frameHeight="456"/>
-	<SubTexture name="WRATHSoul down0008" x="1626" y="1082" width="385" height="456" frameX="-2" frameY="0" frameWidth="387" frameHeight="456"/>
-	<SubTexture name="WRATHSoul down0009" x="1626" y="1082" width="385" height="456" frameX="-2" frameY="0" frameWidth="387" frameHeight="456"/>
-	<SubTexture name="WRATHSoul down0010" x="1626" y="1082" width="385" height="456" frameX="-2" frameY="0" frameWidth="387" frameHeight="456"/>
-	<SubTexture name="WRATHSoul down0011" x="1626" y="1082" width="385" height="456" frameX="-2" frameY="0" frameWidth="387" frameHeight="456"/>
-	<SubTexture name="WRATHSoul down0012" x="1626" y="1082" width="385" height="456" frameX="-2" frameY="0" frameWidth="387" frameHeight="456"/>
-	<SubTexture name="WRATHSoul down0013" x="1626" y="1082" width="385" height="456" frameX="-2" frameY="0" frameWidth="387" frameHeight="456"/>
-	<SubTexture name="WRATHSoul down0014" x="1626" y="1082" width="385" height="456" frameX="-2" frameY="0" frameWidth="387" frameHeight="456"/>
-	<SubTexture name="WRATHSoul down0015" x="1626" y="1082" width="385" height="456" frameX="-2" frameY="0" frameWidth="387" frameHeight="456"/>
-	<SubTexture name="WRATHSoul idle0000" x="2051" y="1082" width="353" height="494" frameX="0" frameY="-1" frameWidth="357" frameHeight="498"/>
-	<SubTexture name="WRATHSoul idle0001" x="2444" y="1082" width="353" height="492" frameX="-3" frameY="-3" frameWidth="357" frameHeight="498"/>
-	<SubTexture name="WRATHSoul idle0002" x="2837" y="1082" width="347" height="492" frameX="-8" frameY="0" frameWidth="357" frameHeight="498"/>
-	<SubTexture name="WRATHSoul idle0003" x="3224" y="1082" width="352" height="497" frameX="-5" frameY="-1" frameWidth="357" frameHeight="498"/>
-	<SubTexture name="WRATHSoul idle0004" x="3616" y="1082" width="355" height="496" frameX="0" frameY="-1" frameWidth="357" frameHeight="498"/>
-	<SubTexture name="WRATHSoul left0000" x="0" y="1635" width="358" height="505" frameX="0" frameY="-3" frameWidth="368" frameHeight="508"/>
-	<SubTexture name="WRATHSoul left0001" x="0" y="1635" width="358" height="505" frameX="0" frameY="-3" frameWidth="368" frameHeight="508"/>
-	<SubTexture name="WRATHSoul left0002" x="398" y="1635" width="359" height="505" frameX="-9" frameY="0" frameWidth="368" frameHeight="508"/>
-	<SubTexture name="WRATHSoul left0003" x="398" y="1635" width="359" height="505" frameX="-9" frameY="0" frameWidth="368" frameHeight="508"/>
-	<SubTexture name="WRATHSoul left0004" x="398" y="1635" width="359" height="505" frameX="-9" frameY="0" frameWidth="368" frameHeight="508"/>
-	<SubTexture name="WRATHSoul left0005" x="398" y="1635" width="359" height="505" frameX="-9" frameY="0" frameWidth="368" frameHeight="508"/>
-	<SubTexture name="WRATHSoul left0006" x="398" y="1635" width="359" height="505" frameX="-9" frameY="0" frameWidth="368" frameHeight="508"/>
-	<SubTexture name="WRATHSoul left0007" x="398" y="1635" width="359" height="505" frameX="-9" frameY="0" frameWidth="368" frameHeight="508"/>
-	<SubTexture name="WRATHSoul left0008" x="398" y="1635" width="359" height="505" frameX="-9" frameY="0" frameWidth="368" frameHeight="508"/>
-	<SubTexture name="WRATHSoul left0009" x="398" y="1635" width="359" height="505" frameX="-9" frameY="0" frameWidth="368" frameHeight="508"/>
-	<SubTexture name="WRATHSoul left0010" x="398" y="1635" width="359" height="505" frameX="-9" frameY="0" frameWidth="368" frameHeight="508"/>
-	<SubTexture name="WRATHSoul left0011" x="398" y="1635" width="359" height="505" frameX="-9" frameY="0" frameWidth="368" frameHeight="508"/>
-	<SubTexture name="WRATHSoul left0012" x="398" y="1635" width="359" height="505" frameX="-9" frameY="0" frameWidth="368" frameHeight="508"/>
-	<SubTexture name="WRATHSoul left0013" x="398" y="1635" width="359" height="505" frameX="-9" frameY="0" frameWidth="368" frameHeight="508"/>
-	<SubTexture name="WRATHSoul left0014" x="398" y="1635" width="359" height="505" frameX="-9" frameY="0" frameWidth="368" frameHeight="508"/>
-	<SubTexture name="WRATHSoul left0015" x="398" y="1635" width="359" height="505" frameX="-9" frameY="0" frameWidth="368" frameHeight="508"/>
-	<SubTexture name="WRATHSoul left0016" x="398" y="1635" width="359" height="505" frameX="-9" frameY="0" frameWidth="368" frameHeight="508"/>
-	<SubTexture name="WRATHSoul right0000" x="797" y="1635" width="311" height="503" frameX="-10" frameY="0" frameWidth="321" frameHeight="503"/>
-	<SubTexture name="WRATHSoul right0001" x="797" y="1635" width="311" height="503" frameX="-10" frameY="0" frameWidth="321" frameHeight="503"/>
-	<SubTexture name="WRATHSoul right0002" x="1148" y="1635" width="312" height="503" frameX="0" frameY="0" frameWidth="321" frameHeight="503"/>
-	<SubTexture name="WRATHSoul right0003" x="1148" y="1635" width="312" height="503" frameX="0" frameY="0" frameWidth="321" frameHeight="503"/>
-	<SubTexture name="WRATHSoul right0004" x="1148" y="1635" width="312" height="503" frameX="0" frameY="0" frameWidth="321" frameHeight="503"/>
-	<SubTexture name="WRATHSoul right0005" x="1148" y="1635" width="312" height="503" frameX="0" frameY="0" frameWidth="321" frameHeight="503"/>
-	<SubTexture name="WRATHSoul right0006" x="1148" y="1635" width="312" height="503" frameX="0" frameY="0" frameWidth="321" frameHeight="503"/>
-	<SubTexture name="WRATHSoul right0007" x="1148" y="1635" width="312" height="503" frameX="0" frameY="0" frameWidth="321" frameHeight="503"/>
-	<SubTexture name="WRATHSoul right0008" x="1148" y="1635" width="312" height="503" frameX="0" frameY="0" frameWidth="321" frameHeight="503"/>
-	<SubTexture name="WRATHSoul right0009" x="1148" y="1635" width="312" height="503" frameX="0" frameY="0" frameWidth="321" frameHeight="503"/>
-	<SubTexture name="WRATHSoul right0010" x="1148" y="1635" width="312" height="503" frameX="0" frameY="0" frameWidth="321" frameHeight="503"/>
-	<SubTexture name="WRATHSoul right0011" x="1148" y="1635" width="312" height="503" frameX="0" frameY="0" frameWidth="321" frameHeight="503"/>
-	<SubTexture name="WRATHSoul right0012" x="1148" y="1635" width="312" height="503" frameX="0" frameY="0" frameWidth="321" frameHeight="503"/>
-	<SubTexture name="WRATHSoul right0013" x="1148" y="1635" width="312" height="503" frameX="0" frameY="0" frameWidth="321" frameHeight="503"/>
-	<SubTexture name="WRATHSoul right0014" x="1148" y="1635" width="312" height="503" frameX="0" frameY="0" frameWidth="321" frameHeight="503"/>
-	<SubTexture name="WRATHSoul right0015" x="1148" y="1635" width="312" height="503" frameX="0" frameY="0" frameWidth="321" frameHeight="503"/>
-	<SubTexture name="WRATHSoul right0016" x="1148" y="1635" width="312" height="503" frameX="0" frameY="0" frameWidth="321" frameHeight="503"/>
-	<SubTexture name="WRATHSoul up0000" x="1500" y="1635" width="330" height="519" frameX="0" frameY="0" frameWidth="330" frameHeight="525"/>
-	<SubTexture name="WRATHSoul up0001" x="1500" y="1635" width="330" height="519" frameX="0" frameY="0" frameWidth="330" frameHeight="525"/>
-	<SubTexture name="WRATHSoul up0002" x="1870" y="1635" width="330" height="517" frameX="0" frameY="-8" frameWidth="330" frameHeight="525"/>
-	<SubTexture name="WRATHSoul up0003" x="1870" y="1635" width="330" height="517" frameX="0" frameY="-8" frameWidth="330" frameHeight="525"/>
-	<SubTexture name="WRATHSoul up0004" x="1870" y="1635" width="330" height="517" frameX="0" frameY="-8" frameWidth="330" frameHeight="525"/>
-	<SubTexture name="WRATHSoul up0005" x="1870" y="1635" width="330" height="517" frameX="0" frameY="-8" frameWidth="330" frameHeight="525"/>
-	<SubTexture name="WRATHSoul up0006" x="1870" y="1635" width="330" height="517" frameX="0" frameY="-8" frameWidth="330" frameHeight="525"/>
-	<SubTexture name="WRATHSoul up0007" x="1870" y="1635" width="330" height="517" frameX="0" frameY="-8" frameWidth="330" frameHeight="525"/>
-	<SubTexture name="WRATHSoul up0008" x="1870" y="1635" width="330" height="517" frameX="0" frameY="-8" frameWidth="330" frameHeight="525"/>
-	<SubTexture name="WRATHSoul up0009" x="1870" y="1635" width="330" height="517" frameX="0" frameY="-8" frameWidth="330" frameHeight="525"/>
-	<SubTexture name="WRATHSoul up0010" x="1870" y="1635" width="330" height="517" frameX="0" frameY="-8" frameWidth="330" frameHeight="525"/>
-	<SubTexture name="WRATHSoul up0011" x="1870" y="1635" width="330" height="517" frameX="0" frameY="-8" frameWidth="330" frameHeight="525"/>
-	<SubTexture name="WRATHSoul up0012" x="1870" y="1635" width="330" height="517" frameX="0" frameY="-8" frameWidth="330" frameHeight="525"/>
-	<SubTexture name="WRATHSoul up0013" x="1870" y="1635" width="330" height="517" frameX="0" frameY="-8" frameWidth="330" frameHeight="525"/>
+	<SubTexture name="TheWrathSoul down instance 10000" x="0" y="0" width="301" height="451" frameX="-3" frameY="-10" frameWidth="304" frameHeight="461"/>
+	<SubTexture name="TheWrathSoul down instance 10001" x="341" y="0" width="300" height="459" frameX="0" frameY="0" frameWidth="304" frameHeight="461"/>
+	<SubTexture name="TheWrathSoul down instance 10002" x="341" y="0" width="300" height="459" frameX="0" frameY="0" frameWidth="304" frameHeight="461"/>
+	<SubTexture name="TheWrathSoul down instance 10003" x="341" y="0" width="300" height="459" frameX="0" frameY="0" frameWidth="304" frameHeight="461"/>
+	<SubTexture name="TheWrathSoul down instance 10004" x="341" y="0" width="300" height="459" frameX="0" frameY="0" frameWidth="304" frameHeight="461"/>
+	<SubTexture name="TheWrathSoul down instance 10005" x="341" y="0" width="300" height="459" frameX="0" frameY="0" frameWidth="304" frameHeight="461"/>
+	<SubTexture name="TheWrathSoul down instance 10006" x="341" y="0" width="300" height="459" frameX="0" frameY="0" frameWidth="304" frameHeight="461"/>
+	<SubTexture name="TheWrathSoul down instance 10007" x="341" y="0" width="300" height="459" frameX="0" frameY="0" frameWidth="304" frameHeight="461"/>
+	<SubTexture name="TheWrathSoul down instance 10008" x="341" y="0" width="300" height="459" frameX="0" frameY="0" frameWidth="304" frameHeight="461"/>
+	<SubTexture name="TheWrathSoul down instance 10009" x="341" y="0" width="300" height="459" frameX="0" frameY="0" frameWidth="304" frameHeight="461"/>
+	<SubTexture name="TheWrathSoul down instance 10010" x="341" y="0" width="300" height="459" frameX="0" frameY="0" frameWidth="304" frameHeight="461"/>
+	<SubTexture name="TheWrathSoul down instance 10011" x="341" y="0" width="300" height="459" frameX="0" frameY="0" frameWidth="304" frameHeight="461"/>
+	<SubTexture name="TheWrathSoul down instance 10012" x="341" y="0" width="300" height="459" frameX="0" frameY="0" frameWidth="304" frameHeight="461"/>
+	<SubTexture name="TheWrathSoul down instance 10013" x="341" y="0" width="300" height="459" frameX="0" frameY="0" frameWidth="304" frameHeight="461"/>
+	<SubTexture name="TheWrathSoul down instance 10014" x="341" y="0" width="300" height="459" frameX="0" frameY="0" frameWidth="304" frameHeight="461"/>
+	<SubTexture name="TheWrathSoul idle instance 10000" x="681" y="0" width="303" height="501"/>
+	<SubTexture name="TheWrathSoul idle instance 10001" x="1024" y="0" width="300" height="501" frameX="-1" frameY="0" frameWidth="303" frameHeight="501"/>
+	<SubTexture name="TheWrathSoul idle instance 10002" x="1024" y="0" width="300" height="501" frameX="-1" frameY="0" frameWidth="303" frameHeight="501"/>
+	<SubTexture name="TheWrathSoul idle instance 10003" x="1024" y="0" width="300" height="501" frameX="-1" frameY="0" frameWidth="303" frameHeight="501"/>
+	<SubTexture name="TheWrathSoul idle instance 10004" x="1024" y="0" width="300" height="501" frameX="-1" frameY="0" frameWidth="303" frameHeight="501"/>
+	<SubTexture name="TheWrathSoul idle instance 10005" x="1024" y="0" width="300" height="501" frameX="-1" frameY="0" frameWidth="303" frameHeight="501"/>
+	<SubTexture name="TheWrathSoul idle instance 10006" x="1024" y="0" width="300" height="501" frameX="-1" frameY="0" frameWidth="303" frameHeight="501"/>
+	<SubTexture name="TheWrathSoul idle instance 10007" x="1024" y="0" width="300" height="501" frameX="-1" frameY="0" frameWidth="303" frameHeight="501"/>
+	<SubTexture name="TheWrathSoul idle instance 10008" x="1024" y="0" width="300" height="501" frameX="-1" frameY="0" frameWidth="303" frameHeight="501"/>
+	<SubTexture name="TheWrathSoul idle instance 10009" x="1024" y="0" width="300" height="501" frameX="-1" frameY="0" frameWidth="303" frameHeight="501"/>
+	<SubTexture name="TheWrathSoul idle instance 10010" x="1024" y="0" width="300" height="501" frameX="-1" frameY="0" frameWidth="303" frameHeight="501"/>
+	<SubTexture name="TheWrathSoul idle instance 10011" x="1024" y="0" width="300" height="501" frameX="-1" frameY="0" frameWidth="303" frameHeight="501"/>
+	<SubTexture name="TheWrathSoul idle instance 10012" x="1024" y="0" width="300" height="501" frameX="-1" frameY="0" frameWidth="303" frameHeight="501"/>
+	<SubTexture name="TheWrathSoul idle instance 10013" x="1024" y="0" width="300" height="501" frameX="-1" frameY="0" frameWidth="303" frameHeight="501"/>
+	<SubTexture name="TheWrathSoul idle instance 10014" x="1024" y="0" width="300" height="501" frameX="-1" frameY="0" frameWidth="303" frameHeight="501"/>
+	<SubTexture name="TheWrathSoul idle instance 10015" x="1024" y="0" width="300" height="501" frameX="-1" frameY="0" frameWidth="303" frameHeight="501"/>
+	<SubTexture name="TheWrathSoul left instance 10000" x="1364" y="0" width="319" height="486" frameX="0" frameY="0" frameWidth="322" frameHeight="486"/>
+	<SubTexture name="TheWrathSoul left instance 10001" x="1723" y="0" width="313" height="485" frameX="-9" frameY="-1" frameWidth="322" frameHeight="486"/>
+	<SubTexture name="TheWrathSoul left instance 10002" x="1723" y="0" width="313" height="485" frameX="-9" frameY="-1" frameWidth="322" frameHeight="486"/>
+	<SubTexture name="TheWrathSoul left instance 10003" x="1723" y="0" width="313" height="485" frameX="-9" frameY="-1" frameWidth="322" frameHeight="486"/>
+	<SubTexture name="TheWrathSoul left instance 10004" x="1723" y="0" width="313" height="485" frameX="-9" frameY="-1" frameWidth="322" frameHeight="486"/>
+	<SubTexture name="TheWrathSoul left instance 10005" x="1723" y="0" width="313" height="485" frameX="-9" frameY="-1" frameWidth="322" frameHeight="486"/>
+	<SubTexture name="TheWrathSoul left instance 10006" x="1723" y="0" width="313" height="485" frameX="-9" frameY="-1" frameWidth="322" frameHeight="486"/>
+	<SubTexture name="TheWrathSoul left instance 10007" x="1723" y="0" width="313" height="485" frameX="-9" frameY="-1" frameWidth="322" frameHeight="486"/>
+	<SubTexture name="TheWrathSoul left instance 10008" x="1723" y="0" width="313" height="485" frameX="-9" frameY="-1" frameWidth="322" frameHeight="486"/>
+	<SubTexture name="TheWrathSoul left instance 10009" x="1723" y="0" width="313" height="485" frameX="-9" frameY="-1" frameWidth="322" frameHeight="486"/>
+	<SubTexture name="TheWrathSoul left instance 10010" x="1723" y="0" width="313" height="485" frameX="-9" frameY="-1" frameWidth="322" frameHeight="486"/>
+	<SubTexture name="TheWrathSoul left instance 10011" x="1723" y="0" width="313" height="485" frameX="-9" frameY="-1" frameWidth="322" frameHeight="486"/>
+	<SubTexture name="TheWrathSoul left instance 10012" x="1723" y="0" width="313" height="485" frameX="-9" frameY="-1" frameWidth="322" frameHeight="486"/>
+	<SubTexture name="TheWrathSoul left instance 10013" x="1723" y="0" width="313" height="485" frameX="-9" frameY="-1" frameWidth="322" frameHeight="486"/>
+	<SubTexture name="TheWrathSoul left instance 10014" x="1723" y="0" width="313" height="485" frameX="-9" frameY="-1" frameWidth="322" frameHeight="486"/>
+	<SubTexture name="TheWrathSoul right instance 10000" x="2076" y="0" width="278" height="506"/>
+	<SubTexture name="TheWrathSoul right instance 10001" x="2394" y="0" width="262" height="506" frameX="-6" frameY="0" frameWidth="278" frameHeight="506"/>
+	<SubTexture name="TheWrathSoul right instance 10002" x="2394" y="0" width="262" height="506" frameX="-6" frameY="0" frameWidth="278" frameHeight="506"/>
+	<SubTexture name="TheWrathSoul right instance 10003" x="2394" y="0" width="262" height="506" frameX="-6" frameY="0" frameWidth="278" frameHeight="506"/>
+	<SubTexture name="TheWrathSoul right instance 10004" x="2394" y="0" width="262" height="506" frameX="-6" frameY="0" frameWidth="278" frameHeight="506"/>
+	<SubTexture name="TheWrathSoul right instance 10005" x="2394" y="0" width="262" height="506" frameX="-6" frameY="0" frameWidth="278" frameHeight="506"/>
+	<SubTexture name="TheWrathSoul right instance 10006" x="2394" y="0" width="262" height="506" frameX="-6" frameY="0" frameWidth="278" frameHeight="506"/>
+	<SubTexture name="TheWrathSoul right instance 10007" x="2394" y="0" width="262" height="506" frameX="-6" frameY="0" frameWidth="278" frameHeight="506"/>
+	<SubTexture name="TheWrathSoul right instance 10008" x="2394" y="0" width="262" height="506" frameX="-6" frameY="0" frameWidth="278" frameHeight="506"/>
+	<SubTexture name="TheWrathSoul right instance 10009" x="2394" y="0" width="262" height="506" frameX="-6" frameY="0" frameWidth="278" frameHeight="506"/>
+	<SubTexture name="TheWrathSoul right instance 10010" x="2394" y="0" width="262" height="506" frameX="-6" frameY="0" frameWidth="278" frameHeight="506"/>
+	<SubTexture name="TheWrathSoul right instance 10011" x="2394" y="0" width="262" height="506" frameX="-6" frameY="0" frameWidth="278" frameHeight="506"/>
+	<SubTexture name="TheWrathSoul right instance 10012" x="2394" y="0" width="262" height="506" frameX="-6" frameY="0" frameWidth="278" frameHeight="506"/>
+	<SubTexture name="TheWrathSoul right instance 10013" x="2394" y="0" width="262" height="506" frameX="-6" frameY="0" frameWidth="278" frameHeight="506"/>
+	<SubTexture name="TheWrathSoul right instance 10014" x="2394" y="0" width="262" height="506" frameX="-6" frameY="0" frameWidth="278" frameHeight="506"/>
+	<SubTexture name="TheWrathSoul up instance 10000" x="2696" y="0" width="301" height="497" frameX="0" frameY="0" frameWidth="301" frameHeight="512"/>
+	<SubTexture name="TheWrathSoul up instance 10001" x="3037" y="0" width="301" height="506" frameX="0" frameY="-6" frameWidth="301" frameHeight="512"/>
+	<SubTexture name="TheWrathSoul up instance 10002" x="3037" y="0" width="301" height="506" frameX="0" frameY="-6" frameWidth="301" frameHeight="512"/>
+	<SubTexture name="TheWrathSoul up instance 10003" x="3037" y="0" width="301" height="506" frameX="0" frameY="-6" frameWidth="301" frameHeight="512"/>
+	<SubTexture name="TheWrathSoul up instance 10004" x="3037" y="0" width="301" height="506" frameX="0" frameY="-6" frameWidth="301" frameHeight="512"/>
+	<SubTexture name="TheWrathSoul up instance 10005" x="3037" y="0" width="301" height="506" frameX="0" frameY="-6" frameWidth="301" frameHeight="512"/>
+	<SubTexture name="TheWrathSoul up instance 10006" x="3037" y="0" width="301" height="506" frameX="0" frameY="-6" frameWidth="301" frameHeight="512"/>
+	<SubTexture name="TheWrathSoul up instance 10007" x="3037" y="0" width="301" height="506" frameX="0" frameY="-6" frameWidth="301" frameHeight="512"/>
+	<SubTexture name="TheWrathSoul up instance 10008" x="3037" y="0" width="301" height="506" frameX="0" frameY="-6" frameWidth="301" frameHeight="512"/>
+	<SubTexture name="TheWrathSoul up instance 10009" x="3037" y="0" width="301" height="506" frameX="0" frameY="-6" frameWidth="301" frameHeight="512"/>
+	<SubTexture name="TheWrathSoul up instance 10010" x="3037" y="0" width="301" height="506" frameX="0" frameY="-6" frameWidth="301" frameHeight="512"/>
+	<SubTexture name="TheWrathSoul up instance 10011" x="3037" y="0" width="301" height="506" frameX="0" frameY="-6" frameWidth="301" frameHeight="512"/>
+	<SubTexture name="TheWrathSoul up instance 10012" x="3037" y="0" width="301" height="506" frameX="0" frameY="-6" frameWidth="301" frameHeight="512"/>
+	<SubTexture name="TheWrathSoul up instance 10013" x="3037" y="0" width="301" height="506" frameX="0" frameY="-6" frameWidth="301" frameHeight="512"/>
+	<SubTexture name="TheWrathSoul up instance 10014" x="3037" y="0" width="301" height="506" frameX="0" frameY="-6" frameWidth="301" frameHeight="512"/>
+	<SubTexture name="WRATH down instance 10000" x="3378" y="0" width="442" height="453" frameX="0" frameY="-16" frameWidth="442" frameHeight="473"/>
+	<SubTexture name="WRATH down instance 10001" x="3378" y="0" width="442" height="453" frameX="0" frameY="-16" frameWidth="442" frameHeight="473"/>
+	<SubTexture name="WRATH down instance 10002" x="0" y="546" width="421" height="473" frameX="-16" frameY="0" frameWidth="442" frameHeight="473"/>
+	<SubTexture name="WRATH down instance 10003" x="0" y="546" width="421" height="473" frameX="-16" frameY="0" frameWidth="442" frameHeight="473"/>
+	<SubTexture name="WRATH down instance 10004" x="0" y="546" width="421" height="473" frameX="-16" frameY="0" frameWidth="442" frameHeight="473"/>
+	<SubTexture name="WRATH down instance 10005" x="0" y="546" width="421" height="473" frameX="-16" frameY="0" frameWidth="442" frameHeight="473"/>
+	<SubTexture name="WRATH down instance 10006" x="0" y="546" width="421" height="473" frameX="-16" frameY="0" frameWidth="442" frameHeight="473"/>
+	<SubTexture name="WRATH down instance 10007" x="0" y="546" width="421" height="473" frameX="-16" frameY="0" frameWidth="442" frameHeight="473"/>
+	<SubTexture name="WRATH down instance 10008" x="0" y="546" width="421" height="473" frameX="-16" frameY="0" frameWidth="442" frameHeight="473"/>
+	<SubTexture name="WRATH down instance 10009" x="0" y="546" width="421" height="473" frameX="-16" frameY="0" frameWidth="442" frameHeight="473"/>
+	<SubTexture name="WRATH down instance 10010" x="0" y="546" width="421" height="473" frameX="-16" frameY="0" frameWidth="442" frameHeight="473"/>
+	<SubTexture name="WRATH down instance 10011" x="0" y="546" width="421" height="473" frameX="-16" frameY="0" frameWidth="442" frameHeight="473"/>
+	<SubTexture name="WRATH down instance 10012" x="0" y="546" width="421" height="473" frameX="-16" frameY="0" frameWidth="442" frameHeight="473"/>
+	<SubTexture name="WRATH down instance 10013" x="0" y="546" width="421" height="473" frameX="-16" frameY="0" frameWidth="442" frameHeight="473"/>
+	<SubTexture name="WRATH down instance 10014" x="0" y="546" width="421" height="473" frameX="-16" frameY="0" frameWidth="442" frameHeight="473"/>
+	<SubTexture name="WRATH idle instance 10000" x="461" y="546" width="402" height="494" frameX="-3" frameY="-1" frameWidth="408" frameHeight="498"/>
+	<SubTexture name="WRATH idle instance 10001" x="903" y="546" width="407" height="492" frameX="-1" frameY="-3" frameWidth="408" frameHeight="498"/>
+	<SubTexture name="WRATH idle instance 10002" x="1350" y="546" width="403" height="492" frameX="-4" frameY="0" frameWidth="408" frameHeight="498"/>
+	<SubTexture name="WRATH idle instance 10003" x="1793" y="546" width="407" height="497" frameX="-1" frameY="-1" frameWidth="408" frameHeight="498"/>
+	<SubTexture name="WRATH idle instance 10004" x="2240" y="546" width="407" height="496" frameX="0" frameY="-1" frameWidth="408" frameHeight="498"/>
+	<SubTexture name="WRATH left instance 10000" x="2687" y="546" width="383" height="487" frameX="0" frameY="0" frameWidth="396" frameHeight="487"/>
+	<SubTexture name="WRATH left instance 10001" x="2687" y="546" width="383" height="487" frameX="0" frameY="0" frameWidth="396" frameHeight="487"/>
+	<SubTexture name="WRATH left instance 10002" x="3110" y="546" width="369" height="487" frameX="-27" frameY="0" frameWidth="396" frameHeight="487"/>
+	<SubTexture name="WRATH left instance 10003" x="3110" y="546" width="369" height="487" frameX="-27" frameY="0" frameWidth="396" frameHeight="487"/>
+	<SubTexture name="WRATH left instance 10004" x="3110" y="546" width="369" height="487" frameX="-27" frameY="0" frameWidth="396" frameHeight="487"/>
+	<SubTexture name="WRATH left instance 10005" x="3110" y="546" width="369" height="487" frameX="-27" frameY="0" frameWidth="396" frameHeight="487"/>
+	<SubTexture name="WRATH left instance 10006" x="3110" y="546" width="369" height="487" frameX="-27" frameY="0" frameWidth="396" frameHeight="487"/>
+	<SubTexture name="WRATH left instance 10007" x="3110" y="546" width="369" height="487" frameX="-27" frameY="0" frameWidth="396" frameHeight="487"/>
+	<SubTexture name="WRATH left instance 10008" x="3110" y="546" width="369" height="487" frameX="-27" frameY="0" frameWidth="396" frameHeight="487"/>
+	<SubTexture name="WRATH left instance 10009" x="3110" y="546" width="369" height="487" frameX="-27" frameY="0" frameWidth="396" frameHeight="487"/>
+	<SubTexture name="WRATH left instance 10010" x="3110" y="546" width="369" height="487" frameX="-27" frameY="0" frameWidth="396" frameHeight="487"/>
+	<SubTexture name="WRATH left instance 10011" x="3110" y="546" width="369" height="487" frameX="-27" frameY="0" frameWidth="396" frameHeight="487"/>
+	<SubTexture name="WRATH left instance 10012" x="3110" y="546" width="369" height="487" frameX="-27" frameY="0" frameWidth="396" frameHeight="487"/>
+	<SubTexture name="WRATH left instance 10013" x="3110" y="546" width="369" height="487" frameX="-27" frameY="0" frameWidth="396" frameHeight="487"/>
+	<SubTexture name="WRATH left instance 10014" x="3110" y="546" width="369" height="487" frameX="-27" frameY="0" frameWidth="396" frameHeight="487"/>
+	<SubTexture name="WRATH right instance 10000" x="3519" y="546" width="436" height="482"/>
+	<SubTexture name="WRATH right instance 10001" x="3519" y="546" width="436" height="482"/>
+	<SubTexture name="WRATH right instance 10002" x="0" y="1083" width="420" height="482" frameX="-3" frameY="0" frameWidth="436" frameHeight="482"/>
+	<SubTexture name="WRATH right instance 10003" x="0" y="1083" width="420" height="482" frameX="-3" frameY="0" frameWidth="436" frameHeight="482"/>
+	<SubTexture name="WRATH right instance 10004" x="0" y="1083" width="420" height="482" frameX="-3" frameY="0" frameWidth="436" frameHeight="482"/>
+	<SubTexture name="WRATH right instance 10005" x="0" y="1083" width="420" height="482" frameX="-3" frameY="0" frameWidth="436" frameHeight="482"/>
+	<SubTexture name="WRATH right instance 10006" x="0" y="1083" width="420" height="482" frameX="-3" frameY="0" frameWidth="436" frameHeight="482"/>
+	<SubTexture name="WRATH right instance 10007" x="0" y="1083" width="420" height="482" frameX="-3" frameY="0" frameWidth="436" frameHeight="482"/>
+	<SubTexture name="WRATH right instance 10008" x="0" y="1083" width="420" height="482" frameX="-3" frameY="0" frameWidth="436" frameHeight="482"/>
+	<SubTexture name="WRATH right instance 10009" x="0" y="1083" width="420" height="482" frameX="-3" frameY="0" frameWidth="436" frameHeight="482"/>
+	<SubTexture name="WRATH right instance 10010" x="0" y="1083" width="420" height="482" frameX="-3" frameY="0" frameWidth="436" frameHeight="482"/>
+	<SubTexture name="WRATH right instance 10011" x="0" y="1083" width="420" height="482" frameX="-3" frameY="0" frameWidth="436" frameHeight="482"/>
+	<SubTexture name="WRATH right instance 10012" x="0" y="1083" width="420" height="482" frameX="-3" frameY="0" frameWidth="436" frameHeight="482"/>
+	<SubTexture name="WRATH right instance 10013" x="0" y="1083" width="420" height="482" frameX="-3" frameY="0" frameWidth="436" frameHeight="482"/>
+	<SubTexture name="WRATH right instance 10014" x="0" y="1083" width="420" height="482" frameX="-3" frameY="0" frameWidth="436" frameHeight="482"/>
+	<SubTexture name="WRATH up instance 10000" x="460" y="1083" width="322" height="512" frameX="-11" frameY="0" frameWidth="342" frameHeight="517"/>
+	<SubTexture name="WRATH up instance 10001" x="460" y="1083" width="322" height="512" frameX="-11" frameY="0" frameWidth="342" frameHeight="517"/>
+	<SubTexture name="WRATH up instance 10002" x="822" y="1083" width="342" height="507" frameX="0" frameY="-10" frameWidth="342" frameHeight="517"/>
+	<SubTexture name="WRATH up instance 10003" x="822" y="1083" width="342" height="507" frameX="0" frameY="-10" frameWidth="342" frameHeight="517"/>
+	<SubTexture name="WRATH up instance 10004" x="822" y="1083" width="342" height="507" frameX="0" frameY="-10" frameWidth="342" frameHeight="517"/>
+	<SubTexture name="WRATH up instance 10005" x="822" y="1083" width="342" height="507" frameX="0" frameY="-10" frameWidth="342" frameHeight="517"/>
+	<SubTexture name="WRATH up instance 10006" x="822" y="1083" width="342" height="507" frameX="0" frameY="-10" frameWidth="342" frameHeight="517"/>
+	<SubTexture name="WRATH up instance 10007" x="822" y="1083" width="342" height="507" frameX="0" frameY="-10" frameWidth="342" frameHeight="517"/>
+	<SubTexture name="WRATH up instance 10008" x="822" y="1083" width="342" height="507" frameX="0" frameY="-10" frameWidth="342" frameHeight="517"/>
+	<SubTexture name="WRATH up instance 10009" x="822" y="1083" width="342" height="507" frameX="0" frameY="-10" frameWidth="342" frameHeight="517"/>
+	<SubTexture name="WRATH up instance 10010" x="822" y="1083" width="342" height="507" frameX="0" frameY="-10" frameWidth="342" frameHeight="517"/>
+	<SubTexture name="WRATH up instance 10011" x="822" y="1083" width="342" height="507" frameX="0" frameY="-10" frameWidth="342" frameHeight="517"/>
+	<SubTexture name="WRATH up instance 10012" x="822" y="1083" width="342" height="507" frameX="0" frameY="-10" frameWidth="342" frameHeight="517"/>
+	<SubTexture name="WRATH up instance 10013" x="822" y="1083" width="342" height="507" frameX="0" frameY="-10" frameWidth="342" frameHeight="517"/>
+	<SubTexture name="WRATH up instance 10014" x="822" y="1083" width="342" height="507" frameX="0" frameY="-10" frameWidth="342" frameHeight="517"/>
+	<SubTexture name="WRATHSoul down instance 10000" x="1204" y="1083" width="387" height="450" frameX="0" frameY="-6" frameWidth="388" frameHeight="456"/>
+	<SubTexture name="WRATHSoul down instance 10001" x="1204" y="1083" width="387" height="450" frameX="0" frameY="-6" frameWidth="388" frameHeight="456"/>
+	<SubTexture name="WRATHSoul down instance 10002" x="1631" y="1083" width="387" height="456" frameX="-1" frameY="0" frameWidth="388" frameHeight="456"/>
+	<SubTexture name="WRATHSoul down instance 10003" x="1631" y="1083" width="387" height="456" frameX="-1" frameY="0" frameWidth="388" frameHeight="456"/>
+	<SubTexture name="WRATHSoul down instance 10004" x="1631" y="1083" width="387" height="456" frameX="-1" frameY="0" frameWidth="388" frameHeight="456"/>
+	<SubTexture name="WRATHSoul down instance 10005" x="1631" y="1083" width="387" height="456" frameX="-1" frameY="0" frameWidth="388" frameHeight="456"/>
+	<SubTexture name="WRATHSoul down instance 10006" x="1631" y="1083" width="387" height="456" frameX="-1" frameY="0" frameWidth="388" frameHeight="456"/>
+	<SubTexture name="WRATHSoul down instance 10007" x="1631" y="1083" width="387" height="456" frameX="-1" frameY="0" frameWidth="388" frameHeight="456"/>
+	<SubTexture name="WRATHSoul down instance 10008" x="1631" y="1083" width="387" height="456" frameX="-1" frameY="0" frameWidth="388" frameHeight="456"/>
+	<SubTexture name="WRATHSoul down instance 10009" x="1631" y="1083" width="387" height="456" frameX="-1" frameY="0" frameWidth="388" frameHeight="456"/>
+	<SubTexture name="WRATHSoul down instance 10010" x="1631" y="1083" width="387" height="456" frameX="-1" frameY="0" frameWidth="388" frameHeight="456"/>
+	<SubTexture name="WRATHSoul down instance 10011" x="1631" y="1083" width="387" height="456" frameX="-1" frameY="0" frameWidth="388" frameHeight="456"/>
+	<SubTexture name="WRATHSoul down instance 10012" x="1631" y="1083" width="387" height="456" frameX="-1" frameY="0" frameWidth="388" frameHeight="456"/>
+	<SubTexture name="WRATHSoul down instance 10013" x="1631" y="1083" width="387" height="456" frameX="-1" frameY="0" frameWidth="388" frameHeight="456"/>
+	<SubTexture name="WRATHSoul down instance 10014" x="1631" y="1083" width="387" height="456" frameX="-1" frameY="0" frameWidth="388" frameHeight="456"/>
+	<SubTexture name="WRATHSoul down instance 10015" x="1631" y="1083" width="387" height="456" frameX="-1" frameY="0" frameWidth="388" frameHeight="456"/>
+	<SubTexture name="WRATHSoul idle instance 10000" x="2058" y="1083" width="353" height="495" frameX="0" frameY="-2" frameWidth="356" frameHeight="500"/>
+	<SubTexture name="WRATHSoul idle instance 10001" x="2451" y="1083" width="353" height="493" frameX="-3" frameY="-4" frameWidth="356" frameHeight="500"/>
+	<SubTexture name="WRATHSoul idle instance 10002" x="2844" y="1083" width="346" height="494" frameX="-8" frameY="0" frameWidth="356" frameHeight="500"/>
+	<SubTexture name="WRATHSoul idle instance 10003" x="3230" y="1083" width="351" height="498" frameX="-5" frameY="-2" frameWidth="356" frameHeight="500"/>
+	<SubTexture name="WRATHSoul idle instance 10004" x="3621" y="1083" width="354" height="496" frameX="0" frameY="-2" frameWidth="356" frameHeight="500"/>
+	<SubTexture name="WRATHSoul left instance 10000" x="0" y="1635" width="359" height="506" frameX="0" frameY="-2" frameWidth="369" frameHeight="508"/>
+	<SubTexture name="WRATHSoul left instance 10001" x="0" y="1635" width="359" height="506" frameX="0" frameY="-2" frameWidth="369" frameHeight="508"/>
+	<SubTexture name="WRATHSoul left instance 10002" x="399" y="1635" width="360" height="505" frameX="-9" frameY="0" frameWidth="369" frameHeight="508"/>
+	<SubTexture name="WRATHSoul left instance 10003" x="399" y="1635" width="360" height="505" frameX="-9" frameY="0" frameWidth="369" frameHeight="508"/>
+	<SubTexture name="WRATHSoul left instance 10004" x="399" y="1635" width="360" height="505" frameX="-9" frameY="0" frameWidth="369" frameHeight="508"/>
+	<SubTexture name="WRATHSoul left instance 10005" x="399" y="1635" width="360" height="505" frameX="-9" frameY="0" frameWidth="369" frameHeight="508"/>
+	<SubTexture name="WRATHSoul left instance 10006" x="399" y="1635" width="360" height="505" frameX="-9" frameY="0" frameWidth="369" frameHeight="508"/>
+	<SubTexture name="WRATHSoul left instance 10007" x="399" y="1635" width="360" height="505" frameX="-9" frameY="0" frameWidth="369" frameHeight="508"/>
+	<SubTexture name="WRATHSoul left instance 10008" x="399" y="1635" width="360" height="505" frameX="-9" frameY="0" frameWidth="369" frameHeight="508"/>
+	<SubTexture name="WRATHSoul left instance 10009" x="399" y="1635" width="360" height="505" frameX="-9" frameY="0" frameWidth="369" frameHeight="508"/>
+	<SubTexture name="WRATHSoul left instance 10010" x="399" y="1635" width="360" height="505" frameX="-9" frameY="0" frameWidth="369" frameHeight="508"/>
+	<SubTexture name="WRATHSoul left instance 10011" x="399" y="1635" width="360" height="505" frameX="-9" frameY="0" frameWidth="369" frameHeight="508"/>
+	<SubTexture name="WRATHSoul left instance 10012" x="399" y="1635" width="360" height="505" frameX="-9" frameY="0" frameWidth="369" frameHeight="508"/>
+	<SubTexture name="WRATHSoul left instance 10013" x="399" y="1635" width="360" height="505" frameX="-9" frameY="0" frameWidth="369" frameHeight="508"/>
+	<SubTexture name="WRATHSoul left instance 10014" x="399" y="1635" width="360" height="505" frameX="-9" frameY="0" frameWidth="369" frameHeight="508"/>
+	<SubTexture name="WRATHSoul left instance 10015" x="399" y="1635" width="360" height="505" frameX="-9" frameY="0" frameWidth="369" frameHeight="508"/>
+	<SubTexture name="WRATHSoul left instance 10016" x="399" y="1635" width="360" height="505" frameX="-9" frameY="0" frameWidth="369" frameHeight="508"/>
+	<SubTexture name="WRATHSoul right instance 10000" x="799" y="1635" width="312" height="504" frameX="-11" frameY="0" frameWidth="323" frameHeight="504"/>
+	<SubTexture name="WRATHSoul right instance 10001" x="799" y="1635" width="312" height="504" frameX="-11" frameY="0" frameWidth="323" frameHeight="504"/>
+	<SubTexture name="WRATHSoul right instance 10002" x="1151" y="1635" width="314" height="504" frameX="0" frameY="0" frameWidth="323" frameHeight="504"/>
+	<SubTexture name="WRATHSoul right instance 10003" x="1151" y="1635" width="314" height="504" frameX="0" frameY="0" frameWidth="323" frameHeight="504"/>
+	<SubTexture name="WRATHSoul right instance 10004" x="1151" y="1635" width="314" height="504" frameX="0" frameY="0" frameWidth="323" frameHeight="504"/>
+	<SubTexture name="WRATHSoul right instance 10005" x="1151" y="1635" width="314" height="504" frameX="0" frameY="0" frameWidth="323" frameHeight="504"/>
+	<SubTexture name="WRATHSoul right instance 10006" x="1151" y="1635" width="314" height="504" frameX="0" frameY="0" frameWidth="323" frameHeight="504"/>
+	<SubTexture name="WRATHSoul right instance 10007" x="1151" y="1635" width="314" height="504" frameX="0" frameY="0" frameWidth="323" frameHeight="504"/>
+	<SubTexture name="WRATHSoul right instance 10008" x="1151" y="1635" width="314" height="504" frameX="0" frameY="0" frameWidth="323" frameHeight="504"/>
+	<SubTexture name="WRATHSoul right instance 10009" x="1151" y="1635" width="314" height="504" frameX="0" frameY="0" frameWidth="323" frameHeight="504"/>
+	<SubTexture name="WRATHSoul right instance 10010" x="1151" y="1635" width="314" height="504" frameX="0" frameY="0" frameWidth="323" frameHeight="504"/>
+	<SubTexture name="WRATHSoul right instance 10011" x="1151" y="1635" width="314" height="504" frameX="0" frameY="0" frameWidth="323" frameHeight="504"/>
+	<SubTexture name="WRATHSoul right instance 10012" x="1151" y="1635" width="314" height="504" frameX="0" frameY="0" frameWidth="323" frameHeight="504"/>
+	<SubTexture name="WRATHSoul right instance 10013" x="1151" y="1635" width="314" height="504" frameX="0" frameY="0" frameWidth="323" frameHeight="504"/>
+	<SubTexture name="WRATHSoul right instance 10014" x="1151" y="1635" width="314" height="504" frameX="0" frameY="0" frameWidth="323" frameHeight="504"/>
+	<SubTexture name="WRATHSoul right instance 10015" x="1151" y="1635" width="314" height="504" frameX="0" frameY="0" frameWidth="323" frameHeight="504"/>
+	<SubTexture name="WRATHSoul right instance 10016" x="1151" y="1635" width="314" height="504" frameX="0" frameY="0" frameWidth="323" frameHeight="504"/>
+	<SubTexture name="WRATHSoul up instance 10000" x="1505" y="1635" width="331" height="520" frameX="0" frameY="0" frameWidth="331" frameHeight="526"/>
+	<SubTexture name="WRATHSoul up instance 10001" x="1505" y="1635" width="331" height="520" frameX="0" frameY="0" frameWidth="331" frameHeight="526"/>
+	<SubTexture name="WRATHSoul up instance 10002" x="1876" y="1635" width="331" height="518" frameX="0" frameY="-8" frameWidth="331" frameHeight="526"/>
+	<SubTexture name="WRATHSoul up instance 10003" x="1876" y="1635" width="331" height="518" frameX="0" frameY="-8" frameWidth="331" frameHeight="526"/>
+	<SubTexture name="WRATHSoul up instance 10004" x="1876" y="1635" width="331" height="518" frameX="0" frameY="-8" frameWidth="331" frameHeight="526"/>
+	<SubTexture name="WRATHSoul up instance 10005" x="1876" y="1635" width="331" height="518" frameX="0" frameY="-8" frameWidth="331" frameHeight="526"/>
+	<SubTexture name="WRATHSoul up instance 10006" x="1876" y="1635" width="331" height="518" frameX="0" frameY="-8" frameWidth="331" frameHeight="526"/>
+	<SubTexture name="WRATHSoul up instance 10007" x="1876" y="1635" width="331" height="518" frameX="0" frameY="-8" frameWidth="331" frameHeight="526"/>
+	<SubTexture name="WRATHSoul up instance 10008" x="1876" y="1635" width="331" height="518" frameX="0" frameY="-8" frameWidth="331" frameHeight="526"/>
+	<SubTexture name="WRATHSoul up instance 10009" x="1876" y="1635" width="331" height="518" frameX="0" frameY="-8" frameWidth="331" frameHeight="526"/>
+	<SubTexture name="WRATHSoul up instance 10010" x="1876" y="1635" width="331" height="518" frameX="0" frameY="-8" frameWidth="331" frameHeight="526"/>
+	<SubTexture name="WRATHSoul up instance 10011" x="1876" y="1635" width="331" height="518" frameX="0" frameY="-8" frameWidth="331" frameHeight="526"/>
+	<SubTexture name="WRATHSoul up instance 10012" x="1876" y="1635" width="331" height="518" frameX="0" frameY="-8" frameWidth="331" frameHeight="526"/>
+	<SubTexture name="WRATHSoul up instance 10013" x="1876" y="1635" width="331" height="518" frameX="0" frameY="-8" frameWidth="331" frameHeight="526"/>
 </TextureAtlas>

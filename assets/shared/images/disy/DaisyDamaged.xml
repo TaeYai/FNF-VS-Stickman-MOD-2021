@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="DaisyDamaged.png">
+	<!-- Created with Adobe Animate version 19.2.1.408 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="SoulGone instance 10000" x="0" y="0" width="308" height="504" frameX="-30" frameY="-266" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10001" x="348" y="0" width="305" height="504" frameX="-31" frameY="-266" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10002" x="693" y="0" width="305" height="504" frameX="-31" frameY="-266" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10003" x="1038" y="0" width="305" height="504" frameX="-31" frameY="-266" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10004" x="1383" y="0" width="305" height="504" frameX="-31" frameY="-266" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10005" x="1728" y="0" width="305" height="504" frameX="-31" frameY="-266" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10006" x="2073" y="0" width="305" height="504" frameX="-31" frameY="-266" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10007" x="2418" y="0" width="305" height="506" frameX="-31" frameY="-269" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10008" x="2763" y="0" width="305" height="506" frameX="-31" frameY="-269" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10009" x="3108" y="0" width="311" height="507" frameX="-31" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10010" x="3108" y="0" width="311" height="507" frameX="-31" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10011" x="3459" y="0" width="338" height="533" frameX="-31" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10012" x="3459" y="0" width="338" height="533" frameX="-31" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10013" x="0" y="573" width="357" height="623" frameX="-31" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10014" x="397" y="573" width="357" height="623" frameX="-31" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10015" x="794" y="573" width="359" height="791" frameX="-25" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10016" x="1193" y="573" width="359" height="791" frameX="-25" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10017" x="1592" y="573" width="358" height="791" frameX="-27" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10018" x="1990" y="573" width="358" height="791" frameX="-27" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10019" x="2388" y="573" width="358" height="791" frameX="-27" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10020" x="2786" y="573" width="359" height="791" frameX="-22" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10021" x="3185" y="573" width="359" height="791" frameX="-22" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10022" x="3584" y="573" width="359" height="791" frameX="-22" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10023" x="0" y="1404" width="385" height="799" frameX="0" frameY="-272" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10024" x="425" y="1404" width="385" height="825" frameX="0" frameY="-246" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10025" x="850" y="1404" width="381" height="845" frameX="-1" frameY="-226" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10026" x="1271" y="1404" width="381" height="859" frameX="-1" frameY="-212" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10027" x="1692" y="1404" width="381" height="881" frameX="-1" frameY="-190" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10028" x="2113" y="1404" width="381" height="910" frameX="-1" frameY="-161" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10029" x="2534" y="1404" width="381" height="915" frameX="-1" frameY="-156" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10030" x="2955" y="1404" width="381" height="925" frameX="-1" frameY="-145" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10031" x="3376" y="1404" width="386" height="942" frameX="-1" frameY="-128" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10032" x="0" y="2386" width="389" height="953" frameX="-1" frameY="-117" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10033" x="429" y="2386" width="387" height="956" frameX="-1" frameY="-114" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10034" x="856" y="2386" width="390" height="966" frameX="-1" frameY="-104" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10035" x="1286" y="2386" width="400" height="981" frameX="-1" frameY="-89" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10036" x="1726" y="2386" width="403" height="990" frameX="-1" frameY="-80" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10037" x="2169" y="2386" width="400" height="992" frameX="-1" frameY="-78" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10038" x="2609" y="2386" width="403" height="999" frameX="-1" frameY="-71" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10039" x="3052" y="2386" width="412" height="1013" frameX="-1" frameY="-57" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10040" x="3504" y="2386" width="415" height="1020" frameX="-1" frameY="-50" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10041" x="0" y="3446" width="411" height="1020" frameX="-1" frameY="-50" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10042" x="451" y="3446" width="413" height="1026" frameX="-1" frameY="-44" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10043" x="904" y="3446" width="421" height="1038" frameX="-1" frameY="-32" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10044" x="1365" y="3446" width="423" height="1043" frameX="-1" frameY="-27" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10045" x="1828" y="3446" width="419" height="1042" frameX="-1" frameY="-28" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10046" x="2287" y="3446" width="421" height="1046" frameX="-1" frameY="-24" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10047" x="2748" y="3446" width="428" height="1055" frameX="-1" frameY="-15" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10048" x="3216" y="3446" width="429" height="1059" frameX="-1" frameY="-11" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10049" x="0" y="4545" width="425" height="1056" frameX="-1" frameY="-14" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10050" x="465" y="4545" width="426" height="1058" frameX="-1" frameY="-12" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10051" x="931" y="4545" width="432" height="1066" frameX="-1" frameY="-4" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10052" x="1403" y="4545" width="433" height="1068" frameX="-1" frameY="-2" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10053" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-7" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10054" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-6" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10055" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="0" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10056" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10057" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10058" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10059" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10060" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10061" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10062" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10063" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10064" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10065" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10066" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10067" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10068" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10069" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10070" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10071" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10072" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10073" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10074" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10075" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10076" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10077" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10078" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10079" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10080" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10081" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10082" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10083" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10084" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10085" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10086" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10087" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10088" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10089" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10090" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10091" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10092" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10093" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10094" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10095" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10096" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10097" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10098" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10099" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10100" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10101" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10102" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10103" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10104" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10105" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10106" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10107" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10108" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10109" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10110" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10111" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10112" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10113" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10114" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10115" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10116" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10117" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10118" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10119" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10120" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10121" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10122" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10123" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10124" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10125" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10126" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10127" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="SoulGone instance 10128" x="1876" y="4545" width="427" height="1063" frameX="-1" frameY="-280" frameWidth="434" frameHeight="1070"/>
+	<SubTexture name="WRATHheart break instance 10000" x="2343" y="4545" width="412" height="501" frameX="0" frameY="0" frameWidth="413" frameHeight="501"/>
+	<SubTexture name="WRATHheart break instance 10001" x="2795" y="4545" width="412" height="501" frameX="0" frameY="0" frameWidth="413" frameHeight="501"/>
+	<SubTexture name="WRATHheart break instance 10002" x="3247" y="4545" width="376" height="496" frameX="-37" frameY="-2" frameWidth="413" frameHeight="501"/>
+	<SubTexture name="WRATHheart break instance 10003" x="3663" y="4545" width="376" height="496" frameX="-37" frameY="-2" frameWidth="413" frameHeight="501"/>
+	<SubTexture name="WRATHheart break instance 10004" x="0" y="5653" width="375" height="496" frameX="-37" frameY="-1" frameWidth="413" frameHeight="501"/>
+	<SubTexture name="WRATHheart break instance 10005" x="415" y="5653" width="375" height="496" frameX="-37" frameY="-1" frameWidth="413" frameHeight="501"/>
+	<SubTexture name="WRATHheart break instance 10006" x="830" y="5653" width="375" height="496" frameX="-37" frameY="-1" frameWidth="413" frameHeight="501"/>
+	<SubTexture name="WRATHheart break instance 10007" x="1245" y="5653" width="375" height="496" frameX="-37" frameY="-1" frameWidth="413" frameHeight="501"/>
+	<SubTexture name="WRATHheart break instance 10008" x="1660" y="5653" width="375" height="496" frameX="-37" frameY="-1" frameWidth="413" frameHeight="501"/>
+	<SubTexture name="WRATHheart break instance 10009" x="2075" y="5653" width="375" height="496" frameX="-37" frameY="-1" frameWidth="413" frameHeight="501"/>
+	<SubTexture name="WRATHheart break instance 10010" x="2075" y="5653" width="375" height="496" frameX="-37" frameY="-1" frameWidth="413" frameHeight="501"/>
+	<SubTexture name="WRATHheart break instance 10011" x="2075" y="5653" width="375" height="496" frameX="-37" frameY="-1" frameWidth="413" frameHeight="501"/>
+	<SubTexture name="WRATHheart break instance 10012" x="2075" y="5653" width="375" height="496" frameX="-37" frameY="-1" frameWidth="413" frameHeight="501"/>
+	<SubTexture name="WRATHheart break instance 10013" x="2075" y="5653" width="375" height="496" frameX="-37" frameY="-1" frameWidth="413" frameHeight="501"/>
+	<SubTexture name="WRATHheart break instance 10014" x="2075" y="5653" width="375" height="496" frameX="-37" frameY="-1" frameWidth="413" frameHeight="501"/>
+	<SubTexture name="WRATHheart break instance 10015" x="2075" y="5653" width="375" height="496" frameX="-37" frameY="-1" frameWidth="413" frameHeight="501"/>
+	<SubTexture name="WRATHheart break instance 10016" x="2075" y="5653" width="375" height="496" frameX="-37" frameY="-1" frameWidth="413" frameHeight="501"/>
+	<SubTexture name="WRATHheart break instance 10017" x="2075" y="5653" width="375" height="496" frameX="-37" frameY="-1" frameWidth="413" frameHeight="501"/>
+	<SubTexture name="WRATHheart break instance 10018" x="2075" y="5653" width="375" height="496" frameX="-37" frameY="-1" frameWidth="413" frameHeight="501"/>
+	<SubTexture name="WRATHheart break instance 10019" x="2075" y="5653" width="375" height="496" frameX="-37" frameY="-1" frameWidth="413" frameHeight="501"/>
+	<SubTexture name="WRATHheart break instance 10020" x="2075" y="5653" width="375" height="496" frameX="-37" frameY="-1" frameWidth="413" frameHeight="501"/>
+</TextureAtlas>

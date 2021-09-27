@@ -2,92 +2,92 @@
 <TextureAtlas imagePath="HER.png">
 	<!-- Created with Adobe Animate version 19.2.1.408 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="HER down0000" x="0" y="0" width="511" height="449" frameX="0" frameY="-21" frameWidth="516" frameHeight="470"/>
-	<SubTexture name="HER down0001" x="0" y="0" width="511" height="449" frameX="0" frameY="-21" frameWidth="516" frameHeight="470"/>
-	<SubTexture name="HER down0002" x="551" y="0" width="511" height="453" frameX="-1" frameY="-9" frameWidth="516" frameHeight="470"/>
-	<SubTexture name="HER down0003" x="551" y="0" width="511" height="453" frameX="-1" frameY="-9" frameWidth="516" frameHeight="470"/>
-	<SubTexture name="HER down0004" x="1102" y="0" width="511" height="455" frameX="-2" frameY="-6" frameWidth="516" frameHeight="470"/>
-	<SubTexture name="HER down0005" x="1102" y="0" width="511" height="455" frameX="-2" frameY="-6" frameWidth="516" frameHeight="470"/>
-	<SubTexture name="HER down0006" x="0" y="495" width="511" height="457" frameX="-3" frameY="-3" frameWidth="516" frameHeight="470"/>
-	<SubTexture name="HER down0007" x="0" y="495" width="511" height="457" frameX="-3" frameY="-3" frameWidth="516" frameHeight="470"/>
-	<SubTexture name="HER down0008" x="551" y="495" width="512" height="458" frameX="-4" frameY="0" frameWidth="516" frameHeight="470"/>
-	<SubTexture name="HER down0009" x="551" y="495" width="512" height="458" frameX="-4" frameY="0" frameWidth="516" frameHeight="470"/>
-	<SubTexture name="HER down0010" x="551" y="495" width="512" height="458" frameX="-4" frameY="0" frameWidth="516" frameHeight="470"/>
-	<SubTexture name="HER down0011" x="551" y="495" width="512" height="458" frameX="-4" frameY="0" frameWidth="516" frameHeight="470"/>
-	<SubTexture name="HER down0012" x="551" y="495" width="512" height="458" frameX="-4" frameY="0" frameWidth="516" frameHeight="470"/>
-	<SubTexture name="HER down0013" x="551" y="495" width="512" height="458" frameX="-4" frameY="0" frameWidth="516" frameHeight="470"/>
-	<SubTexture name="HER down0014" x="551" y="495" width="512" height="458" frameX="-4" frameY="0" frameWidth="516" frameHeight="470"/>
-	<SubTexture name="HER down0015" x="551" y="495" width="512" height="458" frameX="-4" frameY="0" frameWidth="516" frameHeight="470"/>
-	<SubTexture name="HER down0016" x="551" y="495" width="512" height="458" frameX="-4" frameY="0" frameWidth="516" frameHeight="470"/>
-	<SubTexture name="HER down0017" x="551" y="495" width="512" height="458" frameX="-4" frameY="0" frameWidth="516" frameHeight="470"/>
-	<SubTexture name="HER down0018" x="551" y="495" width="512" height="458" frameX="-4" frameY="0" frameWidth="516" frameHeight="470"/>
-	<SubTexture name="HER down0019" x="551" y="495" width="512" height="458" frameX="-4" frameY="0" frameWidth="516" frameHeight="470"/>
-	<SubTexture name="HER down0020" x="551" y="495" width="512" height="458" frameX="-4" frameY="0" frameWidth="516" frameHeight="470"/>
-	<SubTexture name="HER down0021" x="551" y="495" width="512" height="458" frameX="-4" frameY="0" frameWidth="516" frameHeight="470"/>
-	<SubTexture name="HER down0022" x="551" y="495" width="512" height="458" frameX="-4" frameY="0" frameWidth="516" frameHeight="470"/>
-	<SubTexture name="HER down0023" x="551" y="495" width="512" height="458" frameX="-4" frameY="0" frameWidth="516" frameHeight="470"/>
-	<SubTexture name="HER idle0000" x="1103" y="495" width="476" height="504" frameX="-2" frameY="0" frameWidth="480" frameHeight="504"/>
-	<SubTexture name="HER idle0001" x="0" y="1039" width="480" height="503" frameX="0" frameY="0" frameWidth="480" frameHeight="504"/>
-	<SubTexture name="HER idle0002" x="520" y="1039" width="476" height="503" frameX="-1" frameY="-1" frameWidth="480" frameHeight="504"/>
-	<SubTexture name="HER idle0003" x="1036" y="1039" width="479" height="501" frameX="-1" frameY="-1" frameWidth="480" frameHeight="504"/>
-	<SubTexture name="HER idle0004" x="1555" y="1039" width="480" height="501" frameX="0" frameY="-1" frameWidth="480" frameHeight="504"/>
-	<SubTexture name="HER left0000" x="0" y="1582" width="399" height="477" frameX="-8" frameY="-10" frameWidth="423" frameHeight="492"/>
-	<SubTexture name="HER left0001" x="0" y="1582" width="399" height="477" frameX="-8" frameY="-10" frameWidth="423" frameHeight="492"/>
-	<SubTexture name="HER left0002" x="439" y="1582" width="411" height="484" frameX="-4" frameY="-6" frameWidth="423" frameHeight="492"/>
-	<SubTexture name="HER left0003" x="439" y="1582" width="411" height="484" frameX="-4" frameY="-6" frameWidth="423" frameHeight="492"/>
-	<SubTexture name="HER left0004" x="890" y="1582" width="419" height="489" frameX="-1" frameY="-2" frameWidth="423" frameHeight="492"/>
-	<SubTexture name="HER left0005" x="890" y="1582" width="419" height="489" frameX="-1" frameY="-2" frameWidth="423" frameHeight="492"/>
-	<SubTexture name="HER left0006" x="1349" y="1582" width="423" height="492"/>
-	<SubTexture name="HER left0007" x="1349" y="1582" width="423" height="492"/>
-	<SubTexture name="HER left0008" x="1349" y="1582" width="423" height="492"/>
-	<SubTexture name="HER left0009" x="1349" y="1582" width="423" height="492"/>
-	<SubTexture name="HER left0010" x="1349" y="1582" width="423" height="492"/>
-	<SubTexture name="HER left0011" x="1349" y="1582" width="423" height="492"/>
-	<SubTexture name="HER left0012" x="1349" y="1582" width="423" height="492"/>
-	<SubTexture name="HER left0013" x="1349" y="1582" width="423" height="492"/>
-	<SubTexture name="HER left0014" x="1349" y="1582" width="423" height="492"/>
-	<SubTexture name="HER right0000" x="0" y="2114" width="479" height="475" frameX="-6" frameY="0" frameWidth="485" frameHeight="481"/>
-	<SubTexture name="HER right0001" x="0" y="2114" width="479" height="475" frameX="-6" frameY="0" frameWidth="485" frameHeight="481"/>
-	<SubTexture name="HER right0002" x="519" y="2114" width="471" height="477" frameX="-3" frameY="-1" frameWidth="485" frameHeight="481"/>
-	<SubTexture name="HER right0003" x="519" y="2114" width="471" height="477" frameX="-3" frameY="-1" frameWidth="485" frameHeight="481"/>
-	<SubTexture name="HER right0004" x="1030" y="2114" width="466" height="478" frameX="-1" frameY="-2" frameWidth="485" frameHeight="481"/>
-	<SubTexture name="HER right0005" x="1030" y="2114" width="466" height="478" frameX="-1" frameY="-2" frameWidth="485" frameHeight="481"/>
-	<SubTexture name="HER right0006" x="1536" y="2114" width="463" height="479" frameX="0" frameY="-2" frameWidth="485" frameHeight="481"/>
-	<SubTexture name="HER right0007" x="1536" y="2114" width="463" height="479" frameX="0" frameY="-2" frameWidth="485" frameHeight="481"/>
-	<SubTexture name="HER right0008" x="1536" y="2114" width="463" height="479" frameX="0" frameY="-2" frameWidth="485" frameHeight="481"/>
-	<SubTexture name="HER right0009" x="1536" y="2114" width="463" height="479" frameX="0" frameY="-2" frameWidth="485" frameHeight="481"/>
-	<SubTexture name="HER right0010" x="1536" y="2114" width="463" height="479" frameX="0" frameY="-2" frameWidth="485" frameHeight="481"/>
-	<SubTexture name="HER right0011" x="1536" y="2114" width="463" height="479" frameX="0" frameY="-2" frameWidth="485" frameHeight="481"/>
-	<SubTexture name="HER right0012" x="1536" y="2114" width="463" height="479" frameX="0" frameY="-2" frameWidth="485" frameHeight="481"/>
-	<SubTexture name="HER right0013" x="1536" y="2114" width="463" height="479" frameX="0" frameY="-2" frameWidth="485" frameHeight="481"/>
-	<SubTexture name="HER right0014" x="1536" y="2114" width="463" height="479" frameX="0" frameY="-2" frameWidth="485" frameHeight="481"/>
-	<SubTexture name="HER right0015" x="1536" y="2114" width="463" height="479" frameX="0" frameY="-2" frameWidth="485" frameHeight="481"/>
-	<SubTexture name="HER right0016" x="1536" y="2114" width="463" height="479" frameX="0" frameY="-2" frameWidth="485" frameHeight="481"/>
-	<SubTexture name="HER right0017" x="1536" y="2114" width="463" height="479" frameX="0" frameY="-2" frameWidth="485" frameHeight="481"/>
-	<SubTexture name="HER right0018" x="1536" y="2114" width="463" height="479" frameX="0" frameY="-2" frameWidth="485" frameHeight="481"/>
-	<SubTexture name="HER up0000" x="0" y="2633" width="449" height="529" frameX="0" frameY="0" frameWidth="452" frameHeight="549"/>
-	<SubTexture name="HER up0001" x="0" y="2633" width="449" height="529" frameX="0" frameY="0" frameWidth="452" frameHeight="549"/>
-	<SubTexture name="HER up0002" x="489" y="2633" width="452" height="528" frameX="0" frameY="-15" frameWidth="452" frameHeight="549"/>
-	<SubTexture name="HER up0003" x="489" y="2633" width="452" height="528" frameX="0" frameY="-15" frameWidth="452" frameHeight="549"/>
-	<SubTexture name="HER up0004" x="981" y="2633" width="451" height="527" frameX="0" frameY="-19" frameWidth="452" frameHeight="549"/>
-	<SubTexture name="HER up0005" x="981" y="2633" width="451" height="527" frameX="0" frameY="-19" frameWidth="452" frameHeight="549"/>
-	<SubTexture name="HER up0006" x="1472" y="2633" width="449" height="527" frameX="0" frameY="-21" frameWidth="452" frameHeight="549"/>
-	<SubTexture name="HER up0007" x="1472" y="2633" width="449" height="527" frameX="0" frameY="-21" frameWidth="452" frameHeight="549"/>
-	<SubTexture name="HER up0008" x="0" y="3202" width="445" height="527" frameX="0" frameY="-22" frameWidth="452" frameHeight="549"/>
-	<SubTexture name="HER up0009" x="0" y="3202" width="445" height="527" frameX="0" frameY="-22" frameWidth="452" frameHeight="549"/>
-	<SubTexture name="HER up0010" x="0" y="3202" width="445" height="527" frameX="0" frameY="-22" frameWidth="452" frameHeight="549"/>
-	<SubTexture name="HER up0011" x="0" y="3202" width="445" height="527" frameX="0" frameY="-22" frameWidth="452" frameHeight="549"/>
-	<SubTexture name="HER up0012" x="0" y="3202" width="445" height="527" frameX="0" frameY="-22" frameWidth="452" frameHeight="549"/>
-	<SubTexture name="HER up0013" x="0" y="3202" width="445" height="527" frameX="0" frameY="-22" frameWidth="452" frameHeight="549"/>
-	<SubTexture name="HER up0014" x="0" y="3202" width="445" height="527" frameX="0" frameY="-22" frameWidth="452" frameHeight="549"/>
-	<SubTexture name="HER up0015" x="0" y="3202" width="445" height="527" frameX="0" frameY="-22" frameWidth="452" frameHeight="549"/>
-	<SubTexture name="HER up0016" x="0" y="3202" width="445" height="527" frameX="0" frameY="-22" frameWidth="452" frameHeight="549"/>
-	<SubTexture name="HER up0017" x="0" y="3202" width="445" height="527" frameX="0" frameY="-22" frameWidth="452" frameHeight="549"/>
-	<SubTexture name="HER up0018" x="0" y="3202" width="445" height="527" frameX="0" frameY="-22" frameWidth="452" frameHeight="549"/>
-	<SubTexture name="HER up0019" x="0" y="3202" width="445" height="527" frameX="0" frameY="-22" frameWidth="452" frameHeight="549"/>
-	<SubTexture name="HER up0020" x="0" y="3202" width="445" height="527" frameX="0" frameY="-22" frameWidth="452" frameHeight="549"/>
-	<SubTexture name="HER up0021" x="0" y="3202" width="445" height="527" frameX="0" frameY="-22" frameWidth="452" frameHeight="549"/>
-	<SubTexture name="HER up0022" x="0" y="3202" width="445" height="527" frameX="0" frameY="-22" frameWidth="452" frameHeight="549"/>
-	<SubTexture name="HER up0023" x="0" y="3202" width="445" height="527" frameX="0" frameY="-22" frameWidth="452" frameHeight="549"/>
-	<SubTexture name="HER up0024" x="0" y="3202" width="445" height="527" frameX="0" frameY="-22" frameWidth="452" frameHeight="549"/>
+	<SubTexture name="HER down instance 10000" x="0" y="0" width="512" height="450" frameX="0" frameY="-20" frameWidth="516" frameHeight="470"/>
+	<SubTexture name="HER down instance 10001" x="0" y="0" width="512" height="450" frameX="0" frameY="-20" frameWidth="516" frameHeight="470"/>
+	<SubTexture name="HER down instance 10002" x="552" y="0" width="512" height="454" frameX="-1" frameY="-8" frameWidth="516" frameHeight="470"/>
+	<SubTexture name="HER down instance 10003" x="552" y="0" width="512" height="454" frameX="-1" frameY="-8" frameWidth="516" frameHeight="470"/>
+	<SubTexture name="HER down instance 10004" x="1104" y="0" width="512" height="455" frameX="-2" frameY="-6" frameWidth="516" frameHeight="470"/>
+	<SubTexture name="HER down instance 10005" x="1104" y="0" width="512" height="455" frameX="-2" frameY="-6" frameWidth="516" frameHeight="470"/>
+	<SubTexture name="HER down instance 10006" x="0" y="495" width="512" height="457" frameX="-3" frameY="-3" frameWidth="516" frameHeight="470"/>
+	<SubTexture name="HER down instance 10007" x="0" y="495" width="512" height="457" frameX="-3" frameY="-3" frameWidth="516" frameHeight="470"/>
+	<SubTexture name="HER down instance 10008" x="552" y="495" width="512" height="458" frameX="-4" frameY="0" frameWidth="516" frameHeight="470"/>
+	<SubTexture name="HER down instance 10009" x="552" y="495" width="512" height="458" frameX="-4" frameY="0" frameWidth="516" frameHeight="470"/>
+	<SubTexture name="HER down instance 10010" x="552" y="495" width="512" height="458" frameX="-4" frameY="0" frameWidth="516" frameHeight="470"/>
+	<SubTexture name="HER down instance 10011" x="552" y="495" width="512" height="458" frameX="-4" frameY="0" frameWidth="516" frameHeight="470"/>
+	<SubTexture name="HER down instance 10012" x="552" y="495" width="512" height="458" frameX="-4" frameY="0" frameWidth="516" frameHeight="470"/>
+	<SubTexture name="HER down instance 10013" x="552" y="495" width="512" height="458" frameX="-4" frameY="0" frameWidth="516" frameHeight="470"/>
+	<SubTexture name="HER down instance 10014" x="552" y="495" width="512" height="458" frameX="-4" frameY="0" frameWidth="516" frameHeight="470"/>
+	<SubTexture name="HER down instance 10015" x="552" y="495" width="512" height="458" frameX="-4" frameY="0" frameWidth="516" frameHeight="470"/>
+	<SubTexture name="HER down instance 10016" x="552" y="495" width="512" height="458" frameX="-4" frameY="0" frameWidth="516" frameHeight="470"/>
+	<SubTexture name="HER down instance 10017" x="552" y="495" width="512" height="458" frameX="-4" frameY="0" frameWidth="516" frameHeight="470"/>
+	<SubTexture name="HER down instance 10018" x="552" y="495" width="512" height="458" frameX="-4" frameY="0" frameWidth="516" frameHeight="470"/>
+	<SubTexture name="HER down instance 10019" x="552" y="495" width="512" height="458" frameX="-4" frameY="0" frameWidth="516" frameHeight="470"/>
+	<SubTexture name="HER down instance 10020" x="552" y="495" width="512" height="458" frameX="-4" frameY="0" frameWidth="516" frameHeight="470"/>
+	<SubTexture name="HER down instance 10021" x="552" y="495" width="512" height="458" frameX="-4" frameY="0" frameWidth="516" frameHeight="470"/>
+	<SubTexture name="HER down instance 10022" x="552" y="495" width="512" height="458" frameX="-4" frameY="0" frameWidth="516" frameHeight="470"/>
+	<SubTexture name="HER down instance 10023" x="552" y="495" width="512" height="458" frameX="-4" frameY="0" frameWidth="516" frameHeight="470"/>
+	<SubTexture name="HER idle instance 10000" x="1104" y="495" width="475" height="505" frameX="-3" frameY="0" frameWidth="481" frameHeight="505"/>
+	<SubTexture name="HER idle instance 10001" x="0" y="1040" width="480" height="504" frameX="0" frameY="0" frameWidth="481" frameHeight="505"/>
+	<SubTexture name="HER idle instance 10002" x="520" y="1040" width="475" height="504" frameX="-2" frameY="-1" frameWidth="481" frameHeight="505"/>
+	<SubTexture name="HER idle instance 10003" x="1035" y="1040" width="478" height="502" frameX="-2" frameY="-1" frameWidth="481" frameHeight="505"/>
+	<SubTexture name="HER idle instance 10004" x="1553" y="1040" width="481" height="502" frameX="0" frameY="-1" frameWidth="481" frameHeight="505"/>
+	<SubTexture name="HER left instance 10000" x="0" y="1584" width="400" height="478" frameX="-8" frameY="-10" frameWidth="424" frameHeight="492"/>
+	<SubTexture name="HER left instance 10001" x="0" y="1584" width="400" height="478" frameX="-8" frameY="-10" frameWidth="424" frameHeight="492"/>
+	<SubTexture name="HER left instance 10002" x="440" y="1584" width="412" height="485" frameX="-4" frameY="-5" frameWidth="424" frameHeight="492"/>
+	<SubTexture name="HER left instance 10003" x="440" y="1584" width="412" height="485" frameX="-4" frameY="-5" frameWidth="424" frameHeight="492"/>
+	<SubTexture name="HER left instance 10004" x="892" y="1584" width="420" height="490" frameX="-1" frameY="-2" frameWidth="424" frameHeight="492"/>
+	<SubTexture name="HER left instance 10005" x="892" y="1584" width="420" height="490" frameX="-1" frameY="-2" frameWidth="424" frameHeight="492"/>
+	<SubTexture name="HER left instance 10006" x="1352" y="1584" width="424" height="492"/>
+	<SubTexture name="HER left instance 10007" x="1352" y="1584" width="424" height="492"/>
+	<SubTexture name="HER left instance 10008" x="1352" y="1584" width="424" height="492"/>
+	<SubTexture name="HER left instance 10009" x="1352" y="1584" width="424" height="492"/>
+	<SubTexture name="HER left instance 10010" x="1352" y="1584" width="424" height="492"/>
+	<SubTexture name="HER left instance 10011" x="1352" y="1584" width="424" height="492"/>
+	<SubTexture name="HER left instance 10012" x="1352" y="1584" width="424" height="492"/>
+	<SubTexture name="HER left instance 10013" x="1352" y="1584" width="424" height="492"/>
+	<SubTexture name="HER left instance 10014" x="1352" y="1584" width="424" height="492"/>
+	<SubTexture name="HER right instance 10000" x="0" y="2116" width="479" height="476" frameX="-6" frameY="0" frameWidth="485" frameHeight="482"/>
+	<SubTexture name="HER right instance 10001" x="0" y="2116" width="479" height="476" frameX="-6" frameY="0" frameWidth="485" frameHeight="482"/>
+	<SubTexture name="HER right instance 10002" x="519" y="2116" width="472" height="478" frameX="-3" frameY="-1" frameWidth="485" frameHeight="482"/>
+	<SubTexture name="HER right instance 10003" x="519" y="2116" width="472" height="478" frameX="-3" frameY="-1" frameWidth="485" frameHeight="482"/>
+	<SubTexture name="HER right instance 10004" x="1031" y="2116" width="467" height="479" frameX="-1" frameY="-2" frameWidth="485" frameHeight="482"/>
+	<SubTexture name="HER right instance 10005" x="1031" y="2116" width="467" height="479" frameX="-1" frameY="-2" frameWidth="485" frameHeight="482"/>
+	<SubTexture name="HER right instance 10006" x="1538" y="2116" width="463" height="480" frameX="0" frameY="-2" frameWidth="485" frameHeight="482"/>
+	<SubTexture name="HER right instance 10007" x="1538" y="2116" width="463" height="480" frameX="0" frameY="-2" frameWidth="485" frameHeight="482"/>
+	<SubTexture name="HER right instance 10008" x="1538" y="2116" width="463" height="480" frameX="0" frameY="-2" frameWidth="485" frameHeight="482"/>
+	<SubTexture name="HER right instance 10009" x="1538" y="2116" width="463" height="480" frameX="0" frameY="-2" frameWidth="485" frameHeight="482"/>
+	<SubTexture name="HER right instance 10010" x="1538" y="2116" width="463" height="480" frameX="0" frameY="-2" frameWidth="485" frameHeight="482"/>
+	<SubTexture name="HER right instance 10011" x="1538" y="2116" width="463" height="480" frameX="0" frameY="-2" frameWidth="485" frameHeight="482"/>
+	<SubTexture name="HER right instance 10012" x="1538" y="2116" width="463" height="480" frameX="0" frameY="-2" frameWidth="485" frameHeight="482"/>
+	<SubTexture name="HER right instance 10013" x="1538" y="2116" width="463" height="480" frameX="0" frameY="-2" frameWidth="485" frameHeight="482"/>
+	<SubTexture name="HER right instance 10014" x="1538" y="2116" width="463" height="480" frameX="0" frameY="-2" frameWidth="485" frameHeight="482"/>
+	<SubTexture name="HER right instance 10015" x="1538" y="2116" width="463" height="480" frameX="0" frameY="-2" frameWidth="485" frameHeight="482"/>
+	<SubTexture name="HER right instance 10016" x="1538" y="2116" width="463" height="480" frameX="0" frameY="-2" frameWidth="485" frameHeight="482"/>
+	<SubTexture name="HER right instance 10017" x="1538" y="2116" width="463" height="480" frameX="0" frameY="-2" frameWidth="485" frameHeight="482"/>
+	<SubTexture name="HER right instance 10018" x="1538" y="2116" width="463" height="480" frameX="0" frameY="-2" frameWidth="485" frameHeight="482"/>
+	<SubTexture name="HER up instance 10000" x="0" y="2636" width="450" height="530" frameX="0" frameY="0" frameWidth="452" frameHeight="550"/>
+	<SubTexture name="HER up instance 10001" x="0" y="2636" width="450" height="530" frameX="0" frameY="0" frameWidth="452" frameHeight="550"/>
+	<SubTexture name="HER up instance 10002" x="490" y="2636" width="452" height="529" frameX="0" frameY="-15" frameWidth="452" frameHeight="550"/>
+	<SubTexture name="HER up instance 10003" x="490" y="2636" width="452" height="529" frameX="0" frameY="-15" frameWidth="452" frameHeight="550"/>
+	<SubTexture name="HER up instance 10004" x="982" y="2636" width="452" height="528" frameX="0" frameY="-19" frameWidth="452" frameHeight="550"/>
+	<SubTexture name="HER up instance 10005" x="982" y="2636" width="452" height="528" frameX="0" frameY="-19" frameWidth="452" frameHeight="550"/>
+	<SubTexture name="HER up instance 10006" x="1474" y="2636" width="450" height="528" frameX="0" frameY="-21" frameWidth="452" frameHeight="550"/>
+	<SubTexture name="HER up instance 10007" x="1474" y="2636" width="450" height="528" frameX="0" frameY="-21" frameWidth="452" frameHeight="550"/>
+	<SubTexture name="HER up instance 10008" x="0" y="3206" width="446" height="528" frameX="0" frameY="-22" frameWidth="452" frameHeight="550"/>
+	<SubTexture name="HER up instance 10009" x="0" y="3206" width="446" height="528" frameX="0" frameY="-22" frameWidth="452" frameHeight="550"/>
+	<SubTexture name="HER up instance 10010" x="0" y="3206" width="446" height="528" frameX="0" frameY="-22" frameWidth="452" frameHeight="550"/>
+	<SubTexture name="HER up instance 10011" x="0" y="3206" width="446" height="528" frameX="0" frameY="-22" frameWidth="452" frameHeight="550"/>
+	<SubTexture name="HER up instance 10012" x="0" y="3206" width="446" height="528" frameX="0" frameY="-22" frameWidth="452" frameHeight="550"/>
+	<SubTexture name="HER up instance 10013" x="0" y="3206" width="446" height="528" frameX="0" frameY="-22" frameWidth="452" frameHeight="550"/>
+	<SubTexture name="HER up instance 10014" x="0" y="3206" width="446" height="528" frameX="0" frameY="-22" frameWidth="452" frameHeight="550"/>
+	<SubTexture name="HER up instance 10015" x="0" y="3206" width="446" height="528" frameX="0" frameY="-22" frameWidth="452" frameHeight="550"/>
+	<SubTexture name="HER up instance 10016" x="0" y="3206" width="446" height="528" frameX="0" frameY="-22" frameWidth="452" frameHeight="550"/>
+	<SubTexture name="HER up instance 10017" x="0" y="3206" width="446" height="528" frameX="0" frameY="-22" frameWidth="452" frameHeight="550"/>
+	<SubTexture name="HER up instance 10018" x="0" y="3206" width="446" height="528" frameX="0" frameY="-22" frameWidth="452" frameHeight="550"/>
+	<SubTexture name="HER up instance 10019" x="0" y="3206" width="446" height="528" frameX="0" frameY="-22" frameWidth="452" frameHeight="550"/>
+	<SubTexture name="HER up instance 10020" x="0" y="3206" width="446" height="528" frameX="0" frameY="-22" frameWidth="452" frameHeight="550"/>
+	<SubTexture name="HER up instance 10021" x="0" y="3206" width="446" height="528" frameX="0" frameY="-22" frameWidth="452" frameHeight="550"/>
+	<SubTexture name="HER up instance 10022" x="0" y="3206" width="446" height="528" frameX="0" frameY="-22" frameWidth="452" frameHeight="550"/>
+	<SubTexture name="HER up instance 10023" x="0" y="3206" width="446" height="528" frameX="0" frameY="-22" frameWidth="452" frameHeight="550"/>
+	<SubTexture name="HER up instance 10024" x="0" y="3206" width="446" height="528" frameX="0" frameY="-22" frameWidth="452" frameHeight="550"/>
 </TextureAtlas>

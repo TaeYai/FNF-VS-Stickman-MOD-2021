@@ -4695,8 +4695,8 @@ class PlayState extends MusicBeatState
 				
 				dad.playAnim('idle');
 
-			case 674:
-				dad.playAnim('dedstop', true);
+			//case 674:
+				//dad.playAnim('dedstop', true);
 
 			case 676:	
 				remove(boyfriend);
@@ -4850,32 +4850,19 @@ class PlayState extends MusicBeatState
 
 			/*case 10:	
 				remove(dad);
-				dad = new Character(100,100,'lilysoul');
+				dad = new Character(100,100,'robotbroken-3');
 				dad.x -= 600; 
 				dad.y += 600;
 				add(dad);
 				dad.playAnim('idle',false);		
 				
-				
-
-			case 20:	
-				remove(dad);
-				dad = new Character(100,100,'lilyattack');
-				dad.x -= 600; 
-				dad.y += 600;
-				add(dad);
-				dad.playAnim('Slash',false);		
-				
-			
-
-
-			case 50:	
-				remove(dad);
-				dad = new Character(100,100,'lilysoul');
-				dad.x -= 600; 
-				dad.y += 600;
-				add(dad);
-				dad.playAnim('idle',false);	*/
+				case 20:	
+					remove(dad);
+					dad = new Character(100,100,'daisydying');
+					dad.x -= 600; 
+					dad.y += 300;
+					add(dad);
+					dad.playAnim('soulgone',false);*/
 				
 
 			case 638:
@@ -5131,6 +5118,25 @@ class PlayState extends MusicBeatState
 				add(dad);
 				dad.playAnim('idle',false);
 
+
+			case 1625:	
+				remove(dad);
+				dad = new Character(100,100,'daisydying');
+				dad.x -= 600; 
+				dad.y += 600;
+				add(dad);
+				dad.playAnim('break',false);
+
+
+				case 1632:	
+					remove(dad);
+					dad = new Character(100,100,'robotbroken-1');
+					dad.x -= 600; 
+					dad.y += 600;
+					add(dad);
+					dad.playAnim('idle',false);
+
+
 			case 1664:	
 				remove(dad);
 				dad = new Character(100,100,'robotbroken-2');
@@ -5146,7 +5152,17 @@ class PlayState extends MusicBeatState
 				dad.y += 600;
 				add(dad);
 				dad.playAnim('idle',false);
-				firemode = false;
+				
+				case 1904:	
+					remove(dad);
+					dad = new Character(100,100,'daisydying');
+					dad.x -= 600; 
+					dad.y += 300;
+					add(dad);
+					dad.playAnim('soulgone',false);
+					firemode = false;
+
+
 	  		} 
 
 

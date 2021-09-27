@@ -551,6 +551,22 @@ class Character extends FlxSprite
 	
 				playAnim('idle');
 
+
+				case 'daisydying':
+					tex = Paths.getSparrowAtlas('disy/DaisyDamaged', 'shared');
+					frames = tex;
+					animation.addByPrefix('break', 'WRATHheart break instance 1', 24);
+					animation.addByPrefix('soulgone', 'SoulGone instance 1', 24);
+
+
+					addOffset('break');
+					addOffset('soulgone');
+	
+
+
+
+
+
 			case 'lilysoul':
 				tex = Paths.getSparrowAtlas('disy/SOUL', 'shared');
 				frames = tex;
