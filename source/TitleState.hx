@@ -412,18 +412,21 @@ class TitleState extends MusicBeatState
 		switch (curBeat)
 		{
 			case 1:
-				ngSpr.visible = true;
+				createCoolText(['Kade Engine', 'by']);
 			case 3:
-				addprsent('present');
+				addMoreText('KadeDeveloper');
 			case 4:
 				deleteCoolText();
-				ngSpr.visible = false;
+				
 			case 5:
-					createCoolText(['Kade Engine', 'by']);
+				
+				ngSpr.visible = true;
+					
+					addprsent('present');
 
 			case 7:
-		
-					addMoreText('KadeDeveloper');
+				
+					
 
 			// credTextShit.text += '\nNewgrounds';
 			case 8:
